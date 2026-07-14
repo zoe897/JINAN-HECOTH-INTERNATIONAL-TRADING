@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News | Hecoth Agri Machinery - Industry Updates</title>
+    <meta name="description" content="Latest news and industry insights from Hecoth Agri Machinery. Stay updated on new products, exhibitions, and company developments.">
+    <meta name="robots" content="index, follow">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        :root { --primary: #2E7D32; --primary-dark: #1B5E20; --secondary: #43A047; --accent: #F9A825; }
+        .btn-primary { background-color: var(--primary); color: white; padding: 0.75rem 1.75rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+        .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); }
+        .nav-link { text-decoration: none; transition: color 0.2s; color: #4B5563; }
+        .nav-link:hover { color: var(--primary); }
+        .nav-link.active { color: var(--primary); font-weight: 600; }
+        .footer-link { color: #9ca3af; transition: color 0.2s; text-decoration: none; }
+        .footer-link:hover { color: var(--secondary); }
+        .news-card { background: white; border-radius: 1rem; border: 1px solid #e5e7eb; overflow: hidden; transition: all 0.3s; }
+        .news-card:hover { transform: translateY(-5px); box-shadow: 0 20px 30px -12px rgba(0,0,0,0.1); border-color: var(--primary); }
+        .lang-btn { font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 2rem; transition: all 0.2s; cursor: pointer; background: transparent; border: none; font-weight: 500; }
+        .lang-btn.active { background-color: var(--primary); color: white; }
+        .lang-btn:not(.active):hover { background-color: #f3f4f6; }
+        .bg-primary-gradient { background: linear-gradient(135deg, rgba(46,125,50,0.05) 0%, rgba(67,160,71,0.08) 100%); }
+        .news-icon { width: 3.5rem; height: 3.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(46,125,50,0.1); color: var(--primary); font-size: 1.25rem; flex-shrink: 0; }
+    </style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100">
+    <div class="container mx-auto px-4 md:px-8 py-3 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2">
+            <i class="fas fa-leaf text-3xl" style="color:var(--primary)"></i>
+            <span class="font-bold text-xl tracking-tight">Hecoth <span style="color:var(--primary)">Agri</span></span>
+        </a>
+        <nav class="hidden md:flex space-x-6">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/products.html" class="nav-link">Products</a>
+            <a href="/solutions.html" class="nav-link">Solutions</a>
+            <a href="/about.html" class="nav-link">About</a>
+            <a href="/news.html" class="nav-link active">News</a>
+            <a href="/contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="flex items-center gap-3">
+            <div class="lang-selector hidden md:flex gap-1 bg-gray-100 p-1 rounded-full">
+                <button onclick="switchLanguage('en')" class="lang-btn active" data-lang="en">EN</button>
+                <button onclick="switchLanguage('es')" class="lang-btn" data-lang="es">ES</button>
+                <button onclick="switchLanguage('fr')" class="lang-btn" data-lang="fr">FR</button>
+                <button onclick="switchLanguage('ar')" class="lang-btn" data-lang="ar">AR</button>
+                <button onclick="switchLanguage('ru')" class="lang-btn" data-lang="ru">RU</button>
+                <button onclick="switchLanguage('pt')" class="lang-btn" data-lang="pt">PT</button>
+            </div>
+            <a href="https://wa.me/8619743003775" target="_blank" class="hidden md:flex bg-green-500 text-white px-3 py-1.5 rounded-full text-sm items-center gap-1"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <button id="mobileMenuBtn" class="md:hidden text-2xl"><i class="fas fa-bars"></i></button>
+        </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t py-4 px-6 flex flex-col space-y-3 shadow-lg">
+        <a href="/" class="py-1">Home</a>
+        <a href="/products.html" class="py-1">Products</a>
+        <a href="/solutions.html" class="py-1">Solutions</a>
+        <a href="/about.html" class="py-1">About</a>
+        <a href="/news.html" class="py-1" style="color:var(--primary);font-weight:600;">News</a>
+        <a href="/contact.html" class="py-1">Contact</a>
+        <a href="https://wa.me/8619743003775" class="py-1 text-green-600"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+</header>
+
+<!-- ===== NEWS ===== -->
+<main class="py-12">
+    <div class="container mx-auto px-4 md:px-8">
+        <div class="text-center mb-12">
+            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-newspaper mr-2"></i> Updates</span>
+            <h1 class="text-4xl font-bold mt-2">Latest <span style="color:var(--primary)">News</span></h1>
+            <p class="text-gray-500 mt-2">Industry insights and company updates from Hecoth</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="newsGrid"></div>
+
+        <!-- Subscribe -->
+        <div class="mt-16 bg-primary-gradient rounded-2xl p-8 text-center border border-gray-200">
+            <h2 class="text-2xl font-bold" style="color:var(--primary);">📬 Stay Updated</h2>
+            <p class="text-gray-600 mt-2">Subscribe to receive the latest news and product updates</p>
+            <div class="flex flex-wrap gap-3 justify-center mt-4 max-w-md mx-auto">
+                <input type="email" placeholder="Your email address" class="flex-1 min-w-[200px] px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-[#2E7D32]">
+                <button class="btn-primary" style="padding:0.6rem 1.5rem;">Subscribe</button>
+            </div>
+            <p class="text-xs text-gray-400 mt-2">We respect your privacy. Unsubscribe anytime.</p>
+        </div>
+    </div>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-[#111827] text-gray-400 pt-12 pb-6 mt-12">
+    <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-4 gap-8">
+        <div><i class="fas fa-leaf text-[#4CAF50] text-2xl"></i><span class="font-bold text-white text-xl ml-2">Hecoth Agri</span><p class="mt-3 text-sm">Jinan Hecoth International Trading Co., Ltd.</p></div>
+        <div><h4 class="text-white font-semibold mb-3">Quick Links</h4><ul class="space-y-2"><li><a href="/" class="footer-link">Home</a></li><li><a href="/products.html" class="footer-link">Products</a></li><li><a href="/contact.html" class="footer-link">Contact</a></li></ul></div>
+        <div><h4 class="text-white font-semibold mb-3">Contact</h4><p><i class="fas fa-envelope mr-2"></i> zoe@annetop.com</p><p><i class="fab fa-whatsapp mr-2"></i> +86 19743003775</p></div>
+        <div><h4 class="text-white font-semibold mb-3">Office</h4><p>Room 2213, Rongsheng Time Square, Jinan, China</p></div>
+    </div>
+    <div class="text-center pt-8 border-t border-gray-800 text-sm mt-8">© 2026 Jinan Hecoth International Trading Co., Ltd. | <i class="fas fa-leaf text-[#4CAF50]"></i> Sustainable Agriculture</div>
+</footer>
+
+<script>
+    let currentLang = 'en';
+    
+    function switchLanguage(lang) {
+        currentLang = lang;
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+        document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.add('active');
+        localStorage.setItem('hecoth_lang', lang);
+        renderNews();
+    }
+    
+    const savedLang = localStorage.getItem('hecoth_lang');
+    if (savedLang) { currentLang = savedLang; }
+    
+    // ===== 新闻数据 =====
+    const newsData = [
+        { date: "June 1, 2026", icon: "fa-tractor", color: "#2E7D32", title: "New Tractor Series Launch", summary: "TTE series tractors with enhanced power (50-80HP) and fuel efficiency now available for global markets." },
+        { date: "May 20, 2026", icon: "fa-globe-americas", color: "#43A047", title: "Expanding to Latin America", summary: "New partnerships established in Brazil and Argentina for spare parts distribution. Local warehouses to reduce delivery time by 40%." },
+        { date: "April 15, 2026", icon: "fa-trophy", color: "#F9A825", title: "Quality Excellence Award", summary: "Hecoth recognized for outstanding export quality control standards by Shandong Provincial Commerce Department." },
+        { date: "March 10, 2026", icon: "fa-water", color: "#2E7D32", title: "Smart Irrigation Launch", summary: "New IoT-enabled drip irrigation system with remote monitoring capabilities. Saves up to 40% water usage." },
+        { date: "February 5, 2026", icon: "fa-chart-line", color: "#43A047", title: "Agritech Expo 2026", summary: "Hecoth to exhibit at Agritech Expo in Nairobi, Kenya. Visit booth A14 to see our latest tractor lineup." },
+        { date: "January 8, 2026", icon: "fa-users", color: "#F9A825", title: "New Office Opening", summary: "Expanded operations with new representative office in Shandong to better serve international clients." }
+    ];
+    
+    function renderNews() {
+        const grid = document.getElementById('newsGrid');
+        if (!grid) return;
+        
+        grid.innerHTML = newsData.map(n => `
+            <div class="news-card">
+                <div class="p-6">
+                    <div class="flex items-center gap-4">
+                        <div class="news-icon"><i class="fas ${n.icon}"></i></div>
+                        <div>
+                            <p class="text-xs text-gray-500">${n.date}</p>
+                            <h3 class="font-bold text-lg">${n.title}</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-3 leading-relaxed">${n.summary}</p>
+                    <a href="/contact.html" class="text-[#2E7D32] font-semibold text-sm mt-3 inline-block hover:underline">Read More →</a>
+                </div>
+            </div>
+        `).join('');
+    }
+    
+    document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+    
+    renderNews();
+</script>
+</body>
+</html>
