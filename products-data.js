@@ -906,7 +906,7 @@ const Products = [
         id: "CM-003",
         category: "construction-machinery",
         subCategory: null,
-        image: "/images/hengte-ht20.jpg",
+        image: "/image/20.png",
         name: {
             en: "HT20 Mini Excavator",
             es: "Miniexcavadora HT20",
@@ -1045,7 +1045,7 @@ const Products = [
         id: "CM-004",
         category: "construction-machinery",
         subCategory: null,
-        image: "/images/hengte-ht35g.jpg",
+        image: "/image/ht35g.png",
         name: {
             en: "HT35G Mini Excavator",
             es: "Miniexcavadora HT35G",
@@ -1204,6 +1204,745 @@ const Products = [
             warranty: "12 months / 2000 hours",
             moq: "1 unit",
             shipping: "FOB Qingdao / CIF available"
+        }
+    }
+        // ============================================================
+    //  🏗️ 工程机械 → 挖掘装载机
+    // ============================================================
+    {
+        id: "CM-005",
+        category: "construction-machinery",
+        subCategory: null,
+        image: "/image/backhoe loader.png",
+        name: {
+            en: "HT4CX-WZ Backhoe Loader - Multi-Purpose Construction Machine",
+            es: "Cargadora Retroexcavadora HT4CX-WZ - Máquina de Construcción Multiusos",
+            fr: "Chargeuse Rétrocaveuse HT4CX-WZ - Machine de Construction Polyvalente",
+            ar: "حفارة-محمل HT4CX-WZ - آلة بناء متعددة الأغراض",
+            ru: "Погрузчик-экскаватор HT4CX-WZ - Многоцелевая строительная машина",
+            pt: "Carregadeira Retroescavadeira HT4CX-WZ - Máquina de Construção Multiuso"
+        },
+        desc: {
+            en: "The HT4CX-WZ Backhoe Loader combines excavation and loading capabilities in one versatile machine. Powered by YUCHAI engine with 75kW power, this 10-ton machine delivers exceptional performance for construction, road maintenance, and agricultural projects. Features 0.3m³ backhoe capacity and 1.2m³ loader bucket.",
+            es: "La HT4CX-WZ combina capacidades de excavación y carga en una máquina versátil. Motor YUCHAI de 75kW, 10 toneladas de peso, excelente rendimiento para construcción y agricultura.",
+            fr: "La HT4CX-WZ combine excavation et chargement dans une machine polyvalente. Moteur YUCHAI 75kW, 10 tonnes, excellente performance pour la construction et l'agriculture.",
+            ar: "تجمع HT4CX-WZ بين الحفر والتحميل في آلة واحدة متعددة الاستخدامات. محرك YUCHAI بقوة 75 كيلوواط، وزن 10 طن، أداء استثنائي للبناء والزراعة.",
+            ru: "HT4CX-WZ сочетает возможности экскавации и погрузки в одной машине. Двигатель YUCHAI 75 кВт, вес 10 тонн, отличная производительность.",
+            pt: "A HT4CX-WZ combina escavação e carregamento em uma máquina versátil. Motor YUCHAI 75kW, 10 toneladas, excelente desempenho para construção e agricultura."
+        },
+        features: {
+            en: [
+                "YUCHAI YC4A105Z-T20 engine (75kW) - fuel efficient and reliable",
+                "1.2m³ loader bucket capacity for high productivity",
+                "0.3m³ backhoe bucket for precise excavation work",
+                "Maximum digging depth of 5070mm",
+                "Hydraulic pilot control system for smooth operation",
+                "36km/h travel speed for quick site-to-site movement",
+                "180° swing angle for enhanced flexibility",
+                "Stable 10050kg operating weight for heavy-duty work"
+            ],
+            es: [
+                "Motor YUCHAI YC4A105Z-T20 (75kW) - eficiente y confiable",
+                "Capacidad de cucharón cargador de 1.2m³ para alta productividad",
+                "Cucharón retroexcavador de 0.3m³ para trabajo preciso",
+                "Profundidad máxima de excavación de 5070mm",
+                "Sistema de control piloto hidráulico para operación suave",
+                "Velocidad de desplazamiento de 36km/h para movilidad",
+                "Ángulo de giro de 180° para flexibilidad",
+                "Peso operativo estable de 10050kg"
+            ],
+            fr: [
+                "Moteur YUCHAI YC4A105Z-T20 (75kW) - efficace et fiable",
+                "Capacité du godet chargeur 1.2m³ pour productivité élevée",
+                "Godet rétrocaveuse 0.3m³ pour travail précis",
+                "Profondeur d'excavation maximale 5070mm",
+                "Commande hydraulique pour opération douce",
+                "Vitesse de déplacement 36km/h",
+                "Angle de pivotement 180° pour flexibilité",
+                "Poids opérationnel stable 10050kg"
+            ],
+            ar: [
+                "محرك YUCHAI YC4A105Z-T20 (75 كيلوواط) - موفر للوقود وموثوق",
+                "سعة دلو المحمل 1.2 م³ لإنتاجية عالية",
+                "دلو الحفار الخلفي 0.3 م³ للعمل الدقيق",
+                "عمق حفر أقصى 5070 ملم",
+                "نظام تحكم هيدروليكي للتشغيل السلس",
+                "سرعة سير 36 كم/ساعة للتنقل السريع",
+                "زاوية دوران 180 درجة للمرونة",
+                "وزن تشغيلي ثابت 10050 كجم"
+            ],
+            ru: [
+                "Двигатель YUCHAI YC4A105Z-T20 (75 кВт) - экономичный и надежный",
+                "Емкость ковша погрузчика 1.2 м³ для высокой производительности",
+                "Ковш экскаватора 0.3 м³ для точной работы",
+                "Максимальная глубина копания 5070 мм",
+                "Гидравлическая система управления",
+                "Скорость передвижения 36 км/ч",
+                "Угол поворота 180° для гибкости",
+                "Стабильный вес 10050 кг"
+            ],
+            pt: [
+                "Motor YUCHAI YC4A105Z-T20 (75kW) - eficiente e confiável",
+                "Capacidade da caçamba carregadeira 1.2m³",
+                "Caçamba retroescavadeira 0.3m³",
+                "Profundidade máxima de escavação 5070mm",
+                "Sistema de controle hidráulico",
+                "Velocidade de deslocamento 36km/h",
+                "Ângulo de giro 180° para flexibilidade",
+                "Peso operacional estável 10050kg"
+            ]
+        },
+        specs: {
+            en: {
+                "Engine": "YUCHAI YC4A105Z-T20",
+                "Power": "75kW / 2200rpm",
+                "Operating Weight": "10050kg",
+                "Loader Bucket Capacity": "1.2m³",
+                "Backhoe Capacity": "0.3m³",
+                "Max Digging Depth": "5070mm",
+                "Max Digging Radius": "8140mm",
+                "Loading Lifting Capacity": "2500kg",
+                "Breakout Force": "54kN",
+                "Hydraulic Pressure": "25MPa",
+                "Travel Speed": "36km/h",
+                "Fuel Tank": "130L"
+            },
+            es: {
+                "Motor": "YUCHAI YC4A105Z-T20",
+                "Potencia": "75kW / 2200rpm",
+                "Peso operativo": "10050kg",
+                "Capacidad cucharón cargador": "1.2m³",
+                "Capacidad retroexcavadora": "0.3m³",
+                "Profundidad máxima": "5070mm",
+                "Radio máximo": "8140mm",
+                "Capacidad de elevación": "2500kg",
+                "Fuerza de arranque": "54kN",
+                "Presión hidráulica": "25MPa",
+                "Velocidad": "36km/h",
+                "Tanque combustible": "130L"
+            },
+            fr: {
+                "Moteur": "YUCHAI YC4A105Z-T20",
+                "Puissance": "75kW / 2200rpm",
+                "Poids opérationnel": "10050kg",
+                "Capacité chargeuse": "1.2m³",
+                "Capacité rétrocaveuse": "0.3m³",
+                "Profondeur max": "5070mm",
+                "Rayon max": "8140mm",
+                "Capacité de levage": "2500kg",
+                "Force d'arrachement": "54kN",
+                "Pression hydraulique": "25MPa",
+                "Vitesse": "36km/h",
+                "Réservoir": "130L"
+            },
+            ar: {
+                "المحرك": "YUCHAI YC4A105Z-T20",
+                "القوة": "75 كيلوواط / 2200 دورة",
+                "الوزن التشغيلي": "10050 كجم",
+                "سعة دلو المحمل": "1.2 م³",
+                "سعة الحفار الخلفي": "0.3 م³",
+                "أقصى عمق حفر": "5070 ملم",
+                "أقصى نصف قطر حفر": "8140 ملم",
+                "قدرة الرفع": "2500 كجم",
+                "قوة الاقتلاع": "54 كيلو نيوتن",
+                "الضغط الهيدروليكي": "25 ميجا باسكال",
+                "السرعة": "36 كم/ساعة",
+                "خزان الوقود": "130 لتر"
+            },
+            ru: {
+                "Двигатель": "YUCHAI YC4A105Z-T20",
+                "Мощность": "75 кВт / 2200 об/мин",
+                "Вес": "10050 кг",
+                "Емкость ковша погрузчика": "1.2 м³",
+                "Емкость экскаватора": "0.3 м³",
+                "Глубина": "5070 мм",
+                "Радиус": "8140 мм",
+                "Грузоподъемность": "2500 кг",
+                "Сила": "54 кН",
+                "Давление": "25 МПа",
+                "Скорость": "36 км/ч",
+                "Бак": "130 л"
+            },
+            pt: {
+                "Motor": "YUCHAI YC4A105Z-T20",
+                "Potência": "75kW / 2200rpm",
+                "Peso operacional": "10050kg",
+                "Capacidade carregadeira": "1.2m³",
+                "Capacidade retroescavadeira": "0.3m³",
+                "Profundidade max": "5070mm",
+                "Raio max": "8140mm",
+                "Capacidade de elevação": "2500kg",
+                "Força de arranque": "54kN",
+                "Pressão hidráulica": "25MPa",
+                "Velocidade": "36km/h",
+                "Tanque": "130L"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Construction, road maintenance, agricultural projects, landscaping"
+        }
+    },
+
+    // ============================================================
+    //  🏗️ 工程机械 → 伸缩臂高空叉车
+    // ============================================================
+    {
+        id: "CM-006",
+        category: "construction-machinery",
+        subCategory: null,
+        image: "/image/telescopic handler.png",
+        name: {
+            en: "HTG Telescopic Handler - High Reach Multi-Purpose Machine",
+            es: "Manipulador Telescópico HTG - Máquina Multipropósito de Alto Alcance",
+            fr: "Manipulateur Télescopique HTG - Machine Polyvalente Haute Portée",
+            ar: "مناول تلسكوبي HTG - آلة متعددة الأغراض عالية الوصول",
+            ru: "Телескопический погрузчик HTG - Многоцелевая машина",
+            pt: "Manipulador Telescópico HTG - Máquina Multiuso de Alto Alcance"
+        },
+        desc: {
+            en: "The HTG Series Telescopic Handler is a versatile off-road lift truck with exceptional reach and lifting capacity. Available in 3.5T and 4.0T configurations with working heights up to 17.6m. Features 4WD and 4-wheel steering for superior maneuverability on rough terrain. Ideal for construction, agricultural, and industrial applications.",
+            es: "El manipulador telescópico HTG es una carretilla elevadora todoterreno versátil con excepcional alcance. Disponible en configuraciones de 3.5T y 4.0T con alturas de trabajo hasta 17.6m.",
+            fr: "Le manipulateur télescopique HTG est un chariot élévateur tout-terrain polyvalent. Disponible en 3.5T et 4.0T avec hauteurs de travail jusqu'à 17.6m.",
+            ar: "المناول التلسكوبي HTG هو رافعة شوكية متعددة الاستخدامات بارتفاع وصول استثنائي. متوفر بتكوينات 3.5 طن و 4.0 طن مع ارتفاعات عمل تصل إلى 17.6 متر.",
+            ru: "Телескопический погрузчик HTG - универсальный внедорожный подъемник. Доступен в конфигурациях 3.5T и 4.0T с высотой подъема до 17.6м.",
+            pt: "O manipulador telescópico HTG é uma empilhadeira off-road versátil. Disponível em 3.5T e 4.0T com alturas de trabalho até 17.6m."
+        },
+        features: {
+            en: [
+                "Choice of 3.5T (HTG735) or 4.0T (HTG1840) capacity models",
+                "Maximum working height up to 17.6m (HTG1840)",
+                "4WD and 4-wheel steering for all-terrain performance",
+                "Fork carriage leveling for safe load handling",
+                "Compact turning radius (4.2m) for confined spaces",
+                "Hydraulic frame tilt (±9°) for rough ground stability",
+                "Quick attachment change system for versatility",
+                "Cab with full visibility and ergonomic controls"
+            ],
+            es: [
+                "Modelos de 3.5T (HTG735) o 4.0T (HTG1840)",
+                "Altura máxima de trabajo hasta 17.6m",
+                "Tracción 4x4 y dirección 4 ruedas",
+                "Nivelación de horquillas para carga segura",
+                "Radio de giro compacto 4.2m",
+                "Inclinación de chasis ±9°",
+                "Cambio rápido de accesorios",
+                "Cabina con visibilidad total"
+            ],
+            fr: [
+                "Modèles 3.5T (HTG735) ou 4.0T (HTG1840)",
+                "Hauteur de travail jusqu'à 17.6m",
+                "4 roues motrices et direction 4 roues",
+                "Nivellement des fourches",
+                "Rayon de braquage compact 4.2m",
+                "Inclinaison du châssis ±9°",
+                "Changement rapide d'accessoires",
+                "Cabine avec visibilité totale"
+            ],
+            ar: [
+                "نماذج بسعة 3.5 طن أو 4.0 طن",
+                "ارتفاع عمل أقصى يصل إلى 17.6 متر",
+                "دفع رباعي وتوجيه بأربع عجلات",
+                "تسوية الشوكة لتحميل آمن",
+                "نصف قطر دوران مدمج 4.2 متر",
+                "إمالة هيكل هيدروليكي ±9°",
+                "نظام تغيير سريع للملحقات",
+                "كابينة مع رؤية كاملة"
+            ],
+            ru: [
+                "Модели 3.5T (HTG735) или 4.0T (HTG1840)",
+                "Высота подъема до 17.6м",
+                "Полный привод и 4-колесное рулевое",
+                "Выравнивание вил",
+                "Радиус поворота 4.2м",
+                "Наклон рамы ±9°",
+                "Быстрая смена навесок",
+                "Кабина с полным обзором"
+            ],
+            pt: [
+                "Modelos 3.5T (HTG735) ou 4.0T (HTG1840)",
+                "Altura máxima de trabalho até 17.6m",
+                "Tração 4x4 e direção 4 rodas",
+                "Nivelamento de garfos",
+                "Raio de viragem compacto 4.2m",
+                "Inclinação do chassi ±9°",
+                "Troca rápida de acessórios",
+                "Cabine com visibilidade total"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "HTG735 (3.5T) / HTG1840 (4.0T)",
+                "Working Height": "7.0m / 17.6m",
+                "Horizontal Reach": "3.9m / 13.1m",
+                "Engine Power": "140kW / 2200rpm",
+                "Operating Weight": "7000kg / 12350kg",
+                "Drive Type": "4WD, 4WS",
+                "Turning Radius": "4.2m",
+                "Frame Tilt": "±5° / ±9°",
+                "Tires": "400/80R24 / 440/80R24",
+                "Fuel Tank": "100L / 150L"
+            },
+            es: {
+                "Modelos": "HTG735 (3.5T) / HTG1840 (4.0T)",
+                "Altura de trabajo": "7.0m / 17.6m",
+                "Alcance horizontal": "3.9m / 13.1m",
+                "Potencia": "140kW / 2200rpm",
+                "Peso": "7000kg / 12350kg",
+                "Tracción": "4x4, 4WS",
+                "Radio de giro": "4.2m",
+                "Inclinación": "±5° / ±9°",
+                "Neumáticos": "400/80R24 / 440/80R24",
+                "Tanque": "100L / 150L"
+            },
+            fr: {
+                "Modèles": "HTG735 (3.5T) / HTG1840 (4.0T)",
+                "Hauteur": "7.0m / 17.6m",
+                "Portée": "3.9m / 13.1m",
+                "Puissance": "140kW / 2200rpm",
+                "Poids": "7000kg / 12350kg",
+                "Transmission": "4x4, 4WS",
+                "Rayon": "4.2m",
+                "Inclinaison": "±5° / ±9°",
+                "Pneus": "400/80R24 / 440/80R24",
+                "Réservoir": "100L / 150L"
+            },
+            ar: {
+                "الموديلات": "HTG735 (3.5 طن) / HTG1840 (4.0 طن)",
+                "ارتفاع العمل": "7.0 م / 17.6 م",
+                "الوصول الأفقي": "3.9 م / 13.1 م",
+                "قوة المحرك": "140 كيلوواط / 2200 دورة",
+                "الوزن": "7000 كجم / 12350 كجم",
+                "نظام الدفع": "دفع رباعي، توجيه رباعي",
+                "نصف قطر الدوران": "4.2 م",
+                "إمالة الهيكل": "±5° / ±9°",
+                "الإطارات": "400/80R24 / 440/80R24",
+                "خزان الوقود": "100 لتر / 150 لتر"
+            },
+            ru: {
+                "Модели": "HTG735 (3.5T) / HTG1840 (4.0T)",
+                "Высота": "7.0м / 17.6м",
+                "Вылет": "3.9м / 13.1м",
+                "Мощность": "140 кВт / 2200 об/мин",
+                "Вес": "7000кг / 12350кг",
+                "Привод": "4WD, 4WS",
+                "Радиус": "4.2м",
+                "Наклон": "±5° / ±9°",
+                "Шины": "400/80R24 / 440/80R24",
+                "Бак": "100л / 150л"
+            },
+            pt: {
+                "Modelos": "HTG735 (3.5T) / HTG1840 (4.0T)",
+                "Altura": "7.0m / 17.6m",
+                "Alcance": "3.9m / 13.1m",
+                "Potência": "140kW / 2200rpm",
+                "Peso": "7000kg / 12350kg",
+                "Tração": "4x4, 4WS",
+                "Raio": "4.2m",
+                "Inclinação": "±5° / ±9°",
+                "Pneus": "400/80R24 / 440/80R24",
+                "Tanque": "100L / 150L"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Construction sites, agricultural operations, warehouse logistics, industrial maintenance"
+        }
+    },
+
+    // ============================================================
+    //  🏗️ 工程机械 → 加长臂轮式挖掘机
+    // ============================================================
+    {
+        id: "CM-007",
+        category: "construction-machinery",
+        subCategory: null,
+        image: "/image/215h.jpg",
+        name: {
+            en: "HT215H Extended Arm Wheel Excavator - Extra Long Reach Specialist",
+            es: "Excavadora de Ruedas HT215H - Especialista en Alcance Extra Largo",
+            fr: "Excavatrice sur Roues HT215H - Spécialiste de la Portée Extra Longue",
+            ar: "حفارة بعجلات HT215H - متخصصة في الوصول الطويل",
+            ru: "Колёсный экскаватор HT215H - Специалист по сверхдлинному вылету",
+            pt: "Escavadora sobre Rodas HT215H - Especialista em Alcance Extra Longo"
+        },
+        desc: {
+            en: "The HT215H Extended Arm Wheel Excavator delivers exceptional reach for deep excavation and high-reach applications. Featuring a 10,000mm boom and 8,000mm arm, it achieves a maximum digging depth of 15.8m and radius of 19.2m. Powered by a 140kW B5.9 engine, this 23-ton machine is designed for large-scale construction, mining, and infrastructure projects.",
+            es: "La excavadora HT215H ofrece alcance excepcional para excavación profunda. Con pluma de 10,000mm y brazo de 8,000mm, profundidad de excavación de 15.8m y radio de 19.2m. Motor 140kW, 23 toneladas.",
+            fr: "L'excavatrice HT215H offre une portée exceptionnelle. Avec flèche de 10,000mm et bras de 8,000mm, profondeur de 15.8m. Moteur 140kW, 23 tonnes.",
+            ar: "توفر حفارة HT215H وصولاً استثنائياً للحفر العميق. مع بوم 10000 ملم وذراع 8000 ملم، عمق حفر 15.8 متر. محرك 140 كيلوواط، 23 طن.",
+            ru: "Экскаватор HT215H обеспечивает исключительный вылет. Стрела 10000 мм, рукоять 8000 мм, глубина 15.8 м. Двигатель 140 кВт, 23 тонны.",
+            pt: "A escavadora HT215H oferece alcance excecional. Lança 10000mm, braço 8000mm, profundidade 15.8m. Motor 140kW, 23 toneladas."
+        },
+        features: {
+            en: [
+                "Extended 10,000mm boom and 8,000mm arm for maximum reach",
+                "Maximum digging depth of 15.8m for deep excavation",
+                "Maximum digging radius of 19.2m for wide working area",
+                "Powerful 140kW B5.9 engine for demanding conditions",
+                "0.4m³ bucket capacity for efficient material handling",
+                "Hydraulic system with 2×239L/min flow for fast cycles",
+                "30km/h travel speed for excellent mobility",
+                "23,000kg operating weight for stability on challenging terrain"
+            ],
+            es: [
+                "Pluma extendida de 10,000mm y brazo de 8,000mm",
+                "Profundidad de excavación de 15.8m",
+                "Radio de excavación de 19.2m",
+                "Motor B5.9 de 140kW",
+                "Cucharón de 0.4m³",
+                "Sistema hidráulico 2×239L/min",
+                "Velocidad 30km/h",
+                "Peso 23,000kg"
+            ],
+            fr: [
+                "Flèche 10,000mm et bras 8,000mm",
+                "Profondeur d'excavation 15.8m",
+                "Rayon d'excavation 19.2m",
+                "Moteur B5.9 140kW",
+                "Godet 0.4m³",
+                "Hydraulique 2×239L/min",
+                "Vitesse 30km/h",
+                "Poids 23,000kg"
+            ],
+            ar: [
+                "بوم ممتد 10000 ملم وذراع 8000 ملم",
+                "عمق حفر 15.8 متر",
+                "نصف قطر حفر 19.2 متر",
+                "محرك B5.9 بقوة 140 كيلوواط",
+                "سعة دلو 0.4 م³",
+                "نظام هيدروليكي 2×239 لتر/دقيقة",
+                "سرعة 30 كم/ساعة",
+                "وزن 23,000 كجم"
+            ],
+            ru: [
+                "Удлиненная стрела 10000 мм и рукоять 8000 мм",
+                "Глубина копания 15.8 м",
+                "Радиус копания 19.2 м",
+                "Двигатель B5.9 140 кВт",
+                "Ковш 0.4 м³",
+                "Гидравлика 2×239 л/мин",
+                "Скорость 30 км/ч",
+                "Вес 23,000 кг"
+            ],
+            pt: [
+                "Lança 10000mm e braço 8000mm",
+                "Profundidade de escavação 15.8m",
+                "Raio de escavação 19.2m",
+                "Motor B5.9 140kW",
+                "Caçamba 0.4m³",
+                "Hidráulico 2×239L/min",
+                "Velocidade 30km/h",
+                "Peso 23,000kg"
+            ]
+        },
+        specs: {
+            en: {
+                "Engine": "B5.9CS4 190C / 6BTA5.9-C180-II",
+                "Power": "140kW / 2200rpm (132kW export)",
+                "Operating Weight": "23000kg",
+                "Boom Length": "10000mm",
+                "Arm Length": "8000mm",
+                "Bucket Capacity": "0.4m³",
+                "Max Digging Depth": "15829mm",
+                "Max Digging Radius": "19237mm",
+                "Max Digging Height": "15534mm",
+                "Max Unloading Height": "12596mm",
+                "Bucket Digging Force": "152.1kN",
+                "Stick Digging Force": "119.5kN",
+                "Hydraulic Flow": "2×239L/min",
+                "Travel Speed": "30km/h",
+                "Gradeability": "≥60%"
+            },
+            es: {
+                "Motor": "B5.9CS4 190C / 6BTA5.9-C180-II",
+                "Potencia": "140kW / 2200rpm (132kW export)",
+                "Peso": "23000kg",
+                "Pluma": "10000mm",
+                "Brazo": "8000mm",
+                "Cucharón": "0.4m³",
+                "Profundidad max": "15829mm",
+                "Radio max": "19237mm",
+                "Altura max": "15534mm",
+                "Descarga max": "12596mm",
+                "Fuerza excavación": "152.1kN",
+                "Fuerza brazo": "119.5kN",
+                "Flujo hidráulico": "2×239L/min",
+                "Velocidad": "30km/h",
+                "Pendiente": "≥60%"
+            },
+            fr: {
+                "Moteur": "B5.9CS4 190C / 6BTA5.9-C180-II",
+                "Puissance": "140kW / 2200rpm (132kW export)",
+                "Poids": "23000kg",
+                "Flèche": "10000mm",
+                "Bras": "8000mm",
+                "Godet": "0.4m³",
+                "Profondeur max": "15829mm",
+                "Rayon max": "19237mm",
+                "Hauteur max": "15534mm",
+                "Déchargement max": "12596mm",
+                "Force excavation": "152.1kN",
+                "Force bras": "119.5kN",
+                "Débit hydraulique": "2×239L/min",
+                "Vitesse": "30km/h",
+                "Pente": "≥60%"
+            },
+            ar: {
+                "المحرك": "B5.9CS4 190C / 6BTA5.9-C180-II",
+                "القوة": "140 كيلوواط / 2200 دورة",
+                "الوزن": "23000 كجم",
+                "طول البوم": "10000 ملم",
+                "طول الذراع": "8000 ملم",
+                "سعة الدلو": "0.4 م³",
+                "أقصى عمق حفر": "15829 ملم",
+                "أقصى نصف قطر حفر": "19237 ملم",
+                "أقصى ارتفاع حفر": "15534 ملم",
+                "أقصى ارتفاع تفريغ": "12596 ملم",
+                "قوة حفر الدلو": "152.1 كيلو نيوتن",
+                "قوة حفر الذراع": "119.5 كيلو نيوتن",
+                "التدفق الهيدروليكي": "2×239 لتر/دقيقة",
+                "السرعة": "30 كم/ساعة",
+                "تسلق التلال": "≥60%"
+            },
+            ru: {
+                "Двигатель": "B5.9CS4 190C / 6BTA5.9-C180-II",
+                "Мощность": "140 кВт / 2200 об/мин",
+                "Вес": "23000 кг",
+                "Стрела": "10000 мм",
+                "Рукоять": "8000 мм",
+                "Ковш": "0.4 м³",
+                "Глубина": "15829 мм",
+                "Радиус": "19237 мм",
+                "Высота": "15534 мм",
+                "Выгрузка": "12596 мм",
+                "Сила копания": "152.1 кН",
+                "Сила рукояти": "119.5 кН",
+                "Поток": "2×239 л/мин",
+                "Скорость": "30 км/ч",
+                "Уклон": "≥60%"
+            },
+            pt: {
+                "Motor": "B5.9CS4 190C / 6BTA5.9-C180-II",
+                "Potência": "140kW / 2200rpm",
+                "Peso": "23000kg",
+                "Lança": "10000mm",
+                "Braço": "8000mm",
+                "Caçamba": "0.4m³",
+                "Profundidade": "15829mm",
+                "Raio": "19237mm",
+                "Altura": "15534mm",
+                "Descarga": "12596mm",
+                "Força escavação": "152.1kN",
+                "Força braço": "119.5kN",
+                "Fluxo": "2×239L/min",
+                "Velocidade": "30km/h",
+                "Inclinação": "≥60%"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale construction, mining, infrastructure projects, deep excavation"
+        }
+    },
+
+    // ============================================================
+    //  🏗️ 工程机械 → 自上料混凝土搅拌车
+    // ============================================================
+    {
+        id: "CM-008",
+        category: "construction-machinery",
+        subCategory: null,
+        image: "/image/self-loading.png",
+        name: {
+            en: "HT Self-Loading Concrete Mixer - All-in-One Concrete Solution",
+            es: "Hormigonera Autocargable HT - Solución Integral de Concreto",
+            fr: "Bétonnière Auto-chargeuse HT - Solution Béton Tout-en-Un",
+            ar: "خلاطة خرسانة ذاتية التحميل HT - حل خرساني متكامل",
+            ru: "Самоходный бетоносмеситель HT - Комплексное решение для бетона",
+            pt: "Betoneira Auto-Carregável HT - Solução Completa de Concreto"
+        },
+        desc: {
+            en: "The HT Self-Loading Concrete Mixer is a mobile batching plant that loads, mixes, and transports concrete in one machine. Available in 3.5m³ and 6.5m³ capacities with YUCHAI engines. Features full hydraulic drive, 4WD and 4-wheel steering. Perfect for remote construction sites, road building, and infrastructure projects where ready-mix concrete is unavailable.",
+            es: "La hormigonera autocargable HT es una planta móvil que carga, mezcla y transporta concreto. Disponible en 3.5m³ y 6.5m³ con motores YUCHAI. Tracción 4x4 y dirección 4 ruedas.",
+            fr: "La bétonnière auto-chargeuse HT est une centrale mobile. Disponible en 3.5m³ et 6.5m³ avec moteurs YUCHAI. 4x4 et direction 4 roues.",
+            ar: "خلاطة الخرسانة ذاتية التحميل HT هي محطة متنقلة. متوفرة بسعات 3.5 م³ و 6.5 م³ مع محركات YUCHAI. دفع رباعي وتوجيه رباعي.",
+            ru: "Самоходный бетоносмеситель HT - мобильный завод. Доступен в 3.5м³ и 6.5м³ с двигателями YUCHAI. Полный привод.",
+            pt: "A betoneira auto-carregável HT é uma central móvel. Disponível em 3.5m³ e 6.5m³ com motores YUCHAI. Tração 4x4."
+        },
+        features: {
+            en: [
+                "3.5m³ (HT3500) or 6.5m³ (HT6500) concrete output per batch",
+                "YUCHAI YC4A125Z or YUCHAI 6105 turbo diesel engine (92kW)",
+                "Full hydraulic drive system with variable pumps and motors",
+                "4WD and 4-wheel steering for excellent off-road capability",
+                "Hydraulic self-loading bucket with 650cm³ capacity",
+                "Electronic weighing system for precise batching",
+                "Hydraulic water pump (40m³/h) and high-pressure cleaning gun",
+                "Tiltable discharge chute for flexible pour positioning",
+                "Up to 4 batches per hour for high productivity"
+            ],
+            es: [
+                "Producción de 3.5m³ o 6.5m³ por carga",
+                "Motor diésel YUCHAI de 92kW",
+                "Sistema hidráulico completo",
+                "Tracción 4x4 y dirección 4 ruedas",
+                "Cucharón autocargable de 650cm³",
+                "Sistema de pesaje electrónico",
+                "Bomba hidráulica 40m³/h",
+                "Canaleta inclinable",
+                "4 cargas por hora"
+            ],
+            fr: [
+                "Production de 3.5m³ ou 6.5m³ par charge",
+                "Moteur diesel YUCHAI 92kW",
+                "Système hydraulique complet",
+                "4x4 et direction 4 roues",
+                "Godet auto-chargeur 650cm³",
+                "Système de pesage électronique",
+                "Pompe hydraulique 40m³/h",
+                "Goulotte inclinable",
+                "4 chargements/heure"
+            ],
+            ar: [
+                "إنتاج 3.5 م³ أو 6.5 م³ لكل دفعة",
+                "محرك ديزل YUCHAI 92 كيلوواط",
+                "نظام هيدروليكي كامل",
+                "دفع رباعي وتوجيه رباعي",
+                "دلو تحميل ذاتي 650 سم³",
+                "نظام وزن إلكتروني",
+                "مضخة هيدروليكية 40 م³/ساعة",
+                "ميزاب تفريغ مائل",
+                "4 دفعات في الساعة"
+            ],
+            ru: [
+                "3.5м³ или 6.5м³ за загрузку",
+                "Дизельный двигатель YUCHAI 92 кВт",
+                "Полная гидравлическая система",
+                "Полный привод",
+                "Ковш 650 см³",
+                "Электронная система взвешивания",
+                "Гидронасос 40 м³/ч",
+                "Наклонный желоб",
+                "4 загрузки в час"
+            ],
+            pt: [
+                "Produção de 3.5m³ ou 6.5m³ por carga",
+                "Motor diesel YUCHAI 92kW",
+                "Sistema hidráulico completo",
+                "Tração 4x4 e direção 4 rodas",
+                "Caçamba auto-carregável 650cm³",
+                "Sistema de pesagem eletrónico",
+                "Bomba hidráulica 40m³/h",
+                "Calha inclinável",
+                "4 cargas por hora"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "HT3500 (3.5m³) / HT6500 (6.5m³)",
+                "Drum Capacity": "5.3m³ / 9m³",
+                "Concrete Output": "3.5m³ / 6.5m³ per batch",
+                "Engine": "YUCHAI YC4A125Z / YUCHAI 6105 Turbo",
+                "Power": "92kW / 2200rpm",
+                "Drive Type": "Full hydraulic, 4WD & 4WS",
+                "Travel Speed": "0-10km/h (low) / 0-20km/h (high)",
+                "Dimensions (L×W×H)": "7200×2500×3300mm / 8450×3050×4830mm",
+                "Operating Weight": "8600kg / 12520kg",
+                "Water Tank": "2×350L / 1465L",
+                "Fuel Tank": "170L / 342L",
+                "Tires": "16/70-20"
+            },
+            es: {
+                "Modelo": "HT3500 (3.5m³) / HT6500 (6.5m³)",
+                "Tambor": "5.3m³ / 9m³",
+                "Producción": "3.5m³ / 6.5m³ por carga",
+                "Motor": "YUCHAI YC4A125Z / YUCHAI 6105 Turbo",
+                "Potencia": "92kW / 2200rpm",
+                "Tracción": "Hidráulica, 4x4 & 4WS",
+                "Velocidad": "0-10km/h / 0-20km/h",
+                "Dimensiones": "7200×2500×3300mm / 8450×3050×4830mm",
+                "Peso": "8600kg / 12520kg",
+                "Agua": "2×350L / 1465L",
+                "Combustible": "170L / 342L",
+                "Neumáticos": "16/70-20"
+            },
+            fr: {
+                "Modèle": "HT3500 (3.5m³) / HT6500 (6.5m³)",
+                "Tambour": "5.3m³ / 9m³",
+                "Production": "3.5m³ / 6.5m³ par charge",
+                "Moteur": "YUCHAI YC4A125Z / YUCHAI 6105 Turbo",
+                "Puissance": "92kW / 2200rpm",
+                "Transmission": "Hydraulique, 4x4 & 4WS",
+                "Vitesse": "0-10km/h / 0-20km/h",
+                "Dimensions": "7200×2500×3300mm / 8450×3050×4830mm",
+                "Poids": "8600kg / 12520kg",
+                "Eau": "2×350L / 1465L",
+                "Carburant": "170L / 342L",
+                "Pneus": "16/70-20"
+            },
+            ar: {
+                "الموديل": "HT3500 (3.5 م³) / HT6500 (6.5 م³)",
+                "سعة الأسطوانة": "5.3 م³ / 9 م³",
+                "إنتاج الخرسانة": "3.5 م³ / 6.5 م³ لكل دفعة",
+                "المحرك": "YUCHAI YC4A125Z / YUCHAI 6105 توربو",
+                "القوة": "92 كيلوواط / 2200 دورة",
+                "نظام الدفع": "هيدروليكي بالكامل، دفع رباعي وتوجيه رباعي",
+                "السرعة": "0-10 كم/ساعة / 0-20 كم/ساعة",
+                "الأبعاد": "7200×2500×3300 ملم / 8450×3050×4830 ملم",
+                "الوزن": "8600 كجم / 12520 كجم",
+                "خزان الماء": "2×350 لتر / 1465 لتر",
+                "خزان الوقود": "170 لتر / 342 لتر",
+                "الإطارات": "16/70-20"
+            },
+            ru: {
+                "Модель": "HT3500 (3.5м³) / HT6500 (6.5м³)",
+                "Барабан": "5.3м³ / 9м³",
+                "Производство": "3.5м³ / 6.5м³",
+                "Двигатель": "YUCHAI YC4A125Z / YUCHAI 6105 Turbo",
+                "Мощность": "92 кВт / 2200 об/мин",
+                "Привод": "Гидравлика, 4WD & 4WS",
+                "Скорость": "0-10км/ч / 0-20км/ч",
+                "Размеры": "7200×2500×3300мм / 8450×3050×4830мм",
+                "Вес": "8600кг / 12520кг",
+                "Вода": "2×350л / 1465л",
+                "Топливо": "170л / 342л",
+                "Шины": "16/70-20"
+            },
+            pt: {
+                "Modelo": "HT3500 (3.5m³) / HT6500 (6.5m³)",
+                "Tambor": "5.3m³ / 9m³",
+                "Produção": "3.5m³ / 6.5m³ por carga",
+                "Motor": "YUCHAI YC4A125Z / YUCHAI 6105 Turbo",
+                "Potência": "92kW / 2200rpm",
+                "Tração": "Hidráulica, 4x4 & 4WS",
+                "Velocidade": "0-10km/h / 0-20km/h",
+                "Dimensões": "7200×2500×3300mm / 8450×3050×4830mm",
+                "Peso": "8600kg / 12520kg",
+                "Água": "2×350L / 1465L",
+                "Combustível": "170L / 342L",
+                "Pneus": "16/70-20"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Remote construction sites, road building, dam construction, infrastructure projects"
         }
     }
 ];
