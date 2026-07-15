@@ -51,7 +51,7 @@ const Categories = {
         ar: "قطع الغيار",
         ru: "Запасные части",
         pt: "Peças de Reposição"
-    }
+    },
 };
 
 // ============================================================
@@ -121,7 +121,7 @@ const SubCategories = {
         ar: "معدات زراعية أخرى",
         ru: "Прочее сельхозоборудование",
         pt: "Outros Equipamentos Agrícolas"
-    }
+    },
 };
 
 // ============================================================
@@ -894,7 +894,7 @@ const Products = [
             application: "Large-scale agricultural irrigation, grain crops, vegetables, orchards, pastures",
             customization: "Electric motor or water turbine option available, pipe length 300m or 400m"
         }
-    }，
+    },
 
     
     // ============================================================
