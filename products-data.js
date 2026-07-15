@@ -2272,10 +2272,12 @@ const Products = [
             application: "Potato harvesting, root crop harvesting, small to medium scale farming"
         }
     },
+
         // ============================================================
     //  🌾 农机具 → 耕整地机械 → 圆盘犁系列
     //  根据 product catalog_05.png 生成
     // ============================================================
+    
      //  1LYT系列 单向圆盘犁 (2-7铧)
     // ============================================================
     {
@@ -2426,7 +2428,6 @@ const Products = [
             application: "Primary tillage, stubble management, virgin land development, large-scale farming"
         }
     },
-
 
     // ============================================================
     //  1LYQ系列 单向圆盘犁 (轻量型)
