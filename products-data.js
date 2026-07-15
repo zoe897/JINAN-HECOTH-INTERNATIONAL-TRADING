@@ -157,7 +157,7 @@ const Products = [
         id: "TR-001",
         category: "tractors",           // 一级分类
         subCategory: null,               // 拖拉机无二级分类
-        image: "/image/tractor-tts.jpg",
+        image: "/image/tractor-banner.jpg",
         name: {
             en: "TTS Series Tractor (35-40HP)",
             es: "Tractor Serie TTS (35-40HP)",
@@ -360,7 +360,7 @@ const Products = [
         id: "PL-001",
         category: "farm-machinery",
         subCategory: "planting",
-        image: "/image/corn-seeder.jpg",
+        image: "/image/cornseeder.jpg",
         name: {
             en: "Precision Corn Seeder",
             es: "Sembradora de Precisión para Maíz",
@@ -442,7 +442,7 @@ const Products = [
         id: "CU-001",
         category: "farm-machinery",
         subCategory: "cultivation",
-        image: "/image/cultivator.jpg",
+        image: "/image/cultivator1.jpg",
         name: {
             en: "3ZT Series Cultivator",
             es: "Cultivador Serie 3ZT",
@@ -528,7 +528,7 @@ const Products = [
         id: "MW-001",
         category: "farm-machinery",
         subCategory: "mowing",
-        image: "/image/disc-mower.jpg",
+        image: "/image/mower2.jpg",
         name: {
             en: "Disc Mower",
             es: "Segadora de Discos",
@@ -571,7 +571,7 @@ const Products = [
         id: "FT-001",
         category: "farm-machinery",
         subCategory: "fertilizing",
-        image: "/image/fertilizer-spreader.jpg",
+        image: "/image/spreader.jpg",
         name: {
             en: "Tractor Mounted Fertilizer Spreader",
             es: "Esparcidor de Fertilizante Montado",
@@ -653,7 +653,7 @@ const Products = [
         id: "OT-002",
         category: "farm-machinery",
         subCategory: "other-farm",
-        image: "/image/rotary-tiller.jpg",
+        image: "/image/1gln.jpg",
         name: {
             en: "1GN Series Rotary Tiller",
             es: "Cultivador Rotativo Serie 1GN",
@@ -817,7 +817,7 @@ const Products = [
         id: "IR-002",
         category: "irrigation",
         subCategory: null,
-        image: "/image/sprayer-lithium.jpg",
+        image: "/image/sprayer2.jpg",
         name: {
             en: "Lithium Battery Sprayer",
             es: "Pulverizador a Batería de Litio",
