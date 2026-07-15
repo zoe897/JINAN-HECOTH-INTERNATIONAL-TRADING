@@ -1944,7 +1944,7 @@ const Products = [
             shipping: "FOB Qingdao / CIF available",
             application: "Remote construction sites, road building, dam construction, infrastructure projects"
         }
-    }
+    },
         // ============================================================
     //  🌾 农机具 → 播种机械 → 马铃薯播种机
     // ============================================================
