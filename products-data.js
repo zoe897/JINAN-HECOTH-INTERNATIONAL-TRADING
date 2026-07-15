@@ -2271,7 +2271,7 @@ const Products = [
             shipping: "FOB Qingdao / CIF available",
             application: "Potato harvesting, root crop harvesting, small to medium scale farming"
         }
-    }
+    },
 
             // ============================================================
     //  🌾 农机具 → 耕整地机械 → 圆盘犁系列
@@ -2428,7 +2428,7 @@ const Products = [
             shipping: "FOB Qingdao / CIF available",
             application: "Primary tillage, stubble management, virgin land development, large-scale farming"
         }
-    }
+    },
 
     // ============================================================
     //  1LYQ系列 单向圆盘犁 (轻量型)
@@ -2580,7 +2580,7 @@ const Products = [
             shipping: "FOB Qingdao / CIF available",
             application: "Small to medium farms, green manure fields, stubble management, light to medium soil conditions"
         }
-    }
+    },
 
     // ============================================================
     //  1LYX系列 重型圆盘犁 (复杂地形)
@@ -2726,7 +2726,7 @@ const Products = [
             shipping: "FOB Qingdao / CIF available",
             application: "Weedy fields, stony terrain, heavy soil, rough farmland, challenging ploughing conditions"
         }
-    }
+    },
 ];
 
 // ============================================================
