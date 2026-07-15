@@ -696,7 +696,7 @@ const Products = [
         id: "CM-001",
         category: "construction-machinery",
         subCategory: null,
-        image: "/image/excavator-ht85w.jpg",
+        image: "/image/ht85w.png",
         name: {
             en: "HT85W Wheel Excavator",
             es: "Excavadora de Ruedas HT85W",
@@ -894,6 +894,316 @@ const Products = [
             pt: {"Inclui": "Filtros, Embreagem, Pastilhas, Rolamentos", "Compatibilidade": "JD, Farmtrac, Mahindra", "Qualidade": "Padrão OEM"}
         },
         inquiry: { minOrder: "5 kits", leadTime: "15-30 days", warranty: "6 months", moq: "5 kits" }
+    }    // ============================================================
+    //  🏗️ 工程机械 → 挖掘机
+    // ============================================================
+    
+    // ============================================================
+    //  HT20 微型挖掘机
+    // ============================================================
+    {
+        id: "CM-003",
+        category: "construction-machinery",
+        subCategory: null,
+        image: "/images/hengte-ht20.jpg",
+        name: {
+            en: "HT20 Mini Excavator",
+            es: "Miniexcavadora HT20",
+            fr: "Mini Excavatrice HT20",
+            ar: "حفارة صغيرة HT20",
+            ru: "Мини-экскаватор HT20",
+            pt: "Mini Escavadora HT20"
+        },
+        desc: {
+            en: "Compact mini excavator with telescopic chassis and zero tail swing. Powered by Yanmar engine, perfect for urban construction and landscaping.",
+            es: "Miniexcavadora compacta con chasis telescópico y giro cero. Motor Yanmar, perfecta para construcción urbana y paisajismo.",
+            fr: "Mini excavatrice compacte avec châssis télescopique et balayage zéro. Moteur Yanmar, parfaite pour la construction urbaine et l'aménagement paysager.",
+            ar: "حفارة صغيرة مدمجة مع هيكل تلسكوبي ودوران خلفي صفري. محرك Yanmar، مثالية للبناء الحضري وتنسيق الحدائق.",
+            ru: "Компактный мини-экскаватор с телескопическим шасси и нулевым вылетом хвостовой части. Двигатель Yanmar, идеален для городского строительства и ландшафтного дизайна.",
+            pt: "Mini escavadora compacta com chassi telescópico e giro zero. Motor Yanmar, perfeita para construção urbana e paisagismo."
+        },
+        features: {
+            en: [
+                "Telescopic chassis (990-1300mm adjustable)",
+                "Zero tail swing for narrow spaces",
+                "Yanmar engine for reliable performance",
+                "Compact design for easy transport",
+                "Hydraulic pilot control system"
+            ],
+            es: [
+                "Chasis telescópico (990-1300mm ajustable)",
+                "Giro cero para espacios reducidos",
+                "Motor Yanmar para rendimiento confiable",
+                "Diseño compacto para transporte fácil",
+                "Sistema de control piloto hidráulico"
+            ],
+            fr: [
+                "Châssis télescopique (990-1300mm réglable)",
+                "Balayage zéro pour espaces restreints",
+                "Moteur Yanmar pour une performance fiable",
+                "Conception compacte pour transport facile",
+                "Système de commande hydraulique"
+            ],
+            ar: [
+                "هيكل تلسكوبي (990-1300 ملم قابل للتعديل)",
+                "دوران خلفي صفري للمساحات الضيقة",
+                "محرك Yanmar لأداء موثوق",
+                "تصميم مدمج لسهولة النقل",
+                "نظام تحكم هيدروليكي"
+            ],
+            ru: [
+                "Телескопическое шасси (990-1300 мм регулировка)",
+                "Нулевой вылет хвостовой части для узких пространств",
+                "Двигатель Yanmar для надежной работы",
+                "Компактный дизайн для легкой транспортировки",
+                "Гидравлическая система управления"
+            ],
+            pt: [
+                "Chassi telescópico (990-1300mm ajustável)",
+                "Giro zero para espaços estreitos",
+                "Motor Yanmar para desempenho confiável",
+                "Design compacto para transporte fácil",
+                "Sistema de controle hidráulico"
+            ]
+        },
+        specs: {
+            en: {
+                "Engine": "Yanmar 3TNV76-PCT",
+                "Power": "14.1kW/2200rpm",
+                "Weight": "1940kg",
+                "Bucket Capacity": "0.06m³",
+                "Digging Depth": "2300mm",
+                "Digging Radius": "4120mm",
+                "Hydraulic Pressure": "18.6MPa",
+                "Travel Speed": "2-3km/h"
+            },
+            es: {
+                "Motor": "Yanmar 3TNV76-PCT",
+                "Potencia": "14.1kW/2200rpm",
+                "Peso": "1940kg",
+                "Capacidad del cucharón": "0.06m³",
+                "Profundidad de excavación": "2300mm",
+                "Radio de excavación": "4120mm",
+                "Presión hidráulica": "18.6MPa",
+                "Velocidad de desplazamiento": "2-3km/h"
+            },
+            fr: {
+                "Moteur": "Yanmar 3TNV76-PCT",
+                "Puissance": "14.1kW/2200rpm",
+                "Poids": "1940kg",
+                "Capacité du godet": "0.06m³",
+                "Profondeur d'excavation": "2300mm",
+                "Rayon d'excavation": "4120mm",
+                "Pression hydraulique": "18.6MPa",
+                "Vitesse de déplacement": "2-3km/h"
+            },
+            ar: {
+                "المحرك": "Yanmar 3TNV76-PCT",
+                "القوة": "14.1 كيلوواط/2200 دورة",
+                "الوزن": "1940 كجم",
+                "سعة الدلو": "0.06 م³",
+                "عمق الحفر": "2300 ملم",
+                "نصف قطر الحفر": "4120 ملم",
+                "الضغط الهيدروليكي": "18.6 ميجا باسكال",
+                "سرعة السير": "2-3 كم/ساعة"
+            },
+            ru: {
+                "Двигатель": "Yanmar 3TNV76-PCT",
+                "Мощность": "14.1 кВт/2200 об/мин",
+                "Вес": "1940 кг",
+                "Емкость ковша": "0.06 м³",
+                "Глубина копания": "2300 мм",
+                "Радиус копания": "4120 мм",
+                "Гидравлическое давление": "18.6 МПа",
+                "Скорость передвижения": "2-3 км/ч"
+            },
+            pt: {
+                "Motor": "Yanmar 3TNV76-PCT",
+                "Potência": "14.1kW/2200rpm",
+                "Peso": "1940kg",
+                "Capacidade da caçamba": "0.06m³",
+                "Profundidade de escavação": "2300mm",
+                "Raio de escavação": "4120mm",
+                "Pressão hidráulica": "18.6MPa",
+                "Velocidade de deslocamento": "2-3km/h"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available"
+        }
+    },
+
+    // ============================================================
+    //  HT35G 微型挖掘机
+    // ============================================================
+    {
+        id: "CM-004",
+        category: "construction-machinery",
+        subCategory: null,
+        image: "/images/hengte-ht35g.jpg",
+        name: {
+            en: "HT35G Mini Excavator",
+            es: "Miniexcavadora HT35G",
+            fr: "Mini Excavatrice HT35G",
+            ar: "حفارة صغيرة HT35G",
+            ru: "Мини-экскаватор HT35G",
+            pt: "Mini Escavadora HT35G"
+        },
+        desc: {
+            en: "Powerful mini excavator with Yanmar engine and hydraulic pilot control. Offers excellent digging performance with 3105mm digging depth. Ideal for construction and agricultural applications.",
+            es: "Potente miniexcavadora con motor Yanmar y control piloto hidráulico. Excelente rendimiento de excavación con 3105mm de profundidad. Ideal para construcción y agricultura.",
+            fr: "Mini excavatrice puissante avec moteur Yanmar et commande hydraulique. Excellentes performances d'excavation avec 3105mm de profondeur. Idéale pour la construction et l'agriculture.",
+            ar: "حفارة صغيرة قوية مع محرك Yanmar وتحكم هيدروليكي. أداء حفر ممتاز بعمق 3105 ملم. مثالية للبناء والزراعة.",
+            ru: "Мощный мини-экскаватор с двигателем Yanmar и гидравлическим управлением. Отличные показатели копания с глубиной 3105 мм. Идеален для строительства и сельского хозяйства.",
+            pt: "Mini escavadora potente com motor Yanmar e controle hidráulico. Excelente desempenho de escavação com 3105mm de profundidade. Ideal para construção e agricultura."
+        },
+        features: {
+            en: [
+                "Yanmar 3TNV88F-ESSY engine (18.2kW)",
+                "Hydraulic pilot control system",
+                "Excellent digging performance",
+                "Strong bucket digging force (30.5kN)",
+                "Reliable and durable construction"
+            ],
+            es: [
+                "Motor Yanmar 3TNV88F-ESSY (18.2kW)",
+                "Sistema de control piloto hidráulico",
+                "Excelente rendimiento de excavación",
+                "Fuerza de excavación del cucharón (30.5kN)",
+                "Construcción confiable y duradera"
+            ],
+            fr: [
+                "Moteur Yanmar 3TNV88F-ESSY (18.2kW)",
+                "Système de commande hydraulique",
+                "Excellentes performances d'excavation",
+                "Force d'excavation du godet (30.5kN)",
+                "Construction fiable et durable"
+            ],
+            ar: [
+                "محرك Yanmar 3TNV88F-ESSY (18.2 كيلوواط)",
+                "نظام تحكم هيدروليكي",
+                "أداء حفر ممتاز",
+                "قوة حفر الدلو (30.5 كيلو نيوتن)",
+                "بناء موثوق ومتين"
+            ],
+            ru: [
+                "Двигатель Yanmar 3TNV88F-ESSY (18.2 кВт)",
+                "Гидравлическая система управления",
+                "Отличные показатели копания",
+                "Сила копания ковша (30.5 кН)",
+                "Надежная и долговечная конструкция"
+            ],
+            pt: [
+                "Motor Yanmar 3TNV88F-ESSY (18.2kW)",
+                "Sistema de controle hidráulico",
+                "Excelente desempenho de escavação",
+                "Força de escavação da caçamba (30.5kN)",
+                "Construção confiável e durável"
+            ]
+        },
+        specs: {
+            en: {
+                "Engine": "Yanmar 3TNV88F-ESSY",
+                "Power": "18.2kW/2200rpm",
+                "Weight": "3600kg",
+                "Bucket Capacity": "0.12m³",
+                "Digging Depth": "3105mm",
+                "Digging Radius": "5465mm",
+                "Digging Height": "4855mm",
+                "Unloading Height": "3460mm",
+                "Hydraulic Pressure": "24.5MPa",
+                "Hydraulic Flow": "88L/min",
+                "Bucket Digging Force": "30.5kN",
+                "Stick Digging Force": "18.5kN",
+                "Travel Speed": "2.2-4.4km/h"
+            },
+            es: {
+                "Motor": "Yanmar 3TNV88F-ESSY",
+                "Potencia": "18.2kW/2200rpm",
+                "Peso": "3600kg",
+                "Capacidad del cucharón": "0.12m³",
+                "Profundidad de excavación": "3105mm",
+                "Radio de excavación": "5465mm",
+                "Altura de excavación": "4855mm",
+                "Altura de descarga": "3460mm",
+                "Presión hidráulica": "24.5MPa",
+                "Caudal hidráulico": "88L/min",
+                "Fuerza de excavación del cucharón": "30.5kN",
+                "Fuerza de excavación del brazo": "18.5kN",
+                "Velocidad de desplazamiento": "2.2-4.4km/h"
+            },
+            fr: {
+                "Moteur": "Yanmar 3TNV88F-ESSY",
+                "Puissance": "18.2kW/2200rpm",
+                "Poids": "3600kg",
+                "Capacité du godet": "0.12m³",
+                "Profondeur d'excavation": "3105mm",
+                "Rayon d'excavation": "5465mm",
+                "Hauteur d'excavation": "4855mm",
+                "Hauteur de déchargement": "3460mm",
+                "Pression hydraulique": "24.5MPa",
+                "Débit hydraulique": "88L/min",
+                "Force d'excavation du godet": "30.5kN",
+                "Force d'excavation du bras": "18.5kN",
+                "Vitesse de déplacement": "2.2-4.4km/h"
+            },
+            ar: {
+                "المحرك": "Yanmar 3TNV88F-ESSY",
+                "القوة": "18.2 كيلوواط/2200 دورة",
+                "الوزن": "3600 كجم",
+                "سعة الدلو": "0.12 م³",
+                "عمق الحفر": "3105 ملم",
+                "نصف قطر الحفر": "5465 ملم",
+                "ارتفاع الحفر": "4855 ملم",
+                "ارتفاع التفريغ": "3460 ملم",
+                "الضغط الهيدروليكي": "24.5 ميجا باسكال",
+                "التدفق الهيدروليكي": "88 لتر/دقيقة",
+                "قوة حفر الدلو": "30.5 كيلو نيوتن",
+                "قوة حفر الذراع": "18.5 كيلو نيوتن",
+                "سرعة السير": "2.2-4.4 كم/ساعة"
+            },
+            ru: {
+                "Двигатель": "Yanmar 3TNV88F-ESSY",
+                "Мощность": "18.2 кВт/2200 об/мин",
+                "Вес": "3600 кг",
+                "Емкость ковша": "0.12 м³",
+                "Глубина копания": "3105 мм",
+                "Радиус копания": "5465 мм",
+                "Высота копания": "4855 мм",
+                "Высота выгрузки": "3460 мм",
+                "Гидравлическое давление": "24.5 МПа",
+                "Гидравлический поток": "88 л/мин",
+                "Сила копания ковша": "30.5 кН",
+                "Сила копания рукояти": "18.5 кН",
+                "Скорость передвижения": "2.2-4.4 км/ч"
+            },
+            pt: {
+                "Motor": "Yanmar 3TNV88F-ESSY",
+                "Potência": "18.2kW/2200rpm",
+                "Peso": "3600kg",
+                "Capacidade da caçamba": "0.12m³",
+                "Profundidade de escavação": "3105mm",
+                "Raio de escavação": "5465mm",
+                "Altura de escavação": "4855mm",
+                "Altura de descarga": "3460mm",
+                "Pressão hidráulica": "24.5MPa",
+                "Fluxo hidráulico": "88L/min",
+                "Força de escavação da caçamba": "30.5kN",
+                "Força de escavação do braço": "18.5kN",
+                "Velocidade de deslocamento": "2.2-4.4km/h"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available"
+        }
     }
 ];
 
