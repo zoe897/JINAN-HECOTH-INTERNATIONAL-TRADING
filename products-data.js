@@ -2729,6 +2729,637 @@ const Products = [
             application: "Weedy fields, stony terrain, heavy soil, rough farmland, challenging ploughing conditions"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 悬挂式轻型圆盘耙
+    // ============================================================
+    {
+        id: "TL-007",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/1bqx.jpg",
+        name: {
+            en: "1BQX Series Mounted Light-Duty Disc Harrow - Seedbed Preparation",
+            es: "Grada de Discos Ligera Montada Serie 1BQX - Preparación de Lecho de Siembra",
+            fr: "Herse à Disques Légère Portée Série 1BQX - Préparation du Lit de Semences",
+            ar: "مشط قرصي خفيف مثبت سلسلة 1BQX - تجهيز أحواض البذور",
+            ru: "Навесная легкая дисковая борона серии 1BQX - Подготовка грядок",
+            pt: "Grade de Discos Leve Montada Série 1BQX - Preparação de Canteiros"
+        },
+        desc: {
+            en: "The 1BQX Series Mounted Light-Duty Disc Harrow is designed for crushing clods after tillage, preparing soil before seeding, mixing soil and fertilizer, and stubble cleaning in light soil fields. Features a durable structure with strong raking ability. Available in working widths from 600-5000mm with disc counts from 8 to 60. Compatible with 10-100 HP tractors. Ideal for small to medium farms requiring efficient seedbed preparation.",
+            es: "La grada de discos ligera 1BQX está diseñada para desmenuzar terrones, preparar el suelo antes de la siembra y mezclar fertilizante. Disponible en anchos de 600-5000mm. Compatible con tractores de 10-100 HP. Ideal para granjas pequeñas y medianas.",
+            fr: "La herse à disques légère 1BQX est conçue pour briser les mottes, préparer le sol avant le semis et mélanger l'engrais. Disponible en largeurs de 600-5000mm. Compatible avec tracteurs de 10-100 HP.",
+            ar: "مشط الأقراص الخفيف 1BQX مصمم لتفتيت الكتل بعد الحراثة وتحضير التربة للزراعة. متوفر بعروض عمل من 600-5000 ملم. متوافق مع جرارات 10-100 حصان.",
+            ru: "Легкая дисковая борона 1BQX предназначена для рыхления комьев после вспашки и подготовки почвы к посеву. Ширина от 600 до 5000 мм. Совместима с тракторами 10-100 л.с.",
+            pt: "A grade de discos leve 1BQX é projetada para quebrar torrões e preparar o solo para o plantio. Disponível em larguras de 600-5000mm. Compatível com tratores de 10-100 HP."
+        },
+        features: {
+            en: [
+                "Wide range of working widths: 600mm to 5000mm for flexible field operations",
+                "Disc count from 8 to 60 discs for different soil conditions",
+                "460mm disc diameter for effective soil penetration and clod crushing",
+                "Strong raking ability with good soil pulverization",
+                "Durable construction for long service life",
+                "Easy to use and maintain with simple linkage",
+                "Suitable for light soil fields and stubble cleaning",
+                "Working depth 100-140mm for optimal seedbed preparation"
+            ],
+            es: [
+                "Amplia gama de anchos: 600mm a 5000mm",
+                "De 8 a 60 discos para diferentes condiciones de suelo",
+                "Diámetro de disco de 460mm",
+                "Fuerte capacidad de desmenuzado",
+                "Construcción duradera",
+                "Fácil de usar y mantener",
+                "Adecuado para suelos ligeros",
+                "Profundidad de trabajo 100-140mm"
+            ],
+            fr: [
+                "Large gamme de largeurs: 600mm à 5000mm",
+                "De 8 à 60 disques",
+                "Diamètre de disque 460mm",
+                "Bonne capacité de pulvérisation",
+                "Construction durable",
+                "Facile à utiliser et entretenir",
+                "Convient aux sols légers",
+                "Profondeur de travail 100-140mm"
+            ],
+            ar: [
+                "مجموعة واسعة من عروض العمل: 600 إلى 5000 ملم",
+                "من 8 إلى 60 قرصاً",
+                "قطر القرص 460 ملم",
+                "قوة تمشيط عالية",
+                "بناء متين",
+                "سهل الاستخدام والصيانة",
+                "مناسب للتربة الخفيفة",
+                "عمق العمل 100-140 ملم"
+            ],
+            ru: [
+                "Широкий диапазон ширины: от 600 до 5000 мм",
+                "От 8 до 60 дисков",
+                "Диаметр диска 460 мм",
+                "Высокая способность к рыхлению",
+                "Прочная конструкция",
+                "Легкость в использовании и обслуживании",
+                "Подходит для легких почв",
+                "Глубина обработки 100-140 мм"
+            ],
+            pt: [
+                "Ampla gama de larguras: 600mm a 5000mm",
+                "De 8 a 60 discos",
+                "Diâmetro do disco 460mm",
+                "Alta capacidade de pulverização",
+                "Construção durável",
+                "Fácil de usar e manter",
+                "Adequado para solos leves",
+                "Profundidade de trabalho 100-140mm"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1BQS-0.6 to 1BQX-5.0 (14 models)",
+                "Working Width": "600-5000mm",
+                "Working Depth": "100-140mm",
+                "Disc Diameter": "460mm",
+                "Disc Count": "8-60 discs",
+                "Weight": "80-1550kg",
+                "Linkage": "Mounted / Trailed",
+                "Matched Power": "10-100 HP"
+            },
+            es: {
+                "Modelos": "1BQS-0.6 a 1BQX-5.0 (14 modelos)",
+                "Ancho": "600-5000mm",
+                "Profundidad": "100-140mm",
+                "Diámetro": "460mm",
+                "Discos": "8-60 discos",
+                "Peso": "80-1550kg",
+                "Enganche": "Montado / Remolcado",
+                "Potencia": "10-100 HP"
+            },
+            fr: {
+                "Modèles": "1BQS-0.6 à 1BQX-5.0 (14 modèles)",
+                "Largeur": "600-5000mm",
+                "Profondeur": "100-140mm",
+                "Diamètre": "460mm",
+                "Disques": "8-60 disques",
+                "Poids": "80-1550kg",
+                "Attelage": "Porté / Remorqué",
+                "Puissance": "10-100 HP"
+            },
+            ar: {
+                "الموديلات": "1BQS-0.6 إلى 1BQX-5.0 (14 موديل)",
+                "عرض العمل": "600-5000 ملم",
+                "عمق العمل": "100-140 ملم",
+                "قطر القرص": "460 ملم",
+                "عدد الأقراص": "8-60 قرصاً",
+                "الوزن": "80-1550 كجم",
+                "التوصيل": "مثبت / مقطور",
+                "القوة الملائمة": "10-100 حصان"
+            },
+            ru: {
+                "Модели": "1BQS-0.6 до 1BQX-5.0 (14 моделей)",
+                "Ширина": "600-5000 мм",
+                "Глубина": "100-140 мм",
+                "Диаметр": "460 мм",
+                "Диски": "8-60 дисков",
+                "Вес": "80-1550 кг",
+                "Навеска": "Навесная / Прицепная",
+                "Мощность": "10-100 л.с."
+            },
+            pt: {
+                "Modelos": "1BQS-0.6 a 1BQX-5.0 (14 modelos)",
+                "Largura": "600-5000mm",
+                "Profundidade": "100-140mm",
+                "Diâmetro": "460mm",
+                "Discos": "8-60 discos",
+                "Peso": "80-1550kg",
+                "Engate": "Montado / Rebocado",
+                "Potência": "10-100 HP"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Seedbed preparation, stubble cleaning, light soil fields, small to medium farms"
+        }
+    },
+
+    // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 对置式轻型圆盘耙
+    // ============================================================
+    {
+        id: "TL-008",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/harrow-main.jpg",
+        name: {
+            en: "1BQDX Series Opposed Light-Duty Disc Harrow - Fine Soil Preparation",
+            es: "Grada de Discos Ligera Oponente Serie 1BQDX - Preparación Fina del Suelo",
+            fr: "Herse à Disques Légère Opposée Série 1BQDX - Préparation Fine du Sol",
+            ar: "مشط قرصي خفيف متقابل سلسلة 1BQDX - تحضير دقيق للتربة",
+            ru: "Легкая противоходная дисковая борона серии 1BQDX - Тонкая подготовка почвы",
+            pt: "Grade de Discos Leve Oposta Série 1BQDX - Preparação Fina do Solo"
+        },
+        desc: {
+            en: "The 1BQDX Series Opposed Light-Duty Disc Harrow is designed for crushing clods after tillage, preparing soil before seeding, mixing soil and fertilizer, and stubble cleaning in light to medium soil fields. Features opposed disc arrangement for balanced soil penetration and smooth operation. Available in working widths from 1300-3000mm with disc counts from 16 to 36. Compatible with 30-100 HP tractors. Ideal for farms requiring fine seedbed preparation.",
+            es: "La grada de discos opuesta 1BQDX está diseñada para desmenuzar terrones y preparar el suelo. Disposición de discos opuesta para operación suave. Disponible en anchos de 1300-3000mm. Compatible con tractores de 30-100 HP.",
+            fr: "La herse à disques opposée 1BQDX est conçue pour briser les mottes et préparer le sol. Disposition opposée des disques pour un fonctionnement en douceur. Disponible en largeurs de 1300-3000mm.",
+            ar: "مشط الأقراص المتقابل 1BQDX مصمم لتفتيت الكتل وتحضير التربة. ترتيب أقراص متقابل للتشغيل السلس. متوفر بعروض عمل 1300-3000 ملم.",
+            ru: "Противоходная борона 1BQDX предназначена для рыхления почвы. Противоходное расположение дисков обеспечивает плавную работу. Ширина 1300-3000 мм.",
+            pt: "A grade de discos oposta 1BQDX é projetada para quebrar torrões e preparar o solo. Disposição oposta de discos para operação suave. Largura de 1300-3000mm."
+        },
+        features: {
+            en: [
+                "Opposed disc arrangement for balanced soil penetration",
+                "Working widths from 1300-3000mm for medium to large fields",
+                "Disc count from 16 to 36 discs for effective soil preparation",
+                "460mm disc diameter for good soil pulverization",
+                "Working depth 100-140mm for optimal seedbed preparation",
+                "Strong raking ability with smooth operation",
+                "Durable and easy to maintain",
+                "Suitable for light to medium soil fields"
+            ],
+            es: [
+                "Disposición opuesta de discos para penetración equilibrada",
+                "Anchos de 1300-3000mm",
+                "De 16 a 36 discos",
+                "Diámetro de disco 460mm",
+                "Profundidad 100-140mm",
+                "Operación suave",
+                "Durable y fácil de mantener",
+                "Adecuado para suelos ligeros a medios"
+            ],
+            fr: [
+                "Disposition opposée des disques",
+                "Largeurs de 1300-3000mm",
+                "De 16 à 36 disques",
+                "Diamètre 460mm",
+                "Profondeur 100-140mm",
+                "Fonctionnement en douceur",
+                "Durable et facile à entretenir",
+                "Convient aux sols légers à moyens"
+            ],
+            ar: [
+                "ترتيب أقراص متقابل للاختراق المتوازن",
+                "عروض عمل 1300-3000 ملم",
+                "من 16 إلى 36 قرصاً",
+                "قطر القرص 460 ملم",
+                "عمق العمل 100-140 ملم",
+                "تشغيل سلس",
+                "متين وسهل الصيانة",
+                "مناسب للتربة الخفيفة إلى المتوسطة"
+            ],
+            ru: [
+                "Противоходное расположение дисков",
+                "Ширина 1300-3000 мм",
+                "От 16 до 36 дисков",
+                "Диаметр 460 мм",
+                "Глубина 100-140 мм",
+                "Плавная работа",
+                "Долговечная и простая в обслуживании",
+                "Подходит для легких и средних почв"
+            ],
+            pt: [
+                "Disposição oposta de discos",
+                "Larguras de 1300-3000mm",
+                "De 16 a 36 discos",
+                "Diâmetro 460mm",
+                "Profundidade 100-140mm",
+                "Operação suave",
+                "Durável e fácil de manter",
+                "Adequado para solos leves a médios"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1BQDX-1.3 to 1BQDX-3.0 (6 models)",
+                "Working Width": "1300-3000mm",
+                "Working Depth": "100-140mm",
+                "Disc Diameter": "460mm",
+                "Disc Count": "16-36 discs",
+                "Weight": "300-650kg",
+                "Linkage": "Mounted",
+                "Matched Power": "30-100 HP"
+            },
+            es: {
+                "Modelos": "1BQDX-1.3 a 1BQDX-3.0 (6 modelos)",
+                "Ancho": "1300-3000mm",
+                "Profundidad": "100-140mm",
+                "Diámetro": "460mm",
+                "Discos": "16-36 discos",
+                "Peso": "300-650kg",
+                "Enganche": "Montado",
+                "Potencia": "30-100 HP"
+            },
+            fr: {
+                "Modèles": "1BQDX-1.3 à 1BQDX-3.0 (6 modèles)",
+                "Largeur": "1300-3000mm",
+                "Profondeur": "100-140mm",
+                "Diamètre": "460mm",
+                "Disques": "16-36 disques",
+                "Poids": "300-650kg",
+                "Attelage": "Porté",
+                "Puissance": "30-100 HP"
+            },
+            ar: {
+                "الموديلات": "1BQDX-1.3 إلى 1BQDX-3.0 (6 موديلات)",
+                "عرض العمل": "1300-3000 ملم",
+                "عمق العمل": "100-140 ملم",
+                "قطر القرص": "460 ملم",
+                "عدد الأقراص": "16-36 قرصاً",
+                "الوزن": "300-650 كجم",
+                "التوصيل": "مثبت",
+                "القوة الملائمة": "30-100 حصان"
+            },
+            ru: {
+                "Модели": "1BQDX-1.3 до 1BQDX-3.0 (6 моделей)",
+                "Ширина": "1300-3000 мм",
+                "Глубина": "100-140 мм",
+                "Диаметр": "460 мм",
+                "Диски": "16-36 дисков",
+                "Вес": "300-650 кг",
+                "Навеска": "Навесная",
+                "Мощность": "30-100 л.с."
+            },
+            pt: {
+                "Modelos": "1BQDX-1.3 a 1BQDX-3.0 (6 modelos)",
+                "Largura": "1300-3000mm",
+                "Profundidade": "100-140mm",
+                "Diâmetro": "460mm",
+                "Discos": "16-36 discos",
+                "Peso": "300-650kg",
+                "Engate": "Montado",
+                "Potência": "30-100 HP"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Seedbed preparation, fine soil preparation, light to medium soil fields, stubble cleaning"
+        }
+    },
+
+    // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 悬挂式中型圆盘耙
+    // ============================================================
+    {
+        id: "TL-009",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/1bjx-main.jpg",
+        name: {
+            en: "1BJX Series Mounted Middle-Duty Disc Harrow - Heavy-Duty Seedbed Preparation",
+            es: "Grada de Discos Mediana Montada Serie 1BJX - Preparación Pesada de Lecho de Siembra",
+            fr: "Herse à Disques Moyenne Portée Série 1BJX - Préparation Lourde du Lit de Semences",
+            ar: "مشط قرصي متوسط مثبت سلسلة 1BJX - تجهيز ثقيل لأحواض البذور",
+            ru: "Навесная средняя дисковая борона серии 1BJX - Тяжелая подготовка грядок",
+            pt: "Grade de Discos Média Montada Série 1BJX - Preparação Pesada de Canteiros"
+        },
+        desc: {
+            en: "The 1BJX Series Mounted Middle-Duty Disc Harrow is designed for crushing clods after tillage, preparing soil before seeding, mixing soil and fertilizer, and stubble cleaning in light to medium soil fields. Features a rugged construction with 560mm discs for deeper soil penetration and better pulverization. Available in working widths from 1100-6000mm with disc counts from 10 to 56. Compatible with 25-140 HP tractors. Ideal for medium to large farms requiring heavy-duty seedbed preparation.",
+            es: "La grada de discos mediana 1BJX está diseñada para desmenuzar terrones y preparar el suelo. Construcción robusta con discos de 560mm. Disponible en anchos de 1100-6000mm. Compatible con tractores de 25-140 HP.",
+            fr: "La herse à disques moyenne 1BJX est conçue pour briser les mottes et préparer le sol. Construction robuste avec disques de 560mm. Disponible en largeurs de 1100-6000mm.",
+            ar: "مشط الأقراص المتوسط 1BJX مصمم لتفتيت الكتل وتحضير التربة. بناء قوي مع أقراص 560 ملم. متوفر بعروض عمل 1100-6000 ملم.",
+            ru: "Средняя борона 1BJX предназначена для рыхления почвы. Прочная конструкция с дисками 560 мм. Ширина от 1100 до 6000 мм.",
+            pt: "A grade de discos média 1BJX é projetada para quebrar torrões e preparar o solo. Construção robusta com discos de 560mm. Largura de 1100-6000mm."
+        },
+        features: {
+            en: [
+                "560mm disc diameter for deeper soil penetration",
+                "Working widths from 1100-6000mm for large fields",
+                "Disc count from 10 to 56 discs for heavy-duty operation",
+                "Working depth up to 140mm for thorough soil preparation",
+                "Strong raking ability with good soil pulverization",
+                "Rugged construction for long service life",
+                "Easy to use and maintain",
+                "Suitable for light to medium soil fields"
+            ],
+            es: [
+                "Diámetro de disco de 560mm para penetración más profunda",
+                "Anchos de 1100-6000mm",
+                "De 10 a 56 discos",
+                "Profundidad hasta 140mm",
+                "Fuerte capacidad de desmenuzado",
+                "Construcción robusta",
+                "Fácil de usar y mantener",
+                "Adecuado para suelos ligeros a medios"
+            ],
+            fr: [
+                "Diamètre de disque 560mm",
+                "Largeurs de 1100-6000mm",
+                "De 10 à 56 disques",
+                "Profondeur jusqu'à 140mm",
+                "Bonne capacité de pulvérisation",
+                "Construction robuste",
+                "Facile à utiliser et entretenir",
+                "Convient aux sols légers à moyens"
+            ],
+            ar: [
+                "قطر القرص 560 ملم لاختراق أعمق",
+                "عروض عمل 1100-6000 ملم",
+                "من 10 إلى 56 قرصاً",
+                "عمق يصل إلى 140 ملم",
+                "قوة تمشيط عالية",
+                "بناء قوي",
+                "سهل الاستخدام والصيانة",
+                "مناسب للتربة الخفيفة إلى المتوسطة"
+            ],
+            ru: [
+                "Диаметр диска 560 мм",
+                "Ширина 1100-6000 мм",
+                "От 10 до 56 дисков",
+                "Глубина до 140 мм",
+                "Высокая способность к рыхлению",
+                "Прочная конструкция",
+                "Легкость в использовании",
+                "Подходит для легких и средних почв"
+            ],
+            pt: [
+                "Diâmetro do disco 560mm",
+                "Larguras de 1100-6000mm",
+                "De 10 a 56 discos",
+                "Profundidade até 140mm",
+                "Alta capacidade de pulverização",
+                "Construção robusta",
+                "Fácil de usar e manter",
+                "Adequado para solos leves a médios"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1BJX-1.1 to 1BJX-5.0 (13 models)",
+                "Working Width": "1100-6000mm",
+                "Working Depth": "Up to 140mm",
+                "Disc Diameter": "560mm",
+                "Disc Count": "10-56 discs",
+                "Weight": "320-2600kg",
+                "Linkage": "Mounted / Trailed",
+                "Matched Power": "25-140 HP"
+            },
+            es: {
+                "Modelos": "1BJX-1.1 a 1BJX-5.0 (13 modelos)",
+                "Ancho": "1100-6000mm",
+                "Profundidad": "Hasta 140mm",
+                "Diámetro": "560mm",
+                "Discos": "10-56 discos",
+                "Peso": "320-2600kg",
+                "Enganche": "Montado / Remolcado",
+                "Potencia": "25-140 HP"
+            },
+            fr: {
+                "Modèles": "1BJX-1.1 à 1BJX-5.0 (13 modèles)",
+                "Largeur": "1100-6000mm",
+                "Profondeur": "Jusqu'à 140mm",
+                "Diamètre": "560mm",
+                "Disques": "10-56 disques",
+                "Poids": "320-2600kg",
+                "Attelage": "Porté / Remorqué",
+                "Puissance": "25-140 HP"
+            },
+            ar: {
+                "الموديلات": "1BJX-1.1 إلى 1BJX-5.0 (13 موديلاً)",
+                "عرض العمل": "1100-6000 ملم",
+                "عمق العمل": "حتى 140 ملم",
+                "قطر القرص": "560 ملم",
+                "عدد الأقراص": "10-56 قرصاً",
+                "الوزن": "320-2600 كجم",
+                "التوصيل": "مثبت / مقطور",
+                "القوة الملائمة": "25-140 حصان"
+            },
+            ru: {
+                "Модели": "1BJX-1.1 до 1BJX-5.0 (13 моделей)",
+                "Ширина": "1100-6000 мм",
+                "Глубина": "До 140 мм",
+                "Диаметр": "560 мм",
+                "Диски": "10-56 дисков",
+                "Вес": "320-2600 кг",
+                "Навеска": "Навесная / Прицепная",
+                "Мощность": "25-140 л.с."
+            },
+            pt: {
+                "Modelos": "1BJX-1.1 a 1BJX-5.0 (13 modelos)",
+                "Largura": "1100-6000mm",
+                "Profundidade": "Até 140mm",
+                "Diâmetro": "560mm",
+                "Discos": "10-56 discos",
+                "Peso": "320-2600kg",
+                "Engate": "Montado / Rebocado",
+                "Potência": "25-140 HP"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Heavy-duty seedbed preparation, large fields, medium soil fields, stubble cleaning"
+        }
+    },
+        // ============================================================
+    //  🔧 配件 → 农机圆盘犁片 / 耙片 (Disc Blades)
+    // ============================================================
+    {
+        id: "PT-002",
+        category: "parts",
+        subCategory: null,
+        image: "/image/disc-blade.jpg",
+        name: {
+            en: "Agricultural Disc Harrow & Plough Blades - Premium Tractor Spare Parts",
+            es: "Discos de Grada y Arado Agrícola - Repuestos Premium para Tractor",
+            fr: "Lames de Herse et Charrue Agricole - Pièces Détachées Premium pour Tracteur",
+            ar: "شفرات الأقراص للمشط والمحراث الزراعي - قطع غيار ممتازة للجرار",
+            ru: "Диски для борон и плугов - Премиальные запасные части для тракторов",
+            pt: "Discos de Grade e Arado Agrícola - Peças de Reposição Premium para Trator"
+        },
+        desc: {
+            en: "High-quality agricultural disc blades for disc harrows and disc ploughs. Available in plain and notched designs, with diameters from 10 to 36 inches and thicknesses from 2mm to 12mm. Manufactured from wear-resistant steel for long service life. Suitable for various tillage implements and compatible with major tractor brands. Ideal for farm maintenance, spare parts replacement, and OEM applications.",
+            es: "Discos agrícolas de alta calidad para gradas y arados de discos. Disponibles en diseños lisos y dentados, con diámetros de 10 a 36 pulgadas y espesores de 2mm a 12mm. Fabricados en acero resistente al desgaste. Ideales para mantenimiento de granjas y reposición de piezas.",
+            fr: "Lames de disques agricoles de haute qualité pour herses et charrues à disques. Disponibles en versions lisses et crantées, avec des diamètres de 10 à 36 pouces et des épaisseurs de 2mm à 12mm. Idéales pour l'entretien des fermes et le remplacement de pièces.",
+            ar: "شفرات أقراص زراعية عالية الجودة للمشاط والمحاريث القرصية. متوفرة بتصاميم عادية ومسننة، بأقطار من 10 إلى 36 بوصة وسماكات من 2 ملم إلى 12 ملم. مثالية لصيانة المزارع واستبدال قطع الغيار.",
+            ru: "Высококачественные диски для дисковых борон и плугов. Доступны в гладком и зубчатом исполнении, диаметром от 10 до 36 дюймов и толщиной от 2 до 12 мм. Идеальны для обслуживания ферм и замены запчастей.",
+            pt: "Discos agrícolas de alta qualidade para grades e arados de discos. Disponíveis em designs lisos e dentados, com diâmetros de 10 a 36 polegadas e espessuras de 2mm a 12mm. Ideais para manutenção de fazendas e reposição de peças."
+        },
+        features: {
+            en: [
+                "Wide size range: 10\" to 36\" diameter, 2mm to 12mm thickness",
+                "Plain and notched edge designs for different soil conditions",
+                "Wear-resistant steel for extended service life",
+                "Standard package quantities: 100 pcs, 50 pcs, or 25 pcs per carton",
+                "Compatible with most disc harrow and disc plough brands",
+                "Available in various hole configurations (center hole and bolt holes)",
+                "Suitable for light, medium, and heavy-duty tillage",
+                "Cost-effective OEM quality replacement parts"
+            ],
+            es: [
+                "Amplia gama de tamaños: 10\" a 36\" de diámetro, 2mm a 12mm de espesor",
+                "Bordes lisos y dentados para diferentes condiciones de suelo",
+                "Acero resistente al desgaste",
+                "Paquetes estándar: 100, 50 o 25 piezas por cajón",
+                "Compatibles con la mayoría de las marcas de gradas y arados",
+                "Configuraciones de orificios variadas",
+                "Adecuados para labranza ligera, media y pesada",
+                "Repuestos de calidad OEM a precio competitivo"
+            ],
+            fr: [
+                "Large gamme de tailles: 10\" à 36\" de diamètre, 2mm à 12mm d'épaisseur",
+                "Bords lisses et crantés pour différentes conditions de sol",
+                "Acier résistant à l'usure",
+                "Conditionnement standard: 100, 50 ou 25 pièces par carton",
+                "Compatibles avec la plupart des marques de herses et charrues",
+                "Configurations de trous variées",
+                "Adaptés au travail du sol léger, moyen et lourd",
+                "Pièces de rechange qualité OEM à prix compétitif"
+            ],
+            ar: [
+                "مجموعة واسعة من الأحجام: قطر 10 إلى 36 بوصة، سمك 2 إلى 12 ملم",
+                "حواف عادية ومسننة لظروف التربة المختلفة",
+                "صلب مقاوم للتآكل",
+                "تغليف قياسي: 100 أو 50 أو 25 قطعة لكل كرتون",
+                "متوافقة مع معظم ماركات المشاط والمحاريث",
+                "تكوينات ثقوب متنوعة",
+                "مناسبة للحراثة الخفيفة والمتوسطة والثقيلة",
+                "قطع غيار بجودة OEM وبأسعار تنافسية"
+            ],
+            ru: [
+                "Широкий размерный ряд: диаметр 10-36 дюймов, толщина 2-12 мм",
+                "Гладкие и зубчатые края для разных почв",
+                "Износостойкая сталь",
+                "Стандартная упаковка: 100, 50 или 25 шт. в коробке",
+                "Совместимость с большинством марок борон и плугов",
+                "Различные конфигурации отверстий",
+                "Подходит для легкой, средней и тяжелой обработки",
+                "Качество OEM по конкурентоспособной цене"
+            ],
+            pt: [
+                "Ampla gama de tamanhos: diâmetro de 10\" a 36\", espessura de 2mm a 12mm",
+                "Bordas lisas e dentadas para diferentes condições de solo",
+                "Aço resistente ao desgaste",
+                "Embalagem padrão: 100, 50 ou 25 peças por caixa",
+                "Compatível com a maioria das marcas de grades e arados",
+                "Configurações de furos variadas",
+                "Adequado para preparo do solo leve, médio e pesado",
+                "Peças de reposição com qualidade OEM a preço competitivo"
+            ]
+        },
+        specs: {
+            en: {
+                "Material": "Wear-resistant steel (Boron steel / 65Mn)",
+                "Type": "Plain / Notched",
+                "Diameter Range": "10\" - 36\" (254mm - 914mm)",
+                "Thickness Range": "2mm - 12mm",
+                "Weight Range": "0.86kg - 67.61kg",
+                "Package": "25 / 50 / 100 pcs per carton",
+                "Compatibility": "Disc harrows, disc ploughs, tillage equipment",
+                "Application": "Agricultural tillage, seedbed preparation, stubble cleaning"
+            },
+            es: {
+                "Material": "Acero resistente al desgaste (Boro / 65Mn)",
+                "Tipo": "Liso / Dentado",
+                "Diámetro": "10\" - 36\" (254mm - 914mm)",
+                "Espesor": "2mm - 12mm",
+                "Peso": "0.86kg - 67.61kg",
+                "Embalaje": "25 / 50 / 100 piezas por cajón",
+                "Compatibilidad": "Gradas y arados de discos",
+                "Aplicación": "Labranza agrícola, preparación de lecho de siembra"
+            },
+            fr: {
+                "Matériau": "Acier résistant à l'usure (Bore / 65Mn)",
+                "Type": "Lisse / Cranté",
+                "Diamètre": "10\" - 36\" (254mm - 914mm)",
+                "Épaisseur": "2mm - 12mm",
+                "Poids": "0.86kg - 67.61kg",
+                "Emballage": "25 / 50 / 100 pièces par carton",
+                "Compatibilité": "Herses et charrues à disques",
+                "Application": "Travail du sol agricole, préparation du lit de semences"
+            },
+            ar: {
+                "المادة": "صلب مقاوم للتآكل (صلب البورون / 65Mn)",
+                "النوع": "عادي / مسنن",
+                "القطر": "10 - 36 بوصة (254 - 914 ملم)",
+                "السماكة": "2 - 12 ملم",
+                "الوزن": "0.86 - 67.61 كجم",
+                "التغليف": "25 / 50 / 100 قطعة لكل كرتون",
+                "التوافق": "المشاط والمحاريث القرصية",
+                "التطبيق": "الحراثة الزراعية، تجهيز أحواض البذور"
+            },
+            ru: {
+                "Материал": "Износостойкая сталь (борсодержащая / 65Mn)",
+                "Тип": "Гладкий / Зубчатый",
+                "Диаметр": "10-36 дюймов (254-914 мм)",
+                "Толщина": "2-12 мм",
+                "Вес": "0.86-67.61 кг",
+                "Упаковка": "25 / 50 / 100 шт. в коробке",
+                "Совместимость": "Дисковые бороны и плуги",
+                "Применение": "Обработка почвы, подготовка грядок"
+            },
+            pt: {
+                "Material": "Aço resistente ao desgaste (Boro / 65Mn)",
+                "Tipo": "Liso / Dentado",
+                "Diâmetro": "10\" - 36\" (254mm - 914mm)",
+                "Espessura": "2mm - 12mm",
+                "Peso": "0.86kg - 67.61kg",
+                "Embalagem": "25 / 50 / 100 peças por caixa",
+                "Compatibilidade": "Grades e arados de discos",
+                "Aplicação": "Preparo do solo agrícola, preparação de canteiros"
+            }
+        },
+        inquiry: {
+            minOrder: "100 pcs (small sizes) / 25 pcs (large sizes)",
+            leadTime: "15-30 days",
+            warranty: "6-12 months",
+            moq: "25 pcs",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Disc harrow and disc plough replacement parts, agricultural tillage equipment maintenance",
+            customization: "Plain or notched design, size and thickness customization available"
+        }
+    },
 ];
 
 // ============================================================
