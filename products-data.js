@@ -1945,6 +1945,333 @@ const Products = [
             application: "Remote construction sites, road building, dam construction, infrastructure projects"
         }
     }
+        // ============================================================
+    //  🌾 农机具 → 播种机械 → 马铃薯播种机
+    // ============================================================
+    {
+        id: "PL-003",
+        category: "farm-machinery",
+        subCategory: "planting",
+        image: "/image/potatoplanter.jpg",
+        name: {
+            en: "2CM Series Potato Planter - Precision Potato Planting Machine",
+            es: "Sembradora de Patatas Serie 2CM - Máquina de Siembra de Precisión",
+            fr: "Planteuse de Pommes de Terre Série 2CM - Machine de Plantation de Précision",
+            ar: "آلة زراعة البطاطس سلسلة 2CM - آلة زراعة دقيقة",
+            ru: "Картофелесажалка серии 2CM - Прецизионная машина для посадки картофеля",
+            pt: "Plantadeira de Batata Série 2CM - Máquina de Plantio de Precisão"
+        },
+        desc: {
+            en: "The 2CM Series Potato Planter is a professional potato planting machine designed for efficient and precise tuber planting. Available in single-row, double-row, and double-row four-line configurations to suit different farm scales and soil conditions. Features adjustable row spacing, planting distance, and large seed and fertilizer tanks for continuous operation. Ideal for potato farmers looking to increase planting efficiency and crop yield.",
+            es: "La sembradora de patatas 2CM es una máquina profesional para siembra eficiente y precisa. Disponible en configuraciones de una fila, dos filas y dos filas de cuatro líneas. Ideal para agricultores que buscan aumentar la eficiencia y el rendimiento.",
+            fr: "La planteuse de pommes de terre 2CM est une machine professionnelle pour une plantation efficace et précise. Disponible en configurations mono-rang, double-rang et double-rang quatre lignes. Idéale pour les agriculteurs cherchant à augmenter leur rendement.",
+            ar: "آلة زراعة البطاطس 2CM هي آلة احترافية للزراعة الفعالة والدقيقة. متوفرة بتكوينات صف واحد، صف مزدوج، وصف مزدوج بأربعة خطوط. مثالية لزيادة كفاءة الزراعة والإنتاج.",
+            ru: "Картофелесажалка 2CM - профессиональная машина для эффективной и точной посадки. Доступна в конфигурациях с одним, двумя рядами и двумя рядами с четырьмя линиями. Идеально подходит для повышения эффективности и урожайности.",
+            pt: "A plantadeira de batata 2CM é uma máquina profissional para plantio eficiente e preciso. Disponível em configurações de uma linha, duas linhas e duas linhas com quatro fileiras. Ideal para aumentar a eficiência e a produtividade."
+        },
+        features: {
+            en: [
+                "Three configurable models: 2CM-1 (single row), 2CM-2 (double ridge), 2CM-2A (double ridge four lines)",
+                "Adjustable row spacing from 500-1000mm to suit different farming practices",
+                "Adjustable planting distance from 180-350mm for optimal tuber spacing",
+                "Large seed tank capacity (0.24m³ per row) for continuous operation",
+                "Integrated fertilizer tank for simultaneous fertilization",
+                "Working efficiency up to 1 hm²/h for large-scale planting",
+                "Compatible with 20-90 HP tractors",
+                "Durable construction with reliable planting mechanism"
+            ],
+            es: [
+                "Tres modelos configurables: 2CM-1, 2CM-2, 2CM-2A",
+                "Espaciado entre hileras ajustable 500-1000mm",
+                "Distancia de plantación ajustable 180-350mm",
+                "Gran capacidad de tolva de semillas 0.24m³",
+                "Tolva de fertilizante integrada",
+                "Eficiencia hasta 1 hm²/h",
+                "Compatible con tractores 20-90 HP",
+                "Construcción duradera"
+            ],
+            fr: [
+                "Trois modèles configurables: 2CM-1, 2CM-2, 2CM-2A",
+                "Espacement des rangs ajustable 500-1000mm",
+                "Distance de plantation ajustable 180-350mm",
+                "Grande capacité de trémie 0.24m³",
+                "Trémie d'engrais intégrée",
+                "Efficacité jusqu'à 1 hm²/h",
+                "Compatible avec tracteurs 20-90 HP",
+                "Construction durable"
+            ],
+            ar: [
+                "ثلاثة موديلات قابلة للتكوين: 2CM-1، 2CM-2، 2CM-2A",
+                "تباعد الصفوف قابل للتعديل 500-1000 ملم",
+                "مسافة الزراعة قابلة للتعديل 180-350 ملم",
+                "سعة خزان بذور كبيرة 0.24 م³",
+                "خزان أسمدة مدمج",
+                "كفاءة عمل تصل إلى 1 هكتار/ساعة",
+                "متوافق مع جرارات 20-90 حصان",
+                "بناء متين"
+            ],
+            ru: [
+                "Три конфигурации: 2CM-1, 2CM-2, 2CM-2A",
+                "Регулируемое расстояние между рядами 500-1000 мм",
+                "Регулируемое расстояние посадки 180-350 мм",
+                "Большой бункер для семян 0.24м³",
+                "Встроенный бункер для удобрений",
+                "Производительность до 1 га/ч",
+                "Совместимость с тракторами 20-90 л.с.",
+                "Прочная конструкция"
+            ],
+            pt: [
+                "Três modelos configuráveis: 2CM-1, 2CM-2, 2CM-2A",
+                "Espaçamento entre linhas ajustável 500-1000mm",
+                "Distância de plantio ajustável 180-350mm",
+                "Grande capacidade de depósito 0.24m³",
+                "Depósito de fertilizante integrado",
+                "Eficiência até 1 hm²/h",
+                "Compatível com tratores 20-90 HP",
+                "Construção durável"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "2CM-1 / 2CM-2 / 2CM-2A",
+                "Configuration": "Single row / Double ridge / Double ridge four lines",
+                "Weight": "180kg / 200kg / 380kg",
+                "Row Spacing": "500-800mm / 500-800mm / 500-1000mm",
+                "Planting Distance": "180-350mm (all models)",
+                "Seed Tank Capacity": "0.24m³ × 1 / 0.24m³ × 2 / 0.24m³ × 2",
+                "Fertilizer Tank": "0.08m³ × 1 / 0.08m³ × 1 / 0.08m³ × 2",
+                "Working Efficiency": "0.1-0.3 / 0.4-0.6 / 0.6-1 hm²/h",
+                "Matched Power": "20-35 HP / 20-35 HP / 50-90 HP"
+            },
+            es: {
+                "Modelos": "2CM-1 / 2CM-2 / 2CM-2A",
+                "Configuración": "Una fila / Doble surco / Doble surco cuatro líneas",
+                "Peso": "180kg / 200kg / 380kg",
+                "Espaciado": "500-800mm / 500-800mm / 500-1000mm",
+                "Distancia de siembra": "180-350mm",
+                "Capacidad de semillas": "0.24m³×1 / 0.24m³×2 / 0.24m³×2",
+                "Fertilizante": "0.08m³×1 / 0.08m³×1 / 0.08m³×2",
+                "Eficiencia": "0.1-0.3 / 0.4-0.6 / 0.6-1 hm²/h",
+                "Potencia": "20-35 HP / 20-35 HP / 50-90 HP"
+            },
+            fr: {
+                "Modèles": "2CM-1 / 2CM-2 / 2CM-2A",
+                "Configuration": "Monorang / Double rang / Double rang quatre lignes",
+                "Poids": "180kg / 200kg / 380kg",
+                "Espacement": "500-800mm / 500-800mm / 500-1000mm",
+                "Distance plantation": "180-350mm",
+                "Capacité semences": "0.24m³×1 / 0.24m³×2 / 0.24m³×2",
+                "Engrais": "0.08m³×1 / 0.08m³×1 / 0.08m³×2",
+                "Efficacité": "0.1-0.3 / 0.4-0.6 / 0.6-1 hm²/h",
+                "Puissance": "20-35 HP / 20-35 HP / 50-90 HP"
+            },
+            ar: {
+                "الموديلات": "2CM-1 / 2CM-2 / 2CM-2A",
+                "التكوين": "صف واحد / صف مزدوج / صف مزدوج أربعة خطوط",
+                "الوزن": "180 كجم / 200 كجم / 380 كجم",
+                "تباعد الصفوف": "500-800 ملم / 500-800 ملم / 500-1000 ملم",
+                "مسافة الزراعة": "180-350 ملم",
+                "سعة خزان البذور": "0.24 م³×1 / 0.24 م³×2 / 0.24 م³×2",
+                "خزان الأسمدة": "0.08 م³×1 / 0.08 م³×1 / 0.08 م³×2",
+                "الكفاءة": "0.1-0.3 / 0.4-0.6 / 0.6-1 هكتار/ساعة",
+                "القوة الملائمة": "20-35 حصان / 20-35 حصان / 50-90 حصان"
+            },
+            ru: {
+                "Модели": "2CM-1 / 2CM-2 / 2CM-2A",
+                "Конфигурация": "Однорядная / Двухрядная / Двухрядная четыре линии",
+                "Вес": "180кг / 200кг / 380кг",
+                "Расстояние": "500-800мм / 500-800мм / 500-1000мм",
+                "Расстояние посадки": "180-350мм",
+                "Бункер семян": "0.24м³×1 / 0.24м³×2 / 0.24м³×2",
+                "Удобрения": "0.08м³×1 / 0.08м³×1 / 0.08м³×2",
+                "Производительность": "0.1-0.3 / 0.4-0.6 / 0.6-1 га/ч",
+                "Мощность": "20-35 л.с. / 20-35 л.с. / 50-90 л.с."
+            },
+            pt: {
+                "Modelos": "2CM-1 / 2CM-2 / 2CM-2A",
+                "Configuração": "Uma linha / Duas linhas / Duas linhas quatro fileiras",
+                "Peso": "180kg / 200kg / 380kg",
+                "Espaçamento": "500-800mm / 500-800mm / 500-1000mm",
+                "Distância plantio": "180-350mm",
+                "Capacidade sementes": "0.24m³×1 / 0.24m³×2 / 0.24m³×2",
+                "Fertilizante": "0.08m³×1 / 0.08m³×1 / 0.08m³×2",
+                "Eficiência": "0.1-0.3 / 0.4-0.6 / 0.6-1 hm²/h",
+                "Potência": "20-35 HP / 20-35 HP / 50-90 HP"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Potato farming, large-scale agriculture, precision planting operations"
+        }
+    },
+
+    // ============================================================
+    //  🌾 农机具 → 收获机械 → 马铃薯收获机
+    // ============================================================
+    {
+        id: "HV-002",
+        category: "farm-machinery",
+        subCategory: "harvesting",
+        image: "/image/potatoharvester.jpg",
+        name: {
+            en: "4U Series Potato Harvester - Efficient Potato Digging & Collecting Machine",
+            es: "Cosechadora de Patatas Serie 4U - Máquina Eficiente de Recolección",
+            fr: "Arracheuse de Pommes de Terre Série 4U - Machine de Récolte Efficace",
+            ar: "آلة حصاد البطاطس سلسلة 4U - آلة حفر وجمع فعالة",
+            ru: "Картофелеуборочная машина серии 4U - Эффективная машина для копки и сбора",
+            pt: "Colhedora de Batata Série 4U - Máquina Eficiente de Escavação e Recolha"
+        },
+        desc: {
+            en: "The 4U Series Potato Harvester is a professional potato digging and collecting machine designed for efficient tuber harvesting. Available in single-row and double-row configurations with various functions including scattering, hand-tractor compatibility, and bunched dumping. Features adjustable row spacing, working depth, and high productivity. Ideal for potato farmers looking to reduce labor costs and increase harvesting efficiency.",
+            es: "La cosechadora de patatas 4U es una máquina profesional de recolección. Disponible en configuraciones de una y dos filas. Ideal para reducir costos laborales y aumentar la eficiencia.",
+            fr: "L'arracheuse de pommes de terre 4U est une machine professionnelle de récolte. Disponible en configurations mono-rang et double-rang. Idéale pour réduire les coûts de main-d'œuvre.",
+            ar: "آلة حصاد البطاطس 4U هي آلة احترافية للحفر والجمع. متوفرة بتكوينات صف واحد وصف مزدوج. مثالية لتقليل تكاليف العمالة.",
+            ru: "Картофелеуборочная машина 4U - профессиональная машина для копки и сбора. Доступна в однорядной и двухрядной конфигурациях.",
+            pt: "A colhedora de batata 4U é uma máquina profissional de escavação e recolha. Disponível em configurações de uma e duas linhas."
+        },
+        features: {
+            en: [
+                "Multiple models: 4U-1 (single row scattering), 4U-1A (hand tractor compatible), 4U-1B (bunched dumping), 4U-2/2B (double row bunched dumping)",
+                "Adjustable row spacing from 500-800mm to suit different row configurations",
+                "Adjustable working depth (200-250mm) for optimal tuber extraction",
+                "Working width up to 1300mm for double-row models",
+                "High productivity up to 8 mu/h for efficient harvesting",
+                "Compatible with 8-80 HP tractors across different models",
+                "Durable construction for long service life",
+                "Self-dumping and bunched discharge options for labor saving"
+            ],
+            es: [
+                "Múltiples modelos: 4U-1, 4U-1A, 4U-1B, 4U-2/2B",
+                "Espaciado ajustable 500-800mm",
+                "Profundidad ajustable 200-250mm",
+                "Ancho hasta 1300mm",
+                "Productividad hasta 8 mu/h",
+                "Compatibilidad con tractores 8-80 HP",
+                "Construcción duradera",
+                "Opciones de descarga automática"
+            ],
+            fr: [
+                "Modèles multiples: 4U-1, 4U-1A, 4U-1B, 4U-2/2B",
+                "Espacement ajustable 500-800mm",
+                "Profondeur ajustable 200-250mm",
+                "Largeur jusqu'à 1300mm",
+                "Productivité jusqu'à 8 mu/h",
+                "Compatibilité tracteurs 8-80 HP",
+                "Construction durable",
+                "Options de déchargement automatique"
+            ],
+            ar: [
+                "موديلات متعددة: 4U-1، 4U-1A، 4U-1B، 4U-2/2B",
+                "تباعد صفوف قابل للتعديل 500-800 ملم",
+                "عمق عمل قابل للتعديل 200-250 ملم",
+                "عرض عمل يصل إلى 1300 ملم",
+                "إنتاجية تصل إلى 8 مو/ساعة",
+                "متوافق مع جرارات 8-80 حصان",
+                "بناء متين",
+                "خيارات تفريغ ذاتي"
+            ],
+            ru: [
+                "Несколько моделей: 4U-1, 4U-1A, 4U-1B, 4U-2/2B",
+                "Регулируемое расстояние 500-800 мм",
+                "Регулируемая глубина 200-250 мм",
+                "Ширина до 1300 мм",
+                "Производительность до 8 му/ч",
+                "Совместимость с тракторами 8-80 л.с.",
+                "Прочная конструкция",
+                "Опции саморазгрузки"
+            ],
+            pt: [
+                "Múltiplos modelos: 4U-1, 4U-1A, 4U-1B, 4U-2/2B",
+                "Espaçamento ajustável 500-800mm",
+                "Profundidade ajustável 200-250mm",
+                "Largura até 1300mm",
+                "Produtividade até 8 mu/h",
+                "Compatibilidade com tratores 8-80 HP",
+                "Construção durável",
+                "Opções de descarga automática"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "4U-1 / 4U-1A / 4U-1B / 4U-2/2B",
+                "Rows": "Single / Single / Single / Double",
+                "Function": "Scattering / Hand tractor / Bunched dumping / Bunched dumping",
+                "Row Spacing": "550-800mm / 500-650mm / 550-800mm / 550-800mm",
+                "Working Depth": "250mm / 200mm / 250mm / 250mm",
+                "Working Width": "650mm / 560mm / 650mm / 1300mm",
+                "Weight": "180kg / 100kg / 120kg / 400-500kg",
+                "Productivity": "3-5 mu/h / - / - / 5-8 mu/h",
+                "Matched Power": "22-35 HP / 8-15 HP / 22-35 HP / 50-80 HP"
+            },
+            es: {
+                "Modelos": "4U-1 / 4U-1A / 4U-1B / 4U-2/2B",
+                "Filas": "Una / Una / Una / Doble",
+                "Función": "Esparcimiento / Tractor de mano / Apilado / Apilado",
+                "Espaciado": "550-800mm / 500-650mm / 550-800mm / 550-800mm",
+                "Profundidad": "250mm / 200mm / 250mm / 250mm",
+                "Ancho": "650mm / 560mm / 650mm / 1300mm",
+                "Peso": "180kg / 100kg / 120kg / 400-500kg",
+                "Productividad": "3-5 mu/h / - / - / 5-8 mu/h",
+                "Potencia": "22-35 HP / 8-15 HP / 22-35 HP / 50-80 HP"
+            },
+            fr: {
+                "Modèles": "4U-1 / 4U-1A / 4U-1B / 4U-2/2B",
+                "Rangs": "Un / Un / Un / Double",
+                "Fonction": "Épandage / Tracteur manuel / Déchargement / Déchargement",
+                "Espacement": "550-800mm / 500-650mm / 550-800mm / 550-800mm",
+                "Profondeur": "250mm / 200mm / 250mm / 250mm",
+                "Largeur": "650mm / 560mm / 650mm / 1300mm",
+                "Poids": "180kg / 100kg / 120kg / 400-500kg",
+                "Productivité": "3-5 mu/h / - / - / 5-8 mu/h",
+                "Puissance": "22-35 HP / 8-15 HP / 22-35 HP / 50-80 HP"
+            },
+            ar: {
+                "الموديلات": "4U-1 / 4U-1A / 4U-1B / 4U-2/2B",
+                "الصفوف": "واحد / واحد / واحد / مزدوج",
+                "الوظيفة": "نثر / جرار يدوي / تفريغ مكدس / تفريغ مكدس",
+                "تباعد الصفوف": "550-800 ملم / 500-650 ملم / 550-800 ملم / 550-800 ملم",
+                "عمق العمل": "250 ملم / 200 ملم / 250 ملم / 250 ملم",
+                "عرض العمل": "650 ملم / 560 ملم / 650 ملم / 1300 ملم",
+                "الوزن": "180 كجم / 100 كجم / 120 كجم / 400-500 كجم",
+                "الإنتاجية": "3-5 مو/ساعة / - / - / 5-8 مو/ساعة",
+                "القوة الملائمة": "22-35 حصان / 8-15 حصان / 22-35 حصان / 50-80 حصان"
+            },
+            ru: {
+                "Модели": "4U-1 / 4U-1A / 4U-1B / 4U-2/2B",
+                "Ряды": "Один / Один / Один / Двойной",
+                "Функция": "Разбрасывание / Мотоблок / Кучная выгрузка / Кучная выгрузка",
+                "Расстояние": "550-800мм / 500-650мм / 550-800мм / 550-800мм",
+                "Глубина": "250мм / 200мм / 250мм / 250мм",
+                "Ширина": "650мм / 560мм / 650мм / 1300мм",
+                "Вес": "180кг / 100кг / 120кг / 400-500кг",
+                "Производительность": "3-5 му/ч / - / - / 5-8 му/ч",
+                "Мощность": "22-35 л.с. / 8-15 л.с. / 22-35 л.с. / 50-80 л.с."
+            },
+            pt: {
+                "Modelos": "4U-1 / 4U-1A / 4U-1B / 4U-2/2B",
+                "Linhas": "Uma / Uma / Uma / Dupla",
+                "Função": "Espalhamento / Trator manual / Descarga / Descarga",
+                "Espaçamento": "550-800mm / 500-650mm / 550-800mm / 550-800mm",
+                "Profundidade": "250mm / 200mm / 250mm / 250mm",
+                "Largura": "650mm / 560mm / 650mm / 1300mm",
+                "Peso": "180kg / 100kg / 120kg / 400-500kg",
+                "Produtividade": "3-5 mu/h / - / - / 5-8 mu/h",
+                "Potência": "22-35 HP / 8-15 HP / 22-35 HP / 50-80 HP"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Potato harvesting, root crop harvesting, small to medium scale farming"
+        }
+    }
 ];
 
 // ============================================================
