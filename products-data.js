@@ -894,7 +894,8 @@ const Products = [
             pt: {"Inclui": "Filtros, Embreagem, Pastilhas, Rolamentos", "Compatibilidade": "JD, Farmtrac, Mahindra", "Qualidade": "Padrão OEM"}
         },
         inquiry: { minOrder: "5 kits", leadTime: "15-30 days", warranty: "6 months", moq: "5 kits" }
-    }    // ============================================================
+    },    
+    // ============================================================
     //  🏗️ 工程机械 → 挖掘机
     // ============================================================
     
