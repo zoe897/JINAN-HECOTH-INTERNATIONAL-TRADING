@@ -2271,6 +2271,459 @@ const Products = [
             shipping: "FOB Qingdao / CIF available",
             application: "Potato harvesting, root crop harvesting, small to medium scale farming"
         }
+    },
+        // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 圆盘犁系列
+    //  根据 product catalog_05.png 生成
+    // ============================================================
+     //  1LYT系列 单向圆盘犁 (2-7铧)
+    // ============================================================
+    {
+        id: "TL-004",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/1lyt.jpg",
+        name: {
+            en: "1LYT Series One-Way Disc Plough - Heavy-Duty Tillage Equipment",
+            es: "Arado de Discos Unidireccional Serie 1LYT - Equipo de Labranza Pesada",
+            fr: "Charrue à Disques Unidirectionnelle Série 1LYT - Matériel de Travail du Sol Lourd",
+            ar: "محراث قرصي أحادي الاتجاه سلسلة 1LYT - معدات حراثة ثقيلة",
+            ru: "Односторонний дисковый плуг серии 1LYT - Тяжелое почвообрабатывающее оборудование",
+            pt: "Arado de Discos Unidirecional Série 1LYT - Equipamento de Preparo do Solo Pesado"
+        },
+        desc: {
+            en: "The 1LYT Series One-Way Disc Plough is designed for ploughing cultivated land and virgin land, especially suitable for green manure fields with rice or wheat stubble. Features excellent soil penetration, good covering quality, and low working resistance. Available in 2 to 7 disc configurations with working widths from 500-1750mm. Ideal for large-scale farming operations requiring efficient primary tillage.",
+            es: "El arado de discos 1LYT está diseñado para tierras cultivadas y vírgenes. Excelente penetración y calidad de cobertura. Disponible en configuraciones de 2 a 7 discos.",
+            fr: "La charrue à disques 1LYT est conçue pour les terres cultivées et vierges. Excellente pénétration et qualité de couverture. Disponible en configurations de 2 à 7 disques.",
+            ar: "محراث الأقراص 1LYT مصمم للأراضي المزروعة والبكر. اختراق ممتاز وجودة تغطية. متوفر بتكوينات من 2 إلى 7 أقراص.",
+            ru: "Плуг 1LYT предназначен для пахотных и целинных земель. Отличное проникновение и качество укрытия. Доступен в конфигурациях от 2 до 7 дисков.",
+            pt: "O arado de discos 1LYT é projetado para terras cultivadas e virgens. Excelente penetração e qualidade de cobertura. Disponível em configurações de 2 a 7 discos."
+        },
+        features: {
+            en: [
+                "2 to 7 disc configurations for flexible working width selection",
+                "Working width from 500-1750mm to suit different tractor sizes",
+                "Working depth 250-350mm for deep tillage",
+                "Disc diameter 660/710mm for excellent soil penetration",
+                "Category II three-point linkage for easy mounting",
+                "Low working resistance for fuel efficiency",
+                "Durable construction for long service life",
+                "Suitable for stubble fields and virgin land"
+            ],
+            es: [
+                "Configuraciones de 2 a 7 discos",
+                "Ancho de trabajo 500-1750mm",
+                "Profundidad 250-350mm",
+                "Diámetro del disco 660/710mm",
+                "Enganche de tres puntos Categoría II",
+                "Baja resistencia al trabajo",
+                "Construcción duradera",
+                "Adecuado para rastrojos y tierras vírgenes"
+            ],
+            fr: [
+                "Configurations de 2 à 7 disques",
+                "Largeur de travail 500-1750mm",
+                "Profondeur 250-350mm",
+                "Diamètre du disque 660/710mm",
+                "Attelage trois points Catégorie II",
+                "Faible résistance au travail",
+                "Construction durable",
+                "Convient aux chaumes et terres vierges"
+            ],
+            ar: [
+                "تكوينات من 2 إلى 7 أقراص",
+                "عرض العمل 500-1750 ملم",
+                "عمق العمل 250-350 ملم",
+                "قطر القرص 660/710 ملم",
+                "توصيل ثلاث نقاط الفئة II",
+                "مقاومة عمل منخفضة",
+                "بناء متين",
+                "مناسب للحقول المزروعة والأراضي البكر"
+            ],
+            ru: [
+                "Конфигурации от 2 до 7 дисков",
+                "Рабочая ширина 500-1750 мм",
+                "Глубина 250-350 мм",
+                "Диаметр диска 660/710 мм",
+                "Трехточечная навеска категории II",
+                "Низкое сопротивление работе",
+                "Прочная конструкция",
+                "Подходит для стерни и целины"
+            ],
+            pt: [
+                "Configurações de 2 a 7 discos",
+                "Largura de trabalho 500-1750mm",
+                "Profundidade 250-350mm",
+                "Diâmetro do disco 660/710mm",
+                "Engate de três pontos Categoria II",
+                "Baixa resistência ao trabalho",
+                "Construção durável",
+                "Adequado para restolho e terras virgens"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1LYT-225J to 1LYTJ-725J",
+                "Discs": "2 / 3 / 4 / 5 / 6 / 7",
+                "Working Width": "500mm / 750mm / 1000mm / 1250mm / 1500mm / 1750mm",
+                "Working Depth": "250-350mm (all models)",
+                "Disc Diameter": "660/710mm",
+                "Weight": "350kg / 500kg / 600kg / 700kg / 800kg / 1150kg",
+                "Linkage": "Category II Three-Point Mounted"
+            },
+            es: {
+                "Modelos": "1LYT-225J a 1LYTJ-725J",
+                "Discos": "2 / 3 / 4 / 5 / 6 / 7",
+                "Ancho": "500mm / 750mm / 1000mm / 1250mm / 1500mm / 1750mm",
+                "Profundidad": "250-350mm",
+                "Diámetro": "660/710mm",
+                "Peso": "350kg / 500kg / 600kg / 700kg / 800kg / 1150kg",
+                "Enganche": "Tres Puntos Categoría II"
+            },
+            fr: {
+                "Modèles": "1LYT-225J à 1LYTJ-725J",
+                "Disques": "2 / 3 / 4 / 5 / 6 / 7",
+                "Largeur": "500mm / 750mm / 1000mm / 1250mm / 1500mm / 1750mm",
+                "Profondeur": "250-350mm",
+                "Diamètre": "660/710mm",
+                "Poids": "350kg / 500kg / 600kg / 700kg / 800kg / 1150kg",
+                "Attelage": "Trois Points Catégorie II"
+            },
+            ar: {
+                "الموديلات": "1LYT-225J إلى 1LYTJ-725J",
+                "الأقراص": "2 / 3 / 4 / 5 / 6 / 7",
+                "العرض": "500 ملم / 750 ملم / 1000 ملم / 1250 ملم / 1500 ملم / 1750 ملم",
+                "العمق": "250-350 ملم",
+                "القطر": "660/710 ملم",
+                "الوزن": "350 كجم / 500 كجم / 600 كجم / 700 كجم / 800 كجم / 1150 كجم",
+                "التوصيل": "ثلاث نقاط الفئة II"
+            },
+            ru: {
+                "Модели": "1LYT-225J до 1LYTJ-725J",
+                "Диски": "2 / 3 / 4 / 5 / 6 / 7",
+                "Ширина": "500мм / 750мм / 1000мм / 1250мм / 1500мм / 1750мм",
+                "Глубина": "250-350мм",
+                "Диаметр": "660/710мм",
+                "Вес": "350кг / 500кг / 600кг / 700кг / 800кг / 1150кг",
+                "Навеска": "Трехточечная категории II"
+            },
+            pt: {
+                "Modelos": "1LYT-225J a 1LYTJ-725J",
+                "Discos": "2 / 3 / 4 / 5 / 6 / 7",
+                "Largura": "500mm / 750mm / 1000mm / 1250mm / 1500mm / 1750mm",
+                "Profundidade": "250-350mm",
+                "Diâmetro": "660/710mm",
+                "Peso": "350kg / 500kg / 600kg / 700kg / 800kg / 1150kg",
+                "Engate": "Três Pontos Categoria II"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Primary tillage, stubble management, virgin land development, large-scale farming"
+        }
+    },
+
+
+    // ============================================================
+    //  1LYQ系列 单向圆盘犁 (轻量型)
+    // ============================================================
+    {
+        id: "TL-005",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/1lyq.jpg",
+        name: {
+            en: "1LYQ Series Light-Duty Disc Plough - Versatile Primary Tillage Tool",
+            es: "Arado de Discos Ligero Serie 1LYQ - Herramienta Versátil de Labranza",
+            fr: "Charrue à Disques Légère Série 1LYQ - Outil de Travail du Sol Polyvalent",
+            ar: "محراث قرصي خفيف سلسلة 1LYQ - أداة حراثة متعددة الاستخدامات",
+            ru: "Легкий дисковый плуг серии 1LYQ - Универсальное орудие для основной обработки",
+            pt: "Arado de Discos Leve Série 1LYQ - Ferramenta Versátil de Preparo do Solo"
+        },
+        desc: {
+            en: "The 1LYQ Series Light-Duty Disc Plough is a versatile primary tillage tool suitable for various soil conditions. Features 3-4 disc configurations with working widths from 460-800mm. Lightweight design reduces tractor power requirements while maintaining excellent soil penetration and covering quality. Ideal for small to medium farms and operations with lower horsepower tractors.",
+            es: "El arado 1LYQ es una herramienta versátil para diversas condiciones de suelo. Diseño ligero que reduce los requisitos de potencia. Ideal para granjas pequeñas y medianas.",
+            fr: "La charrue 1LYQ est un outil polyvalent pour diverses conditions de sol. Conception légère réduisant les besoins en puissance. Idéal pour les petites et moyennes exploitations.",
+            ar: "محراث 1LYQ هو أداة متعددة الاستخدامات لمختلف ظروف التربة. تصميم خفيف يقلل من متطلبات الطاقة. مثالي للمزارع الصغيرة والمتوسطة.",
+            ru: "Плуг 1LYQ - универсальное орудие для различных почвенных условий. Легкая конструкция снижает требования к мощности. Идеален для малых и средних ферм.",
+            pt: "O arado 1LYQ é uma ferramenta versátil para várias condições de solo. Design leve reduz os requisitos de potência. Ideal para pequenas e médias fazendas."
+        },
+        features: {
+            en: [
+                "3-4 disc configurations for flexible operation",
+                "Working width 460-800mm for versatile applications",
+                "Lightweight design (170-250kg) for easy handling",
+                "Disc diameter 450-510mm for good penetration",
+                "Category II three-point linkage",
+                "Low power requirement for smaller tractors",
+                "Easy operation and adjustment",
+                "Suitable for various soil conditions"
+            ],
+            es: [
+                "Configuraciones de 3-4 discos",
+                "Ancho 460-800mm",
+                "Diseño ligero 170-250kg",
+                "Diámetro 450-510mm",
+                "Enganche tres puntos Categoría II",
+                "Bajo requerimiento de potencia",
+                "Fácil operación y ajuste",
+                "Adecuado para varias condiciones de suelo"
+            ],
+            fr: [
+                "Configurations de 3-4 disques",
+                "Largeur 460-800mm",
+                "Conception légère 170-250kg",
+                "Diamètre 450-510mm",
+                "Attelage trois points Catégorie II",
+                "Faible besoin en puissance",
+                "Facile à utiliser et ajuster",
+                "Convient à diverses conditions de sol"
+            ],
+            ar: [
+                "تكوينات 3-4 أقراص",
+                "عرض 460-800 ملم",
+                "تصميم خفيف 170-250 كجم",
+                "قطر 450-510 ملم",
+                "توصيل ثلاث نقاط الفئة II",
+                "متطلبات طاقة منخفضة",
+                "تشغيل وتعديل سهل",
+                "مناسب لمختلف ظروف التربة"
+            ],
+            ru: [
+                "Конфигурации 3-4 дисков",
+                "Ширина 460-800 мм",
+                "Легкая конструкция 170-250 кг",
+                "Диаметр 450-510 мм",
+                "Трехточечная навеска категории II",
+                "Низкие требования к мощности",
+                "Легкая эксплуатация и регулировка",
+                "Подходит для различных почв"
+            ],
+            pt: [
+                "Configurações de 3-4 discos",
+                "Largura 460-800mm",
+                "Design leve 170-250kg",
+                "Diâmetro 450-510mm",
+                "Engate três pontos Categoria II",
+                "Baixo requisito de potência",
+                "Operação e ajuste fáceis",
+                "Adequado para várias condições de solo"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1LYQ-315 / 1LYQ-320 / 1LYQ-420",
+                "Discs": "3 / 3 / 4",
+                "Working Width": "460mm / 600mm / 800mm",
+                "Working Depth": "180mm / 200mm / 200mm",
+                "Disc Diameter": "450mm / 500mm / 510mm",
+                "Weight": "170kg / 190kg / 250kg",
+                "Linkage": "Category II Three-Point Mounted"
+            },
+            es: {
+                "Modelos": "1LYQ-315 / 1LYQ-320 / 1LYQ-420",
+                "Discos": "3 / 3 / 4",
+                "Ancho": "460mm / 600mm / 800mm",
+                "Profundidad": "180mm / 200mm / 200mm",
+                "Diámetro": "450mm / 500mm / 510mm",
+                "Peso": "170kg / 190kg / 250kg",
+                "Enganche": "Tres Puntos Categoría II"
+            },
+            fr: {
+                "Modèles": "1LYQ-315 / 1LYQ-320 / 1LYQ-420",
+                "Disques": "3 / 3 / 4",
+                "Largeur": "460mm / 600mm / 800mm",
+                "Profondeur": "180mm / 200mm / 200mm",
+                "Diamètre": "450mm / 500mm / 510mm",
+                "Poids": "170kg / 190kg / 250kg",
+                "Attelage": "Trois Points Catégorie II"
+            },
+            ar: {
+                "الموديلات": "1LYQ-315 / 1LYQ-320 / 1LYQ-420",
+                "الأقراص": "3 / 3 / 4",
+                "العرض": "460 ملم / 600 ملم / 800 ملم",
+                "العمق": "180 ملم / 200 ملم / 200 ملم",
+                "القطر": "450 ملم / 500 ملم / 510 ملم",
+                "الوزن": "170 كجم / 190 كجم / 250 كجم",
+                "التوصيل": "ثلاث نقاط الفئة II"
+            },
+            ru: {
+                "Модели": "1LYQ-315 / 1LYQ-320 / 1LYQ-420",
+                "Диски": "3 / 3 / 4",
+                "Ширина": "460мм / 600мм / 800мм",
+                "Глубина": "180мм / 200мм / 200мм",
+                "Диаметр": "450мм / 500мм / 510мм",
+                "Вес": "170кг / 190кг / 250кг",
+                "Навеска": "Трехточечная категории II"
+            },
+            pt: {
+                "Modelos": "1LYQ-315 / 1LYQ-320 / 1LYQ-420",
+                "Discos": "3 / 3 / 4",
+                "Largura": "460mm / 600mm / 800mm",
+                "Profundidade": "180mm / 200mm / 200mm",
+                "Diâmetro": "450mm / 500mm / 510mm",
+                "Peso": "170kg / 190kg / 250kg",
+                "Engate": "Três Pontos Categoria II"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Small to medium farms, green manure fields, stubble management, light to medium soil conditions"
+        }
+    },
+
+    // ============================================================
+    //  1LYX系列 重型圆盘犁 (复杂地形)
+    // ============================================================
+    {
+        id: "TL-006",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/1lyx-main.jpg",
+        name: {
+            en: "1LYX Series Heavy-Duty Disc Plough - Extreme Soil Condition Specialist",
+            es: "Arado de Discos Pesado Serie 1LYX - Especialista en Condiciones Extremas",
+            fr: "Charrue à Disques Lourde Série 1LYX - Spécialiste des Conditions Extrêmes",
+            ar: "محراث قرصي ثقيل سلسلة 1LYX - متخصص في ظروف التربة القاسية",
+            ru: "Тяжелый дисковый плуг серии 1LYX - Специалист по экстремальным почвам",
+            pt: "Arado de Discos Pesado Série 1LYX - Especialista em Condições Extremas"
+        },
+        desc: {
+            en: "The 1LYX Series Heavy-Duty Disc Plough is designed for challenging conditions including weedy fields, heavy soil resistance, and fields with stones and debris. Features rotating disc action that cuts through grass and stalks without clogging or blocking. Available in 2-6 disc configurations with working widths from 600-1800mm. Ideal for rough terrain and difficult ploughing conditions where standard ploughs fail.",
+            es: "El arado 1LYX está diseñado para condiciones difíciles: campos con maleza, resistencia pesada y piedras. Acción rotativa que corta sin obstrucciones. Ideal para terrenos difíciles.",
+            fr: "La charrue 1LYX est conçue pour les conditions difficiles. Action rotative qui coupe sans obstruction. Idéale pour les terrains difficiles.",
+            ar: "محراث 1LYX مصمم للظروف الصعبة. حركة دوارة تقطع دون انسداد. مثالي للأراضي الوعرة.",
+            ru: "Плуг 1LYX предназначен для сложных условий. Вращающееся действие режет без забивания. Идеален для пересеченной местности.",
+            pt: "O arado 1LYX é projetado para condições difíceis. Ação rotativa que corta sem obstrução. Ideal para terrenos acidentados."
+        },
+        features: {
+            en: [
+                "2-6 disc configurations for flexible operation",
+                "Working width 600-1800mm for various field sizes",
+                "Working depth 250-350mm for deep tillage",
+                "Rotating disc action prevents clogging and blocking",
+                "Cuts through grass, stalks, and crop residues easily",
+                "Overcomes stones and debris in the field",
+                "High working efficiency with good quality",
+                "Easy to adjust and durable construction"
+            ],
+            es: [
+                "Configuraciones 2-6 discos",
+                "Ancho 600-1800mm",
+                "Profundidad 250-350mm",
+                "Acción rotativa sin obstrucciones",
+                "Corta pasto y tallos fácilmente",
+                "Supera piedras y escombros",
+                "Alta eficiencia y calidad",
+                "Fácil ajuste y construcción duradera"
+            ],
+            fr: [
+                "Configurations 2-6 disques",
+                "Largeur 600-1800mm",
+                "Profondeur 250-350mm",
+                "Action rotative sans obstruction",
+                "Coupe herbe et tiges facilement",
+                "Surmonte pierres et débris",
+                "Haute efficacité et qualité",
+                "Réglage facile et construction durable"
+            ],
+            ar: [
+                "تكوينات 2-6 أقراص",
+                "عرض 600-1800 ملم",
+                "عمق 250-350 ملم",
+                "حركة دوارة تمنع الانسداد",
+                "يقطع الأعشاب والسيقان بسهولة",
+                "يتغلب على الحجارة والحطام",
+                "كفاءة عالية وجودة جيدة",
+                "تعديل سهل وبناء متين"
+            ],
+            ru: [
+                "Конфигурации 2-6 дисков",
+                "Ширина 600-1800 мм",
+                "Глубина 250-350 мм",
+                "Вращательное действие без забивания",
+                "Легко режет траву и стебли",
+                "Преодолевает камни и мусор",
+                "Высокая эффективность и качество",
+                "Легкая регулировка и прочная конструкция"
+            ],
+            pt: [
+                "Configurações 2-6 discos",
+                "Largura 600-1800mm",
+                "Profundidade 250-350mm",
+                "Ação rotativa sem obstrução",
+                "Corta grama e caules facilmente",
+                "Supera pedras e detritos",
+                "Alta eficiência e qualidade",
+                "Ajuste fácil e construção durável"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1LYX-230 / 1LYX-330 / 1LYX-430 / 1LYX-530 / 1LYX-630",
+                "Discs": "2 / 3 / 4 / 5 / 6",
+                "Working Width": "600mm / 900mm / 1200mm / 1500mm / 1800mm",
+                "Working Depth": "250-350mm (all models)",
+                "Weight": "280kg / 350kg / 430kg / 500kg / 580kg",
+                "Linkage": "Category II Three-Point Mounted"
+            },
+            es: {
+                "Modelos": "1LYX-230 / 1LYX-330 / 1LYX-430 / 1LYX-530 / 1LYX-630",
+                "Discos": "2 / 3 / 4 / 5 / 6",
+                "Ancho": "600mm / 900mm / 1200mm / 1500mm / 1800mm",
+                "Profundidad": "250-350mm",
+                "Peso": "280kg / 350kg / 430kg / 500kg / 580kg",
+                "Enganche": "Tres Puntos Categoría II"
+            },
+            fr: {
+                "Modèles": "1LYX-230 / 1LYX-330 / 1LYX-430 / 1LYX-530 / 1LYX-630",
+                "Disques": "2 / 3 / 4 / 5 / 6",
+                "Largeur": "600mm / 900mm / 1200mm / 1500mm / 1800mm",
+                "Profondeur": "250-350mm",
+                "Poids": "280kg / 350kg / 430kg / 500kg / 580kg",
+                "Attelage": "Trois Points Catégorie II"
+            },
+            ar: {
+                "الموديلات": "1LYX-230 / 1LYX-330 / 1LYX-430 / 1LYX-530 / 1LYX-630",
+                "الأقراص": "2 / 3 / 4 / 5 / 6",
+                "العرض": "600 ملم / 900 ملم / 1200 ملم / 1500 ملم / 1800 ملم",
+                "العمق": "250-350 ملم",
+                "الوزن": "280 كجم / 350 كجم / 430 كجم / 500 كجم / 580 كجم",
+                "التوصيل": "ثلاث نقاط الفئة II"
+            },
+            ru: {
+                "Модели": "1LYX-230 / 1LYX-330 / 1LYX-430 / 1LYX-530 / 1LYX-630",
+                "Диски": "2 / 3 / 4 / 5 / 6",
+                "Ширина": "600мм / 900мм / 1200мм / 1500мм / 1800мм",
+                "Глубина": "250-350мм",
+                "Вес": "280кг / 350кг / 430кг / 500кг / 580кг",
+                "Навеска": "Трехточечная категории II"
+            },
+            pt: {
+                "Modelos": "1LYX-230 / 1LYX-330 / 1LYX-430 / 1LYX-530 / 1LYX-630",
+                "Discos": "2 / 3 / 4 / 5 / 6",
+                "Largura": "600mm / 900mm / 1200mm / 1500mm / 1800mm",
+                "Profundidade": "250-350mm",
+                "Peso": "280kg / 350kg / 430kg / 500kg / 580kg",
+                "Engate": "Três Pontos Categoria II"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Weedy fields, stony terrain, heavy soil, rough farmland, challenging ploughing conditions"
+        }
     }
 ];
 
