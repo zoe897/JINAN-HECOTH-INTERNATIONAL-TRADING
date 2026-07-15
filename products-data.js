@@ -1397,7 +1397,7 @@ const Products = [
         id: "CM-006",
         category: "construction-machinery",
         subCategory: null,
-        image: "/image/telescopic handler.png",
+        image: "/image/teelescopic handler.png",
         name: {
             en: "HTG Telescopic Handler - High Reach Multi-Purpose Machine",
             es: "Manipulador Telescópico HTG - Máquina Multipropósito de Alto Alcance",
