@@ -478,48 +478,6 @@ const Products = [
         inquiry: { minOrder: "1 unit", leadTime: "15-30 days", warranty: "12 months", moq: "1 unit" }
     },
 
-    // ============================================================
-    //  🌽 农机具 → 收获机械 (Harvesting Equipment)
-    // ============================================================
-    {
-        id: "HV-001",
-        category: "farm-machinery",
-        subCategory: "harvesting",
-        image: "/image/combine-harvester.jpg",
-        name: {
-            en: "Grain Combine Harvester",
-            es: "Cosechadora Combinada de Granos",
-            fr: "Moissonneuse-Batteuse",
-            ar: "حصادة حبوب",
-            ru: "Зерноуборочный комбайн",
-            pt: "Colheitadeira Combinada de Grãos"
-        },
-        desc: {
-            en: "High-efficiency combine harvester for wheat, rice, corn, and soybean. Advanced cleaning system for clean grain.",
-            es: "Cosechadora combinada de alta eficiencia para trigo, arroz, maíz y soja. Sistema de limpieza avanzado para grano limpio.",
-            fr: "Moissonneuse-batteuse à haut rendement pour blé, riz, maïs et soja. Système de nettoyage avancé pour un grain propre.",
-            ar: "حصادة حبوب عالية الكفاءة للقمح والأرز والذرة وفول الصويا. نظام تنظيف متقدم للحبوب النظيفة.",
-            ru: "Высокоэффективный зерноуборочный комбайн для пшеницы, риса, кукурузы и сои. Усовершенствованная система очистки.",
-            pt: "Colheitadeira combinada de alta eficiência para trigo, arroz, milho e soja. Sistema de limpeza avançado para grãos limpos."
-        },
-        features: {
-            en: ["High efficiency harvesting", "Advanced cleaning system", "Adjustable cutting height", "Large grain tank", "Comfortable cab"],
-            es: ["Cosecha de alta eficiencia", "Sistema de limpieza avanzado", "Altura de corte ajustable", "Gran tanque de grano", "Cabina cómoda"],
-            fr: ["Récolte à haut rendement", "Système de nettoyage avancé", "Hauteur de coupe réglable", "Grand réservoir à grains", "Cabine confortable"],
-            ar: ["حصاد عالي الكفاءة", "نظام تنظيف متقدم", "ارتفاع قطع قابل للتعديل", "خزان حبوب كبير", "كابينة مريحة"],
-            ru: ["Высокоэффективная уборка", "Усовершенствованная система очистки", "Регулируемая высота среза", "Большой зерновой бункер", "Удобная кабина"],
-            pt: ["Colheita de alta eficiência", "Sistema de limpeza avançado", "Altura de corte ajustável", "Grande tanque de grãos", "Cabine confortável"]
-        },
-        specs: {
-            en: {"Cutting Width": "2.5-4.5m", "Engine Power": "80-200HP", "Grain Tank": "2-4m³", "Weight": "4500-8000kg"},
-            es: {"Ancho de corte": "2.5-4.5m", "Potencia": "80-200HP", "Tanque": "2-4m³", "Peso": "4500-8000kg"},
-            fr: {"Largeur de coupe": "2.5-4.5m", "Puissance": "80-200HP", "Réservoir": "2-4m³", "Poids": "4500-8000kg"},
-            ar: {"عرض القطع": "2.5-4.5 م", "القوة": "80-200 حصان", "الخزان": "2-4 م³", "الوزن": "4500-8000 كجم"},
-            ru: {"Ширина среза": "2.5-4.5 м", "Мощность": "80-200 л.с.", "Бункер": "2-4 м³", "Вес": "4500-8000 кг"},
-            pt: {"Largura de corte": "2.5-4.5m", "Potência": "80-200HP", "Tanque": "2-4m³", "Peso": "4500-8000kg"}
-        },
-        inquiry: { minOrder: "1 unit", leadTime: "30-45 days", warranty: "12 months", moq: "1 unit" }
-    },
 
     // ============================================================
     //  ✂️ 农机具 → 割草机械 (Mowing Equipment)
@@ -731,88 +689,7 @@ const Products = [
         },
         inquiry: { minOrder: "1 unit", leadTime: "15-30 days", warranty: "12 months", moq: "1 unit" }
     },
-    {
-        id: "CM-002",
-        category: "construction-machinery",
-        subCategory: null,
-        image: "/image/wheel-loader.jpg",
-        name: {
-            en: "Wheel Loader 3 Ton",
-            es: "Cargadora de Ruedas 3 Toneladas",
-            fr: "Chargeuse sur Pneus 3 Tonnes",
-            ar: "محمل بعجلات 3 طن",
-            ru: "Колёсный погрузчик 3 т",
-            pt: "Carregadora sobre Rodas 3 Toneladas"
-        },
-        desc: {
-            en: "Compact wheel loader for material handling in construction, farming, and landscaping. Reliable and easy to operate.",
-            es: "Cargadora de ruedas compacta para manejo de materiales en construcción, agricultura y paisajismo. Confiable y fácil de operar.",
-            fr: "Chargeuse sur pneus compacte pour la manutention de matériaux en construction, agriculture et paysagisme.",
-            ar: "محمل بعجلات مدمج لمناولة المواد في البناء والزراعة وتنسيق الحدائق.",
-            ru: "Компактный колёсный погрузчик для погрузочно-разгрузочных работ в строительстве, сельском хозяйстве и ландшафтном дизайне.",
-            pt: "Carregadora sobre rodas compacta para manuseio de materiais em construção, agricultura e paisagismo."
-        },
-        features: {
-            en: ["Powerful lifting capacity", "Compact design", "Easy operation", "Durable construction", "Versatile attachments"],
-            es: ["Capacidad de elevación potente", "Diseño compacto", "Operación fácil", "Construcción duradera", "Accesorios versátiles"],
-            fr: ["Puissante capacité de levage", "Conception compacte", "Utilisation facile", "Construction durable", "Accessoires polyvalents"],
-            ar: ["قدرة رفع قوية", "تصميم مدمج", "تشغيل سهل", "بناء متين", "ملحقات متنوعة"],
-            ru: ["Большая грузоподъемность", "Компактный дизайн", "Легкое управление", "Прочная конструкция", "Универсальные навески"],
-            pt: ["Forte capacidade de elevação", "Design compacto", "Operação fácil", "Construção durável", "Acessórios versáteis"]
-        },
-        specs: {
-            en: {"Bucket": "1.8m³", "Operating Weight": "5200kg", "Engine": "92HP", "Dump Height": "2.8m"},
-            es: {"Cucharón": "1.8m³", "Peso": "5200kg", "Motor": "92HP", "Altura": "2.8m"},
-            fr: {"Godet": "1.8m³", "Poids": "5200kg", "Moteur": "92HP", "Hauteur": "2.8m"},
-            ar: {"الدلو": "1.8 م³", "الوزن": "5200 كجم", "المحرك": "92 حصان", "الارتفاع": "2.8 م"},
-            ru: {"Ковш": "1.8 м³", "Вес": "5200 кг", "Двигатель": "92 л.с.", "Высота": "2.8 м"},
-            pt: {"Caçamba": "1.8m³", "Peso": "5200kg", "Motor": "92HP", "Altura": "2.8m"}
-        },
-        inquiry: { minOrder: "1 unit", leadTime: "15-30 days", warranty: "12 months", moq: "1 unit" }
-    },
 
-    // ============================================================
-    //  💧 灌溉设备 (Irrigation Equipment)
-    // ============================================================
-    {
-        id: "IR-001",
-        category: "irrigation",
-        subCategory: null,
-        image: "/image/drip-irrigation.jpg",
-        name: {
-            en: "Smart Drip Irrigation System",
-            es: "Sistema de Riego por Goteo Inteligente",
-            fr: "Système d'Irrigation Goutte-à-Goutte Intelligent",
-            ar: "نظام ري ذكي بالتنقيط",
-            ru: "Умная система капельного полива",
-            pt: "Sistema de Irrigação por Gotejamento Inteligente"
-        },
-        desc: {
-            en: "IoT-enabled smart drip irrigation system with remote monitoring and control. Save up to 40% water compared to traditional methods.",
-            es: "Sistema de riego por goteo inteligente con monitoreo y control remoto. Ahorra hasta 40% de agua comparado con métodos tradicionales.",
-            fr: "Système d'irrigation goutte-à-goutte intelligent avec surveillance et contrôle à distance. Économise jusqu'à 40% d'eau.",
-            ar: "نظام ري ذكي بالتنقيط مع مراقبة وتحكم عن بعد. يوفر ما يصل إلى 40% من الماء مقارنة بالطرق التقليدية.",
-            ru: "Умная система капельного полива с удаленным мониторингом и управлением. Экономит до 40% воды.",
-            pt: "Sistema de irrigação por gotejamento inteligente com monitoramento e controle remoto. Economiza até 40% de água."
-        },
-        features: {
-            en: ["WiFi/4G remote control", "Soil moisture sensors", "Precise water delivery", "Timer and scheduler", "Water saving up to 40%"],
-            es: ["Control remoto WiFi/4G", "Sensores de humedad del suelo", "Entrega precisa de agua", "Temporizador", "Ahorro de agua hasta 40%"],
-            fr: ["Contrôle à distance WiFi/4G", "Capteurs d'humidité du sol", "Distribution précise de l'eau", "Minuteur", "Économie d'eau jusqu'à 40%"],
-            ar: ["تحكم عن بعد WiFi/4G", "مستشعرات رطوبة التربة", "توصيل دقيق للماء", "مؤقت وجدولة", "توفير ماء يصل إلى 40%"],
-            ru: ["Удаленное управление WiFi/4G", "Датчики влажности почвы", "Точная подача воды", "Таймер и планировщик", "Экономия воды до 40%"],
-            pt: ["Controle remoto WiFi/4G", "Sensores de umidade do solo", "Entrega precisa de água", "Temporizador", "Economia de água até 40%"]
-        },
-        specs: {
-            en: {"Flow Rate": "2L/h per emitter", "Pressure": "1-4 bar", "Filter": "120 mesh", "Controller": "WiFi/4G"},
-            es: {"Caudal": "2L/h por gotero", "Presión": "1-4 bar", "Filtro": "120 mallas", "Controlador": "WiFi/4G"},
-            fr: {"Débit": "2L/h par goutteur", "Pression": "1-4 bar", "Filtre": "120 mailles", "Contrôleur": "WiFi/4G"},
-            ar: {"معدل التدفق": "2 لتر/ساعة لكل منقط", "الضغط": "1-4 بار", "الفلتر": "120 شبكة", "التحكم": "WiFi/4G"},
-            ru: {"Расход": "2 л/ч на один эмиттер", "Давление": "1-4 бар", "Фильтр": "120 меш", "Контроллер": "WiFi/4G"},
-            pt: {"Vazão": "2L/h por emissor", "Pressão": "1-4 bar", "Filtro": "120 malhas", "Controlador": "WiFi/4G"}
-        },
-        inquiry: { minOrder: "1000 meters", leadTime: "15-30 days", warranty: "12 months", moq: "500 meters" }
-    },
     {
         id: "IR-002",
         category: "irrigation",
@@ -852,49 +729,174 @@ const Products = [
         },
         inquiry: { minOrder: "10 units", leadTime: "15-30 days", warranty: "12 months", moq: "10 units" }
     },
-
-    // ============================================================
-    //  🔧 配件 (Spare Parts)
+        // ============================================================
+    //  💧 灌溉设备 → 卷盘式喷灌机
     // ============================================================
     {
-        id: "PT-001",
-        category: "parts",
+        id: "IR-003",
+        category: "irrigation",
         subCategory: null,
-        image: "/image/tractor-parts.jpg",
+        image: "/image/irrigation-reel.jpg",
         name: {
-            en: "Tractor Spare Parts Kit",
-            es: "Kit de Repuestos para Tractor",
-            fr: "Kit de Pièces Détachées pour Tracteur",
-            ar: "طقم قطع غيار الجرار",
-            ru: "Комплект запасных частей для трактора",
-            pt: "Kit de Peças de Reposição para Trator"
+            en: "Traveling Hose Reel Irrigation System - Large Area Sprinkler",
+            es: "Sistema de Riego por Carrete Enrollable - Aspersor de Gran Superficie",
+            fr: "Système d'Irrigation à Enrouleur Automatique - Asperseur Grande Surface",
+            ar: "نظام ري بخرطوم ملفوف - رشاش مساحات واسعة",
+            ru: "Дождевальная машина с наматывающимся шлангом - Орошение больших площадей",
+            pt: "Sistema de Irrigação com Carretel Enrolável - Aspersor de Grande Área"
         },
         desc: {
-            en: "Complete spare parts kit for tractors including filters, clutch discs, brake pads, and bearings. OEM quality guaranteed.",
-            es: "Kit completo de repuestos para tractores incluyendo filtros, discos de embrague, pastillas de freno y rodamientos.",
-            fr: "Kit complet de pièces détachées pour tracteurs comprenant filtres, disques d'embrayage, plaquettes de frein et roulements.",
-            ar: "طقم قطع غيار كامل للجرارات يشمل الفلاتر وأقراص القابض ووسائد الفرامل والمحامل.",
-            ru: "Полный комплект запасных частей для тракторов, включая фильтры, диски сцепления, тормозные колодки и подшипники.",
-            pt: "Kit completo de peças de reposição para tratores incluindo filtros, discos de embreagem, pastilhas de freio e rolamentos."
+            en: "The traveling hose reel irrigation system is a high-efficiency sprinkler designed for large-scale agricultural irrigation. Powered by water turbine or electric motor, it automatically rewinds the PE pipe while irrigating. Features uniform water distribution, low working pressure, excellent atomization, and significant water & energy savings. Ideal for grain crops, vegetables, orchards, and pasture irrigation.",
+            es: "El sistema de riego por carrete enrollable es un aspersor de alta eficiencia para riego agrícola a gran escala. Accionado por turbina hidráulica o motor eléctrico, enrolla automáticamente la tubería PE mientras riega. Ideal para cereales, hortalizas, frutales y pastos.",
+            fr: "Le système d'irrigation à enrouleur automatique est un asperseur haute efficacité pour l'irrigation agricole à grande échelle. Entraîné par turbine à eau ou moteur électrique, il enroule automatiquement le tuyau PE. Idéal pour les céréales, légumes, vergers et pâturages.",
+            ar: "نظام الري بخرطوم ملفوف هو رشاش عالي الكفاءة للري الزراعي واسع النطاق. يعمل بالتوربين المائي أو المحرك الكهربائي، ويلف الأنبوب تلقائياً. مثالي للحبوب والخضروات والبساتين والمراعي.",
+            ru: "Дождевальная машина с наматывающимся шлангом - высокоэффективная система для орошения больших площадей. Приводится в действие водяной турбиной или электродвигателем. Идеальна для зерновых, овощей, садов и пастбищ.",
+            pt: "O sistema de irrigação com carretel enrolável é um aspersor de alta eficiência para irrigação agrícola em grande escala. Acionado por turbina de água ou motor elétrico, enrola automaticamente o tubo PE. Ideal para grãos, vegetais, pomares e pastagens."
         },
         features: {
-            en: ["OEM quality", "Comprehensive kit", "Easy installation", "Durable materials", "Wide compatibility"],
-            es: ["Calidad OEM", "Kit completo", "Instalación fácil", "Materiales duraderos", "Amplia compatibilidad"],
-            fr: ["Qualité OEM", "Kit complet", "Installation facile", "Matériaux durables", "Large compatibilité"],
-            ar: ["جودة OEM", "طقم شامل", "تركيب سهل", "مواد متينة", "توافق واسع"],
-            ru: ["Качество OEM", "Комплектный набор", "Легкая установка", "Прочные материалы", "Широкая совместимость"],
-            pt: ["Qualidade OEM", "Kit abrangente", "Instalação fácil", "Materiais duráveis", "Ampla compatibilidade"]
+            en: [
+                "Electric motor or water turbine drive options for flexible power source",
+                "Automatic PE pipe rewind during operation — labor saving",
+                "360° rotation for full coverage irrigation",
+                "High-quality PE pipe — wear-resistant and anti-aging for long service life",
+                "Original Italian Sime gun with excellent atomization and long lifespan",
+                "Left-right swing arm drive for uniform water distribution",
+                "Excellent performance even at medium pressure",
+                "Auxiliary hydraulic support and wide anti-sink tires for stability in muddy fields"
+            ],
+            es: [
+                "Opciones de motor eléctrico o turbina hidráulica",
+                "Enrollado automático del tubo PE — ahorro de mano de obra",
+                "Rotación 360° para cobertura total",
+                "Tubo PE de alta calidad — resistente al desgaste",
+                "Pistola italiana Sime con excelente atomización",
+                "Brazo oscilante para distribución uniforme",
+                "Buen rendimiento incluso a presión media",
+                "Soporte hidráulico y neumáticos anchos"
+            ],
+            fr: [
+                "Options moteur électrique ou turbine à eau",
+                "Enroulement automatique du tuyau PE",
+                "Rotation 360° pour couverture totale",
+                "Tuyau PE de haute qualité",
+                "Pistolet italien Sime - excellente atomisation",
+                "Bras oscillant pour distribution uniforme",
+                "Bonnes performances à pression moyenne",
+                "Support hydraulique et pneus larges"
+            ],
+            ar: [
+                "خيارات محرك كهربائي أو توربين مائي",
+                "لف تلقائي لأنبوب PE",
+                "دوران 360 درجة لتغطية كاملة",
+                "أنبوب PE عالي الجودة",
+                "بندقية Sime إيطالية برذاذ ممتاز",
+                "ذراع متأرجح للتوزيع المتساوي",
+                "أداء جيد حتى في الضغط المتوسط",
+                "دعامة هيدروليكية وإطارات عريضة"
+            ],
+            ru: [
+                "Варианты электродвигателя или водяной турбины",
+                "Автоматическая намотка шланга",
+                "Поворот на 360° для полного покрытия",
+                "Высококачественный шланг PE",
+                "Итальянская пушка Sime",
+                "Качающийся механизм для равномерного распределения",
+                "Хорошая производительность при среднем давлении",
+                "Гидравлическая опора и широкие шины"
+            ],
+            pt: [
+                "Opções de motor elétrico ou turbina de água",
+                "Enrolamento automático do tubo PE",
+                "Rotação 360° para cobertura total",
+                "Tubo PE de alta qualidade",
+                "Pistola italiana Sime com excelente atomização",
+                "Braço oscilante para distribuição uniforme",
+                "Bom desempenho mesmo em pressão média",
+                "Suporte hidráulico e pneus largos"
+            ]
         },
         specs: {
-            en: {"Includes": "Filters, Clutch, Brake pads, Bearings", "Compatibility": "JD, Farmtrac, Mahindra", "Quality": "OEM Standard"},
-            es: {"Incluye": "Filtros, Embrague, Pastillas, Rodamientos", "Compatibilidad": "JD, Farmtrac, Mahindra", "Calidad": "Estándar OEM"},
-            fr: {"Comprend": "Filtres, Embrayage, Plaquettes, Roulements", "Compatibilité": "JD, Farmtrac, Mahindra", "Qualité": "Standard OEM"},
-            ar: {"يتضمن": "فلاتر، قابض، وسائد، محامل", "التوافق": "JD، Farmtrac، Mahindra", "الجودة": "معيار OEM"},
-            ru: {"Включает": "Фильтры, Сцепление, Колодки, Подшипники", "Совместимость": "JD, Farmtrac, Mahindra", "Качество": "Стандарт OEM"},
-            pt: {"Inclui": "Filtros, Embreagem, Pastilhas, Rolamentos", "Compatibilidade": "JD, Farmtrac, Mahindra", "Qualidade": "Padrão OEM"}
+            en: {
+                "Model": "75-300 / 75-400 (Electric / Water Turbine)",
+                "Machine Weight": "1570kg / 1690kg",
+                "PE Pipe Length": "300m / 400m",
+                "Nozzle Diameter": "14-20mm",
+                "Machine Size (L×W×H)": "5400×2340×2600mm",
+                "Tire Type": "10.0/80-12",
+                "Drive Type": "Electric Motor / Water Turbine",
+                "Rotation": "360°",
+                "Suitable For": "Grain crops, vegetables, orchards, pastures",
+                "Key Feature": "Automatic rewind, Italian gun, uniform distribution"
+            },
+            es: {
+                "Modelo": "75-300 / 75-400 (Eléctrico / Turbina)",
+                "Peso": "1570kg / 1690kg",
+                "Longitud tubo PE": "300m / 400m",
+                "Diámetro boquilla": "14-20mm",
+                "Tamaño (L×A×H)": "5400×2340×2600mm",
+                "Neumáticos": "10.0/80-12",
+                "Tipo de accionamiento": "Motor eléctrico / Turbina",
+                "Rotación": "360°",
+                "Adecuado para": "Cereales, verduras, frutales, pastos",
+                "Característica": "Enrollado automático, pistola italiana"
+            },
+            fr: {
+                "Modèle": "75-300 / 75-400 (Électrique / Turbine)",
+                "Poids": "1570kg / 1690kg",
+                "Longueur tuyau PE": "300m / 400m",
+                "Diamètre buse": "14-20mm",
+                "Taille (L×l×H)": "5400×2340×2600mm",
+                "Pneus": "10.0/80-12",
+                "Entraînement": "Moteur électrique / Turbine",
+                "Rotation": "360°",
+                "Convient": "Céréales, légumes, vergers, pâturages"
+            },
+            ar: {
+                "الموديل": "75-300 / 75-400 (كهربائي / توربين)",
+                "الوزن": "1570 كجم / 1690 كجم",
+                "طول أنبوب PE": "300 م / 400 م",
+                "قطر الفوهة": "14-20 ملم",
+                "الحجم (طول×عرض×ارتفاع)": "5400×2340×2600 ملم",
+                "الإطارات": "10.0/80-12",
+                "نوع التشغيل": "محرك كهربائي / توربين مائي",
+                "الدوران": "360°",
+                "مناسب لـ": "الحبوب والخضروات والبساتين والمراعي"
+            },
+            ru: {
+                "Модель": "75-300 / 75-400 (Электрический / Турбина)",
+                "Вес": "1570кг / 1690кг",
+                "Длина шланга": "300м / 400м",
+                "Диаметр сопла": "14-20мм",
+                "Размеры": "5400×2340×2600мм",
+                "Шины": "10.0/80-12",
+                "Привод": "Электродвигатель / Турбина",
+                "Поворот": "360°",
+                "Подходит для": "Зерновых, овощей, садов, пастбищ"
+            },
+            pt: {
+                "Modelo": "75-300 / 75-400 (Elétrico / Turbina)",
+                "Peso": "1570kg / 1690kg",
+                "Comprimento tubo PE": "300m / 400m",
+                "Diâmetro bocal": "14-20mm",
+                "Tamanho": "5400×2340×2600mm",
+                "Pneus": "10.0/80-12",
+                "Acionamento": "Motor elétrico / Turbina",
+                "Rotação": "360°",
+                "Adequado para": "Grãos, vegetais, pomares, pastagens"
+            }
         },
-        inquiry: { minOrder: "5 kits", leadTime: "15-30 days", warranty: "6 months", moq: "5 kits" }
-    },    
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale agricultural irrigation, grain crops, vegetables, orchards, pastures",
+            customization: "Electric motor or water turbine option available, pipe length 300m or 400m"
+        }
+    }，
+
+    
     // ============================================================
     //  🏗️ 工程机械 → 挖掘机
     // ============================================================
