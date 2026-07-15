@@ -1,11 +1,10 @@
-<!DOCTYPE html>
+<!DOCT<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Hecoth Agri Machinery - 17+ Years Experience</title>
-    <meta name="description" content="Jinan Hecoth International Trading Co., Ltd. - 17+ years of agricultural machinery export experience. Your reliable supply chain partner in China.">
-    <meta name="keywords" content="agricultural machinery supplier, China tractor exporter, farm equipment, construction machinery">
+    <title>About Hecoth | 17+ Years Agricultural Machinery Supply Chain Partner</title>
+    <meta name="description" content="Jinan Hecoth International Trading Co., Ltd. - Your trusted supply chain partner for agricultural machinery, tractors, and construction equipment with 17+ years of export experience.">
     <meta name="robots" content="index, follow">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -13,10 +12,10 @@
     <style>
         * { font-family: 'Inter', sans-serif; }
         :root { --primary: #2E7D32; --primary-dark: #1B5E20; --secondary: #43A047; --accent: #F9A825; }
-        .btn-primary { background-color: var(--primary); color: white; padding: 0.75rem 1.75rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
-        .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); }
-        .btn-outline { border: 2px solid var(--primary); color: var(--primary); padding: 0.6rem 1.5rem; border-radius: 0.5rem; font-weight: 500; transition: all 0.2s; background: transparent; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
-        .btn-outline:hover { background-color: var(--primary); color: white; }
+        .btn-primary { background-color: var(--primary); color: white; padding: 0.75rem 1.75rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; border: none; cursor: pointer; }
+        .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(46,125,50,0.3); }
+        .btn-accent { background-color: var(--accent); color: #1B1B1B; padding: 0.75rem 1.75rem; border-radius: 0.5rem; font-weight: 700; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; border: none; cursor: pointer; }
+        .btn-accent:hover { background-color: #FDD835; transform: translateY(-2px); }
         .nav-link { text-decoration: none; transition: color 0.2s; color: #4B5563; }
         .nav-link:hover { color: var(--primary); }
         .nav-link.active { color: var(--primary); font-weight: 600; }
@@ -26,12 +25,11 @@
         .lang-btn.active { background-color: var(--primary); color: white; }
         .lang-btn:not(.active):hover { background-color: #f3f4f6; }
         .bg-primary-gradient { background: linear-gradient(135deg, rgba(46,125,50,0.05) 0%, rgba(67,160,71,0.08) 100%); }
-        .value-card { background: white; border-radius: 1rem; padding: 1.5rem; border: 1px solid #e5e7eb; transition: all 0.3s; text-align: center; }
-        .value-card:hover { transform: translateY(-3px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: var(--primary); }
-        .value-icon { width: 4rem; height: 4rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; background: rgba(46,125,50,0.1); color: var(--primary); font-size: 1.5rem; }
-        .timeline-item { display: flex; gap: 1.5rem; padding-bottom: 1.5rem; border-left: 3px solid var(--primary); padding-left: 1.5rem; margin-left: 0.75rem; position: relative; }
-        .timeline-item::before { content: ''; width: 12px; height: 12px; background: var(--primary); border-radius: 50%; position: absolute; left: -7.5px; top: 4px; }
-        .timeline-item:last-child { border-left-color: transparent; }
+        .trust-badge { background: white; border-radius: 1rem; padding: 1.5rem; text-align: center; border: 1px solid #e5e7eb; transition: all 0.3s; }
+        .trust-badge:hover { transform: translateY(-3px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: var(--primary); }
+        .value-item { display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; border-bottom: 1px solid #f3f4f6; }
+        .value-item:last-child { border-bottom: none; }
+        .value-icon { width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(46,125,50,0.1); color: var(--primary); flex-shrink: 0; }
     </style>
 </head>
 <body>
@@ -75,80 +73,205 @@
     </div>
 </header>
 
-<!-- ===== ABOUT ===== -->
-<main class="py-12">
-    <div class="container mx-auto px-4 md:px-8">
-        <!-- Hero -->
-        <div class="text-center mb-12">
-            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-leaf mr-2"></i> About Us</span>
-            <h1 class="text-4xl font-bold mt-2">Jinan Hecoth International <span style="color:var(--primary)">Trading Co., Ltd.</span></h1>
-            <p class="text-gray-500 mt-3 max-w-2xl mx-auto">Your reliable agricultural machinery and supply chain partner in China since 2008</p>
+<!-- ===== MAIN ===== -->
+<main>
+    <!-- ===== HERO ===== -->
+    <section class="bg-primary-gradient py-16 md:py-20">
+        <div class="container mx-auto px-4 md:px-8 text-center">
+            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-leaf mr-2"></i> About Hecoth</span>
+            <h1 class="text-4xl md:text-5xl font-bold mt-3 leading-tight">
+                Your Reliable <span style="color:var(--primary)">Supply Chain Partner</span><br>
+                with <span style="color:var(--accent);">17+ Years</span> of Machinery Export Expertise
+            </h1>
+            <p class="text-gray-600 max-w-3xl mx-auto mt-4 text-lg leading-relaxed">
+                Jinan Hecoth International Trading Co., Ltd. is a professional international trading and supply chain company specializing in agricultural machinery, construction equipment, tractors, irrigation systems and related spare parts.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+                <a href="/contact.html" class="btn-accent"><i class="fas fa-paper-plane"></i> Let's Talk Business</a>
+                <a href="/products.html" class="btn-primary"><i class="fas fa-tractor"></i> Explore Our Products</a>
+            </div>
         </div>
+    </section>
 
-        <!-- Main Content -->
-        <div class="grid md:grid-cols-2 gap-12 items-start">
-            <div>
-                <div class="bg-primary-gradient rounded-2xl p-8 text-center border border-gray-200">
-                    <i class="fas fa-building text-6xl text-gray-400"></i>
-                    <p class="mt-4 text-gray-600 font-medium">Hecoth Headquarters</p>
-                    <p class="text-sm text-gray-500">Jinan, Shandong, China</p>
+    <!-- ===== TRUST BUILDING: 核心数据 ===== -->
+    <section class="py-12 bg-white border-b border-gray-100">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="trust-badge">
+                    <i class="fas fa-calendar-check text-3xl text-[#2E7D32]"></i>
+                    <p class="text-3xl font-bold mt-2">17+</p>
+                    <p class="text-sm text-gray-500">Years Industry Experience</p>
                 </div>
-                <div class="grid grid-cols-3 gap-3 mt-4">
-                    <div class="bg-gray-50 p-3 rounded-xl text-center"><i class="fas fa-map-marker-alt text-[#2E7D32]"></i><p class="text-xs mt-1">Shandong, China</p></div>
-                    <div class="bg-gray-50 p-3 rounded-xl text-center"><i class="fas fa-globe text-[#2E7D32]"></i><p class="text-xs mt-1">60+ Countries</p></div>
-                    <div class="bg-gray-50 p-3 rounded-xl text-center"><i class="fas fa-certificate text-[#2E7D32]"></i><p class="text-xs mt-1">ISO & CE</p></div>
+                <div class="trust-badge">
+                    <i class="fas fa-globe text-3xl text-[#2E7D32]"></i>
+                    <p class="text-3xl font-bold mt-2">60+</p>
+                    <p class="text-sm text-gray-500">Countries Served</p>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-building text-3xl text-[#2E7D32]"></i>
+                    <p class="text-3xl font-bold mt-2">5000+</p>
+                    <p class="text-sm text-gray-500">Units Delivered Annually</p>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-shield-alt text-3xl text-[#2E7D32]"></i>
+                    <p class="text-3xl font-bold mt-2">100%</p>
+                    <p class="text-sm text-gray-500">Quality Commitment</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- ===== MORE THAN A TRADING COMPANY ===== -->
+    <section class="py-16">
+        <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <p class="text-gray-600 leading-relaxed">Founded with a commitment to quality, Jinan Hecoth International Trading Co., Ltd. has been serving the agricultural sector for over <strong>17 years</strong>, providing reliable tractor and implement solutions. Our founder brings hands-on experience in international machinery export, factory management, supplier development and quality control.</p>
-                <p class="mt-3 text-gray-600 leading-relaxed">We understand both factory operations and overseas buyer expectations. We do not simply sell products — we help customers find reliable suppliers, reduce procurement risks, improve quality consistency, monitor production schedules, coordinate logistics efficiently, and build long-term supply chains.</p>
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-star mr-2"></i> More Than a Trading Company</span>
+                <h2 class="text-3xl font-bold mt-2">We Don't Just <span style="color:var(--primary)">Sell Products</span>. We Solve Problems.</h2>
+                <p class="mt-4 text-gray-600 leading-relaxed">
+                    Our founder brings over <strong>17 years of hands-on experience</strong> in international machinery export, factory management, supplier development and quality control. We understand both factory operations and overseas buyer expectations.
+                </p>
+                <p class="mt-3 text-gray-600 leading-relaxed">
+                    This allows us to effectively <strong>bridge the gap</strong> between manufacturers and global customers — helping you <strong>reduce procurement risks, improve quality consistency, and build long-term supply chains</strong>.
+                </p>
                 <div class="grid grid-cols-2 gap-3 mt-6">
-                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">17+ Years Export Experience</span></div>
-                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Global Service Network</span></div>
-                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Strict Quality Control</span></div>
-                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">OEM/ODM Available</span></div>
-                </div>
-                <div class="mt-6 p-4 bg-primary-gradient rounded-xl border-l-4 border-[#2E7D32]">
-                    <p class="italic text-gray-600 text-sm">"Quality is not inspected into a product at the end; it is managed throughout the entire process — from supplier selection to final delivery."</p>
-                    <p class="font-semibold mt-2 text-sm" style="color:var(--primary);">— Hecoth Quality Commitment</p>
+                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Reliable Sourcing</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Quality Control</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Production Monitoring</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Global Logistics</span></div>
                 </div>
             </div>
-        </div>
-
-        <!-- Values -->
-        <div class="mt-16">
-            <h2 class="text-2xl font-bold text-center">Our Core <span style="color:var(--primary)">Values</span></h2>
-            <div class="grid md:grid-cols-4 gap-6 mt-8">
-                <div class="value-card"><div class="value-icon"><i class="fas fa-handshake"></i></div><h3 class="font-bold">Trust</h3><p class="text-sm text-gray-500 mt-1">Building long-term partnerships</p></div>
-                <div class="value-card"><div class="value-icon"><i class="fas fa-medal"></i></div><h3 class="font-bold">Quality</h3><p class="text-sm text-gray-500 mt-1">ISO & CE certified products</p></div>
-                <div class="value-card"><div class="value-icon"><i class="fas fa-lightbulb"></i></div><h3 class="font-bold">Innovation</h3><p class="text-sm text-gray-500 mt-1">Continuous improvement</p></div>
-                <div class="value-card"><div class="value-icon"><i class="fas fa-globe-asia"></i></div><h3 class="font-bold">Global Reach</h3><p class="text-sm text-gray-500 mt-1">Serving 60+ countries</p></div>
+            <div class="bg-primary-gradient rounded-2xl p-6 border border-gray-200">
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                    <p class="text-center text-gray-700 italic leading-relaxed">
+                        "We understand factory operations and overseas buyer expectations. This allows us to bridge the gap between manufacturers and global customers."
+                    </p>
+                    <p class="text-center text-sm font-semibold text-[#2E7D32] mt-3">— Hecoth Founders' Philosophy</p>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- Timeline -->
-        <div class="mt-16 bg-gray-50 rounded-2xl p-8">
-            <h2 class="text-2xl font-bold text-center">Our <span style="color:var(--primary)">Journey</span></h2>
-            <div class="max-w-2xl mx-auto mt-8">
-                <div class="timeline-item"><div><h4 class="font-bold">2008 - Founded</h4><p class="text-sm text-gray-600">Jinan Hecoth established with a focus on agricultural machinery export</p></div></div>
-                <div class="timeline-item"><div><h4 class="font-bold">2010 - First Export</h4><p class="text-sm text-gray-600">First container of tractors shipped to Southeast Asia</p></div></div>
-                <div class="timeline-item"><div><h4 class="font-bold">2015 - Global Expansion</h4><p class="text-sm text-gray-600">Expanded to 30+ countries across 5 continents</p></div></div>
-                <div class="timeline-item"><div><h4 class="font-bold">2020 - Supply Chain Integration</h4><p class="text-sm text-gray-600">Developed comprehensive supply chain management system</p></div></div>
-                <div class="timeline-item"><div><h4 class="font-bold">2026 - Innovation & Growth</h4><p class="text-sm text-gray-600">Expanding product range and digital solutions</p></div></div>
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-handshake mr-2"></i> Why Customers Choose Us</span>
+                <h2 class="text-3xl font-bold mt-2">Value-Driven <span style="color:var(--primary)">Partnership</span></h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <div class="value-item bg-white rounded-xl shadow-sm p-5">
+                    <div class="value-icon"><i class="fas fa-search"></i></div>
+                    <div>
+                        <h4 class="font-bold">Find Reliable Suppliers</h4>
+                        <p class="text-sm text-gray-500">Strictly audited manufacturers with verified production capacity.</p>
+                    </div>
+                </div>
+                <div class="value-item bg-white rounded-xl shadow-sm p-5">
+                    <div class="value-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div>
+                        <h4 class="font-bold">Reduce Procurement Risks</h4>
+                        <p class="text-sm text-gray-500">Compliance review and risk assessment for every order.</p>
+                    </div>
+                </div>
+                <div class="value-item bg-white rounded-xl shadow-sm p-5">
+                    <div class="value-icon"><i class="fas fa-clipboard-check"></i></div>
+                    <div>
+                        <h4 class="font-bold">Improve Quality Consistency</h4>
+                        <p class="text-sm text-gray-500">Standardized QC process and regular batch inspections.</p>
+                    </div>
+                </div>
+                <div class="value-item bg-white rounded-xl shadow-sm p-5">
+                    <div class="value-icon"><i class="fas fa-clock"></i></div>
+                    <div>
+                        <h4 class="font-bold">Monitor Production Schedules</h4>
+                        <p class="text-sm text-gray-500">Real-time production tracking and status updates.</p>
+                    </div>
+                </div>
+                <div class="value-item bg-white rounded-xl shadow-sm p-5">
+                    <div class="value-icon"><i class="fas fa-ship"></i></div>
+                    <div>
+                        <h4 class="font-bold">Coordinate Logistics Efficiently</h4>
+                        <p class="text-sm text-gray-500">Optimized shipping solutions and full shipment tracking.</p>
+                    </div>
+                </div>
+                <div class="value-item bg-white rounded-xl shadow-sm p-5">
+                    <div class="value-icon"><i class="fas fa-link"></i></div>
+                    <div>
+                        <h4 class="font-bold">Build Long-Term Supply Chains</h4>
+                        <p class="text-sm text-gray-500">Sustainable supply chain solutions tailored to your needs.</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- CTA -->
-        <div class="mt-12 bg-primary-gradient rounded-2xl p-8 text-center border border-gray-200">
-            <h2 class="text-2xl font-bold" style="color:var(--primary);">🤝 Let's Grow Together</h2>
-            <p class="text-gray-600 mt-2">Partner with Hecoth for reliable agricultural machinery solutions</p>
-            <a href="/contact.html" class="btn-primary mt-4 inline-block">Contact Us Today →</a>
+    <!-- ===== QUALITY CONTROL & GLOBAL REACH ===== -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12">
+            <!-- 质量控制 -->
+            <div>
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-certificate mr-2"></i> Quality First</span>
+                <h3 class="text-2xl font-bold mt-2">Our Quality Control <span style="color:var(--primary)">Process</span></h3>
+                <div class="mt-4 space-y-3">
+                    <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
+                        <i class="fas fa-check-circle text-[#2E7D32] mt-0.5"></i>
+                        <div><span class="font-semibold">Before Production:</span> <span class="text-sm text-gray-600">Supplier audit & technical specification review</span></div>
+                    </div>
+                    <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
+                        <i class="fas fa-check-circle text-[#2E7D32] mt-0.5"></i>
+                        <div><span class="font-semibold">During Production:</span> <span class="text-sm text-gray-600">In-process inspection & real-time monitoring</span></div>
+                    </div>
+                    <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
+                        <i class="fas fa-check-circle text-[#2E7D32] mt-0.5"></i>
+                        <div><span class="font-semibold">Before Shipment:</span> <span class="text-sm text-gray-600">Final product inspection & packaging verification</span></div>
+                    </div>
+                    <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
+                        <i class="fas fa-check-circle text-[#2E7D32] mt-0.5"></i>
+                        <div><span class="font-semibold">Loading Supervision:</span> <span class="text-sm text-gray-600">Container loading supervision & document verification</span></div>
+                    </div>
+                </div>
+                <div class="mt-4 p-4 border-l-4 border-[#2E7D32] bg-primary-gradient rounded-r-lg">
+                    <p class="italic text-gray-600 text-sm">"Quality is not inspected into a product at the end; it is managed throughout the entire process."</p>
+                </div>
+            </div>
+            <!-- 全球市场 -->
+            <div>
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-globe mr-2"></i> Global Reach</span>
+                <h3 class="text-2xl font-bold mt-2">Serving <span style="color:var(--primary)">60+ Countries</span> Worldwide</h3>
+                <p class="mt-4 text-gray-600 leading-relaxed">
+                    Our reach is truly global. We proudly serve customers across <strong>South America, Africa, the Middle East, Asia, and Europe</strong>.
+                </p>
+                <p class="mt-2 text-gray-600 leading-relaxed">
+                    Our clientele includes distributors, importers, contractors, and large agricultural and government projects.
+                </p>
+                <div class="grid grid-cols-3 gap-3 mt-6">
+                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-americas text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1">South America</p></div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-africa text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1">Africa</p></div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-asia text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1">Middle East & Asia</p></div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-center col-span-3"><i class="fas fa-globe-europe text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1">Europe</p></div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- ===== FINAL CTA ===== -->
+    <section class="py-16 bg-primary-gradient border-t border-gray-200">
+        <div class="container mx-auto px-4 md:px-8 text-center max-w-3xl">
+            <h2 class="text-3xl font-bold" style="color:var(--primary);">🤝 Ready to Build a <span style="color:var(--accent);">Long-Term Partnership</span>?</h2>
+            <p class="text-gray-600 mt-3 text-lg">
+                Let's discuss your sourcing needs. We're here to help you save time, reduce risks, and improve efficiency.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+                <a href="/contact.html" class="btn-accent"><i class="fas fa-paper-plane"></i> Get a Quote Now</a>
+                <a href="https://wa.me/8619743003775" target="_blank" class="btn-whatsapp" style="background-color:#25D366; color:white; padding:0.75rem 1.75rem; border-radius:0.5rem; font-weight:600; display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none;"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+            </div>
+            <p class="text-sm text-gray-500 mt-4">📧 Email: zoe@annetop.com | 📞 Phone: +86 13066010625</p>
+        </div>
+    </section>
 </main>
 
 <!-- ===== FOOTER ===== -->
-<footer class="bg-[#111827] text-gray-400 pt-12 pb-6 mt-12">
+<footer class="bg-[#111827] text-gray-400 pt-12 pb-6">
     <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-4 gap-8">
         <div><i class="fas fa-leaf text-[#4CAF50] text-2xl"></i><span class="font-bold text-white text-xl ml-2">Hecoth Agri</span><p class="mt-3 text-sm">Jinan Hecoth International Trading Co., Ltd.</p></div>
         <div><h4 class="text-white font-semibold mb-3">Quick Links</h4><ul class="space-y-2"><li><a href="/" class="footer-link">Home</a></li><li><a href="/products.html" class="footer-link">Products</a></li><li><a href="/contact.html" class="footer-link">Contact</a></li></ul></div>
@@ -169,7 +292,12 @@
     }
     
     const savedLang = localStorage.getItem('hecoth_lang');
-    if (savedLang) { currentLang = savedLang; }
+    if (savedLang) { 
+        currentLang = savedLang;
+        document.querySelectorAll('.lang-btn').forEach(b => {
+            b.classList.toggle('active', b.getAttribute('data-lang') === savedLang);
+        });
+    }
     
     document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
         document.getElementById('mobileMenu').classList.toggle('hidden');
