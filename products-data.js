@@ -157,7 +157,7 @@ const Products = [
         id: "TR-001",
         category: "tractors",           // 一级分类
         subCategory: null,               // 拖拉机无二级分类
-        image: "/images/tractor-tts.jpg",
+        image: "/image/tractor-tts.jpg",
         name: {
             en: "TTS Series Tractor (35-40HP)",
             es: "Tractor Serie TTS (35-40HP)",
@@ -196,7 +196,7 @@ const Products = [
         id: "TR-002",
         category: "tractors",
         subCategory: null,
-        image: "/images/tractor-tte.jpg",
+        image: "/image/tractor-tte.jpg",
         name: {
             en: "TTE Series Tractor (50-80HP)",
             es: "Tractor Serie TTE (50-80HP)",
@@ -239,7 +239,7 @@ const Products = [
         id: "TL-001",
         category: "farm-machinery",
         subCategory: "tillage",
-        image: "/images/disc-plough.jpg",
+        image: "/image/disc-plough.jpg",
         name: {
             en: "1LY Series Disc Plough",
             es: "Arado de Discos Serie 1LY",
@@ -278,7 +278,7 @@ const Products = [
         id: "TL-002",
         category: "farm-machinery",
         subCategory: "tillage",
-        image: "/images/disc-harrow.jpg",
+        image: "/image/disc-harrow.jpg",
         name: {
             en: "1BZ Hydraulic Disc Harrow",
             es: "Grada de Discos Hidráulica 1BZ",
@@ -317,7 +317,7 @@ const Products = [
         id: "TL-003",
         category: "farm-machinery",
         subCategory: "tillage",
-        image: "/images/subsoiler.jpg",
+        image: "/image/subsoiler.jpg",
         name: {
             en: "3S Series Subsoiler",
             es: "Subsolador Serie 3S",
@@ -360,7 +360,7 @@ const Products = [
         id: "PL-001",
         category: "farm-machinery",
         subCategory: "planting",
-        image: "/images/corn-seeder.jpg",
+        image: "/image/corn-seeder.jpg",
         name: {
             en: "Precision Corn Seeder",
             es: "Sembradora de Precisión para Maíz",
@@ -399,7 +399,7 @@ const Products = [
         id: "PL-002",
         category: "farm-machinery",
         subCategory: "planting",
-        image: "/images/spreader.jpg",
+        image: "/image/spreader.jpg",
         name: {
             en: "CRD Fertilizer Spreader",
             es: "Esparcidor de Fertilizante CRD",
@@ -442,7 +442,7 @@ const Products = [
         id: "CU-001",
         category: "farm-machinery",
         subCategory: "cultivation",
-        image: "/images/cultivator.jpg",
+        image: "/image/cultivator.jpg",
         name: {
             en: "3ZT Series Cultivator",
             es: "Cultivador Serie 3ZT",
@@ -485,7 +485,7 @@ const Products = [
         id: "HV-001",
         category: "farm-machinery",
         subCategory: "harvesting",
-        image: "/images/combine-harvester.jpg",
+        image: "/image/combine-harvester.jpg",
         name: {
             en: "Grain Combine Harvester",
             es: "Cosechadora Combinada de Granos",
@@ -528,7 +528,7 @@ const Products = [
         id: "MW-001",
         category: "farm-machinery",
         subCategory: "mowing",
-        image: "/images/disc-mower.jpg",
+        image: "/image/disc-mower.jpg",
         name: {
             en: "Disc Mower",
             es: "Segadora de Discos",
@@ -571,7 +571,7 @@ const Products = [
         id: "FT-001",
         category: "farm-machinery",
         subCategory: "fertilizing",
-        image: "/images/fertilizer-spreader.jpg",
+        image: "/image/fertilizer-spreader.jpg",
         name: {
             en: "Tractor Mounted Fertilizer Spreader",
             es: "Esparcidor de Fertilizante Montado",
@@ -614,7 +614,7 @@ const Products = [
         id: "OT-001",
         category: "farm-machinery",
         subCategory: "other-farm",
-        image: "/images/trailer.jpg",
+        image: "/image/trailer.jpg",
         name: {
             en: "7C Series Farm Trailer",
             es: "Remolque Agrícola Serie 7C",
@@ -653,7 +653,7 @@ const Products = [
         id: "OT-002",
         category: "farm-machinery",
         subCategory: "other-farm",
-        image: "/images/rotary-tiller.jpg",
+        image: "/image/rotary-tiller.jpg",
         name: {
             en: "1GN Series Rotary Tiller",
             es: "Cultivador Rotativo Serie 1GN",
@@ -696,7 +696,7 @@ const Products = [
         id: "CM-001",
         category: "construction-machinery",
         subCategory: null,
-        image: "/images/excavator-ht85w.jpg",
+        image: "/image/excavator-ht85w.jpg",
         name: {
             en: "HT85W Wheel Excavator",
             es: "Excavadora de Ruedas HT85W",
@@ -735,7 +735,7 @@ const Products = [
         id: "CM-002",
         category: "construction-machinery",
         subCategory: null,
-        image: "/images/wheel-loader.jpg",
+        image: "/image/wheel-loader.jpg",
         name: {
             en: "Wheel Loader 3 Ton",
             es: "Cargadora de Ruedas 3 Toneladas",
@@ -778,7 +778,7 @@ const Products = [
         id: "IR-001",
         category: "irrigation",
         subCategory: null,
-        image: "/images/drip-irrigation.jpg",
+        image: "/image/drip-irrigation.jpg",
         name: {
             en: "Smart Drip Irrigation System",
             es: "Sistema de Riego por Goteo Inteligente",
@@ -817,7 +817,7 @@ const Products = [
         id: "IR-002",
         category: "irrigation",
         subCategory: null,
-        image: "/images/sprayer-lithium.jpg",
+        image: "/image/sprayer-lithium.jpg",
         name: {
             en: "Lithium Battery Sprayer",
             es: "Pulverizador a Batería de Litio",
@@ -860,7 +860,7 @@ const Products = [
         id: "PT-001",
         category: "parts",
         subCategory: null,
-        image: "/images/tractor-parts.jpg",
+        image: "/image/tractor-parts.jpg",
         name: {
             en: "Tractor Spare Parts Kit",
             es: "Kit de Repuestos para Tractor",
