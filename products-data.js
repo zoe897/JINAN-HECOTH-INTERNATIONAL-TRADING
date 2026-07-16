@@ -3360,6 +3360,759 @@ const Products = [
             customization: "Plain or notched design, size and thickness customization available"
         }
     },
+        // ============================================================
+    //  🚜 拖拉机 → TTB系列 (90-120HP 重型拖拉机)
+    // ============================================================
+    {
+        id: "TR-003",
+        category: "tractors",
+        subCategory: null,
+        image: "/image/tractor-ttb.jpg",
+        name: {
+            en: "TTB Series Heavy-Duty Tractor (90-120HP) - Large Scale Farming Power",
+            es: "Tractor Pesado Serie TTB (90-120HP) - Potencia para Agricultura a Gran Escala",
+            fr: "Tracteur Lourd Série TTB (90-120HP) - Puissance pour l'Agriculture à Grande Échelle",
+            ar: "جرار ثقيل سلسلة TTB (90-120 حصان) - قوة للزراعة واسعة النطاق",
+            ru: "Тяжелый трактор серии TTB (90-120 л.с.) - Мощность для крупномасштабного сельского хозяйства",
+            pt: "Trator Pesado Série TTB (90-120HP) - Potência para Agricultura em Grande Escala"
+        },
+        desc: {
+            en: "The TTB Series heavy-duty tractor delivers 90-120HP of reliable power for large-scale farming operations. Features a 12×12 transmission with shuttle shift for wide speed range, strong hydraulic lifting capacity, and double-speed PTO. The streamline hood design offers excellent visibility while the side-shifting transmission ensures easy operation. Ideal for heavy tillage, transport, and demanding agricultural applications.",
+            es: "El tractor pesado TTB ofrece 90-120HP de potencia confiable para operaciones agrícolas a gran escala. Transmisión 12×12 con cambio de lanzadera, fuerte capacidad de elevación hidráulica y TDF de doble velocidad. Ideal para labranza pesada y transporte.",
+            fr: "Le tracteur lourd TTB offre 90-120HP de puissance fiable pour les opérations agricoles à grande échelle. Transmission 12×12 avec navette, forte capacité de levage hydraulique et prise de force à double vitesse.",
+            ar: "يوفر الجرار الثقيل TTB قوة 90-120 حصاناً للعمليات الزراعية واسعة النطاق. ناقل حركة 12×12 مع مكوك، قدرة رفع هيدروليكية قوية، و PTO مزدوج السرعة.",
+            ru: "Тяжелый трактор TTB обеспечивает 90-120 л.с. надежной мощности для крупномасштабных сельскохозяйственных работ. Трансмиссия 12×12, мощная гидравлика и двойной ВОМ.",
+            pt: "O trator pesado TTB oferece 90-120HP de potência confiável para operações agrícolas em grande escala. Transmissão 12×12 com shuttle, forte capacidade de elevação hidráulica e TDP de dupla velocidade."
+        },
+        features: {
+            en: [
+                "12×12 transmission with shuttle shift for wide speed range and easy operation",
+                "Streamline hood design for improved visibility and elegant appearance",
+                "Side-shifting transmission with compact structure and optimized layout",
+                "Strong hydraulic lifting capacity for heavy implements",
+                "Double-speed PTO (540/720 rpm) for versatile implement matching",
+                "Stepless rear wheel adjustment for wide application range",
+                "Short wheelbase with small turning radius for excellent maneuverability",
+                "Optional dual-stage clutch for enhanced working efficiency",
+                "High traction force (≥19.7kN) for demanding field conditions",
+                "Available in 90HP (TTB904), 100HP (TTB1004), and 120HP (TTB1204) models"
+            ],
+            es: [
+                "Transmisión 12×12 con cambio de lanzadera",
+                "Diseño de capó aerodinámico",
+                "Transmisión lateral con estructura compacta",
+                "Fuerte capacidad de elevación hidráulica",
+                "TDF de doble velocidad (540/720 rpm)",
+                "Ajuste trasero sin escalas",
+                "Radio de giro reducido",
+                "Embrague de doble etapa opcional",
+                "Fuerza de tracción ≥19.7kN",
+                "Modelos de 90HP, 100HP y 120HP"
+            ],
+            fr: [
+                "Transmission 12×12 avec navette",
+                "Capot profilé pour meilleure visibilité",
+                "Transmission latérale compacte",
+                "Forte capacité de levage hydraulique",
+                "Prise de force double vitesse (540/720 rpm)",
+                "Réglage arrière sans graduation",
+                "Rayon de braquage réduit",
+                "Embrayage double étage optionnel",
+                "Force de traction ≥19.7kN",
+                "Modèles 90HP, 100HP et 120HP"
+            ],
+            ar: [
+                "ناقل حركة 12×12 مع مكوك",
+                "تصميم غطاء انسيابي",
+                "ناقل حركة جانبي مدمج",
+                "قدرة رفع هيدروليكية قوية",
+                "PTO مزدوج السرعة (540/720 دورة)",
+                "تعديل خلفي غير متدرج",
+                "نصف قطر دوران صغير",
+                "قابض مزدوج المرحلة اختياري",
+                "قوة جر ≥19.7 كيلو نيوتن",
+                "موديلات 90 و 100 و 120 حصاناً"
+            ],
+            ru: [
+                "Трансмиссия 12×12 с шаттлом",
+                "Обтекаемый капот",
+                "Боковая компактная трансмиссия",
+                "Мощная гидравлика",
+                "Двойной ВОМ (540/720 об/мин)",
+                "Бесступенчатая регулировка",
+                "Малый радиус поворота",
+                "Опциональное двухдисковое сцепление",
+                "Сила тяги ≥19.7 кН",
+                "Модели 90, 100 и 120 л.с."
+            ],
+            pt: [
+                "Transmissão 12×12 com shuttle",
+                "Design de capô aerodinâmico",
+                "Transmissão lateral compacta",
+                "Forte capacidade de elevação hidráulica",
+                "TDP de dupla velocidade (540/720 rpm)",
+                "Ajuste traseiro sem degraus",
+                "Raio de viragem reduzido",
+                "Embreagem de dupla etapa opcional",
+                "Força de tração ≥19.7kN",
+                "Modelos 90HP, 100HP e 120HP"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "TTB904 / TTB1004 / TTB1204",
+                "Engine Power": "66.2kW (90HP) / 73.5kW (100HP) / 88.2kW (120HP)",
+                "PTO Speed": "540/720 rpm (dual speed)",
+                "Transmission": "12×12 with shuttle shift",
+                "Front Tread": "1350, 1450, 1550mm (adjustable)",
+                "Rear Tread": "1500-1800mm (stepless adjustable)",
+                "Max Traction Force": "≥19.7kN",
+                "Wheelbase": "Short wheelbase for maneuverability",
+                "Hydraulic System": "Strong pressure lifter",
+                "Clutch": "Optional dual-stage clutch",
+                "Steering": "Hydraulic power steering"
+            },
+            es: {
+                "Modelo": "TTB904 / TTB1004 / TTB1204",
+                "Potencia": "66.2kW (90HP) / 73.5kW (100HP) / 88.2kW (120HP)",
+                "Velocidad TDF": "540/720 rpm (doble velocidad)",
+                "Transmisión": "12×12 con cambio de lanzadera",
+                "Vía delantera": "1350, 1450, 1550mm (ajustable)",
+                "Vía trasera": "1500-1800mm (ajuste sin escalas)",
+                "Tracción máxima": "≥19.7kN",
+                "Sistema hidráulico": "Elevador de presión fuerte",
+                "Embrague": "Doble etapa opcional",
+                "Dirección": "Dirección hidráulica asistida"
+            },
+            fr: {
+                "Modèle": "TTB904 / TTB1004 / TTB1204",
+                "Puissance": "66.2kW (90HP) / 73.5kW (100HP) / 88.2kW (120HP)",
+                "Vitesse PTO": "540/720 rpm (double vitesse)",
+                "Transmission": "12×12 avec navette",
+                "Voie avant": "1350, 1450, 1550mm (réglable)",
+                "Voie arrière": "1500-1800mm (réglage continu)",
+                "Traction max": "≥19.7kN",
+                "Système hydraulique": "Vérin à pression forte",
+                "Embrayage": "Double étage optionnel",
+                "Direction": "Direction hydraulique assistée"
+            },
+            ar: {
+                "الموديل": "TTB904 / TTB1004 / TTB1204",
+                "قوة المحرك": "66.2 كيلوواط (90 حصان) / 73.5 كيلوواط (100 حصان) / 88.2 كيلوواط (120 حصان)",
+                "سرعة PTO": "540/720 دورة/دقيقة (سرعة مزدوجة)",
+                "ناقل الحركة": "12×12 مع مكوك",
+                "المسار الأمامي": "1350، 1450، 1550 ملم (قابل للتعديل)",
+                "المسار الخلفي": "1500-1800 ملم (تعديل مستمر)",
+                "قوة الجر القصوى": "≥19.7 كيلو نيوتن",
+                "النظام الهيدروليكي": "رافع ضغط قوي",
+                "القابض": "مزدوج المرحلة اختياري",
+                "التوجيه": "توجيه هيدروليكي معزز"
+            },
+            ru: {
+                "Модель": "TTB904 / TTB1004 / TTB1204",
+                "Мощность": "66.2кВт (90 л.с.) / 73.5кВт (100 л.с.) / 88.2кВт (120 л.с.)",
+                "Скорость ВОМ": "540/720 об/мин (двойная)",
+                "Трансмиссия": "12×12 с шаттлом",
+                "Передняя колея": "1350, 1450, 1550 мм (регулируемая)",
+                "Задняя колея": "1500-1800 мм (бесступенчатая)",
+                "Тяговое усилие": "≥19.7 кН",
+                "Гидравлика": "Мощный подъемник",
+                "Сцепление": "Опциональное двухдисковое",
+                "Рулевое": "Гидроусилитель"
+            },
+            pt: {
+                "Modelo": "TTB904 / TTB1004 / TTB1204",
+                "Potência": "66.2kW (90HP) / 73.5kW (100HP) / 88.2kW (120HP)",
+                "Velocidade TDP": "540/720 rpm (dupla velocidade)",
+                "Transmissão": "12×12 com shuttle",
+                "Via dianteira": "1350, 1450, 1550mm (ajustável)",
+                "Via traseira": "1500-1800mm (ajuste contínuo)",
+                "Tração máxima": "≥19.7kN",
+                "Sistema hidráulico": "Elevador de pressão forte",
+                "Embreagem": "Dupla etapa opcional",
+                "Direção": "Direção hidráulica assistida"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale farming, heavy tillage, transport, plantation operations"
+        }
+    },
+        // ============================================================
+    //  🚜 拖拉机 → TTE系列 (70-80HP 中马力拖拉机)
+    // ============================================================
+    {
+        id: "TR-004",
+        category: "tractors",
+        subCategory: null,
+        image: "/image/tractor-tte-70-80.jpg",
+        name: {
+            en: "TTE Series Medium-Duty Tractor (70-80HP) - Versatile Farm Power",
+            es: "Tractor de Potencia Media Serie TTE (70-80HP) - Potencia Agrícola Versátil",
+            fr: "Tracteur de Puissance Moyenne Série TTE (70-80HP) - Puissance Agricole Polyvalente",
+            ar: "جرار متوسط القدرة سلسلة TTE (70-80 حصان) - قوة زراعية متعددة الاستخدامات",
+            ru: "Трактор средней мощности серии TTE (70-80 л.с.) - Универсальная сельхозмощность",
+            pt: "Trator de Potência Média Série TTE (70-80HP) - Potência Agrícola Versátil"
+        },
+        desc: {
+            en: "The TTE Series medium-duty tractor delivers 70-80HP of reliable power for versatile farming operations. Features an 8+2 transmission with optional shuttle shift for wide speed range, strong hydraulic lifting capacity up to 14.11kN, and double-speed PTO (540/720 rpm). The streamline hood design offers excellent visibility while the side-shifting transmission ensures compact structure and easy operation. Ideal for diversified farming, medium-scale tillage, transport, and implement operations.",
+            es: "El tractor de potencia media TTE ofrece 70-80HP de potencia confiable para operaciones agrícolas versátiles. Transmisión 8+2 con cambio de lanzadera opcional, capacidad de elevación hidráulica de hasta 14.11kN y TDF de doble velocidad. Ideal para agricultura diversificada y labranza mediana.",
+            fr: "Le tracteur de puissance moyenne TTE offre 70-80HP de puissance fiable pour des opérations agricoles polyvalentes. Transmission 8+2 avec navette optionnelle, capacité de levage hydraulique jusqu'à 14.11kN et prise de force double vitesse.",
+            ar: "يوفر الجرار متوسط القدرة TTE قوة 70-80 حصاناً للعمليات الزراعية المتنوعة. ناقل حركة 8+2 مع مكوك اختياري، قدرة رفع هيدروليكية تصل إلى 14.11 كيلو نيوتن، و PTO مزدوج السرعة.",
+            ru: "Трактор средней мощности TTE обеспечивает 70-80 л.с. надежной мощности для разнообразных сельхозработ. Трансмиссия 8+2 с опциональным шаттлом, гидравлика до 14.11 кН, двойной ВОМ.",
+            pt: "O trator de potência média TTE oferece 70-80HP de potência confiável para operações agrícolas versáteis. Transmissão 8+2 com shuttle opcional, capacidade de elevação hidráulica até 14.11kN e TDP de dupla velocidade."
+        },
+        features: {
+            en: [
+                "8+2 transmission with optional shuttle shift for wide speed range",
+                "Streamline hood design for improved visibility and elegant appearance",
+                "Side-shifting transmission with compact structure and optimized layout",
+                "Strong hydraulic lifting capacity up to 14.11kN for medium implements",
+                "Double-speed PTO (540/720 rpm) for versatile implement matching",
+                "Stepless rear wheel adjustment for wide application range",
+                "Short wheelbase with small turning radius for excellent maneuverability",
+                "Optional dual-stage clutch for enhanced working efficiency",
+                "High traction force (≥15.69kN) for demanding field conditions",
+                "Available in 70HP (TTE700/704) and 80HP (TTE800/804) models with 2WD/4WD options"
+            ],
+            es: [
+                "Transmisión 8+2 con cambio de lanzadera opcional",
+                "Diseño de capó aerodinámico",
+                "Transmisión lateral con estructura compacta",
+                "Capacidad de elevación hidráulica hasta 14.11kN",
+                "TDF de doble velocidad (540/720 rpm)",
+                "Ajuste trasero sin escalas",
+                "Radio de giro reducido",
+                "Embrague de doble etapa opcional",
+                "Fuerza de tracción ≥15.69kN",
+                "Modelos de 70HP y 80HP con opción 2WD/4WD"
+            ],
+            fr: [
+                "Transmission 8+2 avec navette optionnelle",
+                "Capot profilé pour meilleure visibilité",
+                "Transmission latérale compacte",
+                "Capacité de levage hydraulique jusqu'à 14.11kN",
+                "Prise de force double vitesse (540/720 rpm)",
+                "Réglage arrière sans graduation",
+                "Rayon de braquage réduit",
+                "Embrayage double étage optionnel",
+                "Force de traction ≥15.69kN",
+                "Modèles 70HP et 80HP avec option 2WD/4WD"
+            ],
+            ar: [
+                "ناقل حركة 8+2 مع مكوك اختياري",
+                "تصميم غطاء انسيابي",
+                "ناقل حركة جانبي مدمج",
+                "قدرة رفع هيدروليكية تصل إلى 14.11 كيلو نيوتن",
+                "PTO مزدوج السرعة (540/720 دورة)",
+                "تعديل خلفي غير متدرج",
+                "نصف قطر دوران صغير",
+                "قابض مزدوج المرحلة اختياري",
+                "قوة جر ≥15.69 كيلو نيوتن",
+                "موديلات 70 و 80 حصاناً مع خيار 2WD/4WD"
+            ],
+            ru: [
+                "Трансмиссия 8+2 с опциональным шаттлом",
+                "Обтекаемый капот",
+                "Боковая компактная трансмиссия",
+                "Гидравлика до 14.11 кН",
+                "Двойной ВОМ (540/720 об/мин)",
+                "Бесступенчатая регулировка",
+                "Малый радиус поворота",
+                "Опциональное двухдисковое сцепление",
+                "Сила тяги ≥15.69 кН",
+                "Модели 70 и 80 л.с. с опцией 2WD/4WD"
+            ],
+            pt: [
+                "Transmissão 8+2 com shuttle opcional",
+                "Design de capô aerodinâmico",
+                "Transmissão lateral compacta",
+                "Capacidade de elevação hidráulica até 14.11kN",
+                "TDP de dupla velocidade (540/720 rpm)",
+                "Ajuste traseiro sem degraus",
+                "Raio de viragem reduzido",
+                "Embreagem de dupla etapa opcional",
+                "Força de tração ≥15.69kN",
+                "Modelos 70HP e 80HP com opção 2WD/4WD"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "TTE700 / TTE704 / TTE800 / TTE804",
+                "Engine Power": "51.5kW (70HP) / 58.8kW (80HP)",
+                "PTO Speed": "540/720 rpm (dual speed)",
+                "Transmission": "8+2 with optional shuttle shift",
+                "Front Tread": "1130, 1230, 1330, 1430mm (adjustable) / 1180, 1400mm (adjustable)",
+                "Rear Tread": "1100-1500mm (stepless adjustable)",
+                "Max Traction Force": "≥9.3kN (2WD) / ≥15.69kN (4WD)",
+                "Max Lift Force": "12.36kN / 14.11kN",
+                "Wheelbase": "Short wheelbase for maneuverability",
+                "Hydraulic System": "Strong pressure lifter",
+                "Clutch": "Optional dual-stage clutch",
+                "Steering": "Hydraulic power steering",
+                "Drive Options": "2WD (TTE700/800) / 4WD (TTE704/804)"
+            },
+            es: {
+                "Modelo": "TTE700 / TTE704 / TTE800 / TTE804",
+                "Potencia": "51.5kW (70HP) / 58.8kW (80HP)",
+                "Velocidad TDF": "540/720 rpm (doble velocidad)",
+                "Transmisión": "8+2 con cambio de lanzadera opcional",
+                "Vía delantera": "1130, 1230, 1330, 1430mm (ajustable) / 1180, 1400mm (ajustable)",
+                "Vía trasera": "1100-1500mm (ajuste sin escalas)",
+                "Tracción máxima": "≥9.3kN (2WD) / ≥15.69kN (4WD)",
+                "Elevación máxima": "12.36kN / 14.11kN",
+                "Sistema hidráulico": "Elevador de presión fuerte",
+                "Embrague": "Doble etapa opcional",
+                "Dirección": "Dirección hidráulica asistida",
+                "Opciones de tracción": "2WD / 4WD"
+            },
+            fr: {
+                "Modèle": "TTE700 / TTE704 / TTE800 / TTE804",
+                "Puissance": "51.5kW (70HP) / 58.8kW (80HP)",
+                "Vitesse PTO": "540/720 rpm (double vitesse)",
+                "Transmission": "8+2 avec navette optionnelle",
+                "Voie avant": "1130, 1230, 1330, 1430mm (réglable) / 1180, 1400mm (réglable)",
+                "Voie arrière": "1100-1500mm (réglage continu)",
+                "Traction max": "≥9.3kN (2WD) / ≥15.69kN (4WD)",
+                "Levage max": "12.36kN / 14.11kN",
+                "Système hydraulique": "Vérin à pression forte",
+                "Embrayage": "Double étage optionnel",
+                "Direction": "Direction hydraulique assistée",
+                "Options de traction": "2WD / 4WD"
+            },
+            ar: {
+                "الموديل": "TTE700 / TTE704 / TTE800 / TTE804",
+                "قوة المحرك": "51.5 كيلوواط (70 حصان) / 58.8 كيلوواط (80 حصان)",
+                "سرعة PTO": "540/720 دورة/دقيقة (سرعة مزدوجة)",
+                "ناقل الحركة": "8+2 مع مكوك اختياري",
+                "المسار الأمامي": "1130، 1230، 1330، 1430 ملم (قابل للتعديل) / 1180، 1400 ملم (قابل للتعديل)",
+                "المسار الخلفي": "1100-1500 ملم (تعديل مستمر)",
+                "قوة الجر القصوى": "≥9.3 كيلو نيوتن (2WD) / ≥15.69 كيلو نيوتن (4WD)",
+                "قوة الرفع القصوى": "12.36 كيلو نيوتن / 14.11 كيلو نيوتن",
+                "النظام الهيدروليكي": "رافع ضغط قوي",
+                "القابض": "مزدوج المرحلة اختياري",
+                "التوجيه": "توجيه هيدروليكي معزز",
+                "خيارات الدفع": "2WD / 4WD"
+            },
+            ru: {
+                "Модель": "TTE700 / TTE704 / TTE800 / TTE804",
+                "Мощность": "51.5кВт (70 л.с.) / 58.8кВт (80 л.с.)",
+                "Скорость ВОМ": "540/720 об/мин (двойная)",
+                "Трансмиссия": "8+2 с опциональным шаттлом",
+                "Передняя колея": "1130, 1230, 1330, 1430 мм / 1180, 1400 мм",
+                "Задняя колея": "1100-1500 мм (бесступенчатая)",
+                "Тяговое усилие": "≥9.3 кН (2WD) / ≥15.69 кН (4WD)",
+                "Подъемная сила": "12.36 кН / 14.11 кН",
+                "Гидравлика": "Мощный подъемник",
+                "Сцепление": "Опциональное двухдисковое",
+                "Рулевое": "Гидроусилитель",
+                "Опции привода": "2WD / 4WD"
+            },
+            pt: {
+                "Modelo": "TTE700 / TTE704 / TTE800 / TTE804",
+                "Potência": "51.5kW (70HP) / 58.8kW (80HP)",
+                "Velocidade TDP": "540/720 rpm (dupla velocidade)",
+                "Transmissão": "8+2 com shuttle opcional",
+                "Via dianteira": "1130, 1230, 1330, 1430mm (ajustável) / 1180, 1400mm (ajustável)",
+                "Via traseira": "1100-1500mm (ajuste contínuo)",
+                "Tração máxima": "≥9.3kN (2WD) / ≥15.69kN (4WD)",
+                "Elevação máxima": "12.36kN / 14.11kN",
+                "Sistema hidráulico": "Elevador de pressão forte",
+                "Embreagem": "Dupla etapa opcional",
+                "Direção": "Direção hidráulica assistida",
+                "Opções de tração": "2WD / 4WD"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Medium-scale farming, diversified agriculture, transport, implement operations, orchard work"
+        }
+    },
+        // ============================================================
+    //  🚜 拖拉机 → TTS系列 (45-50HP 果园/温室专用拖拉机)
+    // ============================================================
+    {
+        id: "TR-005",
+        category: "tractors",
+        subCategory: null,
+        image: "/image/tractor-tts-45-50.jpg",
+        name: {
+            en: "TTS Series Orchard & Greenhouse Tractor (45-50HP) - Narrow Width Specialist",
+            es: "Tractor para Huertos e Invernaderos Serie TTS (45-50HP) - Especialista en Anchura Estrecha",
+            fr: "Tracteur de Verger et Serre Série TTS (45-50HP) - Spécialiste de la Largeur Étroite",
+            ar: "جرار البساتين والدفيئات سلسلة TTS (45-50 حصان) - متخصص في العرض الضيق",
+            ru: "Трактор для садов и теплиц серии TTS (45-50 л.с.) - Специалист по узкой колее",
+            pt: "Trator para Pomares e Estufas Série TTS (45-50HP) - Especialista em Largura Estreita"
+        },
+        desc: {
+            en: "The TTS Series Orchard & Greenhouse Tractor delivers 45-50HP of reliable power in a narrow-width design (as narrow as 960mm wheel track). Features 8+2 transmission with optional 10+2, dual-speed PTO (540/750/1000 rpm), and hydraulic power steering. High ground clearance ensures excellent passability in rough terrain. Optional multi-channel hydraulic output for various implements. Ideal for orchards, vineyards, greenhouses, and specialized crop farming.",
+            es: "El tractor para huertos e invernaderos TTS ofrece 45-50HP de potencia confiable en diseño de anchura estrecha (hasta 960mm de vía). Transmisión 8+2 con opción 10+2, TDF de doble velocidad y dirección hidráulica. Ideal para huertos, viñedos e invernaderos.",
+            fr: "Le tracteur de verger et serre TTS offre 45-50HP de puissance fiable en conception étroite (voie jusqu'à 960mm). Transmission 8+2 avec option 10+2, prise de force double vitesse et direction hydraulique. Idéal pour les vergers, vignobles et serres.",
+            ar: "يوفر جرار البساتين والدفيئات TTS قوة 45-50 حصاناً بتصميم ضيق (مسار يصل إلى 960 ملم). ناقل حركة 8+2 مع خيار 10+2، PTO مزدوج السرعة وتوجيه هيدروليكي. مثالي للبساتين والكروم والدفيئات.",
+            ru: "Трактор для садов и теплиц TTS обеспечивает 45-50 л.с. в узком исполнении (колея до 960 мм). Трансмиссия 8+2 с опцией 10+2, двойной ВОМ и гидравлическое рулевое. Идеален для садов, виноградников и теплиц.",
+            pt: "O trator para pomares e estufas TTS oferece 45-50HP de potência confiável em design de largura estreita (via até 960mm). Transmissão 8+2 com opção 10+2, TDP de dupla velocidade e direção hidráulica. Ideal para pomares, vinhedos e estufas."
+        },
+        features: {
+            en: [
+                "Narrow wheel track design (960mm optional) for orchard and greenhouse operations",
+                "8+2 transmission with optional 10+2 for flexible speed matching",
+                "Dual-speed PTO (540/750/1000 rpm) for versatile implement matching",
+                "Hydraulic power steering for easy and precise operation",
+                "High ground clearance for excellent passability in rough terrain",
+                "Optional multi-channel hydraulic output for various implements",
+                "Optional dual-stage clutch for enhanced working efficiency",
+                "China Stage III emission-compliant engine with high torque reserve",
+                "Multiple engine brand options (Laidong, Xichai, etc.) for customer preference",
+                "Available in 45HP (TTS450/454) and 50HP (TTS500/504) models with 2WD/4WD options"
+            ],
+            es: [
+                "Diseño de vía estrecha (960mm opcional) para huertos e invernaderos",
+                "Transmisión 8+2 con opción 10+2",
+                "TDF de doble velocidad (540/750/1000 rpm)",
+                "Dirección hidráulica asistida",
+                "Alta distancia al suelo",
+                "Salida hidráulica multicanal opcional",
+                "Embrague de doble etapa opcional",
+                "Motor con emisiones China Etapa III",
+                "Múltiples opciones de motor (Laidong, Xichai, etc.)",
+                "Modelos de 45HP y 50HP con opción 2WD/4WD"
+            ],
+            fr: [
+                "Conception de voie étroite (960mm optionnel) pour vergers et serres",
+                "Transmission 8+2 avec option 10+2",
+                "Prise de force double vitesse (540/750/1000 rpm)",
+                "Direction hydraulique assistée",
+                "Garde au sol élevée",
+                "Sortie hydraulique multicanal optionnelle",
+                "Embrayage double étage optionnel",
+                "Moteur conforme aux émissions Chine Stage III",
+                "Multiples options de moteur (Laidong, Xichai, etc.)",
+                "Modèles 45HP et 50HP avec option 2WD/4WD"
+            ],
+            ar: [
+                "تصميم مسار ضيق (960 ملم اختياري) للبساتين والدفيئات",
+                "ناقل حركة 8+2 مع خيار 10+2",
+                "PTO مزدوج السرعة (540/750/1000 دورة)",
+                "توجيه هيدروليكي معزز",
+                "خلوص أرضي عالٍ",
+                "مخرج هيدروليكي متعدد القنوات اختياري",
+                "قابض مزدوج المرحلة اختياري",
+                "محرك متوافق مع معايير الانبعاثات الصينية المرحلة III",
+                "خيارات متعددة للمحرك (Laidong، Xichai، إلخ)",
+                "موديلات 45 و 50 حصاناً مع خيار 2WD/4WD"
+            ],
+            ru: [
+                "Узкая колея (опция 960 мм) для садов и теплиц",
+                "Трансмиссия 8+2 с опцией 10+2",
+                "Двойной ВОМ (540/750/1000 об/мин)",
+                "Гидравлическое рулевое управление",
+                "Высокий дорожный просвет",
+                "Опциональный многоканальный гидравлический выход",
+                "Опциональное двухдисковое сцепление",
+                "Двигатель с нормами выбросов China Stage III",
+                "Несколько вариантов двигателя (Laidong, Xichai и др.)",
+                "Модели 45 и 50 л.с. с опцией 2WD/4WD"
+            ],
+            pt: [
+                "Design de via estreita (960mm opcional) para pomares e estufas",
+                "Transmissão 8+2 com opção 10+2",
+                "TDP de dupla velocidade (540/750/1000 rpm)",
+                "Direção hidráulica assistida",
+                "Alta distância do solo",
+                "Saída hidráulica multicanal opcional",
+                "Embreagem de dupla etapa opcional",
+                "Motor com emissões China Estágio III",
+                "Múltiplas opções de motor (Laidong, Xichai, etc.)",
+                "Modelos 45HP e 50HP com opção 2WD/4WD"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "TTS450 / TTS454 / TTS500 / TTS504",
+                "Engine Power": "33.1kW (45HP) / 36.8kW (50HP)",
+                "PTO Speed": "540/750 / 540/1000 / 750/1000 rpm",
+                "Transmission": "8+2 (optional 10+2)",
+                "Front Tread": "1210mm (adjustable) / 1250mm (non-adjustable) / 1200mm (adjustable)",
+                "Rear Tread": "1200mm (adjustable) / 1200mm (adjustable) / 1200mm (adjustable) / 1200mm (adjustable)",
+                "Max Traction Force": "8.3-9.2kN",
+                "Min Operating Weight": "≥7.4-8.5 tons",
+                "High Ground Clearance": "Yes",
+                "Optional Narrow Track": "960mm for greenhouse and orchard",
+                "Drive Options": "2WD (TTS450/500) / 4WD (TTS454/504)"
+            },
+            es: {
+                "Modelo": "TTS450 / TTS454 / TTS500 / TTS504",
+                "Potencia": "33.1kW (45HP) / 36.8kW (50HP)",
+                "Velocidad TDF": "540/750 / 540/1000 / 750/1000 rpm",
+                "Transmisión": "8+2 (opción 10+2)",
+                "Vía delantera": "1210mm (ajustable) / 1250mm (fijo) / 1200mm (ajustable)",
+                "Vía trasera": "1200mm (ajustable)",
+                "Tracción máxima": "8.3-9.2kN",
+                "Peso mínimo": "≥7.4-8.5 toneladas",
+                "Vía estrecha opcional": "960mm para invernaderos",
+                "Opciones de tracción": "2WD / 4WD"
+            },
+            fr: {
+                "Modèle": "TTS450 / TTS454 / TTS500 / TTS504",
+                "Puissance": "33.1kW (45HP) / 36.8kW (50HP)",
+                "Vitesse PTO": "540/750 / 540/1000 / 750/1000 rpm",
+                "Transmission": "8+2 (option 10+2)",
+                "Voie avant": "1210mm (réglable) / 1250mm (fixe) / 1200mm (réglable)",
+                "Voie arrière": "1200mm (réglable)",
+                "Traction max": "8.3-9.2kN",
+                "Poids min": "≥7.4-8.5 tonnes",
+                "Voie étroite optionnelle": "960mm pour serres",
+                "Options de traction": "2WD / 4WD"
+            },
+            ar: {
+                "الموديل": "TTS450 / TTS454 / TTS500 / TTS504",
+                "قوة المحرك": "33.1 كيلوواط (45 حصان) / 36.8 كيلوواط (50 حصان)",
+                "سرعة PTO": "540/750 / 540/1000 / 750/1000 دورة/دقيقة",
+                "ناقل الحركة": "8+2 (خيار 10+2)",
+                "المسار الأمامي": "1210 ملم (قابل للتعديل) / 1250 ملم (ثابت) / 1200 ملم (قابل للتعديل)",
+                "المسار الخلفي": "1200 ملم (قابل للتعديل)",
+                "قوة الجر القصوى": "8.3-9.2 كيلو نيوتن",
+                "الوزن الأدنى": "≥7.4-8.5 طن",
+                "مسار ضيق اختياري": "960 ملم للدفيئات",
+                "خيارات الدفع": "2WD / 4WD"
+            },
+            ru: {
+                "Модель": "TTS450 / TTS454 / TTS500 / TTS504",
+                "Мощность": "33.1кВт (45 л.с.) / 36.8кВт (50 л.с.)",
+                "Скорость ВОМ": "540/750 / 540/1000 / 750/1000 об/мин",
+                "Трансмиссия": "8+2 (опция 10+2)",
+                "Передняя колея": "1210мм / 1250мм / 1200мм",
+                "Задняя колея": "1200мм (регулируемая)",
+                "Тяговое усилие": "8.3-9.2 кН",
+                "Мин. вес": "≥7.4-8.5 тонн",
+                "Опция узкой колеи": "960 мм для теплиц",
+                "Опции привода": "2WD / 4WD"
+            },
+            pt: {
+                "Modelo": "TTS450 / TTS454 / TTS500 / TTS504",
+                "Potência": "33.1kW (45HP) / 36.8kW (50HP)",
+                "Velocidade TDP": "540/750 / 540/1000 / 750/1000 rpm",
+                "Transmissão": "8+2 (opção 10+2)",
+                "Via dianteira": "1210mm (ajustável) / 1250mm (fixo) / 1200mm (ajustável)",
+                "Via traseira": "1200mm (ajustável)",
+                "Tração máxima": "8.3-9.2kN",
+                "Peso mínimo": "≥7.4-8.5 toneladas",
+                "Via estreita opcional": "960mm para estufas",
+                "Opções de tração": "2WD / 4WD"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Orchards, vineyards, greenhouses, specialized crop farming, narrow-row crops"
+        }
+    },
+
+    // ============================================================
+    //  🚜 拖拉机 → TTE系列 (50-60HP 中马力拖拉机)
+    // ============================================================
+    {
+        id: "TR-006",
+        category: "tractors",
+        subCategory: null,
+        image: "/image/tractor-tte-50-60.jpg",
+        name: {
+            en: "TTE Series Medium Tractor (50-60HP) - Versatile Farm Power",
+            es: "Tractor de Potencia Media Serie TTE (50-60HP) - Potencia Agrícola Versátil",
+            fr: "Tracteur de Puissance Moyenne Série TTE (50-60HP) - Puissance Agricole Polyvalente",
+            ar: "جرار متوسط القدرة سلسلة TTE (50-60 حصان) - قوة زراعية متعددة الاستخدامات",
+            ru: "Трактор средней мощности серии TTE (50-60 л.с.) - Универсальная сельхозмощность",
+            pt: "Trator de Potência Média Série TTE (50-60HP) - Potência Agrícola Versátil"
+        },
+        desc: {
+            en: "The TTE Series medium tractor delivers 50-60HP of reliable power for versatile farming operations. Features 8+2 transmission with optional shuttle shift for wide speed range, strong hydraulic lifting capacity up to 9.95kN, and double-speed PTO (540/720 rpm). The streamline hood design offers excellent visibility while the side-shifting transmission ensures compact structure. Ideal for diversified farming, medium-scale tillage, transport, and implement operations.",
+            es: "El tractor medio TTE ofrece 50-60HP de potencia confiable para operaciones agrícolas versátiles. Transmisión 8+2 con cambio de lanzadera opcional, capacidad de elevación hidráulica de hasta 9.95kN y TDF de doble velocidad. Ideal para agricultura diversificada y labranza mediana.",
+            fr: "Le tracteur moyen TTE offre 50-60HP de puissance fiable pour des opérations agricoles polyvalentes. Transmission 8+2 avec navette optionnelle, capacité de levage hydraulique jusqu'à 9.95kN et prise de force double vitesse.",
+            ar: "يوفر الجرار المتوسط TTE قوة 50-60 حصاناً للعمليات الزراعية المتنوعة. ناقل حركة 8+2 مع مكوك اختياري، قدرة رفع هيدروليكية تصل إلى 9.95 كيلو نيوتن، و PTO مزدوج السرعة.",
+            ru: "Трактор средней мощности TTE обеспечивает 50-60 л.с. надежной мощности для разнообразных сельхозработ. Трансмиссия 8+2 с опциональным шаттлом, гидравлика до 9.95 кН, двойной ВОМ.",
+            pt: "O trator médio TTE oferece 50-60HP de potência confiável para operações agrícolas versáteis. Transmissão 8+2 com shuttle opcional, capacidade de elevação hidráulica até 9.95kN e TDP de dupla velocidade."
+        },
+        features: {
+            en: [
+                "8+2 transmission with optional shuttle shift for wide speed range",
+                "Streamline hood design for improved visibility and elegant appearance",
+                "Side-shifting transmission with compact structure and optimized layout",
+                "Strong hydraulic lifting capacity up to 9.95kN for medium implements",
+                "Double-speed PTO (540/720 rpm) for versatile implement matching",
+                "Stepless rear wheel adjustment for wide application range",
+                "Short wheelbase with small turning radius for excellent maneuverability",
+                "Optional dual-stage clutch for enhanced working efficiency",
+                "High traction force (≥9.3-13.97kN) for demanding field conditions",
+                "Available in 50HP (TTE500/504) and 60HP (TTE600/604) models with 2WD/4WD options"
+            ],
+            es: [
+                "Transmisión 8+2 con cambio de lanzadera opcional",
+                "Diseño de capó aerodinámico",
+                "Transmisión lateral con estructura compacta",
+                "Capacidad de elevación hidráulica hasta 9.95kN",
+                "TDF de doble velocidad (540/720 rpm)",
+                "Ajuste trasero sin escalas",
+                "Radio de giro reducido",
+                "Embrague de doble etapa opcional",
+                "Fuerza de tracción ≥9.3-13.97kN",
+                "Modelos de 50HP y 60HP con opción 2WD/4WD"
+            ],
+            fr: [
+                "Transmission 8+2 avec navette optionnelle",
+                "Capot profilé pour meilleure visibilité",
+                "Transmission latérale compacte",
+                "Capacité de levage hydraulique jusqu'à 9.95kN",
+                "Prise de force double vitesse (540/720 rpm)",
+                "Réglage arrière sans graduation",
+                "Rayon de braquage réduit",
+                "Embrayage double étage optionnel",
+                "Force de traction ≥9.3-13.97kN",
+                "Modèles 50HP et 60HP avec option 2WD/4WD"
+            ],
+            ar: [
+                "ناقل حركة 8+2 مع مكوك اختياري",
+                "تصميم غطاء انسيابي",
+                "ناقل حركة جانبي مدمج",
+                "قدرة رفع هيدروليكية تصل إلى 9.95 كيلو نيوتن",
+                "PTO مزدوج السرعة (540/720 دورة)",
+                "تعديل خلفي غير متدرج",
+                "نصف قطر دوران صغير",
+                "قابض مزدوج المرحلة اختياري",
+                "قوة جر ≥9.3-13.97 كيلو نيوتن",
+                "موديلات 50 و 60 حصاناً مع خيار 2WD/4WD"
+            ],
+            ru: [
+                "Трансмиссия 8+2 с опциональным шаттлом",
+                "Обтекаемый капот",
+                "Боковая компактная трансмиссия",
+                "Гидравлика до 9.95 кН",
+                "Двойной ВОМ (540/720 об/мин)",
+                "Бесступенчатая регулировка",
+                "Малый радиус поворота",
+                "Опциональное двухдисковое сцепление",
+                "Сила тяги ≥9.3-13.97 кН",
+                "Модели 50 и 60 л.с. с опцией 2WD/4WD"
+            ],
+            pt: [
+                "Transmissão 8+2 com shuttle opcional",
+                "Design de capô aerodinâmico",
+                "Transmissão lateral compacta",
+                "Capacidade de elevação hidráulica até 9.95kN",
+                "TDP de dupla velocidade (540/720 rpm)",
+                "Ajuste traseiro sem degraus",
+                "Raio de viragem reduzido",
+                "Embreagem de dupla etapa opcional",
+                "Força de tração ≥9.3-13.97kN",
+                "Modelos 50HP e 60HP com opção 2WD/4WD"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "TTE500 / TTE504 / TTE600 / TTE604",
+                "Engine Power": "36.8kW (50HP) / 44.2kW (60HP)",
+                "PTO Speed": "540/720 rpm (dual speed)",
+                "Transmission": "8+2 with optional shuttle shift",
+                "Front Tread": "1190-1490mm (adjustable) / 1200mm (non-adjustable) / 1130-1430mm (adjustable) / 1180-1400mm (adjustable)",
+                "Rear Tread": "1200-1400mm (adjustable) / 1100-1500mm (adjustable) / 1205mm (adjustable)",
+                "Max Traction Force": "9.6-10.1kN (2WD) / ≥9.3-13.97kN (4WD)",
+                "Max Lift Force": "≥8.3kN / 9.95kN",
+                "Wheelbase": "Short wheelbase for maneuverability",
+                "Hydraulic System": "Strong pressure lifter",
+                "Clutch": "Optional dual-stage clutch",
+                "Steering": "Hydraulic power steering",
+                "Drive Options": "2WD (TTE500/600) / 4WD (TTE504/604)"
+            },
+            es: {
+                "Modelo": "TTE500 / TTE504 / TTE600 / TTE604",
+                "Potencia": "36.8kW (50HP) / 44.2kW (60HP)",
+                "Velocidad TDF": "540/720 rpm (doble velocidad)",
+                "Transmisión": "8+2 con cambio de lanzadera opcional",
+                "Vía delantera": "1190-1490mm (ajustable) / 1200mm (fijo) / 1130-1430mm (ajustable) / 1180-1400mm (ajustable)",
+                "Vía trasera": "1200-1400mm (ajustable) / 1100-1500mm (ajustable) / 1205mm (ajustable)",
+                "Tracción máxima": "9.6-10.1kN (2WD) / ≥9.3-13.97kN (4WD)",
+                "Elevación máxima": "≥8.3kN / 9.95kN",
+                "Sistema hidráulico": "Elevador de presión fuerte",
+                "Embrague": "Doble etapa opcional",
+                "Dirección": "Dirección hidráulica asistida",
+                "Opciones de tracción": "2WD / 4WD"
+            },
+            fr: {
+                "Modèle": "TTE500 / TTE504 / TTE600 / TTE604",
+                "Puissance": "36.8kW (50HP) / 44.2kW (60HP)",
+                "Vitesse PTO": "540/720 rpm (double vitesse)",
+                "Transmission": "8+2 avec navette optionnelle",
+                "Voie avant": "1190-1490mm (réglable) / 1200mm (fixe) / 1130-1430mm (réglable) / 1180-1400mm (réglable)",
+                "Voie arrière": "1200-1400mm (réglable) / 1100-1500mm (réglable) / 1205mm (réglable)",
+                "Traction max": "9.6-10.1kN (2WD) / ≥9.3-13.97kN (4WD)",
+                "Levage max": "≥8.3kN / 9.95kN",
+                "Système hydraulique": "Vérin à pression forte",
+                "Embrayage": "Double étage optionnel",
+                "Direction": "Direction hydraulique assistée",
+                "Options de traction": "2WD / 4WD"
+            },
+            ar: {
+                "الموديل": "TTE500 / TTE504 / TTE600 / TTE604",
+                "قوة المحرك": "36.8 كيلوواط (50 حصان) / 44.2 كيلوواط (60 حصان)",
+                "سرعة PTO": "540/720 دورة/دقيقة (سرعة مزدوجة)",
+                "ناقل الحركة": "8+2 مع مكوك اختياري",
+                "المسار الأمامي": "1190-1490 ملم (قابل للتعديل) / 1200 ملم (ثابت) / 1130-1430 ملم (قابل للتعديل) / 1180-1400 ملم (قابل للتعديل)",
+                "المسار الخلفي": "1200-1400 ملم (قابل للتعديل) / 1100-1500 ملم (قابل للتعديل) / 1205 ملم (قابل للتعديل)",
+                "قوة الجر القصوى": "9.6-10.1 كيلو نيوتن (2WD) / ≥9.3-13.97 كيلو نيوتن (4WD)",
+                "قوة الرفع القصوى": "≥8.3 كيلو نيوتن / 9.95 كيلو نيوتن",
+                "النظام الهيدروليكي": "رافع ضغط قوي",
+                "القابض": "مزدوج المرحلة اختياري",
+                "التوجيه": "توجيه هيدروليكي معزز",
+                "خيارات الدفع": "2WD / 4WD"
+            },
+            ru: {
+                "Модель": "TTE500 / TTE504 / TTE600 / TTE604",
+                "Мощность": "36.8кВт (50 л.с.) / 44.2кВт (60 л.с.)",
+                "Скорость ВОМ": "540/720 об/мин (двойная)",
+                "Трансмиссия": "8+2 с опциональным шаттлом",
+                "Передняя колея": "1190-1490мм / 1200мм / 1130-1430мм / 1180-1400мм",
+                "Задняя колея": "1200-1400мм / 1100-1500мм / 1205мм",
+                "Тяговое усилие": "9.6-10.1 кН (2WD) / ≥9.3-13.97 кН (4WD)",
+                "Подъемная сила": "≥8.3 кН / 9.95 кН",
+                "Гидравлика": "Мощный подъемник",
+                "Сцепление": "Опциональное двухдисковое",
+                "Рулевое": "Гидроусилитель",
+                "Опции привода": "2WD / 4WD"
+            },
+            pt: {
+                "Modelo": "TTE500 / TTE504 / TTE600 / TTE604",
+                "Potência": "36.8kW (50HP) / 44.2kW (60HP)",
+                "Velocidade TDP": "540/720 rpm (dupla velocidade)",
+                "Transmissão": "8+2 com shuttle opcional",
+                "Via dianteira": "1190-1490mm (ajustável) / 1200mm (fixo) / 1130-1430mm (ajustável) / 1180-1400mm (ajustável)",
+                "Via traseira": "1200-1400mm (ajustável) / 1100-1500mm (ajustável) / 1205mm (ajustável)",
+                "Tração máxima": "9.6-10.1kN (2WD) / ≥9.3-13.97kN (4WD)",
+                "Elevação máxima": "≥8.3kN / 9.95kN",
+                "Sistema hidráulico": "Elevador de pressão forte",
+                "Embreagem": "Dupla etapa opcional",
+                "Direção": "Direção hidráulica assistida",
+                "Opções de tração": "2WD / 4WD"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months / 2000 hours",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Medium-scale farming, diversified agriculture, transport, implement operations, mixed farming"
+        }
+    },
 ];
 
 // ============================================================
