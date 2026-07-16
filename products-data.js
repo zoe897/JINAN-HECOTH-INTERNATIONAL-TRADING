@@ -5138,6 +5138,1389 @@ const Products = [
             application: "Extensive grain transport, large-scale fertilizer application, bulk material handling, mega-farm operations"
         }
     },
+        // ============================================================
+    //  🧪 农机具 → 施肥机械 → 双竖绞龙撒肥机 (6-16方)
+    // ============================================================
+    {
+        id: "FT-004",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/manure-spreader-vertical.jpg",
+        name: {
+            en: "Twin Vertical Auger Manure Spreader - 6-16m³ Capacity",
+            es: "Esparcidor de Estiércol de Doble Sinfín Vertical - Capacidad 6-16m³",
+            fr: "Épandeur de Fumier à Double Vis Verticale - Capacité 6-16m³",
+            ar: "ناشر سماد بمثقبين عموديين - سعة 6-16 م³",
+            ru: "Разбрасыватель навоза с двумя вертикальными шнеками - 6-16м³",
+            pt: "Espalhador de Esterco com Dupla Rosca Vertical - Capacidade 6-16m³"
+        },
+        desc: {
+            en: "The Twin Vertical Auger Manure Spreader is a professional fertilizer application machine designed for spreading various types of manure, organic fertilizer, distiller's grains, frozen fertilizer, and wet manure (moisture ≤80%). Features strong crushing capability, uniform spreading (8-15m width), and large capacity up to 16m³. Available in 6m³ to 16m³ models with load capacities from 7 to 19 tons. Ideal for large-scale livestock farms and organic farming operations.",
+            es: "El esparcidor de estiércol de doble sinfín vertical es una máquina profesional para esparcir diversos tipos de estiércol y fertilizante orgánico. Capacidad de 6-16m³ y ancho de esparcimiento de 8-15m. Ideal para granjas ganaderas y agricultura orgánica.",
+            fr: "L'épandeur de fumier à double vis verticale est une machine professionnelle pour épandre divers types de fumier et engrais organique. Capacité 6-16m³ et largeur d'épandage 8-15m.",
+            ar: "ناشر السماد ذو المثقبين العموديين هو آلة احترافية لنشر أنواع مختلفة من السماد والأسمدة العضوية. سعة 6-16 م³ وعرض نثر 8-15 م.",
+            ru: "Разбрасыватель навоза с двумя вертикальными шнеками - профессиональная машина для внесения различных видов навоза и органических удобрений. Емкость 6-16м³.",
+            pt: "O espalhador de esterco com dupla rosca vertical é uma máquina profissional para espalhar vários tipos de esterco e fertilizante orgânico. Capacidade 6-16m³."
+        },
+        features: {
+            en: [
+                "6m³ to 16m³ hopper capacity for flexible operation",
+                "Load capacity from 7 to 19 tons for efficient transport",
+                "Twin vertical auger design for excellent crushing and mixing",
+                "Spreading width 8-15m for wide coverage",
+                "Chain conveyor for fast delivery (5 minutes per load)",
+                "Thickened steel body with hydraulic oil tank and cooling system",
+                "Heavy-duty tires for stability and safety",
+                "Import reducer and precision hydraulic speed control valve",
+                "Adjustable discharge opening for different application rates",
+                "Suitable for manure, organic fertilizer, distiller's grains, and wet manure"
+            ],
+            es: [
+                "Capacidad de tolva de 6-16m³",
+                "Capacidad de carga de 7-19 toneladas",
+                "Doble sinfín vertical para excelente trituración",
+                "Ancho de esparcimiento 8-15m",
+                "Transportador de cadena para entrega rápida",
+                "Cuerpo de acero reforzado con sistema hidráulico",
+                "Neumáticos resistentes",
+                "Válvula de control de velocidad hidráulica de precisión",
+                "Apertura de descarga ajustable",
+                "Adecuado para estiércol y fertilizante orgánico"
+            ],
+            fr: [
+                "Capacité de trémie 6-16m³",
+                "Capacité de charge 7-19 tonnes",
+                "Double vis verticale pour excellent broyage",
+                "Largeur d'épandage 8-15m",
+                "Convoyeur à chaîne pour livraison rapide",
+                "Corps en acier renforcé avec système hydraulique",
+                "Pneus résistants",
+                "Vanne de régulation hydraulique de précision",
+                "Ouverture de décharge réglable",
+                "Convient au fumier et engrais organique"
+            ],
+            ar: [
+                "سعة قادوس 6-16 م³",
+                "سعة تحميل 7-19 طن",
+                "مثقبان عموديان للتكسير الممتاز",
+                "عرض نثر 8-15 م",
+                "ناقل سلسلة للتسليم السريع",
+                "هيكل صلب سميك مع نظام هيدروليكي",
+                "إطارات مقاومة",
+                "صمام تحكم هيدروليكي دقيق",
+                "فتحة تفريغ قابلة للتعديل",
+                "مناسب للسماد والأسمدة العضوية"
+            ],
+            ru: [
+                "Бункер 6-16м³",
+                "Грузоподъемность 7-19 тонн",
+                "Два вертикальных шнека для отличного измельчения",
+                "Ширина разбрасывания 8-15м",
+                "Цепной конвейер для быстрой подачи",
+                "Утолщенный стальной корпус с гидросистемой",
+                "Прочные шины",
+                "Точный гидравлический клапан регулировки скорости",
+                "Регулируемое выходное отверстие",
+                "Подходит для навоза и органических удобрений"
+            ],
+            pt: [
+                "Capacidade de tremonha 6-16m³",
+                "Capacidade de carga 7-19 toneladas",
+                "Dupla rosca vertical para excelente trituração",
+                "Largura de espalhamento 8-15m",
+                "Transportador de corrente para entrega rápida",
+                "Corpo em aço reforçado com sistema hidráulico",
+                "Pneus resistentes",
+                "Válvula de controle hidráulico de precisão",
+                "Abertura de descarga ajustável",
+                "Adequado para esterco e fertilizante orgânico"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "6m³ / 8m³ / 10m³ / 12m³ / 16m³",
+                "Hopper Volume": "6m³ / 8m³ / 10m³ / 12m³ / 16m³",
+                "Load Capacity": "7t / 10t / 12t / 14t / 19t",
+                "Power Requirement": "≥80kW / ≥80kW / ≥100kW / ≥140kW / ≥180kW",
+                "Machine Size (L×W×H)": "6450×2650×2130mm / 6050×2640×2180mm / 6370×2820×2310mm / 7200×2970×2500mm / 8520×2850×3060mm",
+                "Spreading Width": "8-15m (all models)",
+                "Weight": "2580kg / 2980kg / 3140kg / 4100kg / 5900kg",
+                "Wheelbase": "2220mm / 2230mm / 2300mm / 2350mm / 2350mm",
+                "Tire Type": "16/70-20 / 16/70-20 / 500/60-22.5 / 600/55-26.5 / 500/60-22.5 (dual)"
+            },
+            es: {
+                "Modelos": "6m³ / 8m³ / 10m³ / 12m³ / 16m³",
+                "Volumen de tolva": "6m³ / 8m³ / 10m³ / 12m³ / 16m³",
+                "Capacidad de carga": "7t / 10t / 12t / 14t / 19t",
+                "Potencia requerida": "≥80kW / ≥80kW / ≥100kW / ≥140kW / ≥180kW",
+                "Tamaño": "6450×2650×2130mm / 6050×2640×2180mm / 6370×2820×2310mm / 7200×2970×2500mm / 8520×2850×3060mm",
+                "Ancho de esparcimiento": "8-15m",
+                "Peso": "2580kg / 2980kg / 3140kg / 4100kg / 5900kg",
+                "Distancia entre ejes": "2220mm / 2230mm / 2300mm / 2350mm / 2350mm",
+                "Neumáticos": "16/70-20 / 16/70-20 / 500/60-22.5 / 600/55-26.5 / 500/60-22.5"
+            },
+            fr: {
+                "Modèles": "6m³ / 8m³ / 10m³ / 12m³ / 16m³",
+                "Volume trémie": "6m³ / 8m³ / 10m³ / 12m³ / 16m³",
+                "Capacité de charge": "7t / 10t / 12t / 14t / 19t",
+                "Puissance requise": "≥80kW / ≥80kW / ≥100kW / ≥140kW / ≥180kW",
+                "Taille": "6450×2650×2130mm / 6050×2640×2180mm / 6370×2820×2310mm / 7200×2970×2500mm / 8520×2850×3060mm",
+                "Largeur d'épandage": "8-15m",
+                "Poids": "2580kg / 2980kg / 3140kg / 4100kg / 5900kg",
+                "Empattement": "2220mm / 2230mm / 2300mm / 2350mm / 2350mm",
+                "Pneus": "16/70-20 / 16/70-20 / 500/60-22.5 / 600/55-26.5 / 500/60-22.5"
+            },
+            ar: {
+                "الموديلات": "6 م³ / 8 م³ / 10 م³ / 12 م³ / 16 م³",
+                "سعة القادوس": "6 م³ / 8 م³ / 10 م³ / 12 م³ / 16 م³",
+                "سعة التحميل": "7 طن / 10 طن / 12 طن / 14 طن / 19 طن",
+                "القوة المطلوبة": "≥80 كيلوواط / ≥80 كيلوواط / ≥100 كيلوواط / ≥140 كيلوواط / ≥180 كيلوواط",
+                "الحجم (طول×عرض×ارتفاع)": "6450×2650×2130 ملم / 6050×2640×2180 ملم / 6370×2820×2310 ملم / 7200×2970×2500 ملم / 8520×2850×3060 ملم",
+                "عرض النثر": "8-15 م",
+                "الوزن": "2580 كجم / 2980 كجم / 3140 كجم / 4100 كجم / 5900 كجم",
+                "قاعدة العجلات": "2220 ملم / 2230 ملم / 2300 ملم / 2350 ملم / 2350 ملم",
+                "الإطارات": "16/70-20 / 16/70-20 / 500/60-22.5 / 600/55-26.5 / 500/60-22.5"
+            },
+            ru: {
+                "Модели": "6м³ / 8м³ / 10м³ / 12м³ / 16м³",
+                "Объем бункера": "6м³ / 8м³ / 10м³ / 12м³ / 16м³",
+                "Грузоподъемность": "7т / 10т / 12т / 14т / 19т",
+                "Мощность": "≥80кВт / ≥80кВт / ≥100кВт / ≥140кВт / ≥180кВт",
+                "Размеры": "6450×2650×2130мм / 6050×2640×2180мм / 6370×2820×2310мм / 7200×2970×2500мм / 8520×2850×3060мм",
+                "Ширина": "8-15м",
+                "Вес": "2580кг / 2980кг / 3140кг / 4100кг / 5900кг",
+                "Колесная база": "2220мм / 2230мм / 2300мм / 2350мм / 2350мм",
+                "Шины": "16/70-20 / 16/70-20 / 500/60-22.5 / 600/55-26.5 / 500/60-22.5"
+            },
+            pt: {
+                "Modelos": "6m³ / 8m³ / 10m³ / 12m³ / 16m³",
+                "Volume tremonha": "6m³ / 8m³ / 10m³ / 12m³ / 16m³",
+                "Capacidade de carga": "7t / 10t / 12t / 14t / 19t",
+                "Potência necessária": "≥80kW / ≥80kW / ≥100kW / ≥140kW / ≥180kW",
+                "Tamanho": "6450×2650×2130mm / 6050×2640×2180mm / 6370×2820×2310mm / 7200×2970×2500mm / 8520×2850×3060mm",
+                "Largura de espalhamento": "8-15m",
+                "Peso": "2580kg / 2980kg / 3140kg / 4100kg / 5900kg",
+                "Distância entre eixos": "2220mm / 2230mm / 2300mm / 2350mm / 2350mm",
+                "Pneus": "16/70-20 / 16/70-20 / 500/60-22.5 / 600/55-26.5 / 500/60-22.5"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale livestock farms, organic farming, manure management, agricultural waste recycling"
+        }
+    },
+
+    // ============================================================
+    //  🧪 农机具 → 施肥机械 → 横绞龙撒肥机 (8-10方)
+    // ============================================================
+    {
+        id: "FT-005",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/manure-spreader-horizontal.jpg",
+        name: {
+            en: "Horizontal Auger Manure Spreader - 8-10m³ Capacity",
+            es: "Esparcidor de Estiércol de Sinfín Horizontal - Capacidad 8-10m³",
+            fr: "Épandeur de Fumier à Vis Horizontale - Capacité 8-10m³",
+            ar: "ناشر سماد بمثقب أفقي - سعة 8-10 م³",
+            ru: "Разбрасыватель навоза с горизонтальным шнеком - 8-10м³",
+            pt: "Espalhador de Esterco com Rosca Horizontal - Capacidade 8-10m³"
+        },
+        desc: {
+            en: "The Horizontal Auger Manure Spreader is a professional fertilizer application machine designed for spreading fresh manure, wet manure, hard manure, and various types of livestock waste including cow, pig, sheep, and chicken manure. Features horizontal auger design with powerful crushing capability, uniform spreading (8-15m width), and large capacity. Available in 8m³ and 10m³ models with load capacities up to 12 tons. Ideal for livestock farms and organic fertilizer application.",
+            es: "El esparcidor de estiércol de sinfín horizontal es una máquina profesional para esparcir estiércol fresco, húmedo y duro. Capacidad de 8-10m³ y ancho de esparcimiento de 8-15m. Ideal para granjas ganaderas.",
+            fr: "L'épandeur de fumier à vis horizontale est une machine professionnelle pour épandre du fumier frais, humide et dur. Capacité 8-10m³ et largeur d'épandage 8-15m.",
+            ar: "ناشر السماد ذو المثقب الأفقي هو آلة احترافية لنشر السماد الطازج والرطب والصلب. سعة 8-10 م³ وعرض نثر 8-15 م.",
+            ru: "Разбрасыватель навоза с горизонтальным шнеком - профессиональная машина для внесения свежего, влажного и твердого навоза. Емкость 8-10м³.",
+            pt: "O espalhador de esterco com rosca horizontal é uma máquina profissional para espalhar esterco fresco, úmido e duro. Capacidade 8-10m³."
+        },
+        features: {
+            en: [
+                "8m³ or 10m³ hopper capacity for flexible operation",
+                "Load capacity up to 12 tons for efficient transport",
+                "Horizontal auger design for effective crushing and uniform spreading",
+                "Spreading width 8-15m for wide coverage",
+                "Chain conveyor for fast delivery (5 minutes per load)",
+                "Thickened steel body with hydraulic oil tank and cooling system",
+                "Heavy-duty tires for stability",
+                "Import reducer and precision hydraulic speed control valve",
+                "Adjustable discharge opening for different application rates",
+                "Suitable for cow, pig, sheep, and chicken manure"
+            ],
+            es: [
+                "Capacidad de tolva de 8-10m³",
+                "Capacidad de carga hasta 12 toneladas",
+                "Sinfín horizontal para trituración efectiva",
+                "Ancho de esparcimiento 8-15m",
+                "Transportador de cadena para entrega rápida",
+                "Cuerpo de acero reforzado con sistema hidráulico",
+                "Neumáticos resistentes",
+                "Válvula de control de velocidad hidráulica de precisión",
+                "Apertura de descarga ajustable",
+                "Adecuado para estiércol de vaca, cerdo, oveja y pollo"
+            ],
+            fr: [
+                "Capacité de trémie 8-10m³",
+                "Capacité de charge jusqu'à 12 tonnes",
+                "Vis horizontale pour broyage efficace",
+                "Largeur d'épandage 8-15m",
+                "Convoyeur à chaîne pour livraison rapide",
+                "Corps en acier renforcé avec système hydraulique",
+                "Pneus résistants",
+                "Vanne de régulation hydraulique de précision",
+                "Ouverture de décharge réglable",
+                "Convient au fumier de vache, porc, mouton et poulet"
+            ],
+            ar: [
+                "سعة قادوس 8-10 م³",
+                "سعة تحميل تصل إلى 12 طن",
+                "مثقب أفقي للتكسير الفعال",
+                "عرض نثر 8-15 م",
+                "ناقل سلسلة للتسليم السريع",
+                "هيكل صلب سميك مع نظام هيدروليكي",
+                "إطارات مقاومة",
+                "صمام تحكم هيدروليكي دقيق",
+                "فتحة تفريغ قابلة للتعديل",
+                "مناسب لسماد البقر والخنزير والأغنام والدجاج"
+            ],
+            ru: [
+                "Бункер 8-10м³",
+                "Грузоподъемность до 12 тонн",
+                "Горизонтальный шнек для эффективного измельчения",
+                "Ширина разбрасывания 8-15м",
+                "Цепной конвейер для быстрой подачи",
+                "Утолщенный стальной корпус с гидросистемой",
+                "Прочные шины",
+                "Точный гидравлический клапан регулировки скорости",
+                "Регулируемое выходное отверстие",
+                "Подходит для навоза КРС, свиней, овец и кур"
+            ],
+            pt: [
+                "Capacidade de tremonha 8-10m³",
+                "Capacidade de carga até 12 toneladas",
+                "Rosca horizontal para trituração eficaz",
+                "Largura de espalhamento 8-15m",
+                "Transportador de corrente para entrega rápida",
+                "Corpo em aço reforçado com sistema hidráulico",
+                "Pneus resistentes",
+                "Válvula de controle hidráulico de precisão",
+                "Abertura de descarga ajustável",
+                "Adequado para esterco de vaca, porco, ovelha e frango"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "8m³ / 10m³",
+                "Hopper Volume": "8m³ / 10m³",
+                "Load Capacity": "10t / 12t",
+                "Power Requirement": "≥80kW / ≥100kW",
+                "Machine Size (L×W×H)": "6050×2450×2200mm / 6500×2750×2400mm",
+                "Spreading Width": "8-15m (both models)",
+                "Weight": "2540kg / 2860kg",
+                "Wheelbase": "2030mm / 2200mm",
+                "Tire Type": "16/70-20 / 500/60-22.5"
+            },
+            es: {
+                "Modelos": "8m³ / 10m³",
+                "Volumen de tolva": "8m³ / 10m³",
+                "Capacidad de carga": "10t / 12t",
+                "Potencia requerida": "≥80kW / ≥100kW",
+                "Tamaño": "6050×2450×2200mm / 6500×2750×2400mm",
+                "Ancho de esparcimiento": "8-15m",
+                "Peso": "2540kg / 2860kg",
+                "Distancia entre ejes": "2030mm / 2200mm",
+                "Neumáticos": "16/70-20 / 500/60-22.5"
+            },
+            fr: {
+                "Modèles": "8m³ / 10m³",
+                "Volume trémie": "8m³ / 10m³",
+                "Capacité de charge": "10t / 12t",
+                "Puissance requise": "≥80kW / ≥100kW",
+                "Taille": "6050×2450×2200mm / 6500×2750×2400mm",
+                "Largeur d'épandage": "8-15m",
+                "Poids": "2540kg / 2860kg",
+                "Empattement": "2030mm / 2200mm",
+                "Pneus": "16/70-20 / 500/60-22.5"
+            },
+            ar: {
+                "الموديلات": "8 م³ / 10 م³",
+                "سعة القادوس": "8 م³ / 10 م³",
+                "سعة التحميل": "10 طن / 12 طن",
+                "القوة المطلوبة": "≥80 كيلوواط / ≥100 كيلوواط",
+                "الحجم": "6050×2450×2200 ملم / 6500×2750×2400 ملم",
+                "عرض النثر": "8-15 م",
+                "الوزن": "2540 كجم / 2860 كجم",
+                "قاعدة العجلات": "2030 ملم / 2200 ملم",
+                "الإطارات": "16/70-20 / 500/60-22.5"
+            },
+            ru: {
+                "Модели": "8м³ / 10м³",
+                "Объем бункера": "8м³ / 10м³",
+                "Грузоподъемность": "10т / 12т",
+                "Мощность": "≥80кВт / ≥100кВт",
+                "Размеры": "6050×2450×2200мм / 6500×2750×2400мм",
+                "Ширина": "8-15м",
+                "Вес": "2540кг / 2860кг",
+                "Колесная база": "2030мм / 2200мм",
+                "Шины": "16/70-20 / 500/60-22.5"
+            },
+            pt: {
+                "Modelos": "8m³ / 10m³",
+                "Volume tremonha": "8m³ / 10m³",
+                "Capacidade de carga": "10t / 12t",
+                "Potência necessária": "≥80kW / ≥100kW",
+                "Tamanho": "6050×2450×2200mm / 6500×2750×2400mm",
+                "Largura de espalhamento": "8-15m",
+                "Peso": "2540kg / 2860kg",
+                "Distância entre eixos": "2030mm / 2200mm",
+                "Pneus": "16/70-20 / 500/60-22.5"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Livestock farms, manure management, organic fertilizer application, pasture fertilization"
+        }
+    },
+
+    // ============================================================
+    //  🧪 农机具 → 施肥机械 → 双圆盘撒肥机 (8-10方)
+    // ============================================================
+    {
+        id: "FT-006",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/fertilizer-spreader-double-disc.jpg",
+        name: {
+            en: "Twin Disc Fertilizer Spreader - 8-10m³ Capacity",
+            es: "Esparcidor de Fertilizante de Doble Disco - Capacidad 8-10m³",
+            fr: "Épandeur d'Engrais à Double Disque - Capacité 8-10m³",
+            ar: "ناشر أسمدة بقرصين مزدوجين - سعة 8-10 م³",
+            ru: "Разбрасыватель удобрений с двумя дисками - 8-10м³",
+            pt: "Espalhador de Fertilizante com Disco Duplo - Capacidade 8-10m³"
+        },
+        desc: {
+            en: "The Twin Disc Fertilizer Spreader is a professional machine designed for spreading organic fertilizer, distiller's grains, sugar residue granules, and manure. Features twin disc spreading mechanism for uniform distribution (8-15m width), large capacity up to 10m³, and versatile application for various fertilizer types. Available in 8m³ and 10m³ models with load capacities up to 12 tons. Ideal for farms, pastures, and agricultural operations requiring efficient fertilizer application.",
+            es: "El esparcidor de fertilizante de doble disco es una máquina profesional para esparcir fertilizante orgánico, granos de destilería y estiércol. Capacidad de 8-10m³ y ancho de esparcimiento de 8-15m.",
+            fr: "L'épandeur d'engrais à double disque est une machine professionnelle pour épandre des engrais organiques et du fumier. Capacité 8-10m³ et largeur d'épandage 8-15m.",
+            ar: "ناشر الأسمدة ذو القرصين المزدوجين هو آلة احترافية لنشر الأسمدة العضوية. سعة 8-10 م³ وعرض نثر 8-15 م.",
+            ru: "Разбрасыватель удобрений с двумя дисками - профессиональная машина для внесения органических удобрений и навоза. Емкость 8-10м³.",
+            pt: "O espalhador de fertilizante com disco duplo é uma máquina profissional para espalhar fertilizante orgânico e esterco. Capacidade 8-10m³."
+        },
+        features: {
+            en: [
+                "8m³ or 10m³ hopper capacity for flexible operation",
+                "Load capacity up to 12 tons for efficient transport",
+                "Twin disc spreading mechanism for uniform distribution",
+                "Spreading width 8-15m for wide coverage",
+                "Chain conveyor for fast delivery (5 minutes per load)",
+                "Thickened steel body with hydraulic oil tank and cooling system",
+                "Heavy-duty tires for stability",
+                "Import reducer and precision hydraulic speed control valve",
+                "Adjustable discharge opening for different application rates",
+                "Suitable for powder fertilizer, granular fertilizer, and manure"
+            ],
+            es: [
+                "Capacidad de tolva de 8-10m³",
+                "Capacidad de carga hasta 12 toneladas",
+                "Mecanismo de doble disco para distribución uniforme",
+                "Ancho de esparcimiento 8-15m",
+                "Transportador de cadena para entrega rápida",
+                "Cuerpo de acero reforzado con sistema hidráulico",
+                "Neumáticos resistentes",
+                "Válvula de control de velocidad hidráulica de precisión",
+                "Apertura de descarga ajustable",
+                "Adecuado para fertilizante en polvo y granulado"
+            ],
+            fr: [
+                "Capacité de trémie 8-10m³",
+                "Capacité de charge jusqu'à 12 tonnes",
+                "Mécanisme à double disque pour distribution uniforme",
+                "Largeur d'épandage 8-15m",
+                "Convoyeur à chaîne pour livraison rapide",
+                "Corps en acier renforcé avec système hydraulique",
+                "Pneus résistants",
+                "Vanne de régulation hydraulique de précision",
+                "Ouverture de décharge réglable",
+                "Convient aux engrais en poudre et granulés"
+            ],
+            ar: [
+                "سعة قادوس 8-10 م³",
+                "سعة تحميل تصل إلى 12 طن",
+                "آلية قرصين للتوزيع الموحد",
+                "عرض نثر 8-15 م",
+                "ناقل سلسلة للتسليم السريع",
+                "هيكل صلب سميك مع نظام هيدروليكي",
+                "إطارات مقاومة",
+                "صمام تحكم هيدروليكي دقيق",
+                "فتحة تفريغ قابلة للتعديل",
+                "مناسب للأسمدة البودرة والحبيبية"
+            ],
+            ru: [
+                "Бункер 8-10м³",
+                "Грузоподъемность до 12 тонн",
+                "Двухдисковый механизм для равномерного распределения",
+                "Ширина разбрасывания 8-15м",
+                "Цепной конвейер для быстрой подачи",
+                "Утолщенный стальной корпус с гидросистемой",
+                "Прочные шины",
+                "Точный гидравлический клапан регулировки скорости",
+                "Регулируемое выходное отверстие",
+                "Подходит для порошковых и гранулированных удобрений"
+            ],
+            pt: [
+                "Capacidade de tremonha 8-10m³",
+                "Capacidade de carga até 12 toneladas",
+                "Mecanismo de disco duplo para distribuição uniforme",
+                "Largura de espalhamento 8-15m",
+                "Transportador de corrente para entrega rápida",
+                "Corpo em aço reforçado com sistema hidráulico",
+                "Pneus resistentes",
+                "Válvula de controle hidráulico de precisão",
+                "Abertura de descarga ajustável",
+                "Adequado para fertilizante em pó e granulado"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "8m³ / 10m³",
+                "Hopper Volume": "8m³ / 10m³",
+                "Load Capacity": "10t / 12t",
+                "Power Requirement": "≥80kW / ≥100kW",
+                "Machine Size (L×W×H)": "6150×2450×2200mm / 6500×2750×2400mm",
+                "Spreading Width": "8-15m (both models)",
+                "Weight": "2540kg / 2860kg",
+                "Wheelbase": "2030mm / 2200mm",
+                "Tire Type": "16/70-20 / 500/60-22.5"
+            },
+            es: {
+                "Modelos": "8m³ / 10m³",
+                "Volumen de tolva": "8m³ / 10m³",
+                "Capacidad de carga": "10t / 12t",
+                "Potencia requerida": "≥80kW / ≥100kW",
+                "Tamaño": "6150×2450×2200mm / 6500×2750×2400mm",
+                "Ancho de esparcimiento": "8-15m",
+                "Peso": "2540kg / 2860kg",
+                "Distancia entre ejes": "2030mm / 2200mm",
+                "Neumáticos": "16/70-20 / 500/60-22.5"
+            },
+            fr: {
+                "Modèles": "8m³ / 10m³",
+                "Volume trémie": "8m³ / 10m³",
+                "Capacité de charge": "10t / 12t",
+                "Puissance requise": "≥80kW / ≥100kW",
+                "Taille": "6150×2450×2200mm / 6500×2750×2400mm",
+                "Largeur d'épandage": "8-15m",
+                "Poids": "2540kg / 2860kg",
+                "Empattement": "2030mm / 2200mm",
+                "Pneus": "16/70-20 / 500/60-22.5"
+            },
+            ar: {
+                "الموديلات": "8 م³ / 10 م³",
+                "سعة القادوس": "8 م³ / 10 م³",
+                "سعة التحميل": "10 طن / 12 طن",
+                "القوة المطلوبة": "≥80 كيلوواط / ≥100 كيلوواط",
+                "الحجم": "6150×2450×2200 ملم / 6500×2750×2400 ملم",
+                "عرض النثر": "8-15 م",
+                "الوزن": "2540 كجم / 2860 كجم",
+                "قاعدة العجلات": "2030 ملم / 2200 ملم",
+                "الإطارات": "16/70-20 / 500/60-22.5"
+            },
+            ru: {
+                "Модели": "8м³ / 10м³",
+                "Объем бункера": "8м³ / 10м³",
+                "Грузоподъемность": "10т / 12т",
+                "Мощность": "≥80кВт / ≥100кВт",
+                "Размеры": "6150×2450×2200мм / 6500×2750×2400мм",
+                "Ширина": "8-15м",
+                "Вес": "2540кг / 2860кг",
+                "Колесная база": "2030мм / 2200мм",
+                "Шины": "16/70-20 / 500/60-22.5"
+            },
+            pt: {
+                "Modelos": "8m³ / 10m³",
+                "Volume tremonha": "8m³ / 10m³",
+                "Capacidade de carga": "10t / 12t",
+                "Potência necessária": "≥80kW / ≥100kW",
+                "Tamanho": "6150×2450×2200mm / 6500×2750×2400mm",
+                "Largura de espalhamento": "8-15m",
+                "Peso": "2540kg / 2860kg",
+                "Distância entre eixos": "2030mm / 2200mm",
+                "Pneus": "16/70-20 / 500/60-22.5"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Organic fertilizer application, pasture fertilization, agricultural waste recycling, granular fertilizer spreading"
+        }
+    },
+
+    // ============================================================
+    //  🧪 农机具 → 施肥机械 → 液态肥撒肥机 (6-10方)
+    // ============================================================
+    {
+        id: "FT-007",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/liquid-manure-spreader.jpg",
+        name: {
+            en: "Liquid Manure Spreader - 6-10m³ Capacity",
+            es: "Esparcidor de Estiércol Líquido - Capacidad 6-10m³",
+            fr: "Épandeur de Fumier Liquide - Capacité 6-10m³",
+            ar: "ناشر سماد سائل - سعة 6-10 م³",
+            ru: "Разбрасыватель жидкого навоза - 6-10м³",
+            pt: "Espalhador de Esterco Líquido - Capacidade 6-10m³"
+        },
+        desc: {
+            en: "The Liquid Manure Spreader is a professional machine for applying liquid organic fertilizer, livestock urine, liquid manure, biogas slurry, and other liquid media. Powered by tractor PTO, it features a vacuum pump for suction and spraying, uniform application (10-15m range), and high-strength steel tank with anti-corrosion coating. Available in 6m³ and 10m³ models. Ideal for livestock farms, biogas plants, and liquid organic fertilizer application.",
+            es: "El esparcidor de estiércol líquido es una máquina profesional para aplicar fertilizante orgánico líquido, orina de ganado y purines. Capacidad de 6-10m³ y alcance de 10-15m. Ideal para granjas ganaderas y plantas de biogás.",
+            fr: "L'épandeur de fumier liquide est une machine professionnelle pour appliquer des engrais organiques liquides. Capacité 6-10m³ et portée 10-15m.",
+            ar: "ناشر السماد السائل هو آلة احترافية لتطبيق الأسمدة العضوية السائلة. سعة 6-10 م³ ومدى 10-15 م.",
+            ru: "Разбрасыватель жидкого навоза - профессиональная машина для внесения жидких органических удобрений. Емкость 6-10м³.",
+            pt: "O espalhador de esterco líquido é uma máquina profissional para aplicar fertilizante orgânico líquido. Capacidade 6-10m³."
+        },
+        features: {
+            en: [
+                "6m³ or 10m³ tank capacity for flexible operation",
+                "Vacuum pump for suction and spraying (≥1m³/min)",
+                "Spraying range 10-15m for wide coverage",
+                "High-strength steel tank with anti-corrosion coating",
+                "Anti-surge baffles inside tank for stability",
+                "Liquid level indicator for real-time monitoring",
+                "Heavy-duty tires for stability",
+                "High-quality pump, control valve, and axle",
+                "Pressure gauge and anti-overflow valve for safety",
+                "Suitable for liquid manure, biogas slurry, and livestock urine"
+            ],
+            es: [
+                "Capacidad de tanque de 6-10m³",
+                "Bomba de vacío para succión y pulverización",
+                "Alcance de pulverización 10-15m",
+                "Tanque de acero de alta resistencia con revestimiento anticorrosión",
+                "Deflectores antivuelco en el interior",
+                "Indicador de nivel de líquido",
+                "Neumáticos resistentes",
+                "Bomba y válvula de control de alta calidad",
+                "Manómetro y válvula antivuelco",
+                "Adecuado para purines y lodos de biogás"
+            ],
+            fr: [
+                "Capacité de réservoir 6-10m³",
+                "Pompe à vide pour aspiration et pulvérisation",
+                "Portée de pulvérisation 10-15m",
+                "Réservoir en acier haute résistance avec revêtement anticorrosion",
+                "Déflecteurs anti-soulèvement",
+                "Indicateur de niveau de liquide",
+                "Pneus résistants",
+                "Pompe et vanne de contrôle de haute qualité",
+                "Manomètre et vanne anti-débordement",
+                "Convient aux purins et boues de biogaz"
+            ],
+            ar: [
+                "سعة خزان 6-10 م³",
+                "مضخة تفريغ للشفط والرش",
+                "مدى رش 10-15 م",
+                "خزان فولاذي عالي المقاومة مع طلاء مضاد للتآكل",
+                "حواجز مضادة للتموج في الداخل",
+                "مؤشر مستوى السائل",
+                "إطارات مقاومة",
+                "مضخة وصمام تحكم عالي الجودة",
+                "مقياس ضغط وصمام مانع للفيضان",
+                "مناسب للسماد السائل والحمأة الحيوية"
+            ],
+            ru: [
+                "Бак 6-10м³",
+                "Вакуумный насос для всасывания и распыления",
+                "Дальность распыления 10-15м",
+                "Высокопрочный стальной бак с антикоррозионным покрытием",
+                "Антиволновые перегородки внутри",
+                "Индикатор уровня жидкости",
+                "Прочные шины",
+                "Высококачественный насос и клапан",
+                "Манометр и антипереливной клапан",
+                "Подходит для жидкого навоза и биогазовой жижи"
+            ],
+            pt: [
+                "Capacidade do tanque 6-10m³",
+                "Bomba de vácuo para sucção e pulverização",
+                "Alcance de pulverização 10-15m",
+                "Tanque de aço de alta resistência com revestimento anticorrosão",
+                "Defletores anti-onda no interior",
+                "Indicador de nível de líquido",
+                "Pneus resistentes",
+                "Bomba e válvula de controle de alta qualidade",
+                "Manômetro e válvula anti-transbordamento",
+                "Adequado para chorume e lama de biogás"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "6m³ / 10m³",
+                "Tank Capacity": "6m³ / 10m³",
+                "Power Requirement": "≥70kW / ≥100kW",
+                "Machine Size (L×W×H)": "6100×2000×2700mm / 7340×2540×2700mm",
+                "Spraying Speed": "≥1m³/min (both models)",
+                "Spraying Range": "10-15m (both models)",
+                "Weight": "2100kg / 3210kg",
+                "Wheelbase": "1600mm / 1940mm",
+                "Tire Type": "400/55-22.5 / 500/60-22.5"
+            },
+            es: {
+                "Modelos": "6m³ / 10m³",
+                "Capacidad del tanque": "6m³ / 10m³",
+                "Potencia requerida": "≥70kW / ≥100kW",
+                "Tamaño": "6100×2000×2700mm / 7340×2540×2700mm",
+                "Velocidad de pulverización": "≥1m³/min",
+                "Alcance de pulverización": "10-15m",
+                "Peso": "2100kg / 3210kg",
+                "Distancia entre ejes": "1600mm / 1940mm",
+                "Neumáticos": "400/55-22.5 / 500/60-22.5"
+            },
+            fr: {
+                "Modèles": "6m³ / 10m³",
+                "Capacité du réservoir": "6m³ / 10m³",
+                "Puissance requise": "≥70kW / ≥100kW",
+                "Taille": "6100×2000×2700mm / 7340×2540×2700mm",
+                "Vitesse de pulvérisation": "≥1m³/min",
+                "Portée de pulvérisation": "10-15m",
+                "Poids": "2100kg / 3210kg",
+                "Empattement": "1600mm / 1940mm",
+                "Pneus": "400/55-22.5 / 500/60-22.5"
+            },
+            ar: {
+                "الموديلات": "6 م³ / 10 م³",
+                "سعة الخزان": "6 م³ / 10 م³",
+                "القوة المطلوبة": "≥70 كيلوواط / ≥100 كيلوواط",
+                "الحجم": "6100×2000×2700 ملم / 7340×2540×2700 ملم",
+                "سرعة الرش": "≥1 م³/دقيقة",
+                "مدى الرش": "10-15 م",
+                "الوزن": "2100 كجم / 3210 كجم",
+                "قاعدة العجلات": "1600 ملم / 1940 ملم",
+                "الإطارات": "400/55-22.5 / 500/60-22.5"
+            },
+            ru: {
+                "Модели": "6м³ / 10м³",
+                "Емкость бака": "6м³ / 10м³",
+                "Мощность": "≥70кВт / ≥100кВт",
+                "Размеры": "6100×2000×2700мм / 7340×2540×2700мм",
+                "Скорость": "≥1м³/мин",
+                "Дальность": "10-15м",
+                "Вес": "2100кг / 3210кг",
+                "Колесная база": "1600мм / 1940мм",
+                "Шины": "400/55-22.5 / 500/60-22.5"
+            },
+            pt: {
+                "Modelos": "6m³ / 10m³",
+                "Capacidade do tanque": "6m³ / 10m³",
+                "Potência necessária": "≥70kW / ≥100kW",
+                "Tamanho": "6100×2000×2700mm / 7340×2540×2700mm",
+                "Velocidade de pulverização": "≥1m³/min",
+                "Alcance de pulverização": "10-15m",
+                "Peso": "2100kg / 3210kg",
+                "Distância entre eixos": "1600mm / 1940mm",
+                "Pneus": "400/55-22.5 / 500/60-22.5"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Livestock farms, biogas plants, liquid organic fertilizer application, manure management"
+        }
+    },
+
+    // ============================================================
+    //  🧪 农机具 → 施肥机械 → 开沟施肥回填一体撒肥机
+    // ============================================================
+    {
+        id: "FT-008",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/trench-fertilizer-backfill.jpg",
+        name: {
+            en: "Trenching Fertilizer & Backfill Spreader - All-in-One Orchard Fertilizer Solution",
+            es: "Esparcidor de Fertilizante con Zanjeo y Relleno - Solución Integral para Huertos",
+            fr: "Épandeur d'Engrais avec Tranchage et Remblayage - Solution Tout-en-Un pour Vergers",
+            ar: "ناشر أسمدة مع حفر وخندق وردم - حل متكامل للبساتين",
+            ru: "Разбрасыватель удобрений с траншеей и обратной засыпкой - Комплексное решение для садов",
+            pt: "Espalhador de Fertilizante com Vala e Reaterro - Solução Completa para Pomares"
+        },
+        desc: {
+            en: "The Trenching Fertilizer & Backfill Spreader is a professional all-in-one machine for orchard fertilization. It performs trenching (25-35cm depth), fertilizer application, and backfill in a single pass. Powered by tractor PTO (≥60kW), it features a 2m³ hopper with 2-ton capacity, manganese steel trenching blades for durability, and adjustable discharge opening. Ideal for orchards, vineyards, and fruit farms requiring efficient fertilization.",
+            es: "El esparcidor con zanjeo y relleno es una máquina profesional todo en uno para la fertilización de huertos. Realiza zanjeo (25-35cm), aplicación de fertilizante y relleno en una sola pasada. Ideal para huertos y viñedos.",
+            fr: "L'épandeur avec tranchage et remblayage est une machine professionnelle tout-en-un pour la fertilisation des vergers. Réalise le tranchage (25-35cm) et le remblayage en un seul passage.",
+            ar: "ناشر الأسمدة مع الحفر والردم هو آلة احترافية متكاملة لتسميد البساتين. يقوم بالحفر (25-35 سم) والردم في تمريرة واحدة.",
+            ru: "Разбрасыватель с траншеей и обратной засыпкой - профессиональная машина для удобрения садов. Выполняет траншею (25-35 см) и обратную засыпку за один проход.",
+            pt: "O espalhador com vala e reaterro é uma máquina profissional completa para fertilização de pomares. Realiza vala (25-35cm) e reaterro em uma única passagem."
+        },
+        features: {
+            en: [
+                "2m³ hopper capacity for efficient fertilization",
+                "2-ton load capacity for extended operation",
+                "Trenching depth 25-35cm (hydraulically adjustable)",
+                "Chain conveyor for fast and consistent delivery",
+                "Manganese steel trenching blades for wear resistance",
+                "Twin disc spreading mechanism for uniform distribution",
+                "Side spreading function for orchard row application",
+                "Adjustable discharge opening for different application rates",
+                "Thickened steel body with hydraulic oil tank and electric radiator",
+                "High-quality oil pump, motor, reducer, and hydraulic valve"
+            ],
+            es: [
+                "Capacidad de tolva de 2m³",
+                "Capacidad de carga de 2 toneladas",
+                "Profundidad de zanjeo 25-35cm (ajustable hidráulicamente)",
+                "Transportador de cadena para entrega rápida",
+                "Cuchillas de zanjeo de acero al manganeso",
+                "Mecanismo de doble disco para distribución uniforme",
+                "Función de esparcimiento lateral",
+                "Apertura de descarga ajustable",
+                "Cuerpo de acero reforzado con radiador eléctrico",
+                "Bomba y motor de alta calidad"
+            ],
+            fr: [
+                "Capacité de trémie 2m³",
+                "Capacité de charge 2 tonnes",
+                "Profondeur de tranchage 25-35cm (réglable hydrauliquement)",
+                "Convoyeur à chaîne pour livraison rapide",
+                "Lames de tranchage en acier au manganèse",
+                "Mécanisme à double disque pour distribution uniforme",
+                "Fonction d'épandage latéral",
+                "Ouverture de décharge réglable",
+                "Corps en acier renforcé avec radiateur électrique",
+                "Pompe et moteur de haute qualité"
+            ],
+            ar: [
+                "سعة قادوس 2 م³",
+                "سعة تحميل 2 طن",
+                "عمق الحفر 25-35 سم (قابل للتعديل هيدروليكياً)",
+                "ناقل سلسلة للتسليم السريع",
+                "شفرات حفر من الصلب المنغنيزي",
+                "آلية قرصين للتوزيع الموحد",
+                "وظيفة نثر جانبية",
+                "فتحة تفريغ قابلة للتعديل",
+                "هيكل صلب سميك مع رادياتير كهربائي",
+                "مضخة ومحرك عالي الجودة"
+            ],
+            ru: [
+                "Бункер 2м³",
+                "Грузоподъемность 2 тонны",
+                "Глубина траншеи 25-35 см (гидравлическая регулировка)",
+                "Цепной конвейер для быстрой подачи",
+                "Ножи из марганцевой стали",
+                "Двухдисковый механизм для равномерного распределения",
+                "Боковое разбрасывание",
+                "Регулируемое выходное отверстие",
+                "Утолщенный стальной корпус с электрорадиатором",
+                "Высококачественный насос и двигатель"
+            ],
+            pt: [
+                "Capacidade de tremonha 2m³",
+                "Capacidade de carga 2 toneladas",
+                "Profundidade de vala 25-35cm (ajustável hidraulicamente)",
+                "Transportador de corrente para entrega rápida",
+                "Lâminas de vala em aço manganês",
+                "Mecanismo de disco duplo para distribuição uniforme",
+                "Função de espalhamento lateral",
+                "Abertura de descarga ajustável",
+                "Corpo em aço reforçado com radiador elétrico",
+                "Bomba e motor de alta qualidade"
+            ]
+        },
+        specs: {
+            en: {
+                "Hopper Volume": "2m³",
+                "Load Capacity": "2 tons",
+                "Power Requirement": "≥60kW",
+                "Machine Size (L×W×H)": "4510×1800×1700mm",
+                "Trenching Depth": "25-35cm (adjustable)",
+                "Weight": "1300kg",
+                "Wheelbase": "1400mm",
+                "Tire Type": "10.0/75-15.3"
+            },
+            es: {
+                "Volumen de tolva": "2m³",
+                "Capacidad de carga": "2 toneladas",
+                "Potencia requerida": "≥60kW",
+                "Tamaño": "4510×1800×1700mm",
+                "Profundidad de zanjeo": "25-35cm (ajustable)",
+                "Peso": "1300kg",
+                "Distancia entre ejes": "1400mm",
+                "Neumáticos": "10.0/75-15.3"
+            },
+            fr: {
+                "Volume trémie": "2m³",
+                "Capacité de charge": "2 tonnes",
+                "Puissance requise": "≥60kW",
+                "Taille": "4510×1800×1700mm",
+                "Profondeur de tranchage": "25-35cm (réglable)",
+                "Poids": "1300kg",
+                "Empattement": "1400mm",
+                "Pneus": "10.0/75-15.3"
+            },
+            ar: {
+                "سعة القادوس": "2 م³",
+                "سعة التحميل": "2 طن",
+                "القوة المطلوبة": "≥60 كيلوواط",
+                "الحجم": "4510×1800×1700 ملم",
+                "عمق الحفر": "25-35 سم (قابل للتعديل)",
+                "الوزن": "1300 كجم",
+                "قاعدة العجلات": "1400 ملم",
+                "الإطارات": "10.0/75-15.3"
+            },
+            ru: {
+                "Объем бункера": "2м³",
+                "Грузоподъемность": "2 т",
+                "Мощность": "≥60 кВт",
+                "Размеры": "4510×1800×1700мм",
+                "Глубина": "25-35 см",
+                "Вес": "1300кг",
+                "Колесная база": "1400мм",
+                "Шины": "10.0/75-15.3"
+            },
+            pt: {
+                "Volume tremonha": "2m³",
+                "Capacidade de carga": "2 toneladas",
+                "Potência necessária": "≥60kW",
+                "Tamanho": "4510×1800×1700mm",
+                "Profundidade de vala": "25-35cm (ajustável)",
+                "Peso": "1300kg",
+                "Distância entre eixos": "1400mm",
+                "Pneus": "10.0/75-15.3"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Orchards, vineyards, fruit farms, row crop fertilization, tree farming"
+        }
+    },
+
+    // ============================================================
+    //  🔩 农机具 → 其他农机具 → 自走式三轮撒肥车
+    // ============================================================
+    {
+        id: "OT-007",
+        category: "farm-machinery",
+        subCategory: "other-farm",
+        image: "/image/self-propelled-3wheel-spreader.jpg",
+        name: {
+            en: "Self-Propelled 3-Wheel Manure Spreader - 1.5-2.5m³ Capacity",
+            es: "Esparcidor de Estiércol Autopropulsado de 3 Ruedas - Capacidad 1.5-2.5m³",
+            fr: "Épandeur de Fumier Automoteur à 3 Roues - Capacité 1.5-2.5m³",
+            ar: "ناشر سماد ذاتي الحركة 3 عجلات - سعة 1.5-2.5 م³",
+            ru: "Самоходный 3-колесный разбрасыватель навоза - 1.5-2.5м³",
+            pt: "Espalhador de Esterco Autopropulsado de 3 Rodas - Capacidade 1.5-2.5m³"
+        },
+        desc: {
+            en: "The Self-Propelled 3-Wheel Manure Spreader is a versatile machine for fertilizer application in various terrains. Features Wuzheng chassis with 32kW engine, 1.5-2.5m³ hopper capacity, and hydraulic control. Available with twin disc or horizontal auger spreading mechanism. LED lights for night operation. Ideal for greenhouses, farmland, orchards, and pastures.",
+            es: "El esparcidor de estiércol autopropulsado de 3 ruedas es una máquina versátil para la aplicación de fertilizantes. Capacidad de 1.5-2.5m³ y control hidráulico. Ideal para invernaderos, campos y huertos.",
+            fr: "L'épandeur de fumier automoteur à 3 roues est une machine polyvalente. Capacité 1.5-2.5m³ et contrôle hydraulique. Idéal pour les serres et les vergers.",
+            ar: "ناشر السماد ذاتي الحركة 3 عجلات هو آلة متعددة الاستخدامات. سعة 1.5-2.5 م³ وتحكم هيدروليكي.",
+            ru: "Самоходный 3-колесный разбрасыватель навоза - универсальная машина. Емкость 1.5-2.5м³ и гидравлическое управление.",
+            pt: "O espalhador de esterco autopropulsado de 3 rodas é uma máquina versátil. Capacidade 1.5-2.5m³ e controle hidráulico."
+        },
+        features: {
+            en: [
+                "Wuzheng chassis with 32kW engine for reliable power",
+                "1.5m³ or 2.5m³ hopper capacity (customizable)",
+                "Load capacity up to 3 tons for efficient operation",
+                "Twin disc or horizontal auger spreading mechanism",
+                "Hydraulic control for speed and application rate adjustment",
+                "Spreading width 8-15m for wide coverage",
+                "Thickened steel body for durability",
+                "Heavy-duty tires for stability",
+                "LED lights for night operation",
+                "Suitable for greenhouses, farmland, orchards, and pastures"
+            ],
+            es: [
+                "Chasis Wuzheng con motor de 32kW",
+                "Capacidad de tolva de 1.5-2.5m³ (personalizable)",
+                "Capacidad de carga hasta 3 toneladas",
+                "Mecanismo de doble disco o sinfín horizontal",
+                "Control hidráulico",
+                "Ancho de esparcimiento 8-15m",
+                "Cuerpo de acero reforzado",
+                "Neumáticos resistentes",
+                "Luces LED para operación nocturna",
+                "Adecuado para invernaderos, campos y huertos"
+            ],
+            fr: [
+                "Châssis Wuzheng avec moteur 32kW",
+                "Capacité de trémie 1.5-2.5m³ (personnalisable)",
+                "Capacité de charge jusqu'à 3 tonnes",
+                "Mécanisme à double disque ou vis horizontale",
+                "Contrôle hydraulique",
+                "Largeur d'épandage 8-15m",
+                "Corps en acier renforcé",
+                "Pneus résistants",
+                "Lumières LED pour fonctionnement nocturne",
+                "Convient aux serres, champs et vergers"
+            ],
+            ar: [
+                "هيكل Wuzheng مع محرك 32 كيلوواط",
+                "سعة قادوس 1.5-2.5 م³ (قابل للتخصيص)",
+                "سعة تحميل تصل إلى 3 طن",
+                "آلية قرصين أو مثقب أفقي",
+                "تحكم هيدروليكي",
+                "عرض نثر 8-15 م",
+                "هيكل صلب سميك",
+                "إطارات مقاومة",
+                "أضواء LED للعمل الليلي",
+                "مناسب للدفيئات والحقول والبساتين"
+            ],
+            ru: [
+                "Шасси Wuzheng с двигателем 32 кВт",
+                "Бункер 1.5-2.5м³ (на заказ)",
+                "Грузоподъемность до 3 тонн",
+                "Двухдисковый или горизонтальный шнек",
+                "Гидравлическое управление",
+                "Ширина 8-15м",
+                "Утолщенный стальной корпус",
+                "Прочные шины",
+                "Светодиодные фары",
+                "Подходит для теплиц, полей и садов"
+            ],
+            pt: [
+                "Chassi Wuzheng com motor 32kW",
+                "Capacidade de tremonha 1.5-2.5m³ (personalizável)",
+                "Capacidade de carga até 3 toneladas",
+                "Mecanismo de disco duplo ou rosca horizontal",
+                "Controle hidráulico",
+                "Largura de espalhamento 8-15m",
+                "Corpo em aço reforçado",
+                "Pneus resistentes",
+                "Luzes LED para operação noturna",
+                "Adequado para estufas, campos e pomares"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1.5m³ / 2.5m³",
+                "Hopper Volume": "1.5m³ / 2.5m³ (customizable)",
+                "Load Capacity": "2t / 3t",
+                "Engine Power": "32kW (Changchai)",
+                "Machine Size (L×W×H)": "4550×1400×1500mm / 4650×1400×1700mm",
+                "Spreading Width": "8-15m (both models)",
+                "Weight": "1480kg / 1540kg",
+                "Tire Type": "Front 6.00-14 / Rear 7.00-16"
+            },
+            es: {
+                "Modelos": "1.5m³ / 2.5m³",
+                "Volumen de tolva": "1.5m³ / 2.5m³ (personalizable)",
+                "Capacidad de carga": "2t / 3t",
+                "Potencia del motor": "32kW (Changchai)",
+                "Tamaño": "4550×1400×1500mm / 4650×1400×1700mm",
+                "Ancho de esparcimiento": "8-15m",
+                "Peso": "1480kg / 1540kg",
+                "Neumáticos": "Del. 6.00-14 / Tras. 7.00-16"
+            },
+            fr: {
+                "Modèles": "1.5m³ / 2.5m³",
+                "Volume trémie": "1.5m³ / 2.5m³ (personnalisable)",
+                "Capacité de charge": "2t / 3t",
+                "Puissance moteur": "32kW (Changchai)",
+                "Taille": "4550×1400×1500mm / 4650×1400×1700mm",
+                "Largeur d'épandage": "8-15m",
+                "Poids": "1480kg / 1540kg",
+                "Pneus": "Av. 6.00-14 / Arr. 7.00-16"
+            },
+            ar: {
+                "الموديلات": "1.5 م³ / 2.5 م³",
+                "سعة القادوس": "1.5 م³ / 2.5 م³ (قابل للتخصيص)",
+                "سعة التحميل": "2 طن / 3 طن",
+                "قوة المحرك": "32 كيلوواط (Changchai)",
+                "الحجم": "4550×1400×1500 ملم / 4650×1400×1700 ملم",
+                "عرض النثر": "8-15 م",
+                "الوزن": "1480 كجم / 1540 كجم",
+                "الإطارات": "أمامي 6.00-14 / خلفي 7.00-16"
+            },
+            ru: {
+                "Модели": "1.5м³ / 2.5м³",
+                "Объем бункера": "1.5м³ / 2.5м³",
+                "Грузоподъемность": "2т / 3т",
+                "Двигатель": "32 кВт (Changchai)",
+                "Размеры": "4550×1400×1500мм / 4650×1400×1700мм",
+                "Ширина": "8-15м",
+                "Вес": "1480кг / 1540кг",
+                "Шины": "Перед 6.00-14 / Зад 7.00-16"
+            },
+            pt: {
+                "Modelos": "1.5m³ / 2.5m³",
+                "Volume tremonha": "1.5m³ / 2.5m³ (personalizável)",
+                "Capacidade de carga": "2t / 3t",
+                "Potência do motor": "32kW (Changchai)",
+                "Tamanho": "4550×1400×1500mm / 4650×1400×1700mm",
+                "Largura de espalhamento": "8-15m",
+                "Peso": "1480kg / 1540kg",
+                "Pneus": "Dianteiro 6.00-14 / Traseiro 7.00-16"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Greenhouses, farmland, orchards, pastures, small to medium farms"
+        }
+    },
+
+    // ============================================================
+    //  🔩 农机具 → 其他农机具 → 自走式五轮撒肥车
+    // ============================================================
+    {
+        id: "OT-008",
+        category: "farm-machinery",
+        subCategory: "other-farm",
+        image: "/image/self-propelled-5wheel-spreader.jpg",
+        name: {
+            en: "Self-Propelled 5-Wheel Manure Spreader - 1.5-3m³ Capacity",
+            es: "Esparcidor de Estiércol Autopropulsado de 5 Ruedas - Capacidad 1.5-3m³",
+            fr: "Épandeur de Fumier Automoteur à 5 Roues - Capacité 1.5-3m³",
+            ar: "ناشر سماد ذاتي الحركة 5 عجلات - سعة 1.5-3 م³",
+            ru: "Самоходный 5-колесный разбрасыватель навоза - 1.5-3м³",
+            pt: "Espalhador de Esterco Autopropulsado de 5 Rodas - Capacidade 1.5-3m³"
+        },
+        desc: {
+            en: "The Self-Propelled 5-Wheel Manure Spreader is a powerful and stable machine for fertilizer application. Features 5-wheel chassis with 32kW engine, 1.5-3m³ hopper capacity, and hydraulic control. Available with twin disc or horizontal auger spreading mechanism. LED lights for night operation. Ideal for greenhouses, farmland, orchards, and pastures requiring stable and efficient fertilizer application.",
+            es: "El esparcidor de estiércol autopropulsado de 5 ruedas es una máquina potente y estable. Capacidad de 1.5-3m³ y control hidráulico. Ideal para invernaderos, campos y huertos.",
+            fr: "L'épandeur de fumier automoteur à 5 roues est une machine puissante et stable. Capacité 1.5-3m³ et contrôle hydraulique.",
+            ar: "ناشر السماد ذاتي الحركة 5 عجلات هو آلة قوية ومستقرة. سعة 1.5-3 م³ وتحكم هيدروليكي.",
+            ru: "Самоходный 5-колесный разбрасыватель навоза - мощная и стабильная машина. Емкость 1.5-3м³.",
+            pt: "O espalhador de esterco autopropulsado de 5 rodas é uma máquina potente e estável. Capacidade 1.5-3m³."
+        },
+        features: {
+            en: [
+                "5-wheel chassis with 32kW engine for superior stability",
+                "1.5m³ or 3m³ hopper capacity (customizable)",
+                "Load capacity up to 4 tons for efficient operation",
+                "Twin disc or horizontal auger spreading mechanism",
+                "Hydraulic control for speed and application rate adjustment",
+                "Spreading width 8-15m for wide coverage",
+                "Thickened steel body for durability",
+                "Heavy-duty tires for stability",
+                "LED lights for night operation",
+                "Suitable for greenhouses, farmland, orchards, and pastures"
+            ],
+            es: [
+                "Chasis de 5 ruedas con motor de 32kW",
+                "Capacidad de tolva de 1.5-3m³ (personalizable)",
+                "Capacidad de carga hasta 4 toneladas",
+                "Mecanismo de doble disco o sinfín horizontal",
+                "Control hidráulico",
+                "Ancho de esparcimiento 8-15m",
+                "Cuerpo de acero reforzado",
+                "Neumáticos resistentes",
+                "Luces LED",
+                "Adecuado para invernaderos, campos y huertos"
+            ],
+            fr: [
+                "Châssis 5 roues avec moteur 32kW",
+                "Capacité de trémie 1.5-3m³ (personnalisable)",
+                "Capacité de charge jusqu'à 4 tonnes",
+                "Mécanisme à double disque ou vis horizontale",
+                "Contrôle hydraulique",
+                "Largeur d'épandage 8-15m",
+                "Corps en acier renforcé",
+                "Pneus résistants",
+                "Lumières LED",
+                "Convient aux serres, champs et vergers"
+            ],
+            ar: [
+                "هيكل 5 عجلات مع محرك 32 كيلوواط",
+                "سعة قادوس 1.5-3 م³ (قابل للتخصيص)",
+                "سعة تحميل تصل إلى 4 طن",
+                "آلية قرصين أو مثقب أفقي",
+                "تحكم هيدروليكي",
+                "عرض نثر 8-15 م",
+                "هيكل صلب سميك",
+                "إطارات مقاومة",
+                "أضواء LED",
+                "مناسب للدفيئات والحقول والبساتين"
+            ],
+            ru: [
+                "5-колесное шасси с двигателем 32 кВт",
+                "Бункер 1.5-3м³ (на заказ)",
+                "Грузоподъемность до 4 тонн",
+                "Двухдисковый или горизонтальный шнек",
+                "Гидравлическое управление",
+                "Ширина 8-15м",
+                "Утолщенный стальной корпус",
+                "Прочные шины",
+                "Светодиодные фары",
+                "Подходит для теплиц, полей и садов"
+            ],
+            pt: [
+                "Chassi de 5 rodas com motor 32kW",
+                "Capacidade de tremonha 1.5-3m³ (personalizável)",
+                "Capacidade de carga até 4 toneladas",
+                "Mecanismo de disco duplo ou rosca horizontal",
+                "Controle hidráulico",
+                "Largura de espalhamento 8-15m",
+                "Corpo em aço reforçado",
+                "Pneus resistentes",
+                "Luzes LED",
+                "Adequado para estufas, campos e pomares"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1.5m³ / 3m³",
+                "Hopper Volume": "1.5m³ / 3m³ (customizable)",
+                "Load Capacity": "2t / 4t",
+                "Engine Power": "32kW (Changchai)",
+                "Machine Size (L×W×H)": "4600×1850×1500mm / 4700×1850×1830mm",
+                "Spreading Width": "8-15m (both models)",
+                "Weight": "1490kg / 1640kg",
+                "Tire Type": "Front 6.00-14 / Rear 7.00-16"
+            },
+            es: {
+                "Modelos": "1.5m³ / 3m³",
+                "Volumen de tolva": "1.5m³ / 3m³ (personalizable)",
+                "Capacidad de carga": "2t / 4t",
+                "Potencia del motor": "32kW (Changchai)",
+                "Tamaño": "4600×1850×1500mm / 4700×1850×1830mm",
+                "Ancho de esparcimiento": "8-15m",
+                "Peso": "1490kg / 1640kg",
+                "Neumáticos": "Del. 6.00-14 / Tras. 7.00-16"
+            },
+            fr: {
+                "Modèles": "1.5m³ / 3m³",
+                "Volume trémie": "1.5m³ / 3m³ (personnalisable)",
+                "Capacité de charge": "2t / 4t",
+                "Puissance moteur": "32kW (Changchai)",
+                "Taille": "4600×1850×1500mm / 4700×1850×1830mm",
+                "Largeur d'épandage": "8-15m",
+                "Poids": "1490kg / 1640kg",
+                "Pneus": "Av. 6.00-14 / Arr. 7.00-16"
+            },
+            ar: {
+                "الموديلات": "1.5 م³ / 3 م³",
+                "سعة القادوس": "1.5 م³ / 3 م³ (قابل للتخصيص)",
+                "سعة التحميل": "2 طن / 4 طن",
+                "قوة المحرك": "32 كيلوواط (Changchai)",
+                "الحجم": "4600×1850×1500 ملم / 4700×1850×1830 ملم",
+                "عرض النثر": "8-15 م",
+                "الوزن": "1490 كجم / 1640 كجم",
+                "الإطارات": "أمامي 6.00-14 / خلفي 7.00-16"
+            },
+            ru: {
+                "Модели": "1.5м³ / 3м³",
+                "Объем бункера": "1.5м³ / 3м³",
+                "Грузоподъемность": "2т / 4т",
+                "Двигатель": "32 кВт (Changchai)",
+                "Размеры": "4600×1850×1500мм / 4700×1850×1830мм",
+                "Ширина": "8-15м",
+                "Вес": "1490кг / 1640кг",
+                "Шины": "Перед 6.00-14 / Зад 7.00-16"
+            },
+            pt: {
+                "Modelos": "1.5m³ / 3m³",
+                "Volume tremonha": "1.5m³ / 3m³ (personalizável)",
+                "Capacidade de carga": "2t / 4t",
+                "Potência do motor": "32kW (Changchai)",
+                "Tamanho": "4600×1850×1500mm / 4700×1850×1830mm",
+                "Largura de espalhamento": "8-15m",
+                "Peso": "1490kg / 1640kg",
+                "Pneus": "Dianteiro 6.00-14 / Traseiro 7.00-16"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Greenhouses, farmland, orchards, pastures, medium farms"
+        }
+    },
+
+    // ============================================================
+    //  🔩 农机具 → 其他农机具 → 履带式撒肥车
+    // ============================================================
+    {
+        id: "OT-009",
+        category: "farm-machinery",
+        subCategory: "other-farm",
+        image: "/image/tracked-spreader.jpg",
+        name: {
+            en: "Tracked Manure Spreader - 3-5m³ Capacity (All-Terrain)",
+            es: "Esparcidor de Estiércol con Orugas - Capacidad 3-5m³ (Todo Terreno)",
+            fr: "Épandeur de Fumier à Chenilles - Capacité 3-5m³ (Tout Terrain)",
+            ar: "ناشر سماد مجنزر - سعة 3-5 م³ (جميع التضاريس)",
+            ru: "Гусеничный разбрасыватель навоза - 3-5м³ (вездеход)",
+            pt: "Espalhador de Esterco com Esteiras - Capacidade 3-5m³ (Todo Terreno)"
+        },
+        desc: {
+            en: "The Tracked Manure Spreader is a powerful all-terrain machine for fertilizer application in challenging conditions. Features tracked chassis with 490 engine, 3-5m³ hopper capacity, and hydraulic control. Available with twin disc or horizontal auger spreading mechanism with reinforced crushing blades for excellent breaking capability. Ideal for greenhouses, farmland, paddy fields, orchards, and wet or soft terrain.",
+            es: "El esparcidor de estiércol con orugas es una máquina todoterreno potente. Capacidad de 3-5m³ y control hidráulico. Ideal para invernaderos, campos, arrozales y terrenos húmedos.",
+            fr: "L'épandeur de fumier à chenilles est une machine tout-terrain puissante. Capacité 3-5m³ et contrôle hydraulique. Idéal pour les serres, champs et rizières.",
+            ar: "ناشر السماد المجنزر هو آلة قوية لجميع التضاريس. سعة 3-5 م³ وتحكم هيدروليكي. مثالي للدفيئات والحقول والأراضي الرطبة.",
+            ru: "Гусеничный разбрасыватель навоза - мощная вездеходная машина. Емкость 3-5м³ и гидравлическое управление. Идеален для теплиц, полей и влажных почв.",
+            pt: "O espalhador de esterco com esteiras é uma máquina todo-terreno potente. Capacidade 3-5m³ e controle hidráulico. Ideal para estufas, campos e terrenos úmidos."
+        },
+        features: {
+            en: [
+                "Tracked chassis with 490 engine for excellent traction",
+                "3m³ or 5m³ hopper capacity (customizable)",
+                "Load capacity up to 6 tons for efficient operation",
+                "Twin disc or horizontal auger spreading mechanism",
+                "Reinforced crushing blades for excellent breaking capability",
+                "Hydraulic control for speed and application rate adjustment",
+                "Spreading width 8-15m for wide coverage",
+                "Thickened steel body for durability",
+                "Import reducer and precision hydraulic speed control valve",
+                "Suitable for greenhouses, farmland, paddy fields, orchards, and wet terrain"
+            ],
+            es: [
+                "Chasis con orugas y motor 490",
+                "Capacidad de tolva de 3-5m³ (personalizable)",
+                "Capacidad de carga hasta 6 toneladas",
+                "Mecanismo de doble disco o sinfín horizontal",
+                "Cuchillas de trituración reforzadas",
+                "Control hidráulico",
+                "Ancho de esparcimiento 8-15m",
+                "Cuerpo de acero reforzado",
+                "Válvula de control de velocidad hidráulica de precisión",
+                "Adecuado para invernaderos, campos, arrozales y terrenos húmedos"
+            ],
+            fr: [
+                "Châssis à chenilles avec moteur 490",
+                "Capacité de trémie 3-5m³ (personnalisable)",
+                "Capacité de charge jusqu'à 6 tonnes",
+                "Mécanisme à double disque ou vis horizontale",
+                "Lames de broyage renforcées",
+                "Contrôle hydraulique",
+                "Largeur d'épandage 8-15m",
+                "Corps en acier renforcé",
+                "Vanne de régulation hydraulique de précision",
+                "Convient aux serres, champs, rizières et terrains humides"
+            ],
+            ar: [
+                "هيكل مجنزر مع محرك 490",
+                "سعة قادوس 3-5 م³ (قابل للتخصيص)",
+                "سعة تحميل تصل إلى 6 طن",
+                "آلية قرصين أو مثقب أفقي",
+                "شفرات تكسير معززة",
+                "تحكم هيدروليكي",
+                "عرض نثر 8-15 م",
+                "هيكل صلب سميك",
+                "صمام تحكم هيدروليكي دقيق",
+                "مناسب للدفيئات والحقول والأراضي الرطبة"
+            ],
+            ru: [
+                "Гусеничное шасси с двигателем 490",
+                "Бункер 3-5м³ (на заказ)",
+                "Грузоподъемность до 6 тонн",
+                "Двухдисковый или горизонтальный шнек",
+                "Усиленные ножи для измельчения",
+                "Гидравлическое управление",
+                "Ширина 8-15м",
+                "Утолщенный стальной корпус",
+                "Точный гидравлический клапан регулировки скорости",
+                "Подходит для теплиц, полей, рисовых полей и влажных почв"
+            ],
+            pt: [
+                "Chassi com esteiras e motor 490",
+                "Capacidade de tremonha 3-5m³ (personalizável)",
+                "Capacidade de carga até 6 toneladas",
+                "Mecanismo de disco duplo ou rosca horizontal",
+                "Lâminas de trituração reforçadas",
+                "Controle hidráulico",
+                "Largura de espalhamento 8-15m",
+                "Corpo em aço reforçado",
+                "Válvula de controle hidráulico de precisão",
+                "Adequado para estufas, campos, arrozais e terrenos úmidos"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "3m³ / 5m³",
+                "Hopper Volume": "3m³ / 5m³ (customizable)",
+                "Load Capacity": "4t / 6t",
+                "Engine": "490 engine",
+                "Machine Size (L×W×H)": "3650×1950×1700mm / 4200×2100×2120mm",
+                "Spreading Width": "8-15m (both models)",
+                "Weight": "2210kg / 2450kg",
+                "Track Size": "320×90×56 (both models)"
+            },
+            es: {
+                "Modelos": "3m³ / 5m³",
+                "Volumen de tolva": "3m³ / 5m³ (personalizable)",
+                "Capacidad de carga": "4t / 6t",
+                "Motor": "Motor 490",
+                "Tamaño": "3650×1950×1700mm / 4200×2100×2120mm",
+                "Ancho de esparcimiento": "8-15m",
+                "Peso": "2210kg / 2450kg",
+                "Tamaño de oruga": "320×90×56"
+            },
+            fr: {
+                "Modèles": "3m³ / 5m³",
+                "Volume trémie": "3m³ / 5m³ (personnalisable)",
+                "Capacité de charge": "4t / 6t",
+                "Moteur": "Moteur 490",
+                "Taille": "3650×1950×1700mm / 4200×2100×2120mm",
+                "Largeur d'épandage": "8-15m",
+                "Poids": "2210kg / 2450kg",
+                "Taille de chenille": "320×90×56"
+            },
+            ar: {
+                "الموديلات": "3 م³ / 5 م³",
+                "سعة القادوس": "3 م³ / 5 م³ (قابل للتخصيص)",
+                "سعة التحميل": "4 طن / 6 طن",
+                "المحرك": "محرك 490",
+                "الحجم": "3650×1950×1700 ملم / 4200×2100×2120 ملم",
+                "عرض النثر": "8-15 م",
+                "الوزن": "2210 كجم / 2450 كجم",
+                "حجم الجنزير": "320×90×56"
+            },
+            ru: {
+                "Модели": "3м³ / 5м³",
+                "Объем бункера": "3м³ / 5м³",
+                "Грузоподъемность": "4т / 6т",
+                "Двигатель": "Двигатель 490",
+                "Размеры": "3650×1950×1700мм / 4200×2100×2120мм",
+                "Ширина": "8-15м",
+                "Вес": "2210кг / 2450кг",
+                "Гусеницы": "320×90×56"
+            },
+            pt: {
+                "Modelos": "3m³ / 5m³",
+                "Volume tremonha": "3m³ / 5m³ (personalizável)",
+                "Capacidade de carga": "4t / 6t",
+                "Motor": "Motor 490",
+                "Tamanho": "3650×1950×1700mm / 4200×2100×2120mm",
+                "Largura de espalhamento": "8-15m",
+                "Peso": "2210kg / 2450kg",
+                "Tamanho da esteira": "320×90×56"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Wet terrain, paddy fields, orchards, greenhouses, soft soil, all-terrain farming"
+        }
+    },
 ];
 
 // ============================================================
