@@ -7448,6 +7448,165 @@ const Products = [
             application: "Small farms, home gardens, greenhouses, orchards, vegetable planting, horticulture"
         }
     },
+        // ============================================================
+    //  🧪 农机具 → 施肥机械 → 手推施肥器
+    // ============================================================
+    {
+        id: "FT-009",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/hand-push-fertilizer.jpg",
+        name: {
+            en: "Hand Push Fertilizer Spreader - Portable Manual Fertilizer Applicator",
+            es: "Esparcidor de Fertilizante Manual - Aplicador de Fertilizante Portátil",
+            fr: "Épandeur d'Engrais à Pousser Manuel - Applicateur d'Engrais Portatif",
+            ar: "ناشر أسمدة يدوي بالدفع - موزع أسمدة محمول",
+            ru: "Ручной разбрасыватель удобрений - Портативный аппликатор удобрений",
+            pt: "Espalhador de Fertilizante Manual - Aplicador de Fertilizante Portátil"
+        },
+        desc: {
+            en: "The Hand Push Fertilizer Spreader is a lightweight, portable manual fertilizer applicator designed for efficient and precise fertilizer distribution in small farms, vegetable gardens, greenhouses, and orchards. Features an ergonomic design with adjustable application rate, suitable for granular fertilizers, organic fertilizers, and seed application. Ideal for small-scale farmers, home gardeners, and horticulture enthusiasts looking for a cost-effective fertilizing solution.",
+            es: "El esparcidor de fertilizante manual es un aplicador ligero y portátil para una distribución eficiente y precisa en granjas pequeñas, huertos, invernaderos y huertos frutales. Diseño ergonómico con tasa de aplicación ajustable. Ideal para agricultores pequeños y jardineros.",
+            fr: "L'épandeur d'engrais à pousser manuel est un applicateur léger et portatif pour une distribution efficace et précise dans les petites fermes, potagers, serres et vergers. Conception ergonomique avec débit d'application réglable.",
+            ar: "ناشر الأسمدة اليدوي بالدفع هو موزع أسمدة خفيف ومحمول للتوزيع الفعال والدقيق في المزارع الصغيرة والحدائق والدفيئات. تصميم مريح مع معدل تطبيق قابل للتعديل.",
+            ru: "Ручной разбрасыватель удобрений - легкий портативный аппликатор для эффективного и точного внесения удобрений на малых фермах, в огородах и теплицах. Эргономичный дизайн с регулируемой нормой внесения.",
+            pt: "O espalhador de fertilizante manual é um aplicador leve e portátil para distribuição eficiente e precisa em pequenas fazendas, hortas e estufas. Design ergonômico com taxa de aplicação ajustável."
+        },
+        features: {
+            en: [
+                "Lightweight and portable design for easy operation",
+                "Ergonomic handle for comfortable extended use",
+                "Adjustable application rate for different fertilizer types",
+                "Suitable for granular fertilizers, organic fertilizers, and seeds",
+                "Model FR-HPF-8 with 7kg net weight",
+                "Compact size: 560×280×545mm for easy storage",
+                "High loading capacity: 320pcs/790pcs per container",
+                "Durable construction for long service life",
+                "Ideal for small farms, home gardens, greenhouses, and orchards",
+                "Precise fertilizer distribution for optimal crop growth"
+            ],
+            es: [
+                "Diseño ligero y portátil",
+                "Mango ergonómico para uso prolongado",
+                "Tasa de aplicación ajustable",
+                "Adecuado para fertilizantes granulares y orgánicos",
+                "Modelo FR-HPF-8 con 7kg de peso neto",
+                "Tamaño compacto: 560×280×545mm",
+                "Alta capacidad de carga",
+                "Construcción duradera",
+                "Distribución precisa de fertilizante"
+            ],
+            fr: [
+                "Conception légère et portable",
+                "Poignée ergonomique",
+                "Débit d'application réglable",
+                "Convient aux engrais granulaires et organiques",
+                "Modèle FR-HPF-8 avec 7kg de poids net",
+                "Taille compacte: 560×280×545mm",
+                "Haute capacité de chargement",
+                "Construction durable",
+                "Distribution précise d'engrais"
+            ],
+            ar: [
+                "تصميم خفيف ومحمول",
+                "مقبض مريح للاستخدام المطول",
+                "معدل تطبيق قابل للتعديل",
+                "مناسب للأسمدة الحبيبية والعضوية",
+                "موديل FR-HPF-8 بوزن صافي 7 كجم",
+                "حجم مضغوط: 560×280×545 ملم",
+                "سعة تحميل عالية",
+                "بناء متين",
+                "توزيع دقيق للأسمدة"
+            ],
+            ru: [
+                "Легкая и портативная конструкция",
+                "Эргономичная ручка",
+                "Регулируемая норма внесения",
+                "Подходит для гранулированных и органических удобрений",
+                "Модель FR-HPF-8 с весом 7 кг",
+                "Компактный размер: 560×280×545мм",
+                "Высокая загрузочная способность",
+                "Прочная конструкция",
+                "Точное распределение удобрений"
+            ],
+            pt: [
+                "Design leve e portátil",
+                "Cabo ergonômico",
+                "Taxa de aplicação ajustável",
+                "Adequado para fertilizantes granulares e orgânicos",
+                "Modelo FR-HPF-8 com 7kg de peso líquido",
+                "Tamanho compacto: 560×280×545mm",
+                "Alta capacidade de carga",
+                "Construção durável",
+                "Distribuição precisa de fertilizante"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "FR-HPF-8",
+                "Net Weight": "7kg",
+                "Gross Weight": "7.5kg",
+                "Dimensions": "560×280×545mm",
+                "Container Loading": "320pcs / 790pcs (20ft)",
+                "Application": "Granular fertilizer, organic fertilizer, seeds",
+                "Type": "Manual push fertilizer spreader",
+                "Features": "Adjustable application rate, ergonomic handle"
+            },
+            es: {
+                "Modelo": "FR-HPF-8",
+                "Peso neto": "7kg",
+                "Peso bruto": "7.5kg",
+                "Dimensiones": "560×280×545mm",
+                "Carga en contenedor": "320pcs / 790pcs (20ft)",
+                "Aplicación": "Fertilizante granular, orgánico, semillas",
+                "Tipo": "Esparcidor de fertilizante manual"
+            },
+            fr: {
+                "Modèle": "FR-HPF-8",
+                "Poids net": "7kg",
+                "Poids brut": "7.5kg",
+                "Dimensions": "560×280×545mm",
+                "Chargement conteneur": "320pcs / 790pcs (20ft)",
+                "Application": "Engrais granulaire, organique, semences",
+                "Type": "Épandeur d'engrais manuel"
+            },
+            ar: {
+                "الموديل": "FR-HPF-8",
+                "الوزن الصافي": "7 كجم",
+                "الوزن الإجمالي": "7.5 كجم",
+                "الأبعاد": "560×280×545 ملم",
+                "تحميل الحاوية": "320 قطعة / 790 قطعة (20 قدم)",
+                "التطبيق": "أسمدة حبيبية، عضوية، بذور",
+                "النوع": "ناشر أسمدة يدوي بالدفع"
+            },
+            ru: {
+                "Модель": "FR-HPF-8",
+                "Вес нетто": "7кг",
+                "Вес брутто": "7.5кг",
+                "Размеры": "560×280×545мм",
+                "Загрузка контейнера": "320шт / 790шт (20ft)",
+                "Применение": "Гранулированные удобрения, органические, семена",
+                "Тип": "Ручной разбрасыватель удобрений"
+            },
+            pt: {
+                "Modelo": "FR-HPF-8",
+                "Peso líquido": "7kg",
+                "Peso bruto": "7.5kg",
+                "Dimensões": "560×280×545mm",
+                "Carga no contêiner": "320pcs / 790pcs (20ft)",
+                "Aplicação": "Fertilizante granular, orgânico, sementes",
+                "Tipo": "Espalhador de fertilizante manual"
+            }
+        },
+        inquiry: {
+            minOrder: "50 units",
+            leadTime: "15-20 days",
+            warranty: "6 months",
+            moq: "20 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Small farms, home gardens, greenhouses, orchards, vegetable planting, horticulture"
+        }
+    },
 ];
 
 // ============================================================
