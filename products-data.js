@@ -7754,6 +7754,165 @@ const Products = [
             application: "Small farms, orchards, gardens, greenhouses, pest control, liquid fertilizer application"
         }
     },
+        // ============================================================
+    //  🧪 农机具 → 施肥机械 → 电动施肥器
+    // ============================================================
+    {
+        id: "FT-010",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/electric-fertilizer-spreader.jpg",
+        name: {
+            en: "FR-F001 Electric Fertilizer Spreader - Portable Battery Powered Fertilizer Applicator",
+            es: "Esparcidor de Fertilizante Eléctrico FR-F001 - Aplicador de Fertilizante Portátil a Batería",
+            fr: "Épandeur d'Engrais Électrique FR-F001 - Applicateur d'Engrais Portatif à Batterie",
+            ar: "ناشر أسمدة كهربائي FR-F001 - موزع أسمدة محمول يعمل بالبطارية",
+            ru: "Электрический разбрасыватель удобрений FR-F001 - Портативный аккумуляторный аппликатор",
+            pt: "Espalhador de Fertilizante Elétrico FR-F001 - Aplicador de Fertilizante Portátil a Bateria"
+        },
+        desc: {
+            en: "The FR-F001 Electric Fertilizer Spreader is a portable battery-powered fertilizer applicator designed for efficient and precise fertilizer distribution in small farms, vegetable gardens, greenhouses, and orchards. Features an ergonomic design with adjustable application rate, suitable for granular fertilizers, organic fertilizers, and seed application. Weighing only 5.5kg, it is lightweight and easy to operate. Ideal for small-scale farmers, home gardeners, and horticulture enthusiasts looking for a cost-effective fertilizing solution.",
+            es: "El esparcidor de fertilizante eléctrico FR-F001 es un aplicador portátil a batería para una distribución eficiente y precisa en granjas pequeñas, huertos, invernaderos y huertos frutales. Peso ligero de 5.5kg, diseño ergonómico con tasa de aplicación ajustable. Ideal para agricultores pequeños y jardineros.",
+            fr: "L'épandeur d'engrais électrique FR-F001 est un applicateur portatif à batterie pour une distribution efficace et précise dans les petites fermes, potagers, serres et vergers. Poids léger de 5.5kg, conception ergonomique avec débit d'application réglable.",
+            ar: "ناشر الأسمدة الكهربائي FR-F001 هو موزع أسمدة محمول يعمل بالبطارية للتوزيع الفعال والدقيق في المزارع الصغيرة والحدائق والدفيئات. وزن خفيف 5.5 كجم، تصميم مريح مع معدل تطبيق قابل للتعديل.",
+            ru: "Электрический разбрасыватель удобрений FR-F001 - портативный аккумуляторный аппликатор для эффективного и точного внесения удобрений на малых фермах, в огородах и теплицах. Легкий вес 5.5 кг, эргономичный дизайн с регулируемой нормой внесения.",
+            pt: "O espalhador de fertilizante elétrico FR-F001 é um aplicador portátil a bateria para distribuição eficiente e precisa em pequenas fazendas, hortas e estufas. Peso leve de 5.5kg, design ergonômico com taxa de aplicação ajustável."
+        },
+        features: {
+            en: [
+                "Portable battery-powered design for easy operation",
+                "Lightweight construction: only 5.5kg net weight",
+                "Ergonomic handle for comfortable extended use",
+                "Adjustable application rate for different fertilizer types",
+                "Suitable for granular fertilizers, organic fertilizers, and seeds",
+                "Model FR-F001 with compact size: 455×290×465mm",
+                "High loading capacity: 450pcs/1100pcs per container",
+                "Durable construction for long service life",
+                "Ideal for small farms, home gardens, greenhouses, and orchards",
+                "Efficient fertilizer distribution for optimal crop growth"
+            ],
+            es: [
+                "Diseño portátil a batería",
+                "Construcción ligera: solo 5.5kg de peso neto",
+                "Mango ergonómico para uso prolongado",
+                "Tasa de aplicación ajustable",
+                "Adecuado para fertilizantes granulares y orgánicos",
+                "Modelo FR-F001 con tamaño compacto",
+                "Alta capacidad de carga",
+                "Construcción duradera",
+                "Distribución eficiente de fertilizante"
+            ],
+            fr: [
+                "Conception portative à batterie",
+                "Construction légère: seulement 5.5kg",
+                "Poignée ergonomique",
+                "Débit d'application réglable",
+                "Convient aux engrais granulaires et organiques",
+                "Modèle FR-F001 avec taille compacte",
+                "Haute capacité de chargement",
+                "Construction durable",
+                "Distribution efficace d'engrais"
+            ],
+            ar: [
+                "تصميم محمول يعمل بالبطارية",
+                "بناء خفيف الوزن: 5.5 كجم فقط",
+                "مقبض مريح للاستخدام المطول",
+                "معدل تطبيق قابل للتعديل",
+                "مناسب للأسمدة الحبيبية والعضوية",
+                "موديل FR-F001 بحجم مضغوط",
+                "سعة تحميل عالية",
+                "بناء متين",
+                "توزيع فعال للأسمدة"
+            ],
+            ru: [
+                "Портативный аккумуляторный дизайн",
+                "Легкая конструкция: всего 5.5 кг",
+                "Эргономичная ручка",
+                "Регулируемая норма внесения",
+                "Подходит для гранулированных и органических удобрений",
+                "Модель FR-F001 с компактным размером",
+                "Высокая загрузочная способность",
+                "Прочная конструкция",
+                "Эффективное распределение удобрений"
+            ],
+            pt: [
+                "Design portátil a bateria",
+                "Construção leve: apenas 5.5kg",
+                "Cabo ergonômico",
+                "Taxa de aplicação ajustável",
+                "Adequado para fertilizantes granulares e orgânicos",
+                "Modelo FR-F001 com tamanho compacto",
+                "Alta capacidade de carga",
+                "Construção durável",
+                "Distribuição eficiente de fertilizante"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "FR-F001",
+                "Net Weight": "5.5kg",
+                "Gross Weight": "6kg",
+                "Dimensions": "455×290×465mm",
+                "Container Loading": "450pcs / 1100pcs (20ft)",
+                "Application": "Granular fertilizer, organic fertilizer, seeds",
+                "Type": "Battery-powered electric fertilizer spreader",
+                "Features": "Adjustable application rate, ergonomic handle"
+            },
+            es: {
+                "Modelo": "FR-F001",
+                "Peso neto": "5.5kg",
+                "Peso bruto": "6kg",
+                "Dimensiones": "455×290×465mm",
+                "Carga en contenedor": "450pcs / 1100pcs (20ft)",
+                "Aplicación": "Fertilizante granular, orgánico, semillas",
+                "Tipo": "Esparcidor de fertilizante eléctrico a batería"
+            },
+            fr: {
+                "Modèle": "FR-F001",
+                "Poids net": "5.5kg",
+                "Poids brut": "6kg",
+                "Dimensions": "455×290×465mm",
+                "Chargement conteneur": "450pcs / 1100pcs (20ft)",
+                "Application": "Engrais granulaire, organique, semences",
+                "Type": "Épandeur d'engrais électrique à batterie"
+            },
+            ar: {
+                "الموديل": "FR-F001",
+                "الوزن الصافي": "5.5 كجم",
+                "الوزن الإجمالي": "6 كجم",
+                "الأبعاد": "455×290×465 ملم",
+                "تحميل الحاوية": "450 قطعة / 1100 قطعة (20 قدم)",
+                "التطبيق": "أسمدة حبيبية، عضوية، بذور",
+                "النوع": "ناشر أسمدة كهربائي يعمل بالبطارية"
+            },
+            ru: {
+                "Модель": "FR-F001",
+                "Вес нетто": "5.5кг",
+                "Вес брутто": "6кг",
+                "Размеры": "455×290×465мм",
+                "Загрузка контейнера": "450шт / 1100шт (20ft)",
+                "Применение": "Гранулированные удобрения, органические, семена",
+                "Тип": "Электрический разбрасыватель удобрений"
+            },
+            pt: {
+                "Modelo": "FR-F001",
+                "Peso líquido": "5.5kg",
+                "Peso bruto": "6kg",
+                "Dimensões": "455×290×465mm",
+                "Carga no contêiner": "450pcs / 1100pcs (20ft)",
+                "Aplicação": "Fertilizante granular, orgânico, sementes",
+                "Tipo": "Espalhador de fertilizante elétrico a bateria"
+            }
+        },
+        inquiry: {
+            minOrder: "50 units",
+            leadTime: "15-20 days",
+            warranty: "6 months",
+            moq: "20 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Small farms, home gardens, greenhouses, orchards, vegetable planting, horticulture"
+        }
+    },
 ];
 
 // ============================================================
