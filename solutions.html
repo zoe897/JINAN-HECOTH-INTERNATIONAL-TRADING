@@ -25,6 +25,7 @@
         .lang-btn { font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 2rem; transition: all 0.2s; cursor: pointer; background: transparent; border: none; font-weight: 500; }
         .lang-btn.active { background-color: var(--primary); color: white; }
         .bg-primary-gradient { background: linear-gradient(135deg, rgba(46,125,50,0.05) 0%, rgba(67,160,71,0.08) 100%); }
+        @media (max-width: 768px) { .desktop-nav { display: none; } }
     </style>
 </head>
 <body>
@@ -36,13 +37,13 @@
             <i class="fas fa-leaf text-3xl" style="color:var(--primary)"></i>
             <span class="font-bold text-xl tracking-tight">Hecoth <span style="color:var(--primary)">Agri</span></span>
         </a>
-        <nav class="hidden md:flex space-x-6">
-            <a href="/" class="nav-link">Home</a>
-            <a href="/products.html" class="nav-link">Products</a>
-            <a href="/solutions.html" class="nav-link active">Solutions</a>
-            <a href="/about.html" class="nav-link">About</a>
-            <a href="/news.html" class="nav-link">News</a>
-            <a href="/contact.html" class="nav-link">Contact</a>
+        <nav class="hidden md:flex space-x-6 desktop-nav">
+            <a href="/" class="nav-link" data-lang-key="nav_home">Home</a>
+            <a href="/products.html" class="nav-link" data-lang-key="nav_products">Products</a>
+            <a href="/solutions.html" class="nav-link active" data-lang-key="nav_solutions">Solutions</a>
+            <a href="/about.html" class="nav-link" data-lang-key="nav_about">About</a>
+            <a href="/news.html" class="nav-link" data-lang-key="nav_news">News</a>
+            <a href="/contact.html" class="nav-link" data-lang-key="nav_contact">Contact</a>
         </nav>
         <div class="flex items-center gap-3">
             <div class="lang-selector hidden md:flex gap-1 bg-gray-100 p-1 rounded-full">
@@ -58,12 +59,12 @@
         </div>
     </div>
     <div id="mobileMenu" class="hidden md:hidden bg-white border-t py-4 px-6 flex flex-col space-y-3 shadow-lg">
-        <a href="/" class="py-1">Home</a>
-        <a href="/products.html" class="py-1">Products</a>
-        <a href="/solutions.html" class="py-1" style="color:var(--primary);font-weight:600;">Solutions</a>
-        <a href="/about.html" class="py-1">About</a>
-        <a href="/news.html" class="py-1">News</a>
-        <a href="/contact.html" class="py-1">Contact</a>
+        <a href="/" class="py-1" data-lang-key="nav_home">Home</a>
+        <a href="/products.html" class="py-1" data-lang-key="nav_products">Products</a>
+        <a href="/solutions.html" class="py-1" style="color:var(--primary);font-weight:600;" data-lang-key="nav_solutions">Solutions</a>
+        <a href="/about.html" class="py-1" data-lang-key="nav_about">About</a>
+        <a href="/news.html" class="py-1" data-lang-key="nav_news">News</a>
+        <a href="/contact.html" class="py-1" data-lang-key="nav_contact">Contact</a>
         <a href="https://wa.me/8619743003775" class="py-1 text-green-600"><i class="fab fa-whatsapp"></i> WhatsApp</a>
     </div>
 </header>
@@ -72,56 +73,213 @@
 <main class="py-12">
     <div class="container mx-auto px-4 md:px-8">
         <div class="text-center mb-12">
-            <h1 class="text-4xl font-bold">Supply Chain <span style="color:var(--primary)">Solutions</span></h1>
-            <p class="text-gray-500 mt-2">Complete coordination from inquiry to delivery</p>
+            <h1 class="text-4xl font-bold" data-lang-key="solutions_title">Supply Chain <span style="color:var(--primary)">Solutions</span></h1>
+            <p class="text-gray-500 mt-2" data-lang-key="solutions_subtitle">Complete coordination from inquiry to delivery</p>
         </div>
         
         <div class="grid md:grid-cols-3 gap-8">
-            <div class="service-card"><div class="service-icon"><i class="fas fa-search"></i></div><h3 class="font-bold text-xl">Product Selection</h3><p class="text-gray-600 mt-2">Based on requirements, we match the best products with high cost performance and compliance.</p></div>
-            <div class="service-card"><div class="service-icon"><i class="fas fa-clipboard-list"></i></div><h3 class="font-bold text-xl">Supplier Evaluation</h3><p class="text-gray-600 mt-2">Strict audit of qualifications and production capacity to ensure quality standards.</p></div>
-            <div class="service-card"><div class="service-icon" style="background:rgba(249,168,37,0.1);color:var(--accent);"><i class="fas fa-chart-line"></i></div><h3 class="font-bold text-xl">Production Monitoring</h3><p class="text-gray-600 mt-2">Full follow-up of production schedule with real-time status updates.</p></div>
-            <div class="service-card"><div class="service-icon"><i class="fas fa-check-double"></i></div><h3 class="font-bold text-xl">Quality Inspection</h3><p class="text-gray-600 mt-2">Strict pre-shipment inspection to ensure zero-defect delivery.</p></div>
-            <div class="service-card"><div class="service-icon"><i class="fas fa-ship"></i></div><h3 class="font-bold text-xl">Logistics Coordination</h3><p class="text-gray-600 mt-2">Customized logistics solutions with full tracking information.</p></div>
-            <div class="service-card"><div class="service-icon" style="background:rgba(249,168,37,0.1);color:var(--accent);"><i class="fas fa-headset"></i></div><h3 class="font-bold text-xl">After-Sales Support</h3><p class="text-gray-600 mt-2">7x24 hour response service to resolve issues quickly.</p></div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-search"></i></div>
+                <h3 class="font-bold text-xl" data-lang-key="sol_select">Product Selection</h3>
+                <p class="text-gray-600 mt-2" data-lang-key="sol_select_desc">Based on requirements, we match the best products with high cost performance and compliance.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-clipboard-list"></i></div>
+                <h3 class="font-bold text-xl" data-lang-key="sol_eval">Supplier Evaluation</h3>
+                <p class="text-gray-600 mt-2" data-lang-key="sol_eval_desc">Strict audit of qualifications and production capacity to ensure quality standards.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon" style="background:rgba(249,168,37,0.1);color:var(--accent);"><i class="fas fa-chart-line"></i></div>
+                <h3 class="font-bold text-xl" data-lang-key="sol_monitor">Production Monitoring</h3>
+                <p class="text-gray-600 mt-2" data-lang-key="sol_monitor_desc">Full follow-up of production schedule with real-time status updates.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-check-double"></i></div>
+                <h3 class="font-bold text-xl" data-lang-key="sol_quality">Quality Inspection</h3>
+                <p class="text-gray-600 mt-2" data-lang-key="sol_quality_desc">Strict pre-shipment inspection to ensure zero-defect delivery.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-ship"></i></div>
+                <h3 class="font-bold text-xl" data-lang-key="sol_logistics">Logistics Coordination</h3>
+                <p class="text-gray-600 mt-2" data-lang-key="sol_logistics_desc">Customized logistics solutions with full tracking information.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon" style="background:rgba(249,168,37,0.1);color:var(--accent);"><i class="fas fa-headset"></i></div>
+                <h3 class="font-bold text-xl" data-lang-key="sol_support">After-Sales Support</h3>
+                <p class="text-gray-600 mt-2" data-lang-key="sol_support_desc">7x24 hour response service to resolve issues quickly.</p>
+            </div>
         </div>
         
         <div class="mt-12 bg-primary-gradient p-8 rounded-2xl text-center border border-gray-200">
-            <h2 class="text-2xl font-bold" style="color:var(--primary)">🎯 Our Goal</h2>
-            <p class="mt-2 text-gray-600">Helping customers save time, reduce sourcing risks and improve purchasing efficiency.</p>
-            <a href="/contact.html" class="btn-primary mt-4 inline-block">Start Cooperation →</a>
+            <h2 class="text-2xl font-bold" style="color:var(--primary)" data-lang-key="sol_goal_title">🎯 Our Goal</h2>
+            <p class="mt-2 text-gray-600" data-lang-key="sol_goal_desc">Helping customers save time, reduce sourcing risks and improve purchasing efficiency.</p>
+            <a href="/contact.html" class="btn-primary mt-4 inline-block" data-lang-key="sol_cta">Start Cooperation →</a>
         </div>
     </div>
 </main>
 
 <!-- ===== FOOTER ===== -->
-<div class="flex gap-4 mt-4">
-    <a href="https://www.facebook.com/profile.php?id=100011350858214" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#1877F2] transition">
-        <i class="fab fa-facebook text-xl"></i>
-    </a>
-    <a href="https://www.instagram.com/choi5989/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#E4405F] transition">
-        <i class="fab fa-instagram text-xl"></i>
-    </a>
-    <a href="https://www.youtube.com/@agriculturalchanel" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF0000] transition">
-        <i class="fab fa-youtube text-xl"></i>
-    </a>
-    <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#000000] transition">
-        <i class="fab fa-tiktok text-xl"></i>
-    </a>
-</div>
+<footer class="bg-[#111827] text-gray-400 pt-12 pb-6">
+    <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-4 gap-8">
+        <div>
+            <div class="flex items-center gap-2"><i class="fas fa-leaf text-[#4CAF50] text-2xl"></i><span class="font-bold text-white text-xl">Hecoth Agri</span></div>
+            <p class="mt-3 text-sm" data-lang-key="footer_company">Jinan Hecoth International Trading Co., Ltd.</p>
+            <p class="text-sm" data-lang-key="footer_partner">Your reliable agricultural & supply chain partner.</p>
+            <div class="flex gap-4 mt-4">
+                <a href="https://www.facebook.com/profile.php?id=100011350858214" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#1877F2] transition"><i class="fab fa-facebook text-xl"></i></a>
+                <a href="https://www.instagram.com/choi5989/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#E4405F] transition"><i class="fab fa-instagram text-xl"></i></a>
+                <a href="https://www.youtube.com/@agriculturalchanel" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF0000] transition"><i class="fab fa-youtube text-xl"></i></a>
+                <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#000000] transition"><i class="fab fa-tiktok text-xl"></i></a>
+            </div>
+        </div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_quick">Quick Links</h4><ul class="space-y-2"><li><a href="/" class="footer-link" data-lang-key="nav_home">Home</a></li><li><a href="/products.html" class="footer-link" data-lang-key="nav_products">Products</a></li><li><a href="/solutions.html" class="footer-link" data-lang-key="nav_solutions">Solutions</a></li><li><a href="/about.html" class="footer-link" data-lang-key="nav_about">About</a></li><li><a href="/news.html" class="footer-link" data-lang-key="nav_news">News</a></li><li><a href="/contact.html" class="footer-link" data-lang-key="nav_contact">Contact</a></li></ul></div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_contact_title">Contact</h4><p><i class="fas fa-envelope mr-2"></i> zoe@annetop.com</p><p><i class="fab fa-whatsapp mr-2"></i> +86 19743003775</p><p><i class="fas fa-phone mr-2"></i> +86 13066010625</p></div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_office">Office</h4><p>Room 2213, Rongsheng Time Square,<br>Jinan, Shandong, China</p></div>
+    </div>
+    <div class="text-center pt-8 border-t border-gray-800 text-sm mt-8">© 2026 Jinan Hecoth International Trading Co., Ltd. <span data-lang-key="footer_rights">All rights reserved.</span> | <i class="fas fa-leaf text-[#4CAF50]"></i> <span data-lang-key="footer_sustainable">Sustainable Agriculture</span></div>
+</footer>
 
 <script>
-    let currentLang = 'en';
-    
+    // ===== 多语言配置 =====
+    const translations = {
+        en: {
+            nav_home: "Home", nav_products: "Products", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact",
+            solutions_title: "Supply Chain Solutions",
+            solutions_subtitle: "Complete coordination from inquiry to delivery",
+            sol_select: "Product Selection", sol_select_desc: "Based on requirements, we match the best products with high cost performance and compliance.",
+            sol_eval: "Supplier Evaluation", sol_eval_desc: "Strict audit of qualifications and production capacity to ensure quality standards.",
+            sol_monitor: "Production Monitoring", sol_monitor_desc: "Full follow-up of production schedule with real-time status updates.",
+            sol_quality: "Quality Inspection", sol_quality_desc: "Strict pre-shipment inspection to ensure zero-defect delivery.",
+            sol_logistics: "Logistics Coordination", sol_logistics_desc: "Customized logistics solutions with full tracking information.",
+            sol_support: "After-Sales Support", sol_support_desc: "7x24 hour response service to resolve issues quickly.",
+            sol_goal_title: "🎯 Our Goal", sol_goal_desc: "Helping customers save time, reduce sourcing risks and improve purchasing efficiency.",
+            sol_cta: "Start Cooperation →",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Your reliable agricultural & supply chain partner.",
+            footer_quick: "Quick Links", footer_contact_title: "Contact", footer_office: "Office",
+            footer_rights: "All rights reserved.", footer_sustainable: "Sustainable Agriculture"
+        },
+        es: {
+            nav_home: "Inicio", nav_products: "Productos", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto",
+            solutions_title: "Soluciones de Cadena de Suministro",
+            solutions_subtitle: "Coordinación completa desde la consulta hasta la entrega",
+            sol_select: "Selección de Productos", sol_select_desc: "Según los requisitos, seleccionamos los mejores productos con alta rentabilidad y cumplimiento.",
+            sol_eval: "Evaluación de Proveedores", sol_eval_desc: "Auditoría estricta de calificaciones y capacidad de producción.",
+            sol_monitor: "Monitoreo de Producción", sol_monitor_desc: "Seguimiento completo del cronograma de producción con actualizaciones en tiempo real.",
+            sol_quality: "Inspección de Calidad", sol_quality_desc: "Inspección previa al envío para garantizar una entrega sin defectos.",
+            sol_logistics: "Coordinación Logística", sol_logistics_desc: "Soluciones logísticas personalizadas con información de seguimiento completa.",
+            sol_support: "Soporte Postventa", sol_support_desc: "Servicio de respuesta 7x24 horas para resolver problemas rápidamente.",
+            sol_goal_title: "🎯 Nuestro Objetivo", sol_goal_desc: "Ayudar a los clientes a ahorrar tiempo, reducir riesgos y mejorar la eficiencia.",
+            sol_cta: "Iniciar Cooperación →",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Su socio confiable en maquinaria agrícola y cadena de suministro.",
+            footer_quick: "Enlaces Rápidos", footer_contact_title: "Contacto", footer_office: "Oficina",
+            footer_rights: "Todos los derechos reservados.", footer_sustainable: "Agricultura Sostenible"
+        },
+        fr: {
+            nav_home: "Accueil", nav_products: "Produits", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact",
+            solutions_title: "Solutions de Chaîne d'Approvisionnement",
+            solutions_subtitle: "Coordination complète de la demande à la livraison",
+            sol_select: "Sélection de Produits", sol_select_desc: "Nous sélectionnons les meilleurs produits avec un rapport qualité-prix élevé.",
+            sol_eval: "Évaluation des Fournisseurs", sol_eval_desc: "Audit strict des qualifications et de la capacité de production.",
+            sol_monitor: "Suivi de Production", sol_monitor_desc: "Suivi complet du calendrier de production avec des mises à jour en temps réel.",
+            sol_quality: "Contrôle Qualité", sol_quality_desc: "Inspection avant expédition pour garantir une livraison sans défaut.",
+            sol_logistics: "Coordination Logistique", sol_logistics_desc: "Solutions logistiques personnalisées avec suivi complet.",
+            sol_support: "Support Après-Vente", sol_support_desc: "Service de réponse 7x24 pour résoudre les problèmes rapidement.",
+            sol_goal_title: "🎯 Notre Objectif", sol_goal_desc: "Aider les clients à gagner du temps, réduire les risques et améliorer l'efficacité.",
+            sol_cta: "Démarrer la Coopération →",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Votre partenaire fiable en machinerie agricole et chaîne d'approvisionnement.",
+            footer_quick: "Liens Rapides", footer_contact_title: "Contact", footer_office: "Bureau",
+            footer_rights: "Tous droits réservés.", footer_sustainable: "Agriculture Durable"
+        },
+        ar: {
+            nav_home: "الرئيسية", nav_products: "المنتجات", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا",
+            solutions_title: "حلول سلسلة التوريد",
+            solutions_subtitle: "تنسيق كامل من الاستفسار إلى التسليم",
+            sol_select: "اختيار المنتج", sol_select_desc: "نطابق أفضل المنتجات مع أداء عالي التكلفة والامتثال.",
+            sol_eval: "تقييم الموردين", sol_eval_desc: "تدقيق صارم للمؤهلات والقدرة الإنتاجية.",
+            sol_monitor: "مراقبة الإنتاج", sol_monitor_desc: "متابعة كاملة لجدول الإنتاج مع تحديثات في الوقت الفعلي.",
+            sol_quality: "فحص الجودة", sol_quality_desc: "فحص صارم قبل الشحن لضمان التسليم الخالي من العيوب.",
+            sol_logistics: "تنسيق الخدمات اللوجستية", sol_logistics_desc: "حلول لوجستية مخصصة مع معلومات تتبع كاملة.",
+            sol_support: "الدعم بعد البيع", sol_support_desc: "خدمة استجابة 7x24 ساعة لحل المشكلات بسرعة.",
+            sol_goal_title: "🎯 هدفنا", sol_goal_desc: "مساعدة العملاء على توفير الوقت وتقليل مخاطر الشراء وتحسين الكفاءة.",
+            sol_cta: "ابدأ التعاون →",
+            footer_company: "جينان هيكوت للتجارة الدولية المحدودة",
+            footer_partner: "شريكك الموثوق في المعدات الزراعية وسلسلة التوريد.",
+            footer_quick: "روابط سريعة", footer_contact_title: "اتصل", footer_office: "المكتب",
+            footer_rights: "جميع الحقوق محفوظة.", footer_sustainable: "الزراعة المستدامة"
+        },
+        ru: {
+            nav_home: "Главная", nav_products: "Продукты", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты",
+            solutions_title: "Решения для цепочки поставок",
+            solutions_subtitle: "Полная координация от запроса до доставки",
+            sol_select: "Выбор продукта", sol_select_desc: "Подбираем лучшие продукты с высоким соотношением цены и качества.",
+            sol_eval: "Оценка поставщиков", sol_eval_desc: "Строгий аудит квалификации и производственных мощностей.",
+            sol_monitor: "Мониторинг производства", sol_monitor_desc: "Полное отслеживание графика производства с обновлениями в реальном времени.",
+            sol_quality: "Контроль качества", sol_quality_desc: "Строгий контроль перед отгрузкой для безупречной поставки.",
+            sol_logistics: "Координация логистики", sol_logistics_desc: "Индивидуальные логистические решения с полным отслеживанием.",
+            sol_support: "Послепродажное обслуживание", sol_support_desc: "Круглосуточная служба поддержки для быстрого решения проблем.",
+            sol_goal_title: "🎯 Наша цель", sol_goal_desc: "Помогать клиентам экономить время, снижать риски и повышать эффективность.",
+            sol_cta: "Начать сотрудничество →",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Ваш надежный партнер в сельхозтехнике и цепочке поставок.",
+            footer_quick: "Быстрые ссылки", footer_contact_title: "Контакты", footer_office: "Офис",
+            footer_rights: "Все права защищены.", footer_sustainable: "Устойчивое сельское хозяйство"
+        },
+        pt: {
+            nav_home: "Início", nav_products: "Produtos", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato",
+            solutions_title: "Soluções de Cadeia de Suprimentos",
+            solutions_subtitle: "Coordenação completa da consulta à entrega",
+            sol_select: "Seleção de Produtos", sol_select_desc: "Selecionamos os melhores produtos com alto custo-benefício e conformidade.",
+            sol_eval: "Avaliação de Fornecedores", sol_eval_desc: "Auditoria rigorosa de qualificações e capacidade de produção.",
+            sol_monitor: "Monitoramento de Produção", sol_monitor_desc: "Acompanhamento completo do cronograma de produção com atualizações em tempo real.",
+            sol_quality: "Inspeção de Qualidade", sol_quality_desc: "Inspeção rigorosa antes do envio para entrega sem defeitos.",
+            sol_logistics: "Coordenação Logística", sol_logistics_desc: "Soluções logísticas personalizadas com rastreamento completo.",
+            sol_support: "Suporte Pós-Venda", sol_support_desc: "Serviço de resposta 7x24 para resolver problemas rapidamente.",
+            sol_goal_title: "🎯 Nosso Objetivo", sol_goal_desc: "Ajudar os clientes a economizar tempo, reduzir riscos e melhorar a eficiência.",
+            sol_cta: "Iniciar Cooperação →",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Seu parceiro confiável em máquinas agrícolas e cadeia de suprimentos.",
+            footer_quick: "Links Rápidos", footer_contact_title: "Contato", footer_office: "Escritório",
+            footer_rights: "Todos os direitos reservados.", footer_sustainable: "Agricultura Sustentável"
+        }
+    };
+
+    let currentLang = localStorage.getItem('hecoth_lang') || 'en';
+
     function switchLanguage(lang) {
         currentLang = lang;
-        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-        document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.add('active');
         localStorage.setItem('hecoth_lang', lang);
+        // 更新语言按钮状态
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+        });
+        // 更新页面文字
+        updatePageLanguage(lang);
+        // 阿拉伯语 RTL 适配
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
     }
-    
-    const savedLang = localStorage.getItem('hecoth_lang');
-    if (savedLang) { currentLang = savedLang; }
-    
+
+    function updatePageLanguage(lang) {
+        document.querySelectorAll('[data-lang-key]').forEach(el => {
+            const key = el.getAttribute('data-lang-key');
+            if (translations[lang] && translations[lang][key]) {
+                el.textContent = translations[lang][key];
+            }
+        });
+    }
+
+    // 页面加载时初始化语言
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
+        });
+        updatePageLanguage(currentLang);
+        document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+    });
+
+    // ===== 移动端菜单 =====
     document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
         document.getElementById('mobileMenu').classList.toggle('hidden');
     });

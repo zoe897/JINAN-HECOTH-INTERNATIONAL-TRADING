@@ -1,4 +1,4 @@
-<!DOCT<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,6 +16,8 @@
         .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(46,125,50,0.3); }
         .btn-accent { background-color: var(--accent); color: #1B1B1B; padding: 0.75rem 1.75rem; border-radius: 0.5rem; font-weight: 700; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; border: none; cursor: pointer; }
         .btn-accent:hover { background-color: #FDD835; transform: translateY(-2px); }
+        .btn-whatsapp { background-color: #25D366; color: white; padding: 0.75rem 1.75rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; border: none; cursor: pointer; }
+        .btn-whatsapp:hover { background-color: #1da851; transform: translateY(-2px); }
         .nav-link { text-decoration: none; transition: color 0.2s; color: #4B5563; }
         .nav-link:hover { color: var(--primary); }
         .nav-link.active { color: var(--primary); font-weight: 600; }
@@ -30,6 +32,7 @@
         .value-item { display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; border-bottom: 1px solid #f3f4f6; }
         .value-item:last-child { border-bottom: none; }
         .value-icon { width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(46,125,50,0.1); color: var(--primary); flex-shrink: 0; }
+        @media (max-width: 768px) { .desktop-nav { display: none; } }
     </style>
 </head>
 <body>
@@ -41,13 +44,13 @@
             <i class="fas fa-leaf text-3xl" style="color:var(--primary)"></i>
             <span class="font-bold text-xl tracking-tight">Hecoth <span style="color:var(--primary)">Agri</span></span>
         </a>
-        <nav class="hidden md:flex space-x-6">
-            <a href="/" class="nav-link">Home</a>
-            <a href="/products.html" class="nav-link">Products</a>
-            <a href="/solutions.html" class="nav-link">Solutions</a>
-            <a href="/about.html" class="nav-link active">About</a>
-            <a href="/news.html" class="nav-link">News</a>
-            <a href="/contact.html" class="nav-link">Contact</a>
+        <nav class="hidden md:flex space-x-6 desktop-nav">
+            <a href="/" class="nav-link" data-lang-key="nav_home">Home</a>
+            <a href="/products.html" class="nav-link" data-lang-key="nav_products">Products</a>
+            <a href="/solutions.html" class="nav-link" data-lang-key="nav_solutions">Solutions</a>
+            <a href="/about.html" class="nav-link active" data-lang-key="nav_about">About</a>
+            <a href="/news.html" class="nav-link" data-lang-key="nav_news">News</a>
+            <a href="/contact.html" class="nav-link" data-lang-key="nav_contact">Contact</a>
         </nav>
         <div class="flex items-center gap-3">
             <div class="lang-selector hidden md:flex gap-1 bg-gray-100 p-1 rounded-full">
@@ -63,12 +66,12 @@
         </div>
     </div>
     <div id="mobileMenu" class="hidden md:hidden bg-white border-t py-4 px-6 flex flex-col space-y-3 shadow-lg">
-        <a href="/" class="py-1">Home</a>
-        <a href="/products.html" class="py-1">Products</a>
-        <a href="/solutions.html" class="py-1">Solutions</a>
-        <a href="/about.html" class="py-1" style="color:var(--primary);font-weight:600;">About</a>
-        <a href="/news.html" class="py-1">News</a>
-        <a href="/contact.html" class="py-1">Contact</a>
+        <a href="/" class="py-1" data-lang-key="nav_home">Home</a>
+        <a href="/products.html" class="py-1" data-lang-key="nav_products">Products</a>
+        <a href="/solutions.html" class="py-1" data-lang-key="nav_solutions">Solutions</a>
+        <a href="/about.html" class="py-1" style="color:var(--primary);font-weight:600;" data-lang-key="nav_about">About</a>
+        <a href="/news.html" class="py-1" data-lang-key="nav_news">News</a>
+        <a href="/contact.html" class="py-1" data-lang-key="nav_contact">Contact</a>
         <a href="https://wa.me/8619743003775" class="py-1 text-green-600"><i class="fab fa-whatsapp"></i> WhatsApp</a>
     </div>
 </header>
@@ -78,17 +81,17 @@
     <!-- ===== HERO ===== -->
     <section class="bg-primary-gradient py-16 md:py-20">
         <div class="container mx-auto px-4 md:px-8 text-center">
-            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-leaf mr-2"></i> About Hecoth</span>
-            <h1 class="text-4xl md:text-5xl font-bold mt-3 leading-tight">
+            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-leaf mr-2"></i> <span data-lang-key="about_badge">About Hecoth</span></span>
+            <h1 class="text-4xl md:text-5xl font-bold mt-3 leading-tight" data-lang-key="about_hero_title">
                 Your Reliable <span style="color:var(--primary)">Supply Chain Partner</span><br>
                 with <span style="color:var(--accent);">17+ Years</span> of Machinery Export Expertise
             </h1>
-            <p class="text-gray-600 max-w-3xl mx-auto mt-4 text-lg leading-relaxed">
+            <p class="text-gray-600 max-w-3xl mx-auto mt-4 text-lg leading-relaxed" data-lang-key="about_hero_desc">
                 Jinan Hecoth International Trading Co., Ltd. is a professional international trading and supply chain company specializing in agricultural machinery, construction equipment, tractors, irrigation systems and related spare parts.
             </p>
             <div class="flex flex-wrap justify-center gap-4 mt-8">
-                <a href="/contact.html" class="btn-accent"><i class="fas fa-paper-plane"></i> Let's Talk Business</a>
-                <a href="/products.html" class="btn-primary"><i class="fas fa-tractor"></i> Explore Our Products</a>
+                <a href="/contact.html" class="btn-accent"><i class="fas fa-paper-plane"></i> <span data-lang-key="about_cta_talk">Let's Talk Business</span></a>
+                <a href="/products.html" class="btn-primary"><i class="fas fa-tractor"></i> <span data-lang-key="about_cta_explore">Explore Our Products</span></a>
             </div>
         </div>
     </section>
@@ -100,22 +103,22 @@
                 <div class="trust-badge">
                     <i class="fas fa-calendar-check text-3xl text-[#2E7D32]"></i>
                     <p class="text-3xl font-bold mt-2">17+</p>
-                    <p class="text-sm text-gray-500">Years Industry Experience</p>
+                    <p class="text-sm text-gray-500" data-lang-key="stat_years">Years Industry Experience</p>
                 </div>
                 <div class="trust-badge">
                     <i class="fas fa-globe text-3xl text-[#2E7D32]"></i>
                     <p class="text-3xl font-bold mt-2">60+</p>
-                    <p class="text-sm text-gray-500">Countries Served</p>
+                    <p class="text-sm text-gray-500" data-lang-key="stat_countries">Countries Served</p>
                 </div>
                 <div class="trust-badge">
                     <i class="fas fa-building text-3xl text-[#2E7D32]"></i>
                     <p class="text-3xl font-bold mt-2">5000+</p>
-                    <p class="text-sm text-gray-500">Units Delivered Annually</p>
+                    <p class="text-sm text-gray-500" data-lang-key="stat_units">Units Delivered Annually</p>
                 </div>
                 <div class="trust-badge">
                     <i class="fas fa-shield-alt text-3xl text-[#2E7D32]"></i>
                     <p class="text-3xl font-bold mt-2">100%</p>
-                    <p class="text-sm text-gray-500">Quality Commitment</p>
+                    <p class="text-sm text-gray-500" data-lang-key="stat_quality">Quality Commitment</p>
                 </div>
             </div>
         </div>
@@ -125,27 +128,27 @@
     <section class="py-16">
         <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-star mr-2"></i> More Than a Trading Company</span>
-                <h2 class="text-3xl font-bold mt-2">We Don't Just <span style="color:var(--primary)">Sell Products</span>. We Solve Problems.</h2>
-                <p class="mt-4 text-gray-600 leading-relaxed">
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-star mr-2"></i> <span data-lang-key="about_more_badge">More Than a Trading Company</span></span>
+                <h2 class="text-3xl font-bold mt-2" data-lang-key="about_more_title">We Don't Just <span style="color:var(--primary)">Sell Products</span>. We Solve Problems.</h2>
+                <p class="mt-4 text-gray-600 leading-relaxed" data-lang-key="about_more_desc1">
                     Our founder brings over <strong>17 years of hands-on experience</strong> in international machinery export, factory management, supplier development and quality control. We understand both factory operations and overseas buyer expectations.
                 </p>
-                <p class="mt-3 text-gray-600 leading-relaxed">
+                <p class="mt-3 text-gray-600 leading-relaxed" data-lang-key="about_more_desc2">
                     This allows us to effectively <strong>bridge the gap</strong> between manufacturers and global customers — helping you <strong>reduce procurement risks, improve quality consistency, and build long-term supply chains</strong>.
                 </p>
                 <div class="grid grid-cols-2 gap-3 mt-6">
-                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Reliable Sourcing</span></div>
-                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Quality Control</span></div>
-                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Production Monitoring</span></div>
-                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm">Global Logistics</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm" data-lang-key="about_value_sourcing">Reliable Sourcing</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm" data-lang-key="about_value_quality">Quality Control</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm" data-lang-key="about_value_monitor">Production Monitoring</span></div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check-circle text-[#2E7D32]"></i><span class="text-sm" data-lang-key="about_value_logistics">Global Logistics</span></div>
                 </div>
             </div>
             <div class="bg-primary-gradient rounded-2xl p-6 border border-gray-200">
                 <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <p class="text-center text-gray-700 italic leading-relaxed">
+                    <p class="text-center text-gray-700 italic leading-relaxed" data-lang-key="about_quote">
                         "We understand factory operations and overseas buyer expectations. This allows us to bridge the gap between manufacturers and global customers."
                     </p>
-                    <p class="text-center text-sm font-semibold text-[#2E7D32] mt-3">— Hecoth Founders' Philosophy</p>
+                    <p class="text-center text-sm font-semibold text-[#2E7D32] mt-3" data-lang-key="about_quote_author">— Hecoth Founders' Philosophy</p>
                 </div>
             </div>
         </div>
@@ -155,50 +158,50 @@
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4 md:px-8">
             <div class="text-center max-w-2xl mx-auto mb-12">
-                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-handshake mr-2"></i> Why Customers Choose Us</span>
-                <h2 class="text-3xl font-bold mt-2">Value-Driven <span style="color:var(--primary)">Partnership</span></h2>
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-handshake mr-2"></i> <span data-lang-key="about_why_badge">Why Customers Choose Us</span></span>
+                <h2 class="text-3xl font-bold mt-2" data-lang-key="about_why_title">Value-Driven <span style="color:var(--primary)">Partnership</span></h2>
             </div>
             <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
                 <div class="value-item bg-white rounded-xl shadow-sm p-5">
                     <div class="value-icon"><i class="fas fa-search"></i></div>
                     <div>
-                        <h4 class="font-bold">Find Reliable Suppliers</h4>
-                        <p class="text-sm text-gray-500">Strictly audited manufacturers with verified production capacity.</p>
+                        <h4 class="font-bold" data-lang-key="about_why_reliable_title">Find Reliable Suppliers</h4>
+                        <p class="text-sm text-gray-500" data-lang-key="about_why_reliable_desc">Strictly audited manufacturers with verified production capacity.</p>
                     </div>
                 </div>
                 <div class="value-item bg-white rounded-xl shadow-sm p-5">
                     <div class="value-icon"><i class="fas fa-shield-alt"></i></div>
                     <div>
-                        <h4 class="font-bold">Reduce Procurement Risks</h4>
-                        <p class="text-sm text-gray-500">Compliance review and risk assessment for every order.</p>
+                        <h4 class="font-bold" data-lang-key="about_why_risk_title">Reduce Procurement Risks</h4>
+                        <p class="text-sm text-gray-500" data-lang-key="about_why_risk_desc">Compliance review and risk assessment for every order.</p>
                     </div>
                 </div>
                 <div class="value-item bg-white rounded-xl shadow-sm p-5">
                     <div class="value-icon"><i class="fas fa-clipboard-check"></i></div>
                     <div>
-                        <h4 class="font-bold">Improve Quality Consistency</h4>
-                        <p class="text-sm text-gray-500">Standardized QC process and regular batch inspections.</p>
+                        <h4 class="font-bold" data-lang-key="about_why_quality_title">Improve Quality Consistency</h4>
+                        <p class="text-sm text-gray-500" data-lang-key="about_why_quality_desc">Standardized QC process and regular batch inspections.</p>
                     </div>
                 </div>
                 <div class="value-item bg-white rounded-xl shadow-sm p-5">
                     <div class="value-icon"><i class="fas fa-clock"></i></div>
                     <div>
-                        <h4 class="font-bold">Monitor Production Schedules</h4>
-                        <p class="text-sm text-gray-500">Real-time production tracking and status updates.</p>
+                        <h4 class="font-bold" data-lang-key="about_why_schedule_title">Monitor Production Schedules</h4>
+                        <p class="text-sm text-gray-500" data-lang-key="about_why_schedule_desc">Real-time production tracking and status updates.</p>
                     </div>
                 </div>
                 <div class="value-item bg-white rounded-xl shadow-sm p-5">
                     <div class="value-icon"><i class="fas fa-ship"></i></div>
                     <div>
-                        <h4 class="font-bold">Coordinate Logistics Efficiently</h4>
-                        <p class="text-sm text-gray-500">Optimized shipping solutions and full shipment tracking.</p>
+                        <h4 class="font-bold" data-lang-key="about_why_logistics_title">Coordinate Logistics Efficiently</h4>
+                        <p class="text-sm text-gray-500" data-lang-key="about_why_logistics_desc">Optimized shipping solutions and full shipment tracking.</p>
                     </div>
                 </div>
                 <div class="value-item bg-white rounded-xl shadow-sm p-5">
                     <div class="value-icon"><i class="fas fa-link"></i></div>
                     <div>
-                        <h4 class="font-bold">Build Long-Term Supply Chains</h4>
-                        <p class="text-sm text-gray-500">Sustainable supply chain solutions tailored to your needs.</p>
+                        <h4 class="font-bold" data-lang-key="about_why_chain_title">Build Long-Term Supply Chains</h4>
+                        <p class="text-sm text-gray-500" data-lang-key="about_why_chain_desc">Sustainable supply chain solutions tailored to your needs.</p>
                     </div>
                 </div>
             </div>
@@ -210,45 +213,45 @@
         <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12">
             <!-- 质量控制 -->
             <div>
-                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-certificate mr-2"></i> Quality First</span>
-                <h3 class="text-2xl font-bold mt-2">Our Quality Control <span style="color:var(--primary)">Process</span></h3>
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-certificate mr-2"></i> <span data-lang-key="about_qc_badge">Quality First</span></span>
+                <h3 class="text-2xl font-bold mt-2" data-lang-key="about_qc_title">Our Quality Control <span style="color:var(--primary)">Process</span></h3>
                 <div class="mt-4 space-y-3">
                     <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
                         <i class="fas fa-check-circle text-[#2E7D32] mt-0.5"></i>
-                        <div><span class="font-semibold">Before Production:</span> <span class="text-sm text-gray-600">Supplier audit & technical specification review</span></div>
+                        <div><span class="font-semibold" data-lang-key="about_qc_step1_label">Before Production:</span> <span class="text-sm text-gray-600" data-lang-key="about_qc_step1_desc">Supplier audit & technical specification review</span></div>
                     </div>
                     <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
                         <i class="fas fa-check-circle text-[#2E7D32] mt-0.5"></i>
-                        <div><span class="font-semibold">During Production:</span> <span class="text-sm text-gray-600">In-process inspection & real-time monitoring</span></div>
+                        <div><span class="font-semibold" data-lang-key="about_qc_step2_label">During Production:</span> <span class="text-sm text-gray-600" data-lang-key="about_qc_step2_desc">In-process inspection & real-time monitoring</span></div>
                     </div>
                     <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
                         <i class="fas fa-check-circle text-[#2E7D32] mt-0.5"></i>
-                        <div><span class="font-semibold">Before Shipment:</span> <span class="text-sm text-gray-600">Final product inspection & packaging verification</span></div>
+                        <div><span class="font-semibold" data-lang-key="about_qc_step3_label">Before Shipment:</span> <span class="text-sm text-gray-600" data-lang-key="about_qc_step3_desc">Final product inspection & packaging verification</span></div>
                     </div>
                     <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
                         <i class="fas fa-check-circle text-[#2E7D32] mt-0.5"></i>
-                        <div><span class="font-semibold">Loading Supervision:</span> <span class="text-sm text-gray-600">Container loading supervision & document verification</span></div>
+                        <div><span class="font-semibold" data-lang-key="about_qc_step4_label">Loading Supervision:</span> <span class="text-sm text-gray-600" data-lang-key="about_qc_step4_desc">Container loading supervision & document verification</span></div>
                     </div>
                 </div>
                 <div class="mt-4 p-4 border-l-4 border-[#2E7D32] bg-primary-gradient rounded-r-lg">
-                    <p class="italic text-gray-600 text-sm">"Quality is not inspected into a product at the end; it is managed throughout the entire process."</p>
+                    <p class="italic text-gray-600 text-sm" data-lang-key="about_qc_quote">"Quality is not inspected into a product at the end; it is managed throughout the entire process."</p>
                 </div>
             </div>
             <!-- 全球市场 -->
             <div>
-                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-globe mr-2"></i> Global Reach</span>
-                <h3 class="text-2xl font-bold mt-2">Serving <span style="color:var(--primary)">60+ Countries</span> Worldwide</h3>
-                <p class="mt-4 text-gray-600 leading-relaxed">
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-globe mr-2"></i> <span data-lang-key="about_global_badge">Global Reach</span></span>
+                <h3 class="text-2xl font-bold mt-2" data-lang-key="about_global_title">Serving <span style="color:var(--primary)">60+ Countries</span> Worldwide</h3>
+                <p class="mt-4 text-gray-600 leading-relaxed" data-lang-key="about_global_desc1">
                     Our reach is truly global. We proudly serve customers across <strong>South America, Africa, the Middle East, Asia, and Europe</strong>.
                 </p>
-                <p class="mt-2 text-gray-600 leading-relaxed">
+                <p class="mt-2 text-gray-600 leading-relaxed" data-lang-key="about_global_desc2">
                     Our clientele includes distributors, importers, contractors, and large agricultural and government projects.
                 </p>
                 <div class="grid grid-cols-3 gap-3 mt-6">
-                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-americas text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1">South America</p></div>
-                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-africa text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1">Africa</p></div>
-                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-asia text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1">Middle East & Asia</p></div>
-                    <div class="bg-gray-50 p-3 rounded-lg text-center col-span-3"><i class="fas fa-globe-europe text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1">Europe</p></div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-americas text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1" data-lang-key="region_sa">South America</p></div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-africa text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1" data-lang-key="region_af">Africa</p></div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-center"><i class="fas fa-globe-asia text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1" data-lang-key="region_mea">Middle East & Asia</p></div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-center col-span-3"><i class="fas fa-globe-europe text-2xl text-[#2E7D32]"></i><p class="text-xs mt-1" data-lang-key="region_eu">Europe</p></div>
                 </div>
             </div>
         </div>
@@ -257,13 +260,13 @@
     <!-- ===== FINAL CTA ===== -->
     <section class="py-16 bg-primary-gradient border-t border-gray-200">
         <div class="container mx-auto px-4 md:px-8 text-center max-w-3xl">
-            <h2 class="text-3xl font-bold" style="color:var(--primary);">🤝 Ready to Build a <span style="color:var(--accent);">Long-Term Partnership</span>?</h2>
-            <p class="text-gray-600 mt-3 text-lg">
+            <h2 class="text-3xl font-bold" style="color:var(--primary);" data-lang-key="about_cta_title">🤝 Ready to Build a <span style="color:var(--accent);">Long-Term Partnership</span>?</h2>
+            <p class="text-gray-600 mt-3 text-lg" data-lang-key="about_cta_desc">
                 Let's discuss your sourcing needs. We're here to help you save time, reduce risks, and improve efficiency.
             </p>
             <div class="flex flex-wrap justify-center gap-4 mt-8">
-                <a href="/contact.html" class="btn-accent"><i class="fas fa-paper-plane"></i> Get a Quote Now</a>
-                <a href="https://wa.me/8619743003775" target="_blank" class="btn-whatsapp" style="background-color:#25D366; color:white; padding:0.75rem 1.75rem; border-radius:0.5rem; font-weight:600; display:inline-flex; align-items:center; gap:0.5rem; text-decoration:none;"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+                <a href="/contact.html" class="btn-accent"><i class="fas fa-paper-plane"></i> <span data-lang-key="about_cta_quote">Get a Quote Now</span></a>
+                <a href="https://wa.me/8619743003775" target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> <span data-lang-key="about_cta_whatsapp">Chat on WhatsApp</span></a>
             </div>
             <p class="text-sm text-gray-500 mt-4">📧 Email: zoe@annetop.com | 📞 Phone: +86 13066010625</p>
         </div>
@@ -271,39 +274,459 @@
 </main>
 
 <!-- ===== FOOTER ===== -->
-<div class="flex gap-4 mt-4">
-    <a href="https://www.facebook.com/profile.php?id=100011350858214" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#1877F2] transition">
-        <i class="fab fa-facebook text-xl"></i>
-    </a>
-    <a href="https://www.instagram.com/choi5989/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#E4405F] transition">
-        <i class="fab fa-instagram text-xl"></i>
-    </a>
-    <a href="https://www.youtube.com/@agriculturalchanel" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF0000] transition">
-        <i class="fab fa-youtube text-xl"></i>
-    </a>
-    <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#000000] transition">
-        <i class="fab fa-tiktok text-xl"></i>
-    </a>
-</div>
+<footer class="bg-[#111827] text-gray-400 pt-12 pb-6">
+    <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-4 gap-8">
+        <div>
+            <div class="flex items-center gap-2"><i class="fas fa-leaf text-[#4CAF50] text-2xl"></i><span class="font-bold text-white text-xl">Hecoth Agri</span></div>
+            <p class="mt-3 text-sm" data-lang-key="footer_company">Jinan Hecoth International Trading Co., Ltd.</p>
+            <p class="text-sm" data-lang-key="footer_partner">Your reliable agricultural & supply chain partner.</p>
+            <div class="flex gap-4 mt-4">
+                <a href="https://www.facebook.com/profile.php?id=100011350858214" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#1877F2] transition"><i class="fab fa-facebook text-xl"></i></a>
+                <a href="https://www.instagram.com/choi5989/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#E4405F] transition"><i class="fab fa-instagram text-xl"></i></a>
+                <a href="https://www.youtube.com/@agriculturalchanel" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF0000] transition"><i class="fab fa-youtube text-xl"></i></a>
+                <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#000000] transition"><i class="fab fa-tiktok text-xl"></i></a>
+            </div>
+        </div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_quick">Quick Links</h4><ul class="space-y-2"><li><a href="/" class="footer-link" data-lang-key="nav_home">Home</a></li><li><a href="/products.html" class="footer-link" data-lang-key="nav_products">Products</a></li><li><a href="/solutions.html" class="footer-link" data-lang-key="nav_solutions">Solutions</a></li><li><a href="/about.html" class="footer-link" data-lang-key="nav_about">About</a></li><li><a href="/news.html" class="footer-link" data-lang-key="nav_news">News</a></li><li><a href="/contact.html" class="footer-link" data-lang-key="nav_contact">Contact</a></li></ul></div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_contact_title">Contact</h4><p><i class="fas fa-envelope mr-2"></i> zoe@annetop.com</p><p><i class="fab fa-whatsapp mr-2"></i> +86 19743003775</p><p><i class="fas fa-phone mr-2"></i> +86 13066010625</p></div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_office">Office</h4><p>Room 2213, Rongsheng Time Square,<br>Jinan, Shandong, China</p></div>
+    </div>
+    <div class="text-center pt-8 border-t border-gray-800 text-sm mt-8">© 2026 Jinan Hecoth International Trading Co., Ltd. <span data-lang-key="footer_rights">All rights reserved.</span> | <i class="fas fa-leaf text-[#4CAF50]"></i> <span data-lang-key="footer_sustainable">Sustainable Agriculture</span></div>
+</footer>
 
 <script>
-    let currentLang = 'en';
-    
+    // ===== 多语言配置 =====
+    const translations = {
+        en: {
+            // 导航
+            nav_home: "Home", nav_products: "Products", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact",
+            // Hero
+            about_badge: "About Hecoth",
+            about_hero_title: 'Your Reliable <span style="color:var(--primary)">Supply Chain Partner</span><br>with <span style="color:var(--accent);">17+ Years</span> of Machinery Export Expertise',
+            about_hero_desc: "Jinan Hecoth International Trading Co., Ltd. is a professional international trading and supply chain company specializing in agricultural machinery, construction equipment, tractors, irrigation systems and related spare parts.",
+            about_cta_talk: "Let's Talk Business",
+            about_cta_explore: "Explore Our Products",
+            // Stats
+            stat_years: "Years Industry Experience",
+            stat_countries: "Countries Served",
+            stat_units: "Units Delivered Annually",
+            stat_quality: "Quality Commitment",
+            // More than trading
+            about_more_badge: "More Than a Trading Company",
+            about_more_title: 'We Don\'t Just <span style="color:var(--primary)">Sell Products</span>. We Solve Problems.',
+            about_more_desc1: "Our founder brings over <strong>17 years of hands-on experience</strong> in international machinery export, factory management, supplier development and quality control. We understand both factory operations and overseas buyer expectations.",
+            about_more_desc2: "This allows us to effectively <strong>bridge the gap</strong> between manufacturers and global customers — helping you <strong>reduce procurement risks, improve quality consistency, and build long-term supply chains</strong>.",
+            about_value_sourcing: "Reliable Sourcing",
+            about_value_quality: "Quality Control",
+            about_value_monitor: "Production Monitoring",
+            about_value_logistics: "Global Logistics",
+            about_quote: '"We understand factory operations and overseas buyer expectations. This allows us to bridge the gap between manufacturers and global customers."',
+            about_quote_author: "— Hecoth Founders' Philosophy",
+            // Why Choose Us
+            about_why_badge: "Why Customers Choose Us",
+            about_why_title: 'Value-Driven <span style="color:var(--primary)">Partnership</span>',
+            about_why_reliable_title: "Find Reliable Suppliers",
+            about_why_reliable_desc: "Strictly audited manufacturers with verified production capacity.",
+            about_why_risk_title: "Reduce Procurement Risks",
+            about_why_risk_desc: "Compliance review and risk assessment for every order.",
+            about_why_quality_title: "Improve Quality Consistency",
+            about_why_quality_desc: "Standardized QC process and regular batch inspections.",
+            about_why_schedule_title: "Monitor Production Schedules",
+            about_why_schedule_desc: "Real-time production tracking and status updates.",
+            about_why_logistics_title: "Coordinate Logistics Efficiently",
+            about_why_logistics_desc: "Optimized shipping solutions and full shipment tracking.",
+            about_why_chain_title: "Build Long-Term Supply Chains",
+            about_why_chain_desc: "Sustainable supply chain solutions tailored to your needs.",
+            // Quality Control
+            about_qc_badge: "Quality First",
+            about_qc_title: 'Our Quality Control <span style="color:var(--primary)">Process</span>',
+            about_qc_step1_label: "Before Production:",
+            about_qc_step1_desc: "Supplier audit & technical specification review",
+            about_qc_step2_label: "During Production:",
+            about_qc_step2_desc: "In-process inspection & real-time monitoring",
+            about_qc_step3_label: "Before Shipment:",
+            about_qc_step3_desc: "Final product inspection & packaging verification",
+            about_qc_step4_label: "Loading Supervision:",
+            about_qc_step4_desc: "Container loading supervision & document verification",
+            about_qc_quote: '"Quality is not inspected into a product at the end; it is managed throughout the entire process."',
+            // Global
+            about_global_badge: "Global Reach",
+            about_global_title: 'Serving <span style="color:var(--primary)">60+ Countries</span> Worldwide',
+            about_global_desc1: "Our reach is truly global. We proudly serve customers across <strong>South America, Africa, the Middle East, Asia, and Europe</strong>.",
+            about_global_desc2: "Our clientele includes distributors, importers, contractors, and large agricultural and government projects.",
+            region_sa: "South America", region_af: "Africa", region_mea: "Middle East & Asia", region_eu: "Europe",
+            // Final CTA
+            about_cta_title: '🤝 Ready to Build a <span style="color:var(--accent);">Long-Term Partnership</span>?',
+            about_cta_desc: "Let's discuss your sourcing needs. We're here to help you save time, reduce risks, and improve efficiency.",
+            about_cta_quote: "Get a Quote Now",
+            about_cta_whatsapp: "Chat on WhatsApp",
+            // Footer
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Your reliable agricultural & supply chain partner.",
+            footer_quick: "Quick Links",
+            footer_contact_title: "Contact",
+            footer_office: "Office",
+            footer_rights: "All rights reserved.",
+            footer_sustainable: "Sustainable Agriculture"
+        },
+        es: {
+            nav_home: "Inicio", nav_products: "Productos", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto",
+            about_badge: "Sobre Hecoth",
+            about_hero_title: 'Su socio confiable en <span style="color:var(--primary)">cadena de suministro</span><br>con <span style="color:var(--accent);">más de 17 años</span> de experiencia en exportación de maquinaria',
+            about_hero_desc: "Jinan Hecoth International Trading Co., Ltd. es una empresa profesional de comercio internacional y cadena de suministro especializada en maquinaria agrícola, equipos de construcción, tractores, sistemas de riego y repuestos relacionados.",
+            about_cta_talk: "Hablemos de Negocios",
+            about_cta_explore: "Explorar Nuestros Productos",
+            stat_years: "Años de Experiencia",
+            stat_countries: "Países Atendidos",
+            stat_units: "Unidades Entregadas Anualmente",
+            stat_quality: "Compromiso de Calidad",
+            about_more_badge: "Más que una Empresa Comercial",
+            about_more_title: 'No solo <span style="color:var(--primary)">vendemos productos</span>. Resolvemos problemas.',
+            about_more_desc1: "Nuestro fundador aporta más de <strong>17 años de experiencia práctica</strong> en exportación de maquinaria internacional, gestión de fábricas, desarrollo de proveedores y control de calidad.",
+            about_more_desc2: "Esto nos permite <strong>cerrar la brecha</strong> entre fabricantes y clientes globales — ayudándole a <strong>reducir riesgos, mejorar la consistencia y construir cadenas de suministro a largo plazo</strong>.",
+            about_value_sourcing: "Abastecimiento Confiable",
+            about_value_quality: "Control de Calidad",
+            about_value_monitor: "Monitoreo de Producción",
+            about_value_logistics: "Logística Global",
+            about_quote: '"Entendemos las operaciones de fábrica y las expectativas de los compradores internacionales. Esto nos permite cerrar la brecha entre fabricantes y clientes globales."',
+            about_quote_author: "— Filosofía de los Fundadores de Hecoth",
+            about_why_badge: "Por Qué Nos Eligen",
+            about_why_title: 'Asociación <span style="color:var(--primary)">Basada en Valor</span>',
+            about_why_reliable_title: "Proveedores Confiables",
+            about_why_reliable_desc: "Fabricantes auditados con capacidad verificada.",
+            about_why_risk_title: "Reducir Riesgos",
+            about_why_risk_desc: "Revisión de cumplimiento y evaluación de riesgos para cada pedido.",
+            about_why_quality_title: "Calidad Consistente",
+            about_why_quality_desc: "Proceso de QC estandarizado e inspecciones regulares.",
+            about_why_schedule_title: "Monitoreo de Producción",
+            about_why_schedule_desc: "Seguimiento en tiempo real y actualizaciones de estado.",
+            about_why_logistics_title: "Logística Eficiente",
+            about_why_logistics_desc: "Soluciones de envío optimizadas y seguimiento completo.",
+            about_why_chain_title: "Cadenas de Suministro",
+            about_why_chain_desc: "Soluciones sostenibles adaptadas a sus necesidades.",
+            about_qc_badge: "Calidad Primero",
+            about_qc_title: 'Nuestro Proceso de <span style="color:var(--primary)">Control de Calidad</span>',
+            about_qc_step1_label: "Antes de la Producción:",
+            about_qc_step1_desc: "Auditoría de proveedores y revisión de especificaciones",
+            about_qc_step2_label: "Durante la Producción:",
+            about_qc_step2_desc: "Inspección en proceso y monitoreo en tiempo real",
+            about_qc_step3_label: "Antes del Envío:",
+            about_qc_step3_desc: "Inspección final y verificación de empaque",
+            about_qc_step4_label: "Supervisión de Carga:",
+            about_qc_step4_desc: "Supervisión de carga y verificación de documentos",
+            about_qc_quote: '"La calidad no se inspecciona al final; se gestiona durante todo el proceso."',
+            about_global_badge: "Alcance Global",
+            about_global_title: 'Sirviendo a <span style="color:var(--primary)">más de 60 países</span> en todo el mundo',
+            about_global_desc1: "Nuestro alcance es verdaderamente global. Servimos a clientes en <strong>América del Sur, África, Medio Oriente, Asia y Europa</strong>.",
+            about_global_desc2: "Nuestra clientela incluye distribuidores, importadores, contratistas y grandes proyectos agrícolas y gubernamentales.",
+            region_sa: "América del Sur", region_af: "África", region_mea: "Medio Oriente y Asia", region_eu: "Europa",
+            about_cta_title: '🤝 ¿Listo para una <span style="color:var(--accent);">asociación a largo plazo</span>?',
+            about_cta_desc: "Hablemos de sus necesidades de abastecimiento. Estamos aquí para ayudarle a ahorrar tiempo, reducir riesgos y mejorar la eficiencia.",
+            about_cta_quote: "Solicitar Presupuesto",
+            about_cta_whatsapp: "Chatear por WhatsApp",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Su socio confiable en maquinaria agrícola y cadena de suministro.",
+            footer_quick: "Enlaces Rápidos",
+            footer_contact_title: "Contacto",
+            footer_office: "Oficina",
+            footer_rights: "Todos los derechos reservados.",
+            footer_sustainable: "Agricultura Sostenible"
+        },
+        fr: {
+            nav_home: "Accueil", nav_products: "Produits", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact",
+            about_badge: "À propos de Hecoth",
+            about_hero_title: 'Votre partenaire fiable en <span style="color:var(--primary)">chaîne d\'approvisionnement</span><br>avec <span style="color:var(--accent);">plus de 17 ans</span> d\'expertise en exportation de machinerie',
+            about_hero_desc: "Jinan Hecoth International Trading Co., Ltd. est une société professionnelle de commerce international et de chaîne d'approvisionnement spécialisée dans les machines agricoles, les équipements de construction, les tracteurs, les systèmes d'irrigation et les pièces détachées associées.",
+            about_cta_talk: "Parlons Affaires",
+            about_cta_explore: "Explorer Nos Produits",
+            stat_years: "Années d'Expérience",
+            stat_countries: "Pays Desservis",
+            stat_units: "Unités Livrées Annuellement",
+            stat_quality: "Engagement Qualité",
+            about_more_badge: "Plus qu'une Société Commerciale",
+            about_more_title: 'Nous ne nous contentons pas de <span style="color:var(--primary)">vendre des produits</span>. Nous résolvons des problèmes.',
+            about_more_desc1: "Notre fondateur apporte plus de <strong>17 ans d'expérience pratique</strong> dans l'exportation de machines internationales, la gestion d'usines, le développement de fournisseurs et le contrôle qualité.",
+            about_more_desc2: "Cela nous permet de <strong>combler le fossé</strong> entre les fabricants et les clients mondiaux — en vous aidant à <strong>réduire les risques, améliorer la cohérence et construire des chaînes d'approvisionnement durables</strong>.",
+            about_value_sourcing: "Approvisionnement Fiable",
+            about_value_quality: "Contrôle Qualité",
+            about_value_monitor: "Suivi de Production",
+            about_value_logistics: "Logistique Mondiale",
+            about_quote: '"Nous comprenons les opérations d\'usine et les attentes des acheteurs internationaux. Cela nous permet de combler le fossé entre les fabricants et les clients mondiaux."',
+            about_quote_author: "— Philosophie des Fondateurs de Hecoth",
+            about_why_badge: "Pourquoi Nous Choisir",
+            about_why_title: 'Partenariat <span style="color:var(--primary)">Basé sur la Valeur</span>',
+            about_why_reliable_title: "Fournisseurs Fiables",
+            about_why_reliable_desc: "Fabricants audités avec capacité vérifiée.",
+            about_why_risk_title: "Réduire les Risques",
+            about_why_risk_desc: "Évaluation de conformité et des risques pour chaque commande.",
+            about_why_quality_title: "Qualité Cohérente",
+            about_why_quality_desc: "Processus de CQ standardisé et inspections régulières.",
+            about_why_schedule_title: "Suivi de Production",
+            about_why_schedule_desc: "Suivi en temps réel et mises à jour d'état.",
+            about_why_logistics_title: "Logistique Efficace",
+            about_why_logistics_desc: "Solutions d'expédition optimisées et suivi complet.",
+            about_why_chain_title: "Chaînes d'Approvisionnement",
+            about_why_chain_desc: "Solutions durables adaptées à vos besoins.",
+            about_qc_badge: "Qualité d'Abbord",
+            about_qc_title: 'Notre Processus de <span style="color:var(--primary)">Contrôle Qualité</span>',
+            about_qc_step1_label: "Avant la Production:",
+            about_qc_step1_desc: "Audit des fournisseurs et révision des spécifications",
+            about_qc_step2_label: "Pendant la Production:",
+            about_qc_step2_desc: "Inspection en cours et surveillance en temps réel",
+            about_qc_step3_label: "Avant l'Expédition:",
+            about_qc_step3_desc: "Inspection finale et vérification de l'emballage",
+            about_qc_step4_label: "Supervision du Chargement:",
+            about_qc_step4_desc: "Supervision du chargement et vérification des documents",
+            about_qc_quote: '"La qualité n\'est pas inspectée à la fin; elle est gérée tout au long du processus."',
+            about_global_badge: "Portée Mondiale",
+            about_global_title: 'Service à <span style="color:var(--primary)">plus de 60 pays</span> dans le monde',
+            about_global_desc1: "Notre portée est véritablement mondiale. Nous servons des clients en <strong>Amérique du Sud, Afrique, Moyen-Orient, Asie et Europe</strong>.",
+            about_global_desc2: "Notre clientèle comprend des distributeurs, importateurs, entrepreneurs et grands projets agricoles et gouvernementaux.",
+            region_sa: "Amérique du Sud", region_af: "Afrique", region_mea: "Moyen-Orient et Asie", region_eu: "Europe",
+            about_cta_title: '🤝 Prêt à construire un <span style="color:var(--accent);">partenariat à long terme</span>?',
+            about_cta_desc: "Discutons de vos besoins d'approvisionnement. Nous sommes là pour vous aider à gagner du temps, réduire les risques et améliorer l'efficacité.",
+            about_cta_quote: "Demander un Devis",
+            about_cta_whatsapp: "Discuter sur WhatsApp",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Votre partenaire fiable en machinerie agricole et chaîne d'approvisionnement.",
+            footer_quick: "Liens Rapides",
+            footer_contact_title: "Contact",
+            footer_office: "Bureau",
+            footer_rights: "Tous droits réservés.",
+            footer_sustainable: "Agriculture Durable"
+        },
+        ar: {
+            nav_home: "الرئيسية", nav_products: "المنتجات", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا",
+            about_badge: "عن هيكوت",
+            about_hero_title: 'شريكك الموثوق في <span style="color:var(--primary)">سلسلة التوريد</span><br>مع <span style="color:var(--accent);">أكثر من 17 عاماً</span> من الخبرة في تصدير المعدات',
+            about_hero_desc: "جينان هيكوت للتجارة الدولية المحدودة هي شركة تجارية دولية ومتخصصة في سلسلة التوريد للمعدات الزراعية ومعدات البناء والجرارات وأنظمة الري وقطع الغيار ذات الصلة.",
+            about_cta_talk: "لنتحدث عن الأعمال",
+            about_cta_explore: "استكشف منتجاتنا",
+            stat_years: "سنوات الخبرة",
+            stat_countries: "الدول المخدومة",
+            stat_units: "وحدات سنوياً",
+            stat_quality: "الالتزام بالجودة",
+            about_more_badge: "أكثر من شركة تجارية",
+            about_more_title: 'نحن لا <span style="color:var(--primary)">نبيع المنتجات</span> فقط. نحن نحل المشاكل.',
+            about_more_desc1: "يتمتع مؤسسنا بأكثر من <strong>17 عاماً من الخبرة العملية</strong> في تصدير المعدات الدولية، وإدارة المصانع، وتطوير الموردين ومراقبة الجودة.",
+            about_more_desc2: "هذا يسمح لنا <strong>بسد الفجوة</strong> بين المصنعين والعملاء العالميين — ومساعدتك في <strong>تقليل مخاطر الشراء، وتحسين جودة المنتج، وبناء سلاسل توريد طويلة الأجل</strong>.",
+            about_value_sourcing: "مصادر موثوقة",
+            about_value_quality: "مراقبة الجودة",
+            about_value_monitor: "مراقبة الإنتاج",
+            about_value_logistics: "الخدمات اللوجستية العالمية",
+            about_quote: '"نحن نفهم عمليات المصنع وتوقعات المشترين العالميين. هذا يسمح لنا بسد الفجوة بين المصنعين والعملاء."',
+            about_quote_author: "— فلسفة مؤسسي هيكوت",
+            about_why_badge: "لماذا يختاروننا",
+            about_why_title: 'شراكة <span style="color:var(--primary)">قائمة على القيمة</span>',
+            about_why_reliable_title: "موردون موثوقون",
+            about_why_reliable_desc: "مصنعون خضعوا للتدقيق مع قدرة إنتاجية مثبتة.",
+            about_why_risk_title: "تقليل المخاطر",
+            about_why_risk_desc: "مراجعة الامتثال وتقييم المخاطر لكل طلب.",
+            about_why_quality_title: "جودة متسقة",
+            about_why_quality_desc: "عملية مراقبة جودة موحدة وفحوصات دورية.",
+            about_why_schedule_title: "مراقبة الإنتاج",
+            about_why_schedule_desc: "تتبع الإنتاج في الوقت الفعلي وتحديثات الحالة.",
+            about_why_logistics_title: "لوجستيات فعالة",
+            about_why_logistics_desc: "حلول شحن محسّنة وتتبع كامل.",
+            about_why_chain_title: "سلاسل توريد طويلة الأجل",
+            about_why_chain_desc: "حلول سلسلة توريد مستدامة مصممة حسب احتياجاتك.",
+            about_qc_badge: "الجودة أولاً",
+            about_qc_title: 'عملية <span style="color:var(--primary)">مراقبة الجودة</span> لدينا',
+            about_qc_step1_label: "قبل الإنتاج:",
+            about_qc_step1_desc: "تدقيق الموردين ومراجعة المواصفات الفنية",
+            about_qc_step2_label: "أثناء الإنتاج:",
+            about_qc_step2_desc: "الفحص أثناء العملية والمراقبة في الوقت الفعلي",
+            about_qc_step3_label: "قبل الشحن:",
+            about_qc_step3_desc: "الفحص النهائي للمنتج والتحقق من التغليف",
+            about_qc_step4_label: "الإشراف على التحميل:",
+            about_qc_step4_desc: "الإشراف على تحميل الحاويات والتحقق من المستندات",
+            about_qc_quote: '"الجودة لا تُفحص في النهاية؛ بل تُدار طوال العملية بأكملها."',
+            about_global_badge: "الوصول العالمي",
+            about_global_title: 'خدمة <span style="color:var(--primary)">أكثر من 60 دولة</span> حول العالم',
+            about_global_desc1: "نطاقنا عالمي حقاً. نخدم العملاء في <strong>أمريكا الجنوبية وأفريقيا والشرق الأوسط وآسيا وأوروبا</strong>.",
+            about_global_desc2: "تشمل عملاؤنا الموزعين والمستوردين والمقاولين والمشاريع الزراعية والحكومية الكبيرة.",
+            region_sa: "أمريكا الجنوبية", region_af: "أفريقيا", region_mea: "الشرق الأوسط وآسيا", region_eu: "أوروبا",
+            about_cta_title: '🤝 هل أنت مستعد لبناء <span style="color:var(--accent);">شراكة طويلة الأجل</span>؟',
+            about_cta_desc: "لنناقش احتياجاتك التوريدية. نحن هنا لمساعدتك في توفير الوقت وتقليل المخاطر وتحسين الكفاءة.",
+            about_cta_quote: "اطلب عرض سعر الآن",
+            about_cta_whatsapp: "تحدث عبر واتساب",
+            footer_company: "جينان هيكوت للتجارة الدولية المحدودة",
+            footer_partner: "شريكك الموثوق في المعدات الزراعية وسلسلة التوريد.",
+            footer_quick: "روابط سريعة",
+            footer_contact_title: "اتصل بنا",
+            footer_office: "المكتب",
+            footer_rights: "جميع الحقوق محفوظة.",
+            footer_sustainable: "الزراعة المستدامة"
+        },
+        ru: {
+            nav_home: "Главная", nav_products: "Продукты", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты",
+            about_badge: "О Hecoth",
+            about_hero_title: 'Ваш надежный партнер по <span style="color:var(--primary)">цепочке поставок</span><br>с <span style="color:var(--accent);">более чем 17-летним</span> опытом экспорта оборудования',
+            about_hero_desc: "Jinan Hecoth International Trading Co., Ltd. является профессиональной международной торговой и логистической компанией, специализирующейся на сельскохозяйственной технике, строительном оборудовании, тракторах, ирригационных системах и запасных частях.",
+            about_cta_talk: "Обсудим Бизнес",
+            about_cta_explore: "Изучить Наши Продукты",
+            stat_years: "Лет Опыта",
+            stat_countries: "Стран Обслуживания",
+            stat_units: "Единиц в Год",
+            stat_quality: "Приверженность Качеству",
+            about_more_badge: "Больше чем Торговая Компания",
+            about_more_title: 'Мы не просто <span style="color:var(--primary)">продаем продукты</span>. Мы решаем проблемы.',
+            about_more_desc1: "Наш основатель имеет более <strong>17 лет практического опыта</strong> в международном экспорте машин, управлении заводами, развитии поставщиков и контроле качества.",
+            about_more_desc2: "Это позволяет нам <strong>преодолевать разрыв</strong> между производителями и глобальными клиентами — помогая вам <strong>снижать риски, улучшать качество и строить долгосрочные цепочки поставок</strong>.",
+            about_value_sourcing: "Надежный Поиск",
+            about_value_quality: "Контроль Качества",
+            about_value_monitor: "Мониторинг Производства",
+            about_value_logistics: "Глобальная Логистика",
+            about_quote: '"Мы понимаем заводские операции и ожидания международных покупателей. Это позволяет нам преодолевать разрыв между производителями и глобальными клиентами."',
+            about_quote_author: "— Философия Основателей Hecoth",
+            about_why_badge: "Почему Выбирают Нас",
+            about_why_title: 'Партнерство, <span style="color:var(--primary)">Основанное на Ценности</span>',
+            about_why_reliable_title: "Надежные Поставщики",
+            about_why_reliable_desc: "Проверенные производители с подтвержденными мощностями.",
+            about_why_risk_title: "Снижение Рисков",
+            about_why_risk_desc: "Оценка соответствия и рисков для каждого заказа.",
+            about_why_quality_title: "Стабильное Качество",
+            about_why_quality_desc: "Стандартизированный контроль качества и регулярные проверки.",
+            about_why_schedule_title: "Мониторинг Производства",
+            about_why_schedule_desc: "Отслеживание производства в реальном времени.",
+            about_why_logistics_title: "Эффективная Логистика",
+            about_why_logistics_desc: "Оптимизированные решения по доставке и полное отслеживание.",
+            about_why_chain_title: "Долгосрочные Цепочки",
+            about_why_chain_desc: "Устойчивые решения, адаптированные к вашим потребностям.",
+            about_qc_badge: "Качество Прежде Всего",
+            about_qc_title: 'Наш Процесс <span style="color:var(--primary)">Контроля Качества</span>',
+            about_qc_step1_label: "Перед Производством:",
+            about_qc_step1_desc: "Аудит поставщиков и проверка спецификаций",
+            about_qc_step2_label: "Во Время Производства:",
+            about_qc_step2_desc: "Контроль в процессе и мониторинг в реальном времени",
+            about_qc_step3_label: "Перед Отгрузкой:",
+            about_qc_step3_desc: "Финальная проверка продукции и упаковки",
+            about_qc_step4_label: "Контроль Загрузки:",
+            about_qc_step4_desc: "Контроль загрузки контейнеров и проверка документов",
+            about_qc_quote: '"Качество проверяется не в конце; оно управляется на протяжении всего процесса."',
+            about_global_badge: "Глобальный Охват",
+            about_global_title: 'Обслуживание <span style="color:var(--primary)">60+ стран</span> по всему миру',
+            about_global_desc1: "Наш охват действительно глобален. Мы обслуживаем клиентов в <strong>Южной Америке, Африке, на Ближнем Востоке, в Азии и Европе</strong>.",
+            about_global_desc2: "Наши клиенты включают дистрибьюторов, импортеров, подрядчиков и крупные сельскохозяйственные и государственные проекты.",
+            region_sa: "Южная Америка", region_af: "Африка", region_mea: "Ближний Восток и Азия", region_eu: "Европа",
+            about_cta_title: '🤝 Готовы построить <span style="color:var(--accent);">долгосрочное партнерство</span>?',
+            about_cta_desc: "Давайте обсудим ваши потребности. Мы здесь, чтобы помочь вам экономить время, снижать риски и повышать эффективность.",
+            about_cta_quote: "Запросить Цену",
+            about_cta_whatsapp: "Написать в WhatsApp",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Ваш надежный партнер в сельхозтехнике и цепочке поставок.",
+            footer_quick: "Быстрые ссылки",
+            footer_contact_title: "Контакты",
+            footer_office: "Офис",
+            footer_rights: "Все права защищены.",
+            footer_sustainable: "Устойчивое сельское хозяйство"
+        },
+        pt: {
+            nav_home: "Início", nav_products: "Produtos", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato",
+            about_badge: "Sobre Hecoth",
+            about_hero_title: 'Seu parceiro confiável em <span style="color:var(--primary)">cadeia de suprimentos</span><br>com <span style="color:var(--accent);">mais de 17 anos</span> de experiência em exportação de máquinas',
+            about_hero_desc: "Jinan Hecoth International Trading Co., Ltd. é uma empresa profissional de comércio internacional e cadeia de suprimentos especializada em máquinas agrícolas, equipamentos de construção, tratores, sistemas de irrigação e peças de reposição relacionadas.",
+            about_cta_talk: "Vamos Falar de Negócios",
+            about_cta_explore: "Explorar Nossos Produtos",
+            stat_years: "Anos de Experiência",
+            stat_countries: "Países Atendidos",
+            stat_units: "Unidades Entregues/Ano",
+            stat_quality: "Compromisso com a Qualidade",
+            about_more_badge: "Mais que uma Trading Company",
+            about_more_title: 'Não apenas <span style="color:var(--primary)">vendemos produtos</span>. Resolvemos problemas.',
+            about_more_desc1: "Nosso fundador tem mais de <strong>17 anos de experiência prática</strong> em exportação de máquinas, gestão de fábricas, desenvolvimento de fornecedores e controle de qualidade.",
+            about_more_desc2: "Isso nos permite <strong>preencher a lacuna</strong> entre fabricantes e clientes globais — ajudando você a <strong>reduzir riscos, melhorar a consistência e construir cadeias de suprimentos de longo prazo</strong>.",
+            about_value_sourcing: "Fornecimento Confiável",
+            about_value_quality: "Controle de Qualidade",
+            about_value_monitor: "Monitoramento de Produção",
+            about_value_logistics: "Logística Global",
+            about_quote: '"Entendemos as operações de fábrica e as expectativas dos compradores globais. Isso nos permite preencher a lacuna entre fabricantes e clientes globais."',
+            about_quote_author: "— Filosofia dos Fundadores da Hecoth",
+            about_why_badge: "Por que Escolher a Hecoth",
+            about_why_title: 'Parceria <span style="color:var(--primary)">Baseada em Valor</span>',
+            about_why_reliable_title: "Fornecedores Confiáveis",
+            about_why_reliable_desc: "Fabricantes auditados com capacidade verificada.",
+            about_why_risk_title: "Redução de Riscos",
+            about_why_risk_desc: "Avaliação de conformidade e riscos para cada pedido.",
+            about_why_quality_title: "Qualidade Consistente",
+            about_why_quality_desc: "Processo de QC padronizado e inspeções regulares.",
+            about_why_schedule_title: "Monitoramento de Produção",
+            about_why_schedule_desc: "Acompanhamento em tempo real e atualizações de status.",
+            about_why_logistics_title: "Logística Eficiente",
+            about_why_logistics_desc: "Soluções de envio otimizadas e rastreamento completo.",
+            about_why_chain_title: "Cadeias de Suprimentos",
+            about_why_chain_desc: "Soluções sustentáveis adaptadas às suas necessidades.",
+            about_qc_badge: "Qualidade em Primeiro Lugar",
+            about_qc_title: 'Nosso Processo de <span style="color:var(--primary)">Controle de Qualidade</span>',
+            about_qc_step1_label: "Antes da Produção:",
+            about_qc_step1_desc: "Auditoria de fornecedores e revisão de especificações",
+            about_qc_step2_label: "Durante a Produção:",
+            about_qc_step2_desc: "Inspeção em processo e monitoramento em tempo real",
+            about_qc_step3_label: "Antes do Envio:",
+            about_qc_step3_desc: "Inspeção final e verificação de embalagem",
+            about_qc_step4_label: "Supervisão de Carga:",
+            about_qc_step4_desc: "Supervisão de carregamento e verificação de documentos",
+            about_qc_quote: '"A qualidade não é inspecionada no final; é gerida durante todo o processo."',
+            about_global_badge: "Alcance Global",
+            about_global_title: 'Atendendo <span style="color:var(--primary)">mais de 60 países</span> em todo o mundo',
+            about_global_desc1: "Nosso alcance é verdadeiramente global. Atendemos clientes em <strong>América do Sul, África, Oriente Médio, Ásia e Europa</strong>.",
+            about_global_desc2: "Nossa clientela inclui distribuidores, importadores, contratantes e grandes projetos agrícolas e governamentais.",
+            region_sa: "América do Sul", region_af: "África", region_mea: "Oriente Médio e Ásia", region_eu: "Europa",
+            about_cta_title: '🤝 Pronto para construir uma <span style="color:var(--accent);">parceria de longo prazo</span>?',
+            about_cta_desc: "Vamos discutir suas necessidades de fornecimento. Estamos aqui para ajudá-lo a economizar tempo, reduzir riscos e melhorar a eficiência.",
+            about_cta_quote: "Solicitar Orçamento",
+            about_cta_whatsapp: "Conversar no WhatsApp",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Seu parceiro confiável em máquinas agrícolas e cadeia de suprimentos.",
+            footer_quick: "Links Rápidos",
+            footer_contact_title: "Contato",
+            footer_office: "Escritório",
+            footer_rights: "Todos os direitos reservados.",
+            footer_sustainable: "Agricultura Sustentável"
+        }
+    };
+
+    let currentLang = localStorage.getItem('hecoth_lang') || 'en';
+
     function switchLanguage(lang) {
         currentLang = lang;
-        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-        document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.add('active');
         localStorage.setItem('hecoth_lang', lang);
+        // 更新语言按钮状态
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+        });
+        // 更新页面文字
+        updatePageLanguage(lang);
+        // 阿拉伯语 RTL 适配
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
     }
-    
-    const savedLang = localStorage.getItem('hecoth_lang');
-    if (savedLang) { 
-        currentLang = savedLang;
-        document.querySelectorAll('.lang-btn').forEach(b => {
-            b.classList.toggle('active', b.getAttribute('data-lang') === savedLang);
+
+    function updatePageLanguage(lang) {
+        document.querySelectorAll('[data-lang-key]').forEach(el => {
+            const key = el.getAttribute('data-lang-key');
+            if (translations[lang] && translations[lang][key]) {
+                // 对于包含HTML标签的翻译（如标题中的 <span>），使用 innerHTML
+                if (key === 'about_hero_title' || key === 'about_more_title' || 
+                    key === 'about_why_title' || key === 'about_qc_title' || 
+                    key === 'about_global_title' || key === 'about_cta_title') {
+                    el.innerHTML = translations[lang][key];
+                } else {
+                    el.textContent = translations[lang][key];
+                }
+            }
         });
     }
-    
+
+    // 页面加载时初始化语言
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
+        });
+        updatePageLanguage(currentLang);
+        document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+    });
+
+    // ===== 移动端菜单 =====
     document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
         document.getElementById('mobileMenu').classList.toggle('hidden');
     });

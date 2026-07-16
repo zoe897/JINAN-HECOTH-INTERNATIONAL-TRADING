@@ -26,6 +26,7 @@
         .lang-btn:not(.active):hover { background-color: #f3f4f6; }
         .bg-primary-gradient { background: linear-gradient(135deg, rgba(46,125,50,0.05) 0%, rgba(67,160,71,0.08) 100%); }
         .news-icon { width: 3.5rem; height: 3.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(46,125,50,0.1); color: var(--primary); font-size: 1.25rem; flex-shrink: 0; }
+        @media (max-width: 768px) { .desktop-nav { display: none; } }
     </style>
 </head>
 <body>
@@ -37,13 +38,13 @@
             <i class="fas fa-leaf text-3xl" style="color:var(--primary)"></i>
             <span class="font-bold text-xl tracking-tight">Hecoth <span style="color:var(--primary)">Agri</span></span>
         </a>
-        <nav class="hidden md:flex space-x-6">
-            <a href="/" class="nav-link">Home</a>
-            <a href="/products.html" class="nav-link">Products</a>
-            <a href="/solutions.html" class="nav-link">Solutions</a>
-            <a href="/about.html" class="nav-link">About</a>
-            <a href="/news.html" class="nav-link active">News</a>
-            <a href="/contact.html" class="nav-link">Contact</a>
+        <nav class="hidden md:flex space-x-6 desktop-nav">
+            <a href="/" class="nav-link" data-lang-key="nav_home">Home</a>
+            <a href="/products.html" class="nav-link" data-lang-key="nav_products">Products</a>
+            <a href="/solutions.html" class="nav-link" data-lang-key="nav_solutions">Solutions</a>
+            <a href="/about.html" class="nav-link" data-lang-key="nav_about">About</a>
+            <a href="/news.html" class="nav-link active" data-lang-key="nav_news">News</a>
+            <a href="/contact.html" class="nav-link" data-lang-key="nav_contact">Contact</a>
         </nav>
         <div class="flex items-center gap-3">
             <div class="lang-selector hidden md:flex gap-1 bg-gray-100 p-1 rounded-full">
@@ -59,12 +60,12 @@
         </div>
     </div>
     <div id="mobileMenu" class="hidden md:hidden bg-white border-t py-4 px-6 flex flex-col space-y-3 shadow-lg">
-        <a href="/" class="py-1">Home</a>
-        <a href="/products.html" class="py-1">Products</a>
-        <a href="/solutions.html" class="py-1">Solutions</a>
-        <a href="/about.html" class="py-1">About</a>
-        <a href="/news.html" class="py-1" style="color:var(--primary);font-weight:600;">News</a>
-        <a href="/contact.html" class="py-1">Contact</a>
+        <a href="/" class="py-1" data-lang-key="nav_home">Home</a>
+        <a href="/products.html" class="py-1" data-lang-key="nav_products">Products</a>
+        <a href="/solutions.html" class="py-1" data-lang-key="nav_solutions">Solutions</a>
+        <a href="/about.html" class="py-1" data-lang-key="nav_about">About</a>
+        <a href="/news.html" class="py-1" style="color:var(--primary);font-weight:600;" data-lang-key="nav_news">News</a>
+        <a href="/contact.html" class="py-1" data-lang-key="nav_contact">Contact</a>
         <a href="https://wa.me/8619743003775" class="py-1 text-green-600"><i class="fab fa-whatsapp"></i> WhatsApp</a>
     </div>
 </header>
@@ -73,92 +74,309 @@
 <main class="py-12">
     <div class="container mx-auto px-4 md:px-8">
         <div class="text-center mb-12">
-            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-newspaper mr-2"></i> Updates</span>
-            <h1 class="text-4xl font-bold mt-2">Latest <span style="color:var(--primary)">News</span></h1>
-            <p class="text-gray-500 mt-2">Industry insights and company updates from Hecoth</p>
+            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-newspaper mr-2"></i> <span data-lang-key="news_badge">Updates</span></span>
+            <h1 class="text-4xl font-bold mt-2" data-lang-key="news_title">Latest <span style="color:var(--primary)">News</span></h1>
+            <p class="text-gray-500 mt-2" data-lang-key="news_subtitle">Industry insights and company updates from Hecoth</p>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="newsGrid"></div>
 
         <!-- Subscribe -->
         <div class="mt-16 bg-primary-gradient rounded-2xl p-8 text-center border border-gray-200">
-            <h2 class="text-2xl font-bold" style="color:var(--primary);">📬 Stay Updated</h2>
-            <p class="text-gray-600 mt-2">Subscribe to receive the latest news and product updates</p>
+            <h2 class="text-2xl font-bold" style="color:var(--primary);" data-lang-key="subscribe_title">📬 Stay Updated</h2>
+            <p class="text-gray-600 mt-2" data-lang-key="subscribe_desc">Subscribe to receive the latest news and product updates</p>
             <div class="flex flex-wrap gap-3 justify-center mt-4 max-w-md mx-auto">
                 <input type="email" placeholder="Your email address" class="flex-1 min-w-[200px] px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-[#2E7D32]">
-                <button class="btn-primary" style="padding:0.6rem 1.5rem;">Subscribe</button>
+                <button class="btn-primary" style="padding:0.6rem 1.5rem;" data-lang-key="subscribe_btn">Subscribe</button>
             </div>
-            <p class="text-xs text-gray-400 mt-2">We respect your privacy. Unsubscribe anytime.</p>
+            <p class="text-xs text-gray-400 mt-2" data-lang-key="subscribe_privacy">We respect your privacy. Unsubscribe anytime.</p>
         </div>
     </div>
 </main>
 
 <!-- ===== FOOTER ===== -->
-<div class="flex gap-4 mt-4">
-    <a href="https://www.facebook.com/profile.php?id=100011350858214" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#1877F2] transition">
-        <i class="fab fa-facebook text-xl"></i>
-    </a>
-    <a href="https://www.instagram.com/choi5989/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#E4405F] transition">
-        <i class="fab fa-instagram text-xl"></i>
-    </a>
-    <a href="https://www.youtube.com/@agriculturalchanel" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF0000] transition">
-        <i class="fab fa-youtube text-xl"></i>
-    </a>
-    <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#000000] transition">
-        <i class="fab fa-tiktok text-xl"></i>
-    </a>
-</div>
+<footer class="bg-[#111827] text-gray-400 pt-12 pb-6">
+    <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-4 gap-8">
+        <div>
+            <div class="flex items-center gap-2"><i class="fas fa-leaf text-[#4CAF50] text-2xl"></i><span class="font-bold text-white text-xl">Hecoth Agri</span></div>
+            <p class="mt-3 text-sm" data-lang-key="footer_company">Jinan Hecoth International Trading Co., Ltd.</p>
+            <p class="text-sm" data-lang-key="footer_partner">Your reliable agricultural & supply chain partner.</p>
+            <div class="flex gap-4 mt-4">
+                <a href="https://www.facebook.com/profile.php?id=100011350858214" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#1877F2] transition"><i class="fab fa-facebook text-xl"></i></a>
+                <a href="https://www.instagram.com/choi5989/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#E4405F] transition"><i class="fab fa-instagram text-xl"></i></a>
+                <a href="https://www.youtube.com/@agriculturalchanel" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF0000] transition"><i class="fab fa-youtube text-xl"></i></a>
+                <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#000000] transition"><i class="fab fa-tiktok text-xl"></i></a>
+            </div>
+        </div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_quick">Quick Links</h4><ul class="space-y-2"><li><a href="/" class="footer-link" data-lang-key="nav_home">Home</a></li><li><a href="/products.html" class="footer-link" data-lang-key="nav_products">Products</a></li><li><a href="/solutions.html" class="footer-link" data-lang-key="nav_solutions">Solutions</a></li><li><a href="/about.html" class="footer-link" data-lang-key="nav_about">About</a></li><li><a href="/news.html" class="footer-link" data-lang-key="nav_news">News</a></li><li><a href="/contact.html" class="footer-link" data-lang-key="nav_contact">Contact</a></li></ul></div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_contact_title">Contact</h4><p><i class="fas fa-envelope mr-2"></i> zoe@annetop.com</p><p><i class="fab fa-whatsapp mr-2"></i> +86 19743003775</p><p><i class="fas fa-phone mr-2"></i> +86 13066010625</p></div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_office">Office</h4><p>Room 2213, Rongsheng Time Square,<br>Jinan, Shandong, China</p></div>
+    </div>
+    <div class="text-center pt-8 border-t border-gray-800 text-sm mt-8">© 2026 Jinan Hecoth International Trading Co., Ltd. <span data-lang-key="footer_rights">All rights reserved.</span> | <i class="fas fa-leaf text-[#4CAF50]"></i> <span data-lang-key="footer_sustainable">Sustainable Agriculture</span></div>
+</footer>
 
 <script>
-    let currentLang = 'en';
-    
+    // ===== 多语言配置 =====
+    const translations = {
+        en: {
+            nav_home: "Home", nav_products: "Products", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact",
+            news_badge: "Updates",
+            news_title: 'Latest <span style="color:var(--primary)">News</span>',
+            news_subtitle: "Industry insights and company updates from Hecoth",
+            subscribe_title: "📬 Stay Updated",
+            subscribe_desc: "Subscribe to receive the latest news and product updates",
+            subscribe_btn: "Subscribe",
+            subscribe_privacy: "We respect your privacy. Unsubscribe anytime.",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Your reliable agricultural & supply chain partner.",
+            footer_quick: "Quick Links",
+            footer_contact_title: "Contact",
+            footer_office: "Office",
+            footer_rights: "All rights reserved.",
+            footer_sustainable: "Sustainable Agriculture",
+            // 新闻数据
+            news_1_title: "New Tractor Series Launch",
+            news_1_summary: "TTE series tractors with enhanced power (50-80HP) and fuel efficiency now available for global markets.",
+            news_2_title: "Expanding to Latin America",
+            news_2_summary: "New partnerships established in Brazil and Argentina for spare parts distribution. Local warehouses to reduce delivery time by 40%.",
+            news_3_title: "Quality Excellence Award",
+            news_3_summary: "Hecoth recognized for outstanding export quality control standards by Shandong Provincial Commerce Department.",
+            news_4_title: "Smart Irrigation Launch",
+            news_4_summary: "New IoT-enabled drip irrigation system with remote monitoring capabilities. Saves up to 40% water usage.",
+            news_5_title: "Agritech Expo 2026",
+            news_5_summary: "Hecoth to exhibit at Agritech Expo in Nairobi, Kenya. Visit booth A14 to see our latest tractor lineup.",
+            news_6_title: "New Office Opening",
+            news_6_summary: "Expanded operations with new representative office in Shandong to better serve international clients.",
+            read_more: "Read More →"
+        },
+        es: {
+            nav_home: "Inicio", nav_products: "Productos", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto",
+            news_badge: "Actualizaciones",
+            news_title: 'Últimas <span style="color:var(--primary)">Noticias</span>',
+            news_subtitle: "Información de la industria y actualizaciones de Hecoth",
+            subscribe_title: "📬 Manténgase Actualizado",
+            subscribe_desc: "Suscríbase para recibir las últimas noticias y actualizaciones de productos",
+            subscribe_btn: "Suscribirse",
+            subscribe_privacy: "Respetamos su privacidad. Puede darse de baja en cualquier momento.",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Su socio confiable en maquinaria agrícola y cadena de suministro.",
+            footer_quick: "Enlaces Rápidos",
+            footer_contact_title: "Contacto",
+            footer_office: "Oficina",
+            footer_rights: "Todos los derechos reservados.",
+            footer_sustainable: "Agricultura Sostenible",
+            news_1_title: "Lanzamiento de Nueva Serie de Tractores",
+            news_1_summary: "Tractores serie TTE con mayor potencia (50-80HP) y eficiencia de combustible disponibles para mercados globales.",
+            news_2_title: "Expansión a América Latina",
+            news_2_summary: "Nuevas alianzas en Brasil y Argentina para distribución de repuestos. Almacenes locales para reducir el tiempo de entrega un 40%.",
+            news_3_title: "Premio a la Excelencia en Calidad",
+            news_3_summary: "Hecoth reconocido por sus estándares de control de calidad en exportación por el Departamento de Comercio de Shandong.",
+            news_4_title: "Lanzamiento de Riego Inteligente",
+            news_4_summary: "Nuevo sistema de riego por goteo IoT con monitoreo remoto. Ahorra hasta un 40% de agua.",
+            news_5_title: "Agritech Expo 2026",
+            news_5_summary: "Hecoth exhibirá en Agritech Expo en Nairobi, Kenia. Visite el stand A14 para ver los últimos tractores.",
+            news_6_title: "Nueva Oficina",
+            news_6_summary: "Ampliación de operaciones con nueva oficina en Shandong para servir mejor a clientes internacionales.",
+            read_more: "Leer Más →"
+        },
+        fr: {
+            nav_home: "Accueil", nav_products: "Produits", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact",
+            news_badge: "Actualités",
+            news_title: 'Dernières <span style="color:var(--primary)">Actualités</span>',
+            news_subtitle: "Informations du secteur et mises à jour de Hecoth",
+            subscribe_title: "📬 Restez Informé",
+            subscribe_desc: "Abonnez-vous pour recevoir les dernières nouvelles et mises à jour de produits",
+            subscribe_btn: "S'abonner",
+            subscribe_privacy: "Nous respectons votre vie privée. Désabonnez-vous à tout moment.",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Votre partenaire fiable en machinerie agricole et chaîne d'approvisionnement.",
+            footer_quick: "Liens Rapides",
+            footer_contact_title: "Contact",
+            footer_office: "Bureau",
+            footer_rights: "Tous droits réservés.",
+            footer_sustainable: "Agriculture Durable",
+            news_1_title: "Lancement de Nouvelle Série de Tracteurs",
+            news_1_summary: "Tracteurs série TTE avec puissance accrue (50-80HP) et efficacité énergétique disponibles sur les marchés mondiaux.",
+            news_2_title: "Expansion en Amérique Latine",
+            news_2_summary: "Nouveaux partenariats au Brésil et en Argentine pour la distribution de pièces détachées.",
+            news_3_title: "Prix d'Excellence en Qualité",
+            news_3_summary: "Hecoth reconnu pour ses normes de contrôle qualité à l'exportation.",
+            news_4_title: "Lancement de l'Irrigation Intelligente",
+            news_4_summary: "Nouveau système d'irrigation goutte-à-goutte IoT avec surveillance à distance. Économise jusqu'à 40% d'eau.",
+            news_5_title: "Agritech Expo 2026",
+            news_5_summary: "Hecoth exposera à Agritech Expo à Nairobi, Kenya. Stand A14 pour voir les derniers tracteurs.",
+            news_6_title: "Nouveau Bureau",
+            news_6_summary: "Expansion des opérations avec un nouveau bureau à Shandong.",
+            read_more: "En Savoir Plus →"
+        },
+        ar: {
+            nav_home: "الرئيسية", nav_products: "المنتجات", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا",
+            news_badge: "التحديثات",
+            news_title: 'آخر <span style="color:var(--primary)">الأخبار</span>',
+            news_subtitle: "أخبار الصناعة وتحديثات هيكوت",
+            subscribe_title: "📬 ابق على اطلاع",
+            subscribe_desc: "اشترك لتلقي أحدث الأخبار وتحديثات المنتجات",
+            subscribe_btn: "اشتراك",
+            subscribe_privacy: "نحن نحترم خصوصيتك. يمكنك إلغاء الاشتراك في أي وقت.",
+            footer_company: "جينان هيكوت للتجارة الدولية المحدودة",
+            footer_partner: "شريكك الموثوق في المعدات الزراعية وسلسلة التوريد.",
+            footer_quick: "روابط سريعة",
+            footer_contact_title: "اتصل بنا",
+            footer_office: "المكتب",
+            footer_rights: "جميع الحقوق محفوظة.",
+            footer_sustainable: "الزراعة المستدامة",
+            news_1_title: "إطلاق سلسلة جرارات جديدة",
+            news_1_summary: "جرارات سلسلة TTE بقوة محسنة (50-80 حصان) وكفاءة وقود متاحة للأسواق العالمية.",
+            news_2_title: "التوسع إلى أمريكا اللاتينية",
+            news_2_summary: "شراكات جديدة في البرازيل والأرجنتين لتوزيع قطع الغيار.",
+            news_3_title: "جائزة التميز في الجودة",
+            news_3_summary: "حصلت هيكوت على تقدير لمعايير مراقبة الجودة في التصدير.",
+            news_4_title: "إطلاق الري الذكي",
+            news_4_summary: "نظام ري بالتنقيط جديد بتقنية IoT مع مراقبة عن بعد. يوفر ما يصل إلى 40% من الماء.",
+            news_5_title: "معرض Agritech 2026",
+            news_5_summary: "هيكوت تشارك في معرض Agritech في نيروبي، كينيا. قم بزيارة الجناح A14.",
+            news_6_title: "افتتاح مكتب جديد",
+            news_6_summary: "توسيع العمليات بمكتب جديد في شاندونغ لخدمة العملاء الدوليين.",
+            read_more: "اقرأ المزيد →"
+        },
+        ru: {
+            nav_home: "Главная", nav_products: "Продукты", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты",
+            news_badge: "Обновления",
+            news_title: 'Последние <span style="color:var(--primary)">Новости</span>',
+            news_subtitle: "Новости отрасли и обновления Hecoth",
+            subscribe_title: "📬 Будьте в курсе",
+            subscribe_desc: "Подпишитесь, чтобы получать последние новости и обновления продуктов",
+            subscribe_btn: "Подписаться",
+            subscribe_privacy: "Мы уважаем вашу конфиденциальность. Отпишитесь в любое время.",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Ваш надежный партнер в сельхозтехнике и цепочке поставок.",
+            footer_quick: "Быстрые ссылки",
+            footer_contact_title: "Контакты",
+            footer_office: "Офис",
+            footer_rights: "Все права защищены.",
+            footer_sustainable: "Устойчивое сельское хозяйство",
+            news_1_title: "Запуск новой серии тракторов",
+            news_1_summary: "Тракторы серии TTE с улучшенной мощностью (50-80 л.с.) и топливной эффективностью.",
+            news_2_title: "Расширение в Латинскую Америку",
+            news_2_summary: "Новые партнерства в Бразилии и Аргентине для дистрибуции запчастей.",
+            news_3_title: "Награда за качество",
+            news_3_summary: "Hecoth отмечен за высокие стандарты контроля качества на экспорт.",
+            news_4_title: "Запуск умного полива",
+            news_4_summary: "Новая IoT-система капельного полива с удаленным мониторингом. Экономия воды до 40%.",
+            news_5_title: "Agritech Expo 2026",
+            news_5_summary: "Hecoth будет участвовать в Agritech Expo в Найроби, Кения. Стенд A14.",
+            news_6_title: "Открытие нового офиса",
+            news_6_summary: "Расширение деятельности с новым представительским офисом в Шаньдуне.",
+            read_more: "Читать далее →"
+        },
+        pt: {
+            nav_home: "Início", nav_products: "Produtos", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato",
+            news_badge: "Atualizações",
+            news_title: 'Últimas <span style="color:var(--primary)">Notícias</span>',
+            news_subtitle: "Informações do setor e atualizações da Hecoth",
+            subscribe_title: "📬 Fique Atualizado",
+            subscribe_desc: "Assine para receber as últimas notícias e atualizações de produtos",
+            subscribe_btn: "Inscrever-se",
+            subscribe_privacy: "Respeitamos sua privacidade. Cancele a inscrição a qualquer momento.",
+            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
+            footer_partner: "Seu parceiro confiável em máquinas agrícolas e cadeia de suprimentos.",
+            footer_quick: "Links Rápidos",
+            footer_contact_title: "Contato",
+            footer_office: "Escritório",
+            footer_rights: "Todos os direitos reservados.",
+            footer_sustainable: "Agricultura Sustentável",
+            news_1_title: "Lançamento de Nova Série de Tratores",
+            news_1_summary: "Tratores série TTE com potência melhorada (50-80HP) e eficiência de combustível.",
+            news_2_title: "Expansão para América Latina",
+            news_2_summary: "Novas parcerias no Brasil e Argentina para distribuição de peças.",
+            news_3_title: "Prêmio de Excelência em Qualidade",
+            news_3_summary: "Hecoth reconhecida por padrões de controle de qualidade na exportação.",
+            news_4_title: "Lançamento de Irrigação Inteligente",
+            news_4_summary: "Novo sistema de irrigação por gotejamento IoT com monitoramento remoto. Economiza até 40% de água.",
+            news_5_title: "Agritech Expo 2026",
+            news_5_summary: "Hecoth expõe na Agritech Expo em Nairobi, Quênia. Visite o estande A14.",
+            news_6_title: "Nova Filial",
+            news_6_summary: "Expansão das operações com nova filial em Shandong.",
+            read_more: "Leia Mais →"
+        }
+    };
+
+    // ===== 新闻数据（多语言） =====
+    const newsData = [
+        { icon: "fa-tractor", color: "#2E7D32", date: "June 1, 2026", key: "news_1" },
+        { icon: "fa-globe-americas", color: "#43A047", date: "May 20, 2026", key: "news_2" },
+        { icon: "fa-trophy", color: "#F9A825", date: "April 15, 2026", key: "news_3" },
+        { icon: "fa-water", color: "#2E7D32", date: "March 10, 2026", key: "news_4" },
+        { icon: "fa-chart-line", color: "#43A047", date: "February 5, 2026", key: "news_5" },
+        { icon: "fa-users", color: "#F9A825", date: "January 8, 2026", key: "news_6" }
+    ];
+
+    let currentLang = localStorage.getItem('hecoth_lang') || 'en';
+
     function switchLanguage(lang) {
         currentLang = lang;
-        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-        document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.add('active');
         localStorage.setItem('hecoth_lang', lang);
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+        });
+        updatePageLanguage(lang);
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
         renderNews();
     }
-    
-    const savedLang = localStorage.getItem('hecoth_lang');
-    if (savedLang) { currentLang = savedLang; }
-    
-    // ===== 新闻数据 =====
-    const newsData = [
-        { date: "June 1, 2026", icon: "fa-tractor", color: "#2E7D32", title: "New Tractor Series Launch", summary: "TTE series tractors with enhanced power (50-80HP) and fuel efficiency now available for global markets." },
-        { date: "May 20, 2026", icon: "fa-globe-americas", color: "#43A047", title: "Expanding to Latin America", summary: "New partnerships established in Brazil and Argentina for spare parts distribution. Local warehouses to reduce delivery time by 40%." },
-        { date: "April 15, 2026", icon: "fa-trophy", color: "#F9A825", title: "Quality Excellence Award", summary: "Hecoth recognized for outstanding export quality control standards by Shandong Provincial Commerce Department." },
-        { date: "March 10, 2026", icon: "fa-water", color: "#2E7D32", title: "Smart Irrigation Launch", summary: "New IoT-enabled drip irrigation system with remote monitoring capabilities. Saves up to 40% water usage." },
-        { date: "February 5, 2026", icon: "fa-chart-line", color: "#43A047", title: "Agritech Expo 2026", summary: "Hecoth to exhibit at Agritech Expo in Nairobi, Kenya. Visit booth A14 to see our latest tractor lineup." },
-        { date: "January 8, 2026", icon: "fa-users", color: "#F9A825", title: "New Office Opening", summary: "Expanded operations with new representative office in Shandong to better serve international clients." }
-    ];
-    
+
+    function updatePageLanguage(lang) {
+        document.querySelectorAll('[data-lang-key]').forEach(el => {
+            const key = el.getAttribute('data-lang-key');
+            if (translations[lang] && translations[lang][key]) {
+                if (key === 'news_title') {
+                    el.innerHTML = translations[lang][key];
+                } else {
+                    el.textContent = translations[lang][key];
+                }
+            }
+        });
+    }
+
     function renderNews() {
         const grid = document.getElementById('newsGrid');
         if (!grid) return;
         
-        grid.innerHTML = newsData.map(n => `
-            <div class="news-card">
-                <div class="p-6">
-                    <div class="flex items-center gap-4">
-                        <div class="news-icon"><i class="fas ${n.icon}"></i></div>
-                        <div>
-                            <p class="text-xs text-gray-500">${n.date}</p>
-                            <h3 class="font-bold text-lg">${n.title}</h3>
+        grid.innerHTML = newsData.map(n => {
+            const title = translations[currentLang]?.[n.key + '_title'] || n.key + '_title';
+            const summary = translations[currentLang]?.[n.key + '_summary'] || n.key + '_summary';
+            const readMore = translations[currentLang]?.read_more || 'Read More →';
+            
+            return `
+                <div class="news-card">
+                    <div class="p-6">
+                        <div class="flex items-center gap-4">
+                            <div class="news-icon"><i class="fas ${n.icon}"></i></div>
+                            <div>
+                                <p class="text-xs text-gray-500">${n.date}</p>
+                                <h3 class="font-bold text-lg">${title}</h3>
+                            </div>
                         </div>
+                        <p class="text-gray-600 text-sm mt-3 leading-relaxed">${summary}</p>
+                        <a href="/contact.html" class="text-[#2E7D32] font-semibold text-sm mt-3 inline-block hover:underline">${readMore}</a>
                     </div>
-                    <p class="text-gray-600 text-sm mt-3 leading-relaxed">${n.summary}</p>
-                    <a href="/contact.html" class="text-[#2E7D32] font-semibold text-sm mt-3 inline-block hover:underline">Read More →</a>
                 </div>
-            </div>
-        `).join('');
+            `;
+        }).join('');
     }
-    
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
+        });
+        updatePageLanguage(currentLang);
+        document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+        renderNews();
+    });
+
+    // ===== 移动端菜单 =====
     document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
         document.getElementById('mobileMenu').classList.toggle('hidden');
     });
-    
-    renderNews();
 </script>
 </body>
 </html>
