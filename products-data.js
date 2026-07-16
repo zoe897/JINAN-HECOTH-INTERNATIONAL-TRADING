@@ -7295,6 +7295,159 @@ const Products = [
             application: "Mining equipment, large construction machinery, industrial hydraulic power units, power stations"
         }
     },
+        // ============================================================
+    //  🌱 农机具 → 播种机械 → 手提播种器
+    // ============================================================
+    {
+        id: "PL-004",
+        category: "farm-machinery",
+        subCategory: "planting",
+        image: "/image/handheld-seeder.jpg",
+        name: {
+            en: "Handheld Push Seeder - Portable Manual Planter for Small Farms & Gardens",
+            es: "Sembradora Manual Portátil - Plantadora Manual para Pequeñas Granjas y Jardines",
+            fr: "Semoir Manuel Portatif - Planteuse Manuelle pour Petites Fermes et Jardins",
+            ar: "بذارة يدوية محمولة - آلة زراعة يدوية للمزارع الصغيرة والحدائق",
+            ru: "Ручная сеялка - Портативное ручное посадочное устройство для малых ферм и садов",
+            pt: "Semeadeira Manual Portátil - Plantadora Manual para Pequenas Fazendas e Jardins"
+        },
+        desc: {
+            en: "The Handheld Push Seeder is a lightweight, portable manual planting tool designed for efficient seed sowing in small farms, vegetable gardens, greenhouses, and orchards. Features an ergonomic design with adjustable seeding depth, suitable for various seed types including vegetables, grains, and flowers. Available in three models with different seed hopper capacities. Ideal for small-scale farmers, home gardeners, and horticulture enthusiasts looking for a cost-effective planting solution.",
+            es: "La sembradora manual portátil es una herramienta de siembra ligera y portátil para granjas pequeñas, huertos, invernaderos y huertos frutales. Diseño ergonómico con profundidad de siembra ajustable. Ideal para agricultores pequeños y jardineros.",
+            fr: "Le semoir manuel portatif est un outil de semis léger et portable pour les petites fermes, potagers, serres et vergers. Conception ergonomique avec profondeur de semis réglable.",
+            ar: "البذارة اليدوية المحمولة هي أداة زراعة خفيفة الوزن للمزارع الصغيرة والحدائق والدفيئات. تصميم مريح مع عمق زراعة قابل للتعديل.",
+            ru: "Ручная сеялка - легкий портативный инструмент для посева на малых фермах, в огородах и теплицах. Эргономичный дизайн с регулируемой глубиной посева.",
+            pt: "A semeadeira manual portátil é uma ferramenta de plantio leve e portátil para pequenas fazendas, hortas e estufas. Design ergonômico com profundidade de plantio ajustável."
+        },
+        features: {
+            en: [
+                "Lightweight and portable design for easy operation",
+                "Ergonomic handle for comfortable extended use",
+                "Adjustable seeding depth for different seed types",
+                "Suitable for vegetables, grains, flowers, and herbs",
+                "Three models: FR-VPS (standard), FR-HHN (heavy-duty), FR-HHD (heavy-duty with larger hopper)",
+                "Compact size for easy storage and transport",
+                "High loading capacity: 1200-1500pcs per container",
+                "Durable construction for long service life",
+                "Ideal for small farms, home gardens, greenhouses, and orchards"
+            ],
+            es: [
+                "Diseño ligero y portátil",
+                "Mango ergonómico para uso prolongado",
+                "Profundidad de siembra ajustable",
+                "Adecuado para verduras, granos y flores",
+                "Tres modelos disponibles",
+                "Tamaño compacto para fácil almacenamiento",
+                "Alta capacidad de carga",
+                "Construcción duradera"
+            ],
+            fr: [
+                "Conception légère et portable",
+                "Poignée ergonomique",
+                "Profondeur de semis réglable",
+                "Convient aux légumes, céréales et fleurs",
+                "Trois modèles disponibles",
+                "Taille compacte",
+                "Haute capacité de chargement",
+                "Construction durable"
+            ],
+            ar: [
+                "تصميم خفيف ومحمول",
+                "مقبض مريح للاستخدام المطول",
+                "عمق زراعة قابل للتعديل",
+                "مناسب للخضروات والحبوب والزهور",
+                "ثلاثة موديلات متوفرة",
+                "حجم مضغوط للتخزين السهل",
+                "سعة تحميل عالية",
+                "بناء متين"
+            ],
+            ru: [
+                "Легкая и портативная конструкция",
+                "Эргономичная ручка",
+                "Регулируемая глубина посева",
+                "Подходит для овощей, зерновых и цветов",
+                "Три модели",
+                "Компактный размер",
+                "Высокая загрузочная способность",
+                "Прочная конструкция"
+            ],
+            pt: [
+                "Design leve e portátil",
+                "Cabo ergonômico",
+                "Profundidade de plantio ajustável",
+                "Adequado para vegetais, grãos e flores",
+                "Três modelos disponíveis",
+                "Tamanho compacto",
+                "Alta capacidade de carga",
+                "Construção durável"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "FR-VPS / FR-HHN / FR-HHD",
+                "Net Weight": "1.5kg / 2.0kg / 2.35kg",
+                "Gross Weight": "1.8kg / 2.25kg / 2.6kg",
+                "Dimensions": "150×150×820mm / 150×150×820mm / 200×140×820mm",
+                "Container Loading": "1500pcs / 3680pcs (20ft) / 1500pcs / 3680pcs (20ft) / 1200pcs / 2950pcs (20ft)",
+                "Application": "Vegetables, grains, flowers, herbs",
+                "Type": "Manual push seeder",
+                "Features": "Adjustable depth, ergonomic handle"
+            },
+            es: {
+                "Modelos": "FR-VPS / FR-HHN / FR-HHD",
+                "Peso neto": "1.5kg / 2.0kg / 2.35kg",
+                "Peso bruto": "1.8kg / 2.25kg / 2.6kg",
+                "Dimensiones": "150×150×820mm / 150×150×820mm / 200×140×820mm",
+                "Carga en contenedor": "1500pcs / 3680pcs (20ft) / 1500pcs / 3680pcs (20ft) / 1200pcs / 2950pcs (20ft)",
+                "Aplicación": "Verduras, granos, flores, hierbas",
+                "Tipo": "Sembradora manual de empuje"
+            },
+            fr: {
+                "Modèles": "FR-VPS / FR-HHN / FR-HHD",
+                "Poids net": "1.5kg / 2.0kg / 2.35kg",
+                "Poids brut": "1.8kg / 2.25kg / 2.6kg",
+                "Dimensions": "150×150×820mm / 150×150×820mm / 200×140×820mm",
+                "Chargement conteneur": "1500pcs / 3680pcs (20ft) / 1500pcs / 3680pcs (20ft) / 1200pcs / 2950pcs (20ft)",
+                "Application": "Légumes, céréales, fleurs, herbes",
+                "Type": "Semoir manuel à pousser"
+            },
+            ar: {
+                "الموديلات": "FR-VPS / FR-HHN / FR-HHD",
+                "الوزن الصافي": "1.5 كجم / 2.0 كجم / 2.35 كجم",
+                "الوزن الإجمالي": "1.8 كجم / 2.25 كجم / 2.6 كجم",
+                "الأبعاد": "150×150×820 ملم / 150×150×820 ملم / 200×140×820 ملم",
+                "تحميل الحاوية": "1500 قطعة / 3680 قطعة (20 قدم) / 1500 قطعة / 3680 قطعة (20 قدم) / 1200 قطعة / 2950 قطعة (20 قدم)",
+                "التطبيق": "خضروات، حبوب، زهور، أعشاب",
+                "النوع": "بذارة دفع يدوية"
+            },
+            ru: {
+                "Модели": "FR-VPS / FR-HHN / FR-HHD",
+                "Вес нетто": "1.5кг / 2.0кг / 2.35кг",
+                "Вес брутто": "1.8кг / 2.25кг / 2.6кг",
+                "Размеры": "150×150×820мм / 150×150×820мм / 200×140×820мм",
+                "Загрузка контейнера": "1500шт / 3680шт (20ft) / 1500шт / 3680шт (20ft) / 1200шт / 2950шт (20ft)",
+                "Применение": "Овощи, зерновые, цветы, травы",
+                "Тип": "Ручная толкающая сеялка"
+            },
+            pt: {
+                "Modelos": "FR-VPS / FR-HHN / FR-HHD",
+                "Peso líquido": "1.5kg / 2.0kg / 2.35kg",
+                "Peso bruto": "1.8kg / 2.25kg / 2.6kg",
+                "Dimensões": "150×150×820mm / 150×150×820mm / 200×140×820mm",
+                "Carga no contêiner": "1500pcs / 3680pcs (20ft) / 1500pcs / 3680pcs (20ft) / 1200pcs / 2950pcs (20ft)",
+                "Aplicação": "Vegetais, grãos, flores, ervas",
+                "Tipo": "Semeadeira manual de empurrar"
+            }
+        },
+        inquiry: {
+            minOrder: "50 units",
+            leadTime: "15-20 days",
+            warranty: "6 months",
+            moq: "20 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Small farms, home gardens, greenhouses, orchards, vegetable planting, horticulture"
+        }
+    },
 ];
 
 // ============================================================
