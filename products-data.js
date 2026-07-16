@@ -7607,6 +7607,153 @@ const Products = [
             application: "Small farms, home gardens, greenhouses, orchards, vegetable planting, horticulture"
         }
     },
+        // ============================================================
+    //  💧 灌溉设备 → 背负式电动喷药机
+    // ============================================================
+    {
+        id: "IR-003",
+        category: "irrigation",
+        subCategory: null,
+        image: "/image/electric-sprayer.jpg",
+        name: {
+            en: "Electric Knapsack Sprayer - 16-20L Battery Powered Sprayer",
+            es: "Pulverizador Eléctrico de Mochila - Pulverizador a Batería 16-20L",
+            fr: "Pulvérisateur Électrique à Dos - Pulvérisateur à Batterie 16-20L",
+            ar: "مرش ظهري كهربائي - مرش ببطارية 16-20 لتر",
+            ru: "Электрический ранцевый опрыскиватель - Аккумуляторный опрыскиватель 16-20л",
+            pt: "Pulverizador Elétrico de Mochila - Pulverizador a Bateria 16-20L"
+        },
+        desc: {
+            en: "The Electric Knapsack Sprayer is a high-performance battery-powered sprayer designed for efficient pest control and liquid application in small farms, orchards, gardens, and greenhouses. Features dual-core power with double pump pressurization for consistent spray pressure, dynamic mixer to prevent chemical sedimentation, and removable lead-acid/lithium battery options. Available in 16L, 18L, and 20L capacities. Ideal for farmers and gardeners seeking a portable, reliable, and easy-to-use spraying solution.",
+            es: "El pulverizador eléctrico de mochila es un pulverizador a batería de alto rendimiento para el control de plagas en granjas pequeñas, huertos y jardines. Cuenta con doble núcleo de potencia con doble bomba de presión, mezclador dinámico y batería extraíble. Disponible en capacidades de 16L, 18L y 20L.",
+            fr: "Le pulvérisateur électrique à dos est un pulvérisateur à batterie haute performance pour le contrôle des ravageurs. Dispose d'une double puissance avec double pompe de pressurisation, d'un mélangeur dynamique et d'une batterie amovible. Disponible en 16L, 18L et 20L.",
+            ar: "المرش الكهربائي الظهري هو مرش عالي الأداء يعمل بالبطارية لمكافحة الآفات. يتميز بقوة مزدوجة مع مضخة ضغط مزدوجة، خلاط ديناميكي، وبطارية قابلة للإزالة. متوفر بسعات 16 لتر، 18 لتر، و 20 لتر.",
+            ru: "Электрический ранцевый опрыскиватель - высокопроизводительный аккумуляторный опрыскиватель для борьбы с вредителями. Имеет двойную мощность с двойным насосом давления, динамический смеситель и съемный аккумулятор. Доступен в 16л, 18л и 20л.",
+            pt: "O pulverizador elétrico de mochila é um pulverizador a bateria de alto desempenho para controle de pragas. Possui dupla potência com bomba de pressão dupla, misturador dinâmico e bateria removível. Disponível em 16L, 18L e 20L."
+        },
+        features: {
+            en: [
+                "Dual-core power with double pump pressurization for consistent spray pressure",
+                "Dynamic mixer prevents chemical sedimentation and ensures uniform liquid",
+                "Removable lead-acid or lithium battery options for flexible power source",
+                "Three capacity options: 16L (FR-2027), 18L (FR-2028), 20L (FR-2029)",
+                "Lightweight and ergonomic design for comfortable operation",
+                "High loading capacity: 650-750pcs per container",
+                "Suitable for pesticides, herbicides, fertilizers, and liquid applications",
+                "Ideal for small farms, orchards, gardens, greenhouses, and plantations"
+            ],
+            es: [
+                "Doble núcleo de potencia con doble bomba de presión",
+                "Mezclador dinámico para evitar sedimentación",
+                "Batería de plomo-ácido o litio extraíble",
+                "Tres opciones de capacidad: 16L, 18L, 20L",
+                "Diseño ergonómico y ligero",
+                "Alta capacidad de carga",
+                "Adecuado para pesticidas, herbicidas y fertilizantes"
+            ],
+            fr: [
+                "Double puissance avec double pompe de pression",
+                "Mélangeur dynamique pour éviter la sédimentation",
+                "Batterie au plomb ou lithium amovible",
+                "Trois options de capacité: 16L, 18L, 20L",
+                "Conception ergonomique et légère",
+                "Haute capacité de chargement",
+                "Convient aux pesticides, herbicides et engrais"
+            ],
+            ar: [
+                "قوة مزدوجة مع مضخة ضغط مزدوجة",
+                "خلاط ديناميكي لمنع ترسب المواد الكيميائية",
+                "بطارية حمض الرصاص أو ليثيوم قابلة للإزالة",
+                "ثلاث خيارات للسعة: 16 لتر، 18 لتر، 20 لتر",
+                "تصميم مريح وخفيف",
+                "سعة تحميل عالية",
+                "مناسب للمبيدات الحشرية والأعشاب والأسمدة"
+            ],
+            ru: [
+                "Двойная мощность с двойным насосом давления",
+                "Динамический смеситель для предотвращения осаждения",
+                "Съемный свинцово-кислотный или литиевый аккумулятор",
+                "Три варианта емкости: 16л, 18л, 20л",
+                "Эргономичный и легкий дизайн",
+                "Высокая загрузочная способность",
+                "Подходит для пестицидов, гербицидов и удобрений"
+            ],
+            pt: [
+                "Dupla potência com bomba de pressão dupla",
+                "Misturador dinâmico para evitar sedimentação",
+                "Bateria de chumbo-ácido ou lítio removível",
+                "Três opções de capacidade: 16L, 18L, 20L",
+                "Design ergonômico e leve",
+                "Alta capacidade de carga",
+                "Adequado para pesticidas, herbicidas e fertilizantes"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "FR-2027 / FR-2028 / FR-2029",
+                "Capacity": "16L / 18L / 20L",
+                "Dimensions": "400×205×455mm / 405×200×485mm / 405×200×505mm",
+                "Container Loading": "750pcs/1830pcs (20ft) / 710pcs/1780pcs (20ft) / 650pcs/1650pcs (20ft)",
+                "Power System": "Dual-core power, double pump pressurization",
+                "Battery Type": "Removable lead-acid or lithium battery",
+                "Features": "Dynamic mixer, anti-sedimentation design",
+                "Application": "Pesticides, herbicides, liquid fertilizers, water"
+            },
+            es: {
+                "Modelos": "FR-2027 / FR-2028 / FR-2029",
+                "Capacidad": "16L / 18L / 20L",
+                "Dimensiones": "400×205×455mm / 405×200×485mm / 405×200×505mm",
+                "Carga en contenedor": "750pcs/1830pcs (20ft) / 710pcs/1780pcs (20ft) / 650pcs/1650pcs (20ft)",
+                "Sistema de potencia": "Doble núcleo, doble bomba de presión",
+                "Tipo de batería": "Batería de plomo-ácido o litio extraíble",
+                "Características": "Mezclador dinámico, anti-sedimentación"
+            },
+            fr: {
+                "Modèles": "FR-2027 / FR-2028 / FR-2029",
+                "Capacité": "16L / 18L / 20L",
+                "Dimensions": "400×205×455mm / 405×200×485mm / 405×200×505mm",
+                "Chargement conteneur": "750pcs/1830pcs (20ft) / 710pcs/1780pcs (20ft) / 650pcs/1650pcs (20ft)",
+                "Système de puissance": "Double puissance, double pompe",
+                "Type de batterie": "Batterie au plomb ou lithium amovible",
+                "Caractéristiques": "Mélangeur dynamique, anti-sédimentation"
+            },
+            ar: {
+                "الموديلات": "FR-2027 / FR-2028 / FR-2029",
+                "السعة": "16 لتر / 18 لتر / 20 لتر",
+                "الأبعاد": "400×205×455 ملم / 405×200×485 ملم / 405×200×505 ملم",
+                "تحميل الحاوية": "750 قطعة/1830 قطعة (20 قدم) / 710 قطعة/1780 قطعة (20 قدم) / 650 قطعة/1650 قطعة (20 قدم)",
+                "نظام الطاقة": "قوة مزدوجة، مضخة ضغط مزدوجة",
+                "نوع البطارية": "بطارية حمض الرصاص أو ليثيوم قابلة للإزالة",
+                "الميزات": "خلاط ديناميكي، مضاد للترسب"
+            },
+            ru: {
+                "Модели": "FR-2027 / FR-2028 / FR-2029",
+                "Емкость": "16л / 18л / 20л",
+                "Размеры": "400×205×455мм / 405×200×485мм / 405×200×505мм",
+                "Загрузка контейнера": "750шт/1830шт (20ft) / 710шт/1780шт (20ft) / 650шт/1650шт (20ft)",
+                "Система питания": "Двойная мощность, двойной насос",
+                "Тип батареи": "Съемный свинцово-кислотный или литиевый",
+                "Особенности": "Динамический смеситель, анти-осаждение"
+            },
+            pt: {
+                "Modelos": "FR-2027 / FR-2028 / FR-2029",
+                "Capacidade": "16L / 18L / 20L",
+                "Dimensões": "400×205×455mm / 405×200×485mm / 405×200×505mm",
+                "Carga no contêiner": "750pcs/1830pcs (20ft) / 710pcs/1780pcs (20ft) / 650pcs/1650pcs (20ft)",
+                "Sistema de potência": "Dupla potência, bomba de pressão dupla",
+                "Tipo de bateria": "Bateria de chumbo-ácido ou lítio removível",
+                "Características": "Misturador dinâmico, anti-sedimentação"
+            }
+        },
+        inquiry: {
+            minOrder: "50 units",
+            leadTime: "15-20 days",
+            warranty: "6-12 months",
+            moq: "20 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Small farms, orchards, gardens, greenhouses, pest control, liquid fertilizer application"
+        }
+    },
 ];
 
 // ============================================================
