@@ -6521,6 +6521,780 @@ const Products = [
             application: "Wet terrain, paddy fields, orchards, greenhouses, soft soil, all-terrain farming"
         }
     },
+        // ============================================================
+    //  🔧 配件 → 风冷式液压油冷却器 KY系列
+    // ============================================================
+    
+    // ============================================================
+    //  KY-40 风冷式液压油冷却器
+    // ============================================================
+    {
+        id: "PT-003",
+        category: "parts",
+        subCategory: null,
+        image: "/image/oil-cooler-ky40.jpg",
+        name: {
+            en: "KY-40 Air Cooled Hydraulic Oil Cooler - 40L/min Capacity",
+            es: "Enfriador de Aceite Hidráulico Refrigerado por Aire KY-40 - Capacidad 40L/min",
+            fr: "Refroidisseur d'Huile Hydraulique Refroidi par Air KY-40 - Capacité 40L/min",
+            ar: "مبردة زيت هيدروليكي مبردة بالهواء KY-40 - سعة 40 لتر/دقيقة",
+            ru: "Воздушный маслоохладитель KY-40 - Производительность 40 л/мин",
+            pt: "Resfriador de Óleo Hidráulico Refrigerado a Ar KY-40 - Capacidade 40L/min"
+        },
+        desc: {
+            en: "The KY-40 air cooled hydraulic oil cooler is a compact and efficient cooling solution for hydraulic systems, lubrication systems, and industrial equipment. Features high-performance axial fan with powerful heat sink, suitable for oil drain cooling and return oil cooling. Available with AC220/380V, DC12/24V fan options. Ideal for hydraulic power stations, machine tools, gearboxes, and agricultural machinery hydraulic systems.",
+            es: "El enfriador de aceite hidráulico KY-40 es una solución compacta y eficiente para sistemas hidráulicos. Disponible con opciones de ventilador AC220/380V y DC12/24V. Ideal para centrales hidráulicas y maquinaria agrícola.",
+            fr: "Le refroidisseur d'huile hydraulique KY-40 est une solution compacte et efficace pour les systèmes hydrauliques. Disponible avec options de ventilateur AC220/380V et DC12/24V.",
+            ar: "مبردة الزيت الهيدروليكي KY-40 هي حل مضغوط وفعال للأنظمة الهيدروليكية. متوفرة بخيارات مروحة AC220/380V و DC12/24V.",
+            ru: "Маслоохладитель KY-40 - компактное и эффективное решение для гидравлических систем. Доступен с вентиляторами AC220/380V и DC12/24V.",
+            pt: "O resfriador de óleo hidráulico KY-40 é uma solução compacta e eficiente para sistemas hidráulicos. Disponível com opções de ventilador AC220/380V e DC12/24V."
+        },
+        features: {
+            en: [
+                "Compact design with high-performance axial fan",
+                "Oil passing capacity up to 40L/min at 10MPa",
+                "Powerful heat sink for efficient cooling",
+                "Cooling capacity up to 34.4W/°C",
+                "Multiple voltage options: AC220/380V, DC12/24V",
+                "Low power consumption (25-38W)",
+                "Suitable for oil drain cooling and return oil cooling",
+                "Test pressure: 2.8MPa strength test, 1.8MPa air tightness test",
+                "Operating temperature: -2°C to +55°C",
+                "Fan default suction type, IP protection available"
+            ],
+            es: [
+                "Diseño compacto con ventilador axial de alto rendimiento",
+                "Capacidad de paso de aceite hasta 40L/min a 10MPa",
+                "Disipador de calor potente",
+                "Capacidad de refrigeración hasta 34.4W/°C",
+                "Múltiples opciones de voltaje",
+                "Bajo consumo de energía (25-38W)",
+                "Adecuado para refrigeración de retorno",
+                "Presión de prueba: 2.8MPa",
+                "Temperatura de operación: -2°C a +55°C"
+            ],
+            fr: [
+                "Conception compacte avec ventilateur axial haute performance",
+                "Capacité de passage d'huile jusqu'à 40L/min à 10MPa",
+                "Dissipateur thermique puissant",
+                "Capacité de refroidissement jusqu'à 34.4W/°C",
+                "Multiples options de tension",
+                "Faible consommation (25-38W)",
+                "Convient au refroidissement de retour",
+                "Pression d'essai: 2.8MPa",
+                "Température de fonctionnement: -2°C à +55°C"
+            ],
+            ar: [
+                "تصميم مضغوط مع مروحة محورية عالية الأداء",
+                "سعة مرور الزيت تصل إلى 40 لتر/دقيقة عند 10 ميجا باسكال",
+                "مشتت حراري قوي",
+                "سعة تبريد تصل إلى 34.4 واط/درجة مئوية",
+                "خيارات جهد متعددة",
+                "استهلاك منخفض للطاقة (25-38 واط)",
+                "مناسب لتبريد زيت العودة",
+                "ضغط اختبار: 2.8 ميجا باسكال",
+                "درجة حرارة التشغيل: -2 درجة مئوية إلى +55 درجة مئوية"
+            ],
+            ru: [
+                "Компактная конструкция с высокопроизводительным осевым вентилятором",
+                "Пропускная способность до 40 л/мин при 10 МПа",
+                "Мощный радиатор",
+                "Охлаждающая способность до 34.4 Вт/°C",
+                "Несколько вариантов напряжения",
+                "Низкое энергопотребление (25-38 Вт)",
+                "Подходит для обратного охлаждения",
+                "Давление испытания: 2.8 МПа",
+                "Температура: -2°C до +55°C"
+            ],
+            pt: [
+                "Design compacto com ventilador axial de alto desempenho",
+                "Capacidade de passagem de óleo até 40L/min a 10MPa",
+                "Dissipador de calor potente",
+                "Capacidade de refrigeração até 34.4W/°C",
+                "Múltiplas opções de tensão",
+                "Baixo consumo de energia (25-38W)",
+                "Adequado para refrigeração de retorno",
+                "Pressão de teste: 2.8MPa",
+                "Temperatura de operação: -2°C a +55°C"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "KY-40",
+                "Oil Passing Capacity": "≤40L/min (10MPa) / ≤30L/min (15MPa) / ≤20L/min (20MPa) / ≤10L/min (25MPa)",
+                "Cooling Capacity": "34.4W/°C (10L/min flow)",
+                "Fan Voltage": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Fan Power": "36W / 38W / 25W / 25W",
+                "Fan Current": "0.23A / 0.12A / 2.0A / 1.0A",
+                "Test Pressure": "2.8MPa (strength) / 1.8MPa (air tightness)",
+                "Operating Temp": "-2°C to +55°C",
+                "Application": "Oil drain cooling / Return oil cooling"
+            },
+            es: {
+                "Modelo": "KY-40",
+                "Capacidad de paso de aceite": "≤40L/min (10MPa) / ≤30L/min (15MPa) / ≤20L/min (20MPa) / ≤10L/min (25MPa)",
+                "Capacidad de refrigeración": "34.4W/°C",
+                "Voltaje del ventilador": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Potencia del ventilador": "36W / 38W / 25W / 25W",
+                "Corriente": "0.23A / 0.12A / 2.0A / 1.0A",
+                "Presión de prueba": "2.8MPa / 1.8MPa",
+                "Temperatura": "-2°C a +55°C"
+            },
+            fr: {
+                "Modèle": "KY-40",
+                "Capacité de passage": "≤40L/min (10MPa) / ≤30L/min (15MPa) / ≤20L/min (20MPa) / ≤10L/min (25MPa)",
+                "Capacité de refroidissement": "34.4W/°C",
+                "Tension ventilateur": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Puissance ventilateur": "36W / 38W / 25W / 25W",
+                "Courant": "0.23A / 0.12A / 2.0A / 1.0A",
+                "Pression d'essai": "2.8MPa / 1.8MPa",
+                "Température": "-2°C à +55°C"
+            },
+            ar: {
+                "الموديل": "KY-40",
+                "سعة مرور الزيت": "≤40 لتر/دقيقة (10 ميجا باسكال) / ≤30 لتر/دقيقة (15 ميجا باسكال) / ≤20 لتر/دقيقة (20 ميجا باسكال) / ≤10 لتر/دقيقة (25 ميجا باسكال)",
+                "سعة التبريد": "34.4 واط/درجة مئوية",
+                "جهد المروحة": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "قوة المروحة": "36 واط / 38 واط / 25 واط / 25 واط",
+                "التيار": "0.23 أمبير / 0.12 أمبير / 2.0 أمبير / 1.0 أمبير",
+                "ضغط الاختبار": "2.8 ميجا باسكال / 1.8 ميجا باسكال",
+                "درجة الحرارة": "-2 درجة مئوية إلى +55 درجة مئوية"
+            },
+            ru: {
+                "Модель": "KY-40",
+                "Пропускная способность": "≤40 л/мин (10МПа) / ≤30 л/мин (15МПа) / ≤20 л/мин (20МПа) / ≤10 л/мин (25МПа)",
+                "Охлаждающая способность": "34.4 Вт/°C",
+                "Напряжение вентилятора": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Мощность вентилятора": "36Вт / 38Вт / 25Вт / 25Вт",
+                "Ток": "0.23А / 0.12А / 2.0А / 1.0А",
+                "Давление": "2.8МПа / 1.8МПа",
+                "Температура": "-2°C до +55°C"
+            },
+            pt: {
+                "Modelo": "KY-40",
+                "Capacidade de passagem": "≤40L/min (10MPa) / ≤30L/min (15MPa) / ≤20L/min (20MPa) / ≤10L/min (25MPa)",
+                "Capacidade de refrigeração": "34.4W/°C",
+                "Tensão do ventilador": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Potência do ventilador": "36W / 38W / 25W / 25W",
+                "Corrente": "0.23A / 0.12A / 2.0A / 1.0A",
+                "Pressão de teste": "2.8MPa / 1.8MPa",
+                "Temperatura": "-2°C a +55°C"
+            }
+        },
+        inquiry: {
+            minOrder: "10 units",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "5 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Hydraulic power stations, machine tools, gearboxes, agricultural machinery hydraulic systems"
+        }
+    },
+
+    // ============================================================
+    //  KY-60 风冷式液压油冷却器
+    // ============================================================
+    {
+        id: "PT-004",
+        category: "parts",
+        subCategory: null,
+        image: "/image/oil-cooler-ky60.jpg",
+        name: {
+            en: "KY-60 Air Cooled Hydraulic Oil Cooler - 60L/min Capacity",
+            es: "Enfriador de Aceite Hidráulico Refrigerado por Aire KY-60 - Capacidad 60L/min",
+            fr: "Refroidisseur d'Huile Hydraulique Refroidi par Air KY-60 - Capacité 60L/min",
+            ar: "مبردة زيت هيدروليكي مبردة بالهواء KY-60 - سعة 60 لتر/دقيقة",
+            ru: "Воздушный маслоохладитель KY-60 - Производительность 60 л/мин",
+            pt: "Resfriador de Óleo Hidráulico Refrigerado a Ar KY-60 - Capacidade 60L/min"
+        },
+        desc: {
+            en: "The KY-60 air cooled hydraulic oil cooler is a medium-capacity cooling solution for hydraulic and lubrication systems. Features high-performance axial fan with optimized heat sink design for efficient heat dissipation. Available with AC220/380V, DC12/24V fan options. Suitable for oil drain cooling and return oil cooling in industrial and agricultural applications.",
+            es: "El enfriador de aceite hidráulico KY-60 es una solución de refrigeración de capacidad media. Disponible con opciones de ventilador AC220/380V y DC12/24V.",
+            fr: "Le refroidisseur d'huile hydraulique KY-60 est une solution de refroidissement de capacité moyenne. Disponible avec options de ventilateur AC220/380V et DC12/24V.",
+            ar: "مبردة الزيت الهيدروليكي KY-60 هي حل تبريد متوسط السعة. متوفرة بخيارات مروحة AC220/380V و DC12/24V.",
+            ru: "Маслоохладитель KY-60 - решение средней мощности для гидравлических систем. Доступен с вентиляторами AC220/380V и DC12/24V.",
+            pt: "O resfriador de óleo hidráulico KY-60 é uma solução de refrigeração de média capacidade. Disponível com opções de ventilador AC220/380V e DC12/24V."
+        },
+        features: {
+            en: [
+                "Medium capacity design for hydraulic systems",
+                "Oil passing capacity up to 60L/min at 10MPa",
+                "Cooling capacity up to 43.0W/°C",
+                "Multiple voltage options: AC220/380V, DC12/24V",
+                "Low power consumption (25-38W)",
+                "Suitable for oil drain cooling and return oil cooling",
+                "Test pressure: 2.8MPa strength test, 1.8MPa air tightness test",
+                "Operating temperature: -2°C to +55°C",
+                "Fan default suction type"
+            ],
+            es: [
+                "Diseño de capacidad media",
+                "Capacidad de paso de aceite hasta 60L/min a 10MPa",
+                "Capacidad de refrigeración hasta 43.0W/°C",
+                "Múltiples opciones de voltaje",
+                "Bajo consumo de energía",
+                "Adecuado para refrigeración de retorno",
+                "Presión de prueba: 2.8MPa"
+            ],
+            fr: [
+                "Conception de capacité moyenne",
+                "Capacité de passage jusqu'à 60L/min à 10MPa",
+                "Capacité de refroidissement jusqu'à 43.0W/°C",
+                "Multiples options de tension",
+                "Faible consommation",
+                "Convient au refroidissement de retour",
+                "Pression d'essai: 2.8MPa"
+            ],
+            ar: [
+                "تصميم متوسط السعة",
+                "سعة مرور الزيت تصل إلى 60 لتر/دقيقة عند 10 ميجا باسكال",
+                "سعة تبريد تصل إلى 43.0 واط/درجة مئوية",
+                "خيارات جهد متعددة",
+                "استهلاك منخفض للطاقة",
+                "مناسب لتبريد زيت العودة",
+                "ضغط اختبار: 2.8 ميجا باسكال"
+            ],
+            ru: [
+                "Конструкция средней мощности",
+                "Пропускная способность до 60 л/мин при 10 МПа",
+                "Охлаждающая способность до 43.0 Вт/°C",
+                "Несколько вариантов напряжения",
+                "Низкое энергопотребление",
+                "Подходит для обратного охлаждения",
+                "Давление испытания: 2.8 МПа"
+            ],
+            pt: [
+                "Design de média capacidade",
+                "Capacidade de passagem até 60L/min a 10MPa",
+                "Capacidade de refrigeração até 43.0W/°C",
+                "Múltiplas opções de tensão",
+                "Baixo consumo de energia",
+                "Adequado para refrigeração de retorno",
+                "Pressão de teste: 2.8MPa"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "KY-60",
+                "Oil Passing Capacity": "≤60L/min (10MPa) / ≤35L/min (15MPa) / ≤25L/min (20MPa) / ≤15L/min (25MPa)",
+                "Cooling Capacity": "43.0W/°C (10L/min flow)",
+                "Fan Voltage": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Fan Power": "36W / 38W / 25W / 25W",
+                "Fan Current": "0.23A / 0.12A / 2.0A / 1.0A",
+                "Test Pressure": "2.8MPa (strength) / 1.8MPa (air tightness)",
+                "Operating Temp": "-2°C to +55°C",
+                "Application": "Oil drain cooling / Return oil cooling"
+            },
+            es: {
+                "Modelo": "KY-60",
+                "Capacidad de paso": "≤60L/min (10MPa) / ≤35L/min (15MPa) / ≤25L/min (20MPa) / ≤15L/min (25MPa)",
+                "Capacidad de refrigeración": "43.0W/°C",
+                "Voltaje del ventilador": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Potencia del ventilador": "36W / 38W / 25W / 25W",
+                "Corriente": "0.23A / 0.12A / 2.0A / 1.0A",
+                "Presión de prueba": "2.8MPa / 1.8MPa"
+            },
+            fr: {
+                "Modèle": "KY-60",
+                "Capacité de passage": "≤60L/min (10MPa) / ≤35L/min (15MPa) / ≤25L/min (20MPa) / ≤15L/min (25MPa)",
+                "Capacité de refroidissement": "43.0W/°C",
+                "Tension ventilateur": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Puissance ventilateur": "36W / 38W / 25W / 25W",
+                "Courant": "0.23A / 0.12A / 2.0A / 1.0A",
+                "Pression d'essai": "2.8MPa / 1.8MPa"
+            },
+            ar: {
+                "الموديل": "KY-60",
+                "سعة مرور الزيت": "≤60 لتر/دقيقة (10 ميجا باسكال) / ≤35 لتر/دقيقة (15 ميجا باسكال) / ≤25 لتر/دقيقة (20 ميجا باسكال) / ≤15 لتر/دقيقة (25 ميجا باسكال)",
+                "سعة التبريد": "43.0 واط/درجة مئوية",
+                "جهد المروحة": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "قوة المروحة": "36 واط / 38 واط / 25 واط / 25 واط",
+                "التيار": "0.23 أمبير / 0.12 أمبير / 2.0 أمبير / 1.0 أمبير",
+                "ضغط الاختبار": "2.8 ميجا باسكال / 1.8 ميجا باسكال"
+            },
+            ru: {
+                "Модель": "KY-60",
+                "Пропускная способность": "≤60 л/мин (10МПа) / ≤35 л/мин (15МПа) / ≤25 л/мин (20МПа) / ≤15 л/мин (25МПа)",
+                "Охлаждающая способность": "43.0 Вт/°C",
+                "Напряжение": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Мощность": "36Вт / 38Вт / 25Вт / 25Вт",
+                "Ток": "0.23А / 0.12А / 2.0А / 1.0А",
+                "Давление": "2.8МПа / 1.8МПа"
+            },
+            pt: {
+                "Modelo": "KY-60",
+                "Capacidade de passagem": "≤60L/min (10MPa) / ≤35L/min (15MPa) / ≤25L/min (20MPa) / ≤15L/min (25MPa)",
+                "Capacidade de refrigeração": "43.0W/°C",
+                "Tensão do ventilador": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Potência do ventilador": "36W / 38W / 25W / 25W",
+                "Corrente": "0.23A / 0.12A / 2.0A / 1.0A",
+                "Pressão de teste": "2.8MPa / 1.8MPa"
+            }
+        },
+        inquiry: {
+            minOrder: "10 units",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "5 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Hydraulic systems, lubrication systems, industrial equipment, agricultural machinery"
+        }
+    },
+
+    // ============================================================
+    //  KY-150 风冷式液压油冷却器
+    // ============================================================
+    {
+        id: "PT-005",
+        category: "parts",
+        subCategory: null,
+        image: "/image/oil-cooler-ky150.jpg",
+        name: {
+            en: "KY-150 Air Cooled Hydraulic Oil Cooler - 150L/min Capacity",
+            es: "Enfriador de Aceite Hidráulico Refrigerado por Aire KY-150 - Capacidad 150L/min",
+            fr: "Refroidisseur d'Huile Hydraulique Refroidi par Air KY-150 - Capacité 150L/min",
+            ar: "مبردة زيت هيدروليكي مبردة بالهواء KY-150 - سعة 150 لتر/دقيقة",
+            ru: "Воздушный маслоохладитель KY-150 - Производительность 150 л/мин",
+            pt: "Resfriador de Óleo Hidráulico Refrigerado a Ar KY-150 - Capacidade 150L/min"
+        },
+        desc: {
+            en: "The KY-150 air cooled hydraulic oil cooler is a high-capacity cooling solution for large hydraulic systems and industrial applications. Features high-performance axial fan with IP54/IP56 protection, powerful heat sink, and cooling capacity up to 35.2W/°C. Available with AC220/380V, DC12/24V fan options. Suitable for heavy-duty hydraulic systems, lubrication systems, and industrial machinery cooling.",
+            es: "El enfriador de aceite hidráulico KY-150 es una solución de alta capacidad para sistemas hidráulicos grandes. Protección IP54/IP56, capacidad de refrigeración hasta 35.2W/°C.",
+            fr: "Le refroidisseur d'huile hydraulique KY-150 est une solution haute capacité pour les grands systèmes hydrauliques. Protection IP54/IP56, capacité de refroidissement jusqu'à 35.2W/°C.",
+            ar: "مبردة الزيت الهيدروليكي KY-150 هي حل عالي السعة للأنظمة الهيدروليكية الكبيرة. حماية IP54/IP56، سعة تبريد تصل إلى 35.2 واط/درجة مئوية.",
+            ru: "Маслоохладитель KY-150 - высокопроизводительное решение для крупных гидравлических систем. Защита IP54/IP56, охлаждение до 35.2 Вт/°C.",
+            pt: "O resfriador de óleo hidráulico KY-150 é uma solução de alta capacidade para grandes sistemas hidráulicos. Proteção IP54/IP56, capacidade de refrigeração até 35.2W/°C."
+        },
+        features: {
+            en: [
+                "High capacity design for large hydraulic systems",
+                "Oil passing capacity up to 150L/min at 10MPa",
+                "Cooling capacity up to 35.2W/°C",
+                "IP54/IP56 protection for harsh environments",
+                "Multiple voltage options: AC220/380V, DC12/24V",
+                "Low noise operation (56-60 dB)",
+                "Test pressure: 3.5MPa strength, 2.5MPa air tightness",
+                "Operating temperature: -20°C to +75°C",
+                "Suitable for heavy-duty hydraulic and lubrication systems"
+            ],
+            es: [
+                "Diseño de alta capacidad",
+                "Capacidad de paso hasta 150L/min a 10MPa",
+                "Capacidad de refrigeración hasta 35.2W/°C",
+                "Protección IP54/IP56",
+                "Múltiples opciones de voltaje",
+                "Bajo nivel de ruido (56-60 dB)",
+                "Presión de prueba: 3.5MPa"
+            ],
+            fr: [
+                "Conception haute capacité",
+                "Capacité de passage jusqu'à 150L/min à 10MPa",
+                "Capacité de refroidissement jusqu'à 35.2W/°C",
+                "Protection IP54/IP56",
+                "Multiples options de tension",
+                "Faible bruit (56-60 dB)",
+                "Pression d'essai: 3.5MPa"
+            ],
+            ar: [
+                "تصميم عالي السعة",
+                "سعة مرور تصل إلى 150 لتر/دقيقة عند 10 ميجا باسكال",
+                "سعة تبريد تصل إلى 35.2 واط/درجة مئوية",
+                "حماية IP54/IP56",
+                "خيارات جهد متعددة",
+                "ضجيج منخفض (56-60 ديسيبل)",
+                "ضغط اختبار: 3.5 ميجا باسكال"
+            ],
+            ru: [
+                "Высокопроизводительная конструкция",
+                "Пропускная способность до 150 л/мин при 10 МПа",
+                "Охлаждающая способность до 35.2 Вт/°C",
+                "Защита IP54/IP56",
+                "Несколько вариантов напряжения",
+                "Низкий уровень шума (56-60 дБ)",
+                "Давление испытания: 3.5 МПа"
+            ],
+            pt: [
+                "Design de alta capacidade",
+                "Capacidade de passagem até 150L/min a 10MPa",
+                "Capacidade de refrigeração até 35.2W/°C",
+                "Proteção IP54/IP56",
+                "Múltiplas opções de tensão",
+                "Baixo ruído (56-60 dB)",
+                "Pressão de teste: 3.5MPa"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "KY-150",
+                "Oil Passing Capacity": "≤150L/min (10MPa) / ≤110L/min (15MPa) / ≤80L/min (20MPa) / ≤50L/min (25MPa)",
+                "Cooling Capacity": "35.2W/°C (10L/min flow)",
+                "Fan Voltage": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Fan Power": "95W / 95W / ≤16.0A / ≤8.5A",
+                "Protection Class": "IP54 / IP54 / IP56 / IP56",
+                "Noise Level": "56dB / 56dB / 60dB / 60dB",
+                "Test Pressure": "3.5MPa (strength) / 2.5MPa (air tightness)",
+                "Operating Temp": "-20°C to +75°C"
+            },
+            es: {
+                "Modelo": "KY-150",
+                "Capacidad de paso": "≤150L/min (10MPa) / ≤110L/min (15MPa) / ≤80L/min (20MPa) / ≤50L/min (25MPa)",
+                "Capacidad de refrigeración": "35.2W/°C",
+                "Voltaje del ventilador": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Potencia": "95W / 95W / ≤16.0A / ≤8.5A",
+                "Protección": "IP54 / IP54 / IP56 / IP56",
+                "Ruido": "56dB / 56dB / 60dB / 60dB",
+                "Presión de prueba": "3.5MPa / 2.5MPa"
+            },
+            fr: {
+                "Modèle": "KY-150",
+                "Capacité de passage": "≤150L/min (10MPa) / ≤110L/min (15MPa) / ≤80L/min (20MPa) / ≤50L/min (25MPa)",
+                "Capacité de refroidissement": "35.2W/°C",
+                "Tension": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Puissance": "95W / 95W / ≤16.0A / ≤8.5A",
+                "Protection": "IP54 / IP54 / IP56 / IP56",
+                "Bruit": "56dB / 56dB / 60dB / 60dB",
+                "Pression d'essai": "3.5MPa / 2.5MPa"
+            },
+            ar: {
+                "الموديل": "KY-150",
+                "سعة مرور الزيت": "≤150 لتر/دقيقة (10 ميجا باسكال) / ≤110 لتر/دقيقة (15 ميجا باسكال) / ≤80 لتر/دقيقة (20 ميجا باسكال) / ≤50 لتر/دقيقة (25 ميجا باسكال)",
+                "سعة التبريد": "35.2 واط/درجة مئوية",
+                "جهد المروحة": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "القوة": "95 واط / 95 واط / ≤16.0 أمبير / ≤8.5 أمبير",
+                "الحماية": "IP54 / IP54 / IP56 / IP56",
+                "الضجيج": "56 ديسيبل / 56 ديسيبل / 60 ديسيبل / 60 ديسيبل",
+                "ضغط الاختبار": "3.5 ميجا باسكال / 2.5 ميجا باسكال"
+            },
+            ru: {
+                "Модель": "KY-150",
+                "Пропускная способность": "≤150 л/мин (10МПа) / ≤110 л/мин (15МПа) / ≤80 л/мин (20МПа) / ≤50 л/мин (25МПа)",
+                "Охлаждающая способность": "35.2 Вт/°C",
+                "Напряжение": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Мощность": "95Вт / 95Вт / ≤16.0А / ≤8.5А",
+                "Защита": "IP54 / IP54 / IP56 / IP56",
+                "Шум": "56дБ / 56дБ / 60дБ / 60дБ",
+                "Давление": "3.5МПа / 2.5МПа"
+            },
+            pt: {
+                "Modelo": "KY-150",
+                "Capacidade de passagem": "≤150L/min (10MPa) / ≤110L/min (15MPa) / ≤80L/min (20MPa) / ≤50L/min (25MPa)",
+                "Capacidade de refrigeração": "35.2W/°C",
+                "Tensão": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Potência": "95W / 95W / ≤16.0A / ≤8.5A",
+                "Proteção": "IP54 / IP54 / IP56 / IP56",
+                "Ruído": "56dB / 56dB / 60dB / 60dB",
+                "Pressão de teste": "3.5MPa / 2.5MPa"
+            }
+        },
+        inquiry: {
+            minOrder: "10 units",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "5 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large hydraulic systems, industrial machinery, heavy equipment cooling, lubrication systems"
+        }
+    },
+
+    // ============================================================
+    //  KY-200 风冷式液压油冷却器
+    // ============================================================
+    {
+        id: "PT-006",
+        category: "parts",
+        subCategory: null,
+        image: "/image/oil-cooler-ky200.jpg",
+        name: {
+            en: "KY-200 Air Cooled Hydraulic Oil Cooler - 200L/min Capacity",
+            es: "Enfriador de Aceite Hidráulico Refrigerado por Aire KY-200 - Capacidad 200L/min",
+            fr: "Refroidisseur d'Huile Hydraulique Refroidi par Air KY-200 - Capacité 200L/min",
+            ar: "مبردة زيت هيدروليكي مبردة بالهواء KY-200 - سعة 200 لتر/دقيقة",
+            ru: "Воздушный маслоохладитель KY-200 - Производительность 200 л/мин",
+            pt: "Resfriador de Óleo Hidráulico Refrigerado a Ar KY-200 - Capacidade 200L/min"
+        },
+        desc: {
+            en: "The KY-200 air cooled hydraulic oil cooler is a high-performance cooling solution for heavy-duty hydraulic systems and industrial applications. Features powerful axial fan with IP54/IP56 protection, robust heat sink design, and cooling capacity optimized for large oil flows. Available with AC220/380V, DC12/24V fan options. Suitable for heavy machinery, construction equipment, and large industrial hydraulic systems.",
+            es: "El enfriador de aceite hidráulico KY-200 es una solución de refrigeración de alto rendimiento para sistemas hidráulicos pesados. Protección IP54/IP56, capacidad optimizada para grandes caudales de aceite.",
+            fr: "Le refroidisseur d'huile hydraulique KY-200 est une solution de refroidissement haute performance pour les systèmes hydrauliques lourds. Protection IP54/IP56, capacité optimisée pour les grands débits d'huile.",
+            ar: "مبردة الزيت الهيدروليكي KY-200 هي حل تبريد عالي الأداء للأنظمة الهيدروليكية الثقيلة. حماية IP54/IP56، سعة محسنة للتدفقات الكبيرة.",
+            ru: "Маслоохладитель KY-200 - высокопроизводительное решение для тяжелых гидравлических систем. Защита IP54/IP56, оптимизирован для больших потоков масла.",
+            pt: "O resfriador de óleo hidráulico KY-200 é uma solução de refrigeração de alto desempenho para sistemas hidráulicos pesados. Proteção IP54/IP56, capacidade otimizada para grandes fluxos."
+        },
+        features: {
+            en: [
+                "High performance cooling for heavy-duty systems",
+                "Oil passing capacity up to 200L/min at 10MPa",
+                "Cooling capacity optimized for large oil flows",
+                "IP54/IP56 protection for demanding environments",
+                "Multiple voltage options: AC220/380V, DC12/24V",
+                "High power fan (120-135W AC, up to 16A DC)",
+                "Noise level: 64-68 dB",
+                "Test pressure: 3.5MPa strength, 2.5MPa air tightness",
+                "Operating temperature: -20°C to +75°C",
+                "Suitable for construction equipment and heavy machinery"
+            ],
+            es: [
+                "Refrigeración de alto rendimiento",
+                "Capacidad de paso hasta 200L/min a 10MPa",
+                "Protección IP54/IP56",
+                "Múltiples opciones de voltaje",
+                "Ventilador de alta potencia (120-135W AC)",
+                "Nivel de ruido: 64-68 dB",
+                "Presión de prueba: 3.5MPa"
+            ],
+            fr: [
+                "Refroidissement haute performance",
+                "Capacité de passage jusqu'à 200L/min à 10MPa",
+                "Protection IP54/IP56",
+                "Multiples options de tension",
+                "Ventilateur haute puissance (120-135W AC)",
+                "Niveau de bruit: 64-68 dB",
+                "Pression d'essai: 3.5MPa"
+            ],
+            ar: [
+                "تبريد عالي الأداء",
+                "سعة مرور تصل إلى 200 لتر/دقيقة عند 10 ميجا باسكال",
+                "حماية IP54/IP56",
+                "خيارات جهد متعددة",
+                "مروحة عالية الطاقة (120-135 واط AC)",
+                "مستوى الضجيج: 64-68 ديسيبل",
+                "ضغط اختبار: 3.5 ميجا باسكال"
+            ],
+            ru: [
+                "Высокопроизводительное охлаждение",
+                "Пропускная способность до 200 л/мин при 10 МПа",
+                "Защита IP54/IP56",
+                "Несколько вариантов напряжения",
+                "Мощный вентилятор (120-135 Вт AC)",
+                "Уровень шума: 64-68 дБ",
+                "Давление испытания: 3.5 МПа"
+            ],
+            pt: [
+                "Refrigeração de alto desempenho",
+                "Capacidade de passagem até 200L/min a 10MPa",
+                "Proteção IP54/IP56",
+                "Múltiplas opções de tensão",
+                "Ventilador de alta potência (120-135W AC)",
+                "Nível de ruído: 64-68 dB",
+                "Pressão de teste: 3.5MPa"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "KY-200",
+                "Oil Passing Capacity": "≤200L/min (10MPa) / ≤140L/min (15MPa) / ≤120L/min (20MPa) / ≤70L/min (25MPa)",
+                "Fan Voltage": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Fan Power": "120W/1.0A / 135W/0.46A / ≤16.0A / ≤8.5A",
+                "Protection Class": "IP54 / IP54 / IP56 / IP56",
+                "Noise Level": "64dB / 64dB / 68dB / 68dB",
+                "Test Pressure": "3.5MPa (strength) / 2.5MPa (air tightness)",
+                "Operating Temp": "-20°C to +75°C"
+            },
+            es: {
+                "Modelo": "KY-200",
+                "Capacidad de paso": "≤200L/min (10MPa) / ≤140L/min (15MPa) / ≤120L/min (20MPa) / ≤70L/min (25MPa)",
+                "Voltaje": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Potencia": "120W/1.0A / 135W/0.46A / ≤16.0A / ≤8.5A",
+                "Protección": "IP54 / IP54 / IP56 / IP56",
+                "Ruido": "64dB / 64dB / 68dB / 68dB",
+                "Presión": "3.5MPa / 2.5MPa"
+            },
+            fr: {
+                "Modèle": "KY-200",
+                "Capacité de passage": "≤200L/min (10MPa) / ≤140L/min (15MPa) / ≤120L/min (20MPa) / ≤70L/min (25MPa)",
+                "Tension": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Puissance": "120W/1.0A / 135W/0.46A / ≤16.0A / ≤8.5A",
+                "Protection": "IP54 / IP54 / IP56 / IP56",
+                "Bruit": "64dB / 64dB / 68dB / 68dB",
+                "Pression": "3.5MPa / 2.5MPa"
+            },
+            ar: {
+                "الموديل": "KY-200",
+                "سعة مرور الزيت": "≤200 لتر/دقيقة (10 ميجا باسكال) / ≤140 لتر/دقيقة (15 ميجا باسكال) / ≤120 لتر/دقيقة (20 ميجا باسكال) / ≤70 لتر/دقيقة (25 ميجا باسكال)",
+                "جهد المروحة": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "القوة": "120 واط/1.0 أمبير / 135 واط/0.46 أمبير / ≤16.0 أمبير / ≤8.5 أمبير",
+                "الحماية": "IP54 / IP54 / IP56 / IP56",
+                "الضجيج": "64 ديسيبل / 64 ديسيبل / 68 ديسيبل / 68 ديسيبل",
+                "ضغط الاختبار": "3.5 ميجا باسكال / 2.5 ميجا باسكال"
+            },
+            ru: {
+                "Модель": "KY-200",
+                "Пропускная способность": "≤200 л/мин (10МПа) / ≤140 л/мин (15МПа) / ≤120 л/мин (20МПа) / ≤70 л/мин (25МПа)",
+                "Напряжение": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Мощность": "120Вт/1.0А / 135Вт/0.46А / ≤16.0А / ≤8.5А",
+                "Защита": "IP54 / IP54 / IP56 / IP56",
+                "Шум": "64дБ / 64дБ / 68дБ / 68дБ",
+                "Давление": "3.5МПа / 2.5МПа"
+            },
+            pt: {
+                "Modelo": "KY-200",
+                "Capacidade de passagem": "≤200L/min (10MPa) / ≤140L/min (15MPa) / ≤120L/min (20MPa) / ≤70L/min (25MPa)",
+                "Tensão": "AC220V/50Hz / AC380V/50Hz / DC12V / DC24V",
+                "Potência": "120W/1.0A / 135W/0.46A / ≤16.0A / ≤8.5A",
+                "Proteção": "IP54 / IP54 / IP56 / IP56",
+                "Ruído": "64dB / 64dB / 68dB / 68dB",
+                "Pressão": "3.5MPa / 2.5MPa"
+            }
+        },
+        inquiry: {
+            minOrder: "10 units",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "5 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Heavy machinery, construction equipment, large hydraulic systems, industrial cooling"
+        }
+    },
+
+    // ============================================================
+    //  KY-600/KY-700 大型风冷式液压油冷却器
+    // ============================================================
+    {
+        id: "PT-007",
+        category: "parts",
+        subCategory: null,
+        image: "/image/oil-cooler-ky600.jpg",
+        name: {
+            en: "KY-600/KY-700 Heavy-Duty Air Cooled Oil Cooler - 550-650L/min Capacity",
+            es: "Enfriador de Aceite Refrigerado por Aire KY-600/KY-700 - Capacidad 550-650L/min",
+            fr: "Refroidisseur d'Huile Refroidi par Air KY-600/KY-700 - Capacité 550-650L/min",
+            ar: "مبردة زيت مبردة بالهواء KY-600/KY-700 - سعة 550-650 لتر/دقيقة",
+            ru: "Маслоохладитель KY-600/KY-700 - Производительность 550-650 л/мин",
+            pt: "Resfriador de Óleo Refrigerado a Ar KY-600/KY-700 - Capacidade 550-650L/min"
+        },
+        desc: {
+            en: "The KY-600/KY-700 series air cooled oil coolers are industrial-grade cooling solutions for large hydraulic systems, power stations, and heavy machinery. Features high-power external rotor fans (750-800W), IP54/IP56 protection, and exceptional cooling capacity for oil flows up to 650L/min. Available with AC380V, DC12/24V, and hydraulic motor drive options. Ideal for mining equipment, large construction machinery, and industrial hydraulic power units.",
+            es: "Los enfriadores de aceite KY-600/KY-700 son soluciones de refrigeración de grado industrial. Ventiladores de rotor externo de alta potencia (750-800W), protección IP54/IP56, capacidad de refrigeración excepcional. Ideales para equipos de minería y maquinaria de construcción.",
+            fr: "Les refroidisseurs d'huile KY-600/KY-700 sont des solutions de refroidissement de qualité industrielle. Ventilateurs à rotor externe haute puissance (750-800W), protection IP54/IP56. Idéaux pour les équipements miniers.",
+            ar: "مبرادات الزيت KY-600/KY-700 هي حلول تبريد صناعية. مراوح دوار خارجي عالية الطاقة (750-800 واط)، حماية IP54/IP56. مثالية لمعدات التعدين.",
+            ru: "Маслоохладители KY-600/KY-700 - промышленные решения для охлаждения. Вентиляторы с внешним ротором (750-800 Вт), защита IP54/IP56. Идеальны для горного оборудования.",
+            pt: "Os resfriadores de óleo KY-600/KY-700 são soluções de refrigeração de grau industrial. Ventiladores de rotor externo de alta potência (750-800W), proteção IP54/IP56. Ideais para equipamentos de mineração."
+        },
+        features: {
+            en: [
+                "Industrial-grade cooling for large hydraulic systems",
+                "Oil passing capacity: ≤550-650L/min at 10MPa",
+                "High-power external rotor fan (750-800W)",
+                "IP54/IP56 protection for demanding industrial environments",
+                "Multiple drive options: AC380V, DC12/24V, Hydraulic motor",
+                "High air flow for maximum cooling efficiency",
+                "Robust construction for continuous heavy-duty operation",
+                "Test pressure: 3.5MPa strength, 2.5MPa air tightness",
+                "Operating temperature: -20°C to +75°C",
+                "Suitable for mining, construction, and industrial applications"
+            ],
+            es: [
+                "Refrigeración de grado industrial",
+                "Capacidad de paso: ≤550-650L/min a 10MPa",
+                "Ventilador de rotor externo de alta potencia (750-800W)",
+                "Protección IP54/IP56",
+                "Múltiples opciones de accionamiento",
+                "Construcción robusta",
+                "Presión de prueba: 3.5MPa"
+            ],
+            fr: [
+                "Refroidissement de qualité industrielle",
+                "Capacité de passage: ≤550-650L/min à 10MPa",
+                "Ventilateur à rotor externe haute puissance (750-800W)",
+                "Protection IP54/IP56",
+                "Multiples options d'entraînement",
+                "Construction robuste",
+                "Pression d'essai: 3.5MPa"
+            ],
+            ar: [
+                "تبريد صناعي",
+                "سعة مرور: ≤550-650 لتر/دقيقة عند 10 ميجا باسكال",
+                "مروحة دوار خارجي عالية الطاقة (750-800 واط)",
+                "حماية IP54/IP56",
+                "خيارات تشغيل متعددة",
+                "بناء قوي",
+                "ضغط اختبار: 3.5 ميجا باسكال"
+            ],
+            ru: [
+                "Промышленное охлаждение",
+                "Пропускная способность: ≤550-650 л/мин при 10 МПа",
+                "Вентилятор с внешним ротором (750-800 Вт)",
+                "Защита IP54/IP56",
+                "Несколько вариантов привода",
+                "Прочная конструкция",
+                "Давление испытания: 3.5 МПа"
+            ],
+            pt: [
+                "Refrigeração de grau industrial",
+                "Capacidade de passagem: ≤550-650L/min a 10MPa",
+                "Ventilador de rotor externo de alta potência (750-800W)",
+                "Proteção IP54/IP56",
+                "Múltiplas opções de acionamento",
+                "Construção robusta",
+                "Pressão de teste: 3.5MPa"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "KY-600 / KY-700",
+                "Oil Passing Capacity": "≤550L/min (10MPa) / ≤650L/min (10MPa)",
+                "Fan Type": "External rotor fan / Axial flow fan / DC fan / Hydraulic motor",
+                "Fan Power": "750W/3.6A / 800W/7.0A / ≤8.0A×4 / ≤8.5A×4",
+                "Protection Class": "IP54 / IP54 / IP56 / IP56",
+                "Noise Level": "75dB (all models)",
+                "Test Pressure": "3.5MPa (strength) / 2.5MPa (air tightness)",
+                "Operating Temp": "-20°C to +75°C"
+            },
+            es: {
+                "Modelos": "KY-600 / KY-700",
+                "Capacidad de paso": "≤550L/min (10MPa) / ≤650L/min (10MPa)",
+                "Tipo de ventilador": "Rotor externo / Flujo axial / DC / Motor hidráulico",
+                "Potencia": "750W/3.6A / 800W/7.0A / ≤8.0A×4 / ≤8.5A×4",
+                "Protección": "IP54 / IP54 / IP56 / IP56",
+                "Ruido": "75dB",
+                "Presión": "3.5MPa / 2.5MPa"
+            },
+            fr: {
+                "Modèles": "KY-600 / KY-700",
+                "Capacité de passage": "≤550L/min (10MPa) / ≤650L/min (10MPa)",
+                "Type de ventilateur": "Rotor externe / Flux axial / DC / Moteur hydraulique",
+                "Puissance": "750W/3.6A / 800W/7.0A / ≤8.0A×4 / ≤8.5A×4",
+                "Protection": "IP54 / IP54 / IP56 / IP56",
+                "Bruit": "75dB",
+                "Pression": "3.5MPa / 2.5MPa"
+            },
+            ar: {
+                "الموديلات": "KY-600 / KY-700",
+                "سعة مرور الزيت": "≤550 لتر/دقيقة (10 ميجا باسكال) / ≤650 لتر/دقيقة (10 ميجا باسكال)",
+                "نوع المروحة": "دوار خارجي / تدفق محوري / DC / محرك هيدروليكي",
+                "القوة": "750 واط/3.6 أمبير / 800 واط/7.0 أمبير / ≤8.0 أمبير×4 / ≤8.5 أمبير×4",
+                "الحماية": "IP54 / IP54 / IP56 / IP56",
+                "الضجيج": "75 ديسيبل",
+                "ضغط الاختبار": "3.5 ميجا باسكال / 2.5 ميجا باسكال"
+            },
+            ru: {
+                "Модели": "KY-600 / KY-700",
+                "Пропускная способность": "≤550 л/мин (10МПа) / ≤650 л/мин (10МПа)",
+                "Тип вентилятора": "Внешний ротор / Осевой / DC / Гидромотор",
+                "Мощность": "750Вт/3.6А / 800Вт/7.0А / ≤8.0А×4 / ≤8.5А×4",
+                "Защита": "IP54 / IP54 / IP56 / IP56",
+                "Шум": "75дБ",
+                "Давление": "3.5МПа / 2.5МПа"
+            },
+            pt: {
+                "Modelos": "KY-600 / KY-700",
+                "Capacidade de passagem": "≤550L/min (10MPa) / ≤650L/min (10MPa)",
+                "Tipo de ventilador": "Rotor externo / Fluxo axial / DC / Motor hidráulico",
+                "Potência": "750W/3.6A / 800W/7.0A / ≤8.0A×4 / ≤8.5A×4",
+                "Proteção": "IP54 / IP54 / IP56 / IP56",
+                "Ruído": "75dB",
+                "Pressão": "3.5MPa / 2.5MPa"
+            }
+        },
+        inquiry: {
+            minOrder: "5 units",
+            leadTime: "20-30 days",
+            warranty: "12 months",
+            moq: "2 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Mining equipment, large construction machinery, industrial hydraulic power units, power stations"
+        }
+    },
 ];
 
 // ============================================================
