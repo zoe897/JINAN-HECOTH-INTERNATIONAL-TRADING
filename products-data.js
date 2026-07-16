@@ -4290,7 +4290,7 @@ const Products = [
         id: "FT-003",
         category: "farm-machinery",
         subCategory: "fertilizing",
-        image: "/image/spreader-mounted.jpg",
+        image: "/image/spreader-mounted.png",
         name: {
             en: "Mounted Fertilizer Spreader - Electric & Hydraulic Drive Options",
             es: "Esparcidor de Fertilizante Montado - Opciones de Accionamiento Eléctrico e Hidráulico",
@@ -4630,7 +4630,7 @@ const Products = [
         id: "OT-004",
         category: "farm-machinery",
         subCategory: "other-farm",
-        image: "/image/grain-trailed.jpg",
+        image: "/image/grain-trailer.jpg",
         name: {
             en: "Trailed Grain & Fertilizer Transporter - 3-9m³ Capacity",
             es: "Transportador de Grano y Fertilizante Remolcado - Capacidad 3-9m³",
