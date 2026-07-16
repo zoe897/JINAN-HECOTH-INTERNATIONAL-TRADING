@@ -7003,7 +7003,7 @@ const Products = [
         id: "PT-006",
         category: "parts",
         subCategory: null,
-        image: "/image/oil-cooler-ky200.jpg",
+        image: "/image/oil-cooler-ky200.png",
         name: {
             en: "KY-200 Air Cooled Hydraulic Oil Cooler - 200L/min Capacity",
             es: "Enfriador de Aceite Hidráulico Refrigerado por Aire KY-200 - Capacidad 200L/min",
