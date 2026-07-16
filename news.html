@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News | Hecoth Agri Machinery - Industry Updates</title>
-    <meta name="description" content="Latest news and industry insights from Hecoth Agri Machinery. Stay updated on new products, exhibitions, and company developments.">
+    <title>News | Hecoth Agri Machinery - Export Insights for Overseas B2B Buyers</title>
+    <meta name="description" content="Export insights and procurement guides for agricultural tractors, farm machinery, construction equipment, and smart drip irrigation systems. Content designed for Africa, Southeast Asia, Central Asia and South America.">
+    <meta name="keywords" content="agricultural tractor, farm machinery, construction machinery, smart drip irrigation system, machinery spare parts, procurement, export, Africa, South America, B2B">
     <meta name="robots" content="index, follow">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -14,6 +15,8 @@
         :root { --primary: #2E7D32; --primary-dark: #1B5E20; --secondary: #43A047; --accent: #F9A825; }
         .btn-primary { background-color: var(--primary); color: white; padding: 0.75rem 1.75rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
         .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); }
+        .btn-outline { border: 2px solid var(--primary); color: var(--primary); padding: 0.6rem 1.5rem; border-radius: 0.5rem; font-weight: 500; transition: all 0.2s; background: transparent; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+        .btn-outline:hover { background-color: var(--primary); color: white; }
         .nav-link { text-decoration: none; transition: color 0.2s; color: #4B5563; }
         .nav-link:hover { color: var(--primary); }
         .nav-link.active { color: var(--primary); font-weight: 600; }
@@ -26,7 +29,13 @@
         .lang-btn:not(.active):hover { background-color: #f3f4f6; }
         .bg-primary-gradient { background: linear-gradient(135deg, rgba(46,125,50,0.05) 0%, rgba(67,160,71,0.08) 100%); }
         .news-icon { width: 3.5rem; height: 3.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(46,125,50,0.1); color: var(--primary); font-size: 1.25rem; flex-shrink: 0; }
+        .tag { display: inline-block; background: rgba(46,125,50,0.08); color: var(--primary); padding: 0.15rem 0.6rem; border-radius: 2rem; font-size: 0.7rem; font-weight: 500; }
         @media (max-width: 768px) { .desktop-nav { display: none; } }
+        .news-detail-content h2 { font-size: 1.25rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: #111827; }
+        .news-detail-content ul { list-style: disc; padding-left: 1.5rem; margin: 0.5rem 0 1rem 0; }
+        .news-detail-content ul li { margin-bottom: 0.25rem; color: #4B5563; }
+        .news-detail-content p { color: #4B5563; line-height: 1.8; }
+        .news-detail-content strong { color: #111827; }
     </style>
 </head>
 <body>
@@ -72,25 +81,8 @@
 
 <!-- ===== NEWS ===== -->
 <main class="py-12">
-    <div class="container mx-auto px-4 md:px-8">
-        <div class="text-center mb-12">
-            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-newspaper mr-2"></i> <span data-lang-key="news_badge">Updates</span></span>
-            <h1 class="text-4xl font-bold mt-2" data-lang-key="news_title">Latest <span style="color:var(--primary)">News</span></h1>
-            <p class="text-gray-500 mt-2" data-lang-key="news_subtitle">Industry insights and company updates from Hecoth</p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="newsGrid"></div>
-
-        <!-- Subscribe -->
-        <div class="mt-16 bg-primary-gradient rounded-2xl p-8 text-center border border-gray-200">
-            <h2 class="text-2xl font-bold" style="color:var(--primary);" data-lang-key="subscribe_title">📬 Stay Updated</h2>
-            <p class="text-gray-600 mt-2" data-lang-key="subscribe_desc">Subscribe to receive the latest news and product updates</p>
-            <div class="flex flex-wrap gap-3 justify-center mt-4 max-w-md mx-auto">
-                <input type="email" placeholder="Your email address" class="flex-1 min-w-[200px] px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-[#2E7D32]">
-                <button class="btn-primary" style="padding:0.6rem 1.5rem;" data-lang-key="subscribe_btn">Subscribe</button>
-            </div>
-            <p class="text-xs text-gray-400 mt-2" data-lang-key="subscribe_privacy">We respect your privacy. Unsubscribe anytime.</p>
-        </div>
+    <div class="container mx-auto px-4 md:px-8 max-w-5xl" id="newsContainer">
+        <!-- 由 JavaScript 动态渲染 -->
     </div>
 </main>
 
@@ -116,17 +108,16 @@
 </footer>
 
 <script>
-    // ===== 多语言配置 =====
+    // ============================================================
+    //  多语言配置
+    // ============================================================
     const translations = {
         en: {
             nav_home: "Home", nav_products: "Products", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact",
-            news_badge: "Updates",
-            news_title: 'Latest <span style="color:var(--primary)">News</span>',
-            news_subtitle: "Industry insights and company updates from Hecoth",
-            subscribe_title: "📬 Stay Updated",
-            subscribe_desc: "Subscribe to receive the latest news and product updates",
-            subscribe_btn: "Subscribe",
-            subscribe_privacy: "We respect your privacy. Unsubscribe anytime.",
+            news_list_title: "News & SEO Guides",
+            news_list_subtitle: "Export Insights for Overseas B2B Buyers",
+            news_list_desc: "Content is designed around buyer intent for Africa, Southeast Asia, Central Asia and South America. Keywords: agricultural tractor, farm machinery, construction machinery, smart drip irrigation system, machinery spare parts.",
+            back_to_news: "← Back to News",
             footer_company: "Jinan Hecoth International Trading Co., Ltd.",
             footer_partner: "Your reliable agricultural & supply chain partner.",
             footer_quick: "Quick Links",
@@ -134,30 +125,17 @@
             footer_office: "Office",
             footer_rights: "All rights reserved.",
             footer_sustainable: "Sustainable Agriculture",
-            // 新闻数据
-            news_1_title: "New Tractor Series Launch",
-            news_1_summary: "TTE series tractors with enhanced power (50-80HP) and fuel efficiency now available for global markets.",
-            news_2_title: "Expanding to Latin America",
-            news_2_summary: "New partnerships established in Brazil and Argentina for spare parts distribution. Local warehouses to reduce delivery time by 40%.",
-            news_3_title: "Quality Excellence Award",
-            news_3_summary: "Hecoth recognized for outstanding export quality control standards by Shandong Provincial Commerce Department.",
-            news_4_title: "Smart Irrigation Launch",
-            news_4_summary: "New IoT-enabled drip irrigation system with remote monitoring capabilities. Saves up to 40% water usage.",
-            news_5_title: "Agritech Expo 2026",
-            news_5_summary: "Hecoth to exhibit at Agritech Expo in Nairobi, Kenya. Visit booth A14 to see our latest tractor lineup.",
-            news_6_title: "New Office Opening",
-            news_6_summary: "Expanded operations with new representative office in Shandong to better serve international clients.",
-            read_more: "Read More →"
+            read_more: "Read more",
+            contact_sales: "Need sourcing support?",
+            contact_sales_desc: "Tell us your target market, quantity, and technical requirements. We respond with recommended models and an export plan.",
+            contact_sales_btn: "Contact Sales"
         },
         es: {
             nav_home: "Inicio", nav_products: "Productos", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto",
-            news_badge: "Actualizaciones",
-            news_title: 'Últimas <span style="color:var(--primary)">Noticias</span>',
-            news_subtitle: "Información de la industria y actualizaciones de Hecoth",
-            subscribe_title: "📬 Manténgase Actualizado",
-            subscribe_desc: "Suscríbase para recibir las últimas noticias y actualizaciones de productos",
-            subscribe_btn: "Suscribirse",
-            subscribe_privacy: "Respetamos su privacidad. Puede darse de baja en cualquier momento.",
+            news_list_title: "Noticias y Guías SEO",
+            news_list_subtitle: "Perspectivas de Exportación para Compradores B2B Internacionales",
+            news_list_desc: "El contenido está diseñado en torno a la intención del comprador para África, Sudeste Asiático, Asia Central y Sudamérica.",
+            back_to_news: "← Volver a Noticias",
             footer_company: "Jinan Hecoth International Trading Co., Ltd.",
             footer_partner: "Su socio confiable en maquinaria agrícola y cadena de suministro.",
             footer_quick: "Enlaces Rápidos",
@@ -165,29 +143,17 @@
             footer_office: "Oficina",
             footer_rights: "Todos los derechos reservados.",
             footer_sustainable: "Agricultura Sostenible",
-            news_1_title: "Lanzamiento de Nueva Serie de Tractores",
-            news_1_summary: "Tractores serie TTE con mayor potencia (50-80HP) y eficiencia de combustible disponibles para mercados globales.",
-            news_2_title: "Expansión a América Latina",
-            news_2_summary: "Nuevas alianzas en Brasil y Argentina para distribución de repuestos. Almacenes locales para reducir el tiempo de entrega un 40%.",
-            news_3_title: "Premio a la Excelencia en Calidad",
-            news_3_summary: "Hecoth reconocido por sus estándares de control de calidad en exportación por el Departamento de Comercio de Shandong.",
-            news_4_title: "Lanzamiento de Riego Inteligente",
-            news_4_summary: "Nuevo sistema de riego por goteo IoT con monitoreo remoto. Ahorra hasta un 40% de agua.",
-            news_5_title: "Agritech Expo 2026",
-            news_5_summary: "Hecoth exhibirá en Agritech Expo en Nairobi, Kenia. Visite el stand A14 para ver los últimos tractores.",
-            news_6_title: "Nueva Oficina",
-            news_6_summary: "Ampliación de operaciones con nueva oficina en Shandong para servir mejor a clientes internacionales.",
-            read_more: "Leer Más →"
+            read_more: "Leer más",
+            contact_sales: "¿Necesita ayuda con el abastecimiento?",
+            contact_sales_desc: "Díganos su mercado objetivo, cantidad y requisitos técnicos. Respondemos con modelos recomendados y un plan de exportación.",
+            contact_sales_btn: "Contactar Ventas"
         },
         fr: {
             nav_home: "Accueil", nav_products: "Produits", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact",
-            news_badge: "Actualités",
-            news_title: 'Dernières <span style="color:var(--primary)">Actualités</span>',
-            news_subtitle: "Informations du secteur et mises à jour de Hecoth",
-            subscribe_title: "📬 Restez Informé",
-            subscribe_desc: "Abonnez-vous pour recevoir les dernières nouvelles et mises à jour de produits",
-            subscribe_btn: "S'abonner",
-            subscribe_privacy: "Nous respectons votre vie privée. Désabonnez-vous à tout moment.",
+            news_list_title: "Actualités et Guides SEO",
+            news_list_subtitle: "Perspectives d'Exportation pour les Acheteurs B2B Internationaux",
+            news_list_desc: "Le contenu est conçu autour de l'intention de l'acheteur pour l'Afrique, l'Asie du Sud-Est, l'Asie centrale et l'Amérique du Sud.",
+            back_to_news: "← Retour aux Actualités",
             footer_company: "Jinan Hecoth International Trading Co., Ltd.",
             footer_partner: "Votre partenaire fiable en machinerie agricole et chaîne d'approvisionnement.",
             footer_quick: "Liens Rapides",
@@ -195,29 +161,17 @@
             footer_office: "Bureau",
             footer_rights: "Tous droits réservés.",
             footer_sustainable: "Agriculture Durable",
-            news_1_title: "Lancement de Nouvelle Série de Tracteurs",
-            news_1_summary: "Tracteurs série TTE avec puissance accrue (50-80HP) et efficacité énergétique disponibles sur les marchés mondiaux.",
-            news_2_title: "Expansion en Amérique Latine",
-            news_2_summary: "Nouveaux partenariats au Brésil et en Argentine pour la distribution de pièces détachées.",
-            news_3_title: "Prix d'Excellence en Qualité",
-            news_3_summary: "Hecoth reconnu pour ses normes de contrôle qualité à l'exportation.",
-            news_4_title: "Lancement de l'Irrigation Intelligente",
-            news_4_summary: "Nouveau système d'irrigation goutte-à-goutte IoT avec surveillance à distance. Économise jusqu'à 40% d'eau.",
-            news_5_title: "Agritech Expo 2026",
-            news_5_summary: "Hecoth exposera à Agritech Expo à Nairobi, Kenya. Stand A14 pour voir les derniers tracteurs.",
-            news_6_title: "Nouveau Bureau",
-            news_6_summary: "Expansion des opérations avec un nouveau bureau à Shandong.",
-            read_more: "En Savoir Plus →"
+            read_more: "Lire la suite",
+            contact_sales: "Besoin d'aide pour l'approvisionnement?",
+            contact_sales_desc: "Dites-nous votre marché cible, votre quantité et vos exigences techniques. Nous répondons avec des modèles recommandés et un plan d'exportation.",
+            contact_sales_btn: "Contacter les Ventes"
         },
         ar: {
             nav_home: "الرئيسية", nav_products: "المنتجات", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا",
-            news_badge: "التحديثات",
-            news_title: 'آخر <span style="color:var(--primary)">الأخبار</span>',
-            news_subtitle: "أخبار الصناعة وتحديثات هيكوت",
-            subscribe_title: "📬 ابق على اطلاع",
-            subscribe_desc: "اشترك لتلقي أحدث الأخبار وتحديثات المنتجات",
-            subscribe_btn: "اشتراك",
-            subscribe_privacy: "نحن نحترم خصوصيتك. يمكنك إلغاء الاشتراك في أي وقت.",
+            news_list_title: "الأخبار وأدلة SEO",
+            news_list_subtitle: "رؤى التصدير للمشترين الدوليين",
+            news_list_desc: "تم تصميم المحتوى حول نية المشتري في إفريقيا وجنوب شرق آسيا وآسيا الوسطى وأمريكا الجنوبية.",
+            back_to_news: "← العودة إلى الأخبار",
             footer_company: "جينان هيكوت للتجارة الدولية المحدودة",
             footer_partner: "شريكك الموثوق في المعدات الزراعية وسلسلة التوريد.",
             footer_quick: "روابط سريعة",
@@ -225,29 +179,17 @@
             footer_office: "المكتب",
             footer_rights: "جميع الحقوق محفوظة.",
             footer_sustainable: "الزراعة المستدامة",
-            news_1_title: "إطلاق سلسلة جرارات جديدة",
-            news_1_summary: "جرارات سلسلة TTE بقوة محسنة (50-80 حصان) وكفاءة وقود متاحة للأسواق العالمية.",
-            news_2_title: "التوسع إلى أمريكا اللاتينية",
-            news_2_summary: "شراكات جديدة في البرازيل والأرجنتين لتوزيع قطع الغيار.",
-            news_3_title: "جائزة التميز في الجودة",
-            news_3_summary: "حصلت هيكوت على تقدير لمعايير مراقبة الجودة في التصدير.",
-            news_4_title: "إطلاق الري الذكي",
-            news_4_summary: "نظام ري بالتنقيط جديد بتقنية IoT مع مراقبة عن بعد. يوفر ما يصل إلى 40% من الماء.",
-            news_5_title: "معرض Agritech 2026",
-            news_5_summary: "هيكوت تشارك في معرض Agritech في نيروبي، كينيا. قم بزيارة الجناح A14.",
-            news_6_title: "افتتاح مكتب جديد",
-            news_6_summary: "توسيع العمليات بمكتب جديد في شاندونغ لخدمة العملاء الدوليين.",
-            read_more: "اقرأ المزيد →"
+            read_more: "اقرأ المزيد",
+            contact_sales: "هل تحتاج إلى دعم في التوريد؟",
+            contact_sales_desc: "أخبرنا بالسوق المستهدف والكمية والمتطلبات التقنية. نرد مع النماذج الموصى بها وخطة التصدير.",
+            contact_sales_btn: "اتصل بالمبيعات"
         },
         ru: {
             nav_home: "Главная", nav_products: "Продукты", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты",
-            news_badge: "Обновления",
-            news_title: 'Последние <span style="color:var(--primary)">Новости</span>',
-            news_subtitle: "Новости отрасли и обновления Hecoth",
-            subscribe_title: "📬 Будьте в курсе",
-            subscribe_desc: "Подпишитесь, чтобы получать последние новости и обновления продуктов",
-            subscribe_btn: "Подписаться",
-            subscribe_privacy: "Мы уважаем вашу конфиденциальность. Отпишитесь в любое время.",
+            news_list_title: "Новости и SEO-гиды",
+            news_list_subtitle: "Экспортные инсайты для международных B2B-покупателей",
+            news_list_desc: "Контент разработан с учетом намерений покупателей в Африке, Юго-Восточной Азии, Центральной Азии и Южной Америке.",
+            back_to_news: "← Назад к новостям",
             footer_company: "Jinan Hecoth International Trading Co., Ltd.",
             footer_partner: "Ваш надежный партнер в сельхозтехнике и цепочке поставок.",
             footer_quick: "Быстрые ссылки",
@@ -255,29 +197,17 @@
             footer_office: "Офис",
             footer_rights: "Все права защищены.",
             footer_sustainable: "Устойчивое сельское хозяйство",
-            news_1_title: "Запуск новой серии тракторов",
-            news_1_summary: "Тракторы серии TTE с улучшенной мощностью (50-80 л.с.) и топливной эффективностью.",
-            news_2_title: "Расширение в Латинскую Америку",
-            news_2_summary: "Новые партнерства в Бразилии и Аргентине для дистрибуции запчастей.",
-            news_3_title: "Награда за качество",
-            news_3_summary: "Hecoth отмечен за высокие стандарты контроля качества на экспорт.",
-            news_4_title: "Запуск умного полива",
-            news_4_summary: "Новая IoT-система капельного полива с удаленным мониторингом. Экономия воды до 40%.",
-            news_5_title: "Agritech Expo 2026",
-            news_5_summary: "Hecoth будет участвовать в Agritech Expo в Найроби, Кения. Стенд A14.",
-            news_6_title: "Открытие нового офиса",
-            news_6_summary: "Расширение деятельности с новым представительским офисом в Шаньдуне.",
-            read_more: "Читать далее →"
+            read_more: "Читать далее",
+            contact_sales: "Нужна помощь с поиском?",
+            contact_sales_desc: "Сообщите нам ваш целевой рынок, количество и технические требования. Мы ответим с рекомендуемыми моделями и планом экспорта.",
+            contact_sales_btn: "Связаться с продажами"
         },
         pt: {
             nav_home: "Início", nav_products: "Produtos", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato",
-            news_badge: "Atualizações",
-            news_title: 'Últimas <span style="color:var(--primary)">Notícias</span>',
-            news_subtitle: "Informações do setor e atualizações da Hecoth",
-            subscribe_title: "📬 Fique Atualizado",
-            subscribe_desc: "Assine para receber as últimas notícias e atualizações de produtos",
-            subscribe_btn: "Inscrever-se",
-            subscribe_privacy: "Respeitamos sua privacidade. Cancele a inscrição a qualquer momento.",
+            news_list_title: "Notícias e Guias SEO",
+            news_list_subtitle: "Insights de Exportação para Compradores B2B Internacionais",
+            news_list_desc: "O conteúdo é projetado em torno da intenção do comprador para África, Sudeste Asiático, Ásia Central e América do Sul.",
+            back_to_news: "← Voltar às Notícias",
             footer_company: "Jinan Hecoth International Trading Co., Ltd.",
             footer_partner: "Seu parceiro confiável em máquinas agrícolas e cadeia de suprimentos.",
             footer_quick: "Links Rápidos",
@@ -285,32 +215,639 @@
             footer_office: "Escritório",
             footer_rights: "Todos os direitos reservados.",
             footer_sustainable: "Agricultura Sustentável",
-            news_1_title: "Lançamento de Nova Série de Tratores",
-            news_1_summary: "Tratores série TTE com potência melhorada (50-80HP) e eficiência de combustível.",
-            news_2_title: "Expansão para América Latina",
-            news_2_summary: "Novas parcerias no Brasil e Argentina para distribuição de peças.",
-            news_3_title: "Prêmio de Excelência em Qualidade",
-            news_3_summary: "Hecoth reconhecida por padrões de controle de qualidade na exportação.",
-            news_4_title: "Lançamento de Irrigação Inteligente",
-            news_4_summary: "Novo sistema de irrigação por gotejamento IoT com monitoramento remoto. Economiza até 40% de água.",
-            news_5_title: "Agritech Expo 2026",
-            news_5_summary: "Hecoth expõe na Agritech Expo em Nairobi, Quênia. Visite o estande A14.",
-            news_6_title: "Nova Filial",
-            news_6_summary: "Expansão das operações com nova filial em Shandong.",
-            read_more: "Leia Mais →"
+            read_more: "Leia mais",
+            contact_sales: "Precisa de suporte para aquisição?",
+            contact_sales_desc: "Informe seu mercado-alvo, quantidade e requisitos técnicos. Respondemos com modelos recomendados e um plano de exportação.",
+            contact_sales_btn: "Fale com Vendas"
         }
     };
 
-    // ===== 新闻数据（多语言） =====
+    // ============================================================
+    //  新闻数据（6篇优化内容）
+    // ============================================================
     const newsData = [
-        { icon: "fa-tractor", color: "#2E7D32", date: "June 1, 2026", key: "news_1" },
-        { icon: "fa-globe-americas", color: "#43A047", date: "May 20, 2026", key: "news_2" },
-        { icon: "fa-trophy", color: "#F9A825", date: "April 15, 2026", key: "news_3" },
-        { icon: "fa-water", color: "#2E7D32", date: "March 10, 2026", key: "news_4" },
-        { icon: "fa-chart-line", color: "#43A047", date: "February 5, 2026", key: "news_5" },
-        { icon: "fa-users", color: "#F9A825", date: "January 8, 2026", key: "news_6" }
+        // ===== 新闻1：农业拖拉机（非洲市场） =====
+        {
+            id: 1,
+            icon: "fa-tractor",
+            color: "#2E7D32",
+            date: "2026-05-18",
+            tags: ["agricultural tractor", "Africa", "procurement"],
+            title: {
+                en: "How to Choose an Agricultural Tractor for Hot & Dusty Regions (Buyer Checklist)",
+                es: "Cómo Elegir un Tractor Agrícola para Regiones Cálidas y Polvorientas (Lista de Verificación)",
+                fr: "Comment Choisir un Tracteur Agricole pour les Régions Chaudes et Poussiéreuses",
+                ar: "كيفية اختيار جرار زراعي للمناطق الحارة والمتربة",
+                ru: "Как выбрать сельскохозяйственный трактор для жарких и пыльных регионов",
+                pt: "Como Escolher um Trator Agrícola para Regiões Quentes e Empoeiradas"
+            },
+            summary: {
+                en: "A practical procurement checklist for selecting tractors for hot, dusty, and remote regions—engine cooling, filtration, driveline, serviceability and spare parts planning.",
+                es: "Una lista de verificación práctica para seleccionar tractores en regiones cálidas, polvorientas y remotas.",
+                fr: "Une liste de contrôle pratique pour sélectionner des tracteurs dans des régions chaudes, poussiéreuses et isolées.",
+                ar: "قائمة تدقيق عملية لاختيار الجرارات للمناطق الحارة والمتربة والنائية.",
+                ru: "Практический контрольный список для выбора тракторов для жарких, пыльных и отдаленных регионов.",
+                pt: "Uma lista de verificação prática para selecionar tratores em regiões quentes, empoeiradas e remotas."
+            },
+            content: {
+                en: `
+                    <p>For many overseas buyers in Africa, the best tractor is not the most "advanced" model—it's the one that keeps working in high temperature, dust, and limited service conditions. Below is a buyer-oriented checklist used by distributors, fleet owners and project procurement teams.</p>
+
+                    <h2>1) Cooling & heat management</h2>
+                    <ul>
+                        <li>Radiator capacity and fin spacing suitable for dust</li>
+                        <li>Fan shroud design and easy-to-clean grill</li>
+                        <li>Coolant routing and availability of consumables</li>
+                    </ul>
+
+                    <h2>2) Air filtration & fuel cleanliness</h2>
+                    <ul>
+                        <li>Multi-stage air filter (preferably with pre-cleaner)</li>
+                        <li>Easy filter access for daily checks</li>
+                        <li>Fuel filter specification, water separator recommended</li>
+                    </ul>
+
+                    <h2>3) Drivetrain & traction</h2>
+                    <p>In soft soil and seasonal rains, 4WD tractors bring better field uptime and lower tire wear when operated correctly. Confirm axle spec, final drive robustness and differential lock configuration.</p>
+
+                    <h2>4) Hydraulics & implement matching</h2>
+                    <p>Check PTO options (540/1000), hydraulic flow, hitch category and local implement compatibility. For tenders, prepare a clear implement list (rotary tiller, plough, planter) and verify power requirement.</p>
+
+                    <h2>5) Service plan & spare parts</h2>
+                    <p>For Africa and remote provinces, serviceability is a deciding factor. Ask your supplier to provide:</p>
+                    <ul>
+                        <li>A recommended spare parts list for 6–12 months (filters, belts, seals, wear parts)</li>
+                        <li>Exploded drawings / parts catalog and matching support</li>
+                        <li>Pre-shipment inspection photos and packing list</li>
+                    </ul>
+                    <p><strong>Need sourcing support for agricultural tractor models for African distributors or government programs?</strong> Tell us your target power range and application—we will recommend configurations and a spare parts package.</p>
+                `,
+                es: `
+                    <p>Para muchos compradores internacionales, el mejor tractor no es el modelo más "avanzado", sino el que sigue funcionando en condiciones de alta temperatura, polvo y servicios limitados.</p>
+                    <h2>1) Refrigeración y gestión del calor</h2>
+                    <ul><li>Capacidad del radiador y espacio entre aletas adecuado para el polvo</li><li>Diseño del ventilador y parrilla fácil de limpiar</li><li>Rutas de refrigerante y disponibilidad de consumibles</li></ul>
+                    <h2>2) Filtración de aire y limpieza de combustible</h2>
+                    <ul><li>Filtro de aire de múltiples etapas (preferiblemente con pre-limpiador)</li><li>Fácil acceso al filtro para controles diarios</li><li>Especificación del filtro de combustible, separador de agua recomendado</li></ul>
+                    <h2>3) Tren de potencia y tracción</h2>
+                    <p>En suelos blandos y lluvias estacionales, los tractores 4WD ofrecen mejor tiempo de actividad en el campo.</p>
+                    <h2>4) Hidráulica y compatibilidad de implementos</h2>
+                    <p>Verifique opciones de TDF (540/1000), flujo hidráulico, categoría de enganche y compatibilidad de implementos locales.</p>
+                    <h2>5) Plan de servicio y repuestos</h2>
+                    <p>Solicite a su proveedor: lista de repuestos recomendados, dibujos explotados y fotos de inspección previa al envío.</p>
+                    <p><strong>¿Necesita apoyo para modelos de tractores agrícolas para programas gubernamentales o distribuidores?</strong> Díganos su rango de potencia y aplicación.</p>
+                `,
+                fr: `
+                    <p>Pour de nombreux acheteurs internationaux, le meilleur tracteur n'est pas le modèle le plus "avancé", mais celui qui continue de fonctionner dans des conditions de chaleur, de poussière et de services limités.</p>
+                    <h2>1) Refroidissement et gestion de la chaleur</h2>
+                    <ul><li>Capacité du radiateur adaptée à la poussière</li><li>Conception du ventilateur et grille facile à nettoyer</li><li>Circuit de liquide de refroidissement</li></ul>
+                    <h2>2) Filtration de l'air et propreté du carburant</h2>
+                    <ul><li>Filtre à air à plusieurs étages</li><li>Accès facile au filtre pour les contrôles quotidiens</li><li>Séparateur d'eau recommandé</li></ul>
+                    <h2>3) Transmission et traction</h2>
+                    <p>Les tracteurs 4WD offrent une meilleure disponibilité sur le terrain dans les sols meubles.</p>
+                    <h2>4) Hydraulique et compatibilité des outils</h2>
+                    <p>Vérifiez les options de prise de force, le débit hydraulique et la compatibilité.</p>
+                    <h2>5) Plan de service et pièces détachées</h2>
+                    <p>Demandez une liste de pièces recommandées, des dessins éclatés et des photos d'inspection.</p>
+                `,
+                ar: `
+                    <p>بالنسبة للعديد من المشترين الدوليين، فإن أفضل جرار ليس هو النموذج الأكثر "تقدماً"، بل هو الذي يستمر في العمل في ظروف الحرارة والغبار والخدمات المحدودة.</p>
+                    <h2>1) التبريد وإدارة الحرارة</h2>
+                    <ul><li>سعة الرادياتير المناسبة للغبار</li><li>تصميم مروحة وشبكة سهلة التنظيف</li></ul>
+                    <h2>2) ترشيح الهواء ونظافة الوقود</h2>
+                    <ul><li>فلتر هواء متعدد المراحل</li><li>سهولة الوصول للفلتر للفحوصات اليومية</li></ul>
+                    <h2>3) نقل الحركة والجر</h2>
+                    <p>توفر الجرارات ذات الدفع الرباعي وقت تشغيل أفضل في الحقول.</p>
+                    <h2>4) النظام الهيدروليكي وتوافق الأدوات</h2>
+                    <p>تحقق من خيارات PTO والتدفق الهيدروليكي وتوافق الأدوات المحلية.</p>
+                    <h2>5) خطة الخدمة وقطع الغيار</h2>
+                    <p>اطلب من المورد قائمة قطع الغيار الموصى بها ورسومات التفصيل وصور الفحص.</p>
+                `,
+                ru: `
+                    <p>Для многих зарубежных покупателей лучший трактор — это не самая "продвинутая" модель, а та, которая продолжает работать в условиях высоких температур, пыли и ограниченного сервиса.</p>
+                    <h2>1) Охлаждение и управление температурой</h2>
+                    <ul><li>Радиатор с подходящей емкостью и расстоянием между ребрами</li><li>Конструкция вентилятора и легкая очистка решетки</li></ul>
+                    <h2>2) Фильтрация воздуха и чистота топлива</h2>
+                    <ul><li>Многоступенчатый воздушный фильтр</li><li>Легкий доступ к фильтру для ежедневной проверки</li></ul>
+                    <h2>3) Трансмиссия и тяга</h2>
+                    <p>Полноприводные тракторы обеспечивают лучшее время работы в поле на мягких почвах.</p>
+                    <h2>4) Гидравлика и совместимость с орудиями</h2>
+                    <p>Проверьте опции ВОМ, гидравлический поток и совместимость.</p>
+                    <h2>5) План обслуживания и запчасти</h2>
+                    <p>Запросите список рекомендуемых запчастей, взрыв-схемы и фото предотгрузочного контроля.</p>
+                `,
+                pt: `
+                    <p>Para muitos compradores internacionais, o melhor trator não é o modelo mais "avançado", mas sim aquele que continua funcionando em condições de alta temperatura, poeira e serviços limitados.</p>
+                    <h2>1) Refrigeração e gestão de calor</h2>
+                    <ul><li>Capacidade do radiador adequada para poeira</li><li>Design do ventilador e grade fácil de limpar</li></ul>
+                    <h2>2) Filtração de ar e limpeza de combustível</h2>
+                    <ul><li>Filtro de ar de múltiplos estágios</li><li>Fácil acesso ao filtro para verificações diárias</li></ul>
+                    <h2>3) Trem de força e tração</h2>
+                    <p>Tratores 4WD oferecem melhor tempo de campo em solos macios.</p>
+                    <h2>4) Hidráulica e compatibilidade de implementos</h2>
+                    <p>Verifique as opções de TDP, fluxo hidráulico e compatibilidade.</p>
+                    <h2>5) Plano de serviço e peças de reposição</h2>
+                    <p>Solicite ao fornecedor lista de peças recomendadas, desenhos explodidos e fotos de inspeção.</p>
+                `
+            }
+        },
+        // ===== 新闻2：播种机（南美洲+非洲市场） =====
+        {
+            id: 2,
+            icon: "fa-seedling",
+            color: "#43A047",
+            date: "2026-04-30",
+            tags: ["farm machinery", "maize planter", "South America", "Africa"],
+            title: {
+                en: "Maize Planter Procurement: 6 Parameters That Impact Germination & Yield",
+                es: "Compra de Sembradora de Maíz: 6 Parámetros que Afectan la Germinación y el Rendimiento",
+                fr: "Achat de Semoir à Maïs: 6 Paramètres qui Affectent la Germination et le Rendement",
+                ar: "شراء آلة زراعة الذرة: 6 عوامل تؤثر على الإنبات والمحصول",
+                ru: "Закупка сеялки для кукурузы: 6 параметров, влияющих на всхожесть и урожайность",
+                pt: "Aquisição de Semeadeira de Milho: 6 Parâmetros que Afetam a Germinação e o Rendimento"
+            },
+            summary: {
+                en: "Row spacing, seed metering, depth control and maintenance are often overlooked during B2B sourcing. Here are 6 parameters that directly affect planting quality.",
+                es: "El espaciado entre hileras, la dosificación de semillas y el control de profundidad suelen pasarse por alto en la compra B2B.",
+                fr: "L'espacement des rangs, le dosage des semences et le contrôle de la profondeur sont souvent négligés lors des achats B2B.",
+                ar: "غالباً ما يتم تجاهل تباعد الصفوف وجرعات البذور والتحكم في العمق في الشراء بين الشركات.",
+                ru: "Расстояние между рядами, дозирование семян и контроль глубины часто упускаются из виду при B2B-закупках.",
+                pt: "O espaçamento entre linhas, a dosagem de sementes e o controle de profundidade são frequentemente negligenciados na compra B2B."
+            },
+            content: {
+                en: `
+                    <p>For buyers in South America and Africa, maize planting efficiency directly impacts farm profitability. When procuring farm machinery for maize planting, here are 6 critical parameters that sourcing teams should evaluate:</p>
+
+                    <h2>1) Row Spacing</h2>
+                    <p>Adjustable row spacing allows the planter to adapt to different crop varieties and local farming practices. Ensure the range covers your target crops (typically 450-700mm for corn in South America).</p>
+
+                    <h2>2) Seed Metering Mechanism</h2>
+                    <p>Precision seed metering (vacuum or mechanical) ensures uniform seed spacing and depth. Look for zero-speed delivery to minimize seed damage—critical for high-value hybrid seeds.</p>
+
+                    <h2>3) Depth Control</h2>
+                    <p>Consistent planting depth is critical for uniform germination. Check the depth adjustment mechanism and its ease of use in field conditions.</p>
+
+                    <h2>4) Fertilizer Application</h2>
+                    <p>Integrated fertilizer tanks allow simultaneous fertilization during planting, saving time and improving efficiency—especially valuable for large-scale African farms.</p>
+
+                    <h2>5) Durability & Maintenance</h2>
+                    <p>Choose planters with durable construction and easily accessible wear parts. Check availability of replacement discs and openers in your local market.</p>
+
+                    <h2>6) Tractor Compatibility</h2>
+                    <p>Verify the required horsepower and hydraulic requirements match your existing tractor fleet or intended tractor purchase.</p>
+
+                    <p><strong>Looking for farm machinery for your maize farming operation?</strong> Tell us your target crop, field size, and tractor power—we will recommend the right planter configuration.</p>
+                `,
+                es: `
+                    <p>Para los compradores en Sudamérica y África, la eficiencia de la siembra de maíz impacta directamente en la rentabilidad de la granja. Aquí hay 6 parámetros críticos que los equipos de compras deben evaluar:</p>
+                    <h2>1) Espaciado entre hileras</h2>
+                    <p>El espaciado ajustable permite adaptarse a diferentes cultivos y prácticas locales.</p>
+                    <h2>2) Mecanismo de dosificación</h2>
+                    <p>La dosificación precisa garantiza un espaciado uniforme de las semillas.</p>
+                    <h2>3) Control de profundidad</h2>
+                    <p>La profundidad constante es crítica para la germinación uniforme.</p>
+                    <h2>4) Aplicación de fertilizante</h2>
+                    <p>Tanques de fertilizante integrados permiten la fertilización simultánea.</p>
+                    <h2>5) Durabilidad y mantenimiento</h2>
+                    <p>Elija sembradoras con construcción duradera y piezas de desgaste accesibles.</p>
+                    <h2>6) Compatibilidad con tractores</h2>
+                    <p>Verifique que los requisitos de potencia e hidráulicos coincidan con su flota existente.</p>
+                `,
+                fr: `
+                    <p>Pour les acheteurs en Amérique du Sud et en Afrique, l'efficacité de la plantation de maïs a un impact direct sur la rentabilité de la ferme. Voici 6 paramètres critiques à évaluer:</p>
+                    <h2>1) Espacement des rangs</h2>
+                    <p>L'espacement ajustable permet de s'adapter à différentes cultures.</p>
+                    <h2>2) Mécanisme de dosage</h2>
+                    <p>Le dosage précis garantit un espacement uniforme des semences.</p>
+                    <h2>3) Contrôle de la profondeur</h2>
+                    <p>La profondeur constante est essentielle pour une germination uniforme.</p>
+                    <h2>4) Application d'engrais</h2>
+                    <p>Réservoirs d'engrais intégrés pour une fertilisation simultanée.</p>
+                    <h2>5) Durabilité et entretien</h2>
+                    <p>Choisissez des semoirs avec une construction durable.</p>
+                    <h2>6) Compatibilité tracteur</h2>
+                    <p>Vérifiez la compatibilité avec votre flotte de tracteurs.</p>
+                `,
+                ar: `
+                    <p>بالنسبة للمشترين في أمريكا الجنوبية وأفريقيا، تؤثر كفاءة زراعة الذرة بشكل مباشر على ربحية المزرعة. إليك 6 عوامل حاسمة يجب على فرق الشراء تقييمها:</p>
+                    <h2>1) تباعد الصفوف</h2>
+                    <p>يسمح التباعد القابل للتعديل بالتكيف مع المحاصيل المختلفة.</p>
+                    <h2>2) آلية جرعات البذور</h2>
+                    <p>يضمن الجرعات الدقيقة تباعداً موحداً للبذور.</p>
+                    <h2>3) التحكم في العمق</h2>
+                    <p>العمق الثابت ضروري للإنبات الموحد.</p>
+                    <h2>4) تطبيق الأسمدة</h2>
+                    <p>خزانات أسمدة مدمجة للتسميد المتزامن.</p>
+                    <h2>5) المتانة والصيانة</h2>
+                    <p>اختر آلات زراعة ذات بناء متين وأجزاء تآكل يمكن الوصول إليها بسهولة.</p>
+                    <h2>6) التوافق مع الجرار</h2>
+                    <p>تحقق من توافق متطلبات القدرة مع أسطول الجرارات الحالي.</p>
+                `,
+                ru: `
+                    <p>Для покупателей в Южной Америке и Африке эффективность посева кукурузы напрямую влияет на рентабельность фермы. Вот 6 критических параметров:</p>
+                    <h2>1) Расстояние между рядами</h2>
+                    <p>Регулируемое расстояние позволяет адаптироваться к различным культурам.</p>
+                    <h2>2) Механизм дозирования семян</h2>
+                    <p>Точное дозирование обеспечивает равномерное расстояние между семенами.</p>
+                    <h2>3) Контроль глубины</h2>
+                    <p>Постоянная глубина важна для равномерной всхожести.</p>
+                    <h2>4) Внесение удобрений</h2>
+                    <p>Встроенные баки для удобрений позволяют вносить удобрения одновременно.</p>
+                    <h2>5) Долговечность и обслуживание</h2>
+                    <p>Выбирайте сеялки с прочной конструкцией и доступными изнашиваемыми деталями.</p>
+                    <h2>6) Совместимость с трактором</h2>
+                    <p>Проверьте соответствие мощности и гидравлических требований вашему парку тракторов.</p>
+                `,
+                pt: `
+                    <p>Para compradores na América do Sul e África, a eficiência do plantio de milho impacta diretamente a rentabilidade da fazenda. Aqui estão 6 parâmetros críticos:</p>
+                    <h2>1) Espaçamento entre linhas</h2>
+                    <p>O espaçamento ajustável permite adaptação a diferentes culturas.</p>
+                    <h2>2) Mecanismo de dosagem de sementes</h2>
+                    <p>A dosagem precisa garante espaçamento uniforme das sementes.</p>
+                    <h2>3) Controle de profundidade</h2>
+                    <p>A profundidade consistente é crítica para a germinação uniforme.</p>
+                    <h2>4) Aplicação de fertilizante</h2>
+                    <p>Tanques de fertilizante integrados para fertilização simultânea.</p>
+                    <h2>5) Durabilidade e manutenção</h2>
+                    <p>Escolha plantadeiras com construção durável e peças de desgaste acessíveis.</p>
+                    <h2>6) Compatibilidade com trator</h2>
+                    <p>Verifique a compatibilidade com sua frota de tratores.</p>
+                `
+            }
+        },
+        // ===== 新闻3：工程机械+配件（中亚+非洲市场） =====
+        {
+            id: 3,
+            icon: "fa-hard-hat",
+            color: "#F9A825",
+            date: "2026-03-22",
+            tags: ["construction machinery", "machinery spare parts", "fleet"],
+            title: {
+                en: "Construction Machinery Uptime: A Spare Parts Strategy for Fleet Buyers",
+                es: "Tiempo de Actividad de Maquinaria de Construcción: Estrategia de Repuestos para Compradores de Flotas",
+                fr: "Disponibilité des Engins de Construction: Stratégie de Pièces Détachées",
+                ar: "وقت تشغيل معدات البناء: استراتيجية قطع الغيار لمشتري الأساطيل",
+                ru: "Время работы строительной техники: стратегия запасных частей",
+                pt: "Tempo de Atividade de Máquinas de Construção: Estratégia de Peças de Reposição"
+            },
+            summary: {
+                en: "Fleet uptime depends on filters, wear parts and fast matching support. Build a 3-layer spare parts plan to reduce project risk and delays.",
+                es: "El tiempo de actividad de la flota depende de filtros, piezas de desgaste y soporte rápido.",
+                fr: "La disponibilité de la flotte dépend des filtres, des pièces d'usure et d'un support rapide.",
+                ar: "يعتمد وقت تشغيل الأسطول على الفلاتر وقطع التآكل والدعم السريع.",
+                ru: "Время работы парка зависит от фильтров, изнашиваемых деталей и быстрой поддержки.",
+                pt: "O tempo de atividade da frota depende de filtros, peças de desgaste e suporte rápido."
+            },
+            content: {
+                en: `
+                    <p>For infrastructure projects in Central Asia and Africa, construction machinery uptime is the #1 factor determining project success. Fleet buyers need a strategic approach to machinery spare parts management:</p>
+
+                    <h2>Layer 1: Consumables (Filters, Belts, Seals)</h2>
+                    <p>These are the most frequently replaced items. Ensure you have at least 2-3 sets per machine for the first 6 months of operation.</p>
+
+                    <h2>Layer 2: Wear Parts (Cutting edges, Bucket teeth, Tracks)</h2>
+                    <p>These parts have predictable wear patterns. Plan replacements based on operating hours and site conditions—especially important for mining and road construction projects.</p>
+
+                    <h2>Layer 3: Critical Components (Hydraulic pumps, Final drives)</h2>
+                    <p>These are expensive but rarely fail. Have a supply agreement with your supplier for rapid replacement to minimize downtime.</p>
+
+                    <p><strong>Managing a construction fleet in Central Asia or Africa?</strong> Send us your equipment list and project timeline—we will design a preventive spare parts package.</p>
+                `,
+                es: `
+                    <p>Para proyectos de infraestructura en Asia Central y África, el tiempo de actividad de la maquinaria de construcción es el factor #1 para el éxito del proyecto. Los compradores de flotas necesitan un enfoque estratégico:</p>
+                    <h2>Capa 1: Consumibles</h2>
+                    <p>Filtros, correas y sellos. Mantenga al menos 2-3 juegos por máquina.</p>
+                    <h2>Capa 2: Piezas de desgaste</h2>
+                    <p>Bordes de corte, dientes de cuchara y orugas. Planifique reemplazos según horas de operación.</p>
+                    <h2>Capa 3: Componentes críticos</h2>
+                    <p>Bombas hidráulicas y mandos finales. Tenga un acuerdo de suministro para reemplazo rápido.</p>
+                `,
+                fr: `
+                    <p>Pour les projets d'infrastructure en Asie centrale et en Afrique, la disponibilité des engins de construction est le facteur #1 de succès. Les acheteurs de flottes ont besoin d'une approche stratégique:</p>
+                    <h2>Couche 1: Consommables</h2>
+                    <p>Filtres, courroies, joints. Gardez au moins 2-3 jeux par machine.</p>
+                    <h2>Couche 2: Pièces d'usure</h2>
+                    <p>Lames, dents de godet, chenilles. Planifiez les remplacements selon les heures de fonctionnement.</p>
+                    <h2>Couche 3: Composants critiques</h2>
+                    <p>Pompes hydrauliques, transmissions finales. Ayez un accord de fourniture.</p>
+                `,
+                ar: `
+                    <p>بالنسبة لمشاريع البنية التحتية في آسيا الوسطى وأفريقيا، فإن وقت تشغيل معدات البناء هو العامل رقم 1 لتحديد نجاح المشروع. يحتاج مشترو الأساطيل إلى نهج استراتيجي:</p>
+                    <h2>الطبقة 1: المواد الاستهلاكية</h2>
+                    <p>الفلاتر والأحزمة والأختام. احتفظ بـ 2-3 مجموعات لكل آلة.</p>
+                    <h2>الطبقة 2: قطع التآكل</h2>
+                    <p>حواف القطع وأسنان الدلو والجنازير. خطط للاستبدال حسب ساعات التشغيل.</p>
+                    <h2>الطبقة 3: المكونات الحرجة</h2>
+                    <p>المضخات الهيدروليكية والتوجيه النهائي. احصل على اتفاقية توريد.</p>
+                `,
+                ru: `
+                    <p>Для инфраструктурных проектов в Центральной Азии и Африке время работы строительной техники является фактором №1, определяющим успех проекта. Менеджерам парков нужен стратегический подход:</p>
+                    <h2>Уровень 1: Расходные материалы</h2>
+                    <p>Фильтры, ремни, уплотнения. Держите 2-3 комплекта на машину.</p>
+                    <h2>Уровень 2: Износостойкие детали</h2>
+                    <p>Режущие кромки, зубья ковша, гусеницы. Планируйте замены по часам работы.</p>
+                    <h2>Уровень 3: Критические компоненты</h2>
+                    <p>Гидравлические насосы, конечные приводы. Имейте договор поставки.</p>
+                `,
+                pt: `
+                    <p>Para projetos de infraestrutura na Ásia Central e África, o tempo de atividade das máquinas de construção é o fator #1 para o sucesso do projeto. Os compradores de frotas precisam de uma abordagem estratégica:</p>
+                    <h2>Camada 1: Consumíveis</h2>
+                    <p>Filtros, correias, vedações. Mantenha 2-3 conjuntos por máquina.</p>
+                    <h2>Camada 2: Peças de desgaste</h2>
+                    <p>Bordas de corte, dentes de caçamba, esteiras. Planeje substituições por horas de operação.</p>
+                    <h2>Camada 3: Componentes críticos</h2>
+                    <p>Bombas hidráulicas, transmissões finais. Tenha um acordo de fornecimento.</p>
+                `
+            }
+        },
+        // ===== 新闻4：智能滴灌（非洲+中亚市场） =====
+        {
+            id: 4,
+            icon: "fa-water",
+            color: "#2E7D32",
+            date: "2026-02-12",
+            tags: ["smart drip irrigation system", "Africa", "Central Asia"],
+            title: {
+                en: "Smart Drip Irrigation System: Where the ROI Comes From (Projects & Distributors)",
+                es: "Sistema de Riego por Goteo Inteligente: ¿De dónde viene el ROI? (Proyectos y Distribuidores)",
+                fr: "Système d'Irrigation Goutte-à-Goutte Intelligent: D'où Vient le ROI",
+                ar: "نظام الري بالتنقيط الذكي: من أين يأتي العائد على الاستثمار",
+                ru: "Умная система капельного полива: откуда берется ROI",
+                pt: "Sistema de Irrigação por Gotejamento Inteligente: De Onde Vem o ROI"
+            },
+            summary: {
+                en: "Water-saving is only one part of the ROI. Filtration, fertigation, pressure control and maintenance determine the real performance of drip projects.",
+                es: "El ahorro de agua es solo una parte del ROI. La filtración, fertirrigación, control de presión y mantenimiento determinan el rendimiento real.",
+                fr: "L'économie d'eau n'est qu'une partie du ROI. La filtration, la fertirrigation et la maintenance déterminent la performance réelle.",
+                ar: "توفير الماء هو جزء واحد فقط من العائد على الاستثمار. الترشيح والتسميد والتحكم في الضغط تحدد الأداء الحقيقي.",
+                ru: "Экономия воды - только часть ROI. Фильтрация, фертигация и обслуживание определяют реальную производительность.",
+                pt: "A economia de água é apenas uma parte do ROI. Filtração, fertirrigação e manutenção determinam o desempenho real."
+            },
+            content: {
+                en: `
+                    <p>For agricultural projects and distributors in Africa and Central Asia, smart drip irrigation systems are increasingly adopted. But where does the real ROI come from?</p>
+
+                    <h2>1) Filtration System</h2>
+                    <p>Proper filtration prevents emitter clogging and extends system life. Choose the right filter type based on your water source quality—surface water requires different filtration than groundwater.</p>
+
+                    <h2>2) Fertigation Integration</h2>
+                    <p>Combining irrigation with fertilizer application significantly improves crop yield and reduces fertilizer waste—a key advantage for high-value crops like vegetables and fruits.</p>
+
+                    <h2>3) Pressure Control</h2>
+                    <p>Maintaining consistent pressure across the entire field ensures uniform water distribution and optimal plant growth, especially important for large-scale projects.</p>
+
+                    <h2>4) Maintenance Plan</h2>
+                    <p>Regular flushing and filter cleaning are essential for long-term performance. Plan maintenance schedules with your supplier and train local operators.</p>
+
+                    <p><strong>Planning a smart drip irrigation system project?</strong> Tell us your crop type, field size, and water source—we provide complete system design and training support.</p>
+                `,
+                es: `
+                    <p>Para proyectos agrícolas y distribuidores en África y Asia Central, los sistemas de riego por goteo inteligentes son cada vez más adoptados. ¿De dónde viene el ROI real?</p>
+                    <h2>1) Sistema de filtración</h2>
+                    <p>La filtración adecuada evita obstrucciones y prolonga la vida útil.</p>
+                    <h2>2) Fertirrigación</h2>
+                    <p>Combina riego con fertilización para mejorar el rendimiento.</p>
+                    <h2>3) Control de presión</h2>
+                    <p>Mantiene distribución uniforme del agua.</p>
+                    <h2>4) Plan de mantenimiento</h2>
+                    <p>Limpieza regular de filtros y tuberías.</p>
+                `,
+                fr: `
+                    <p>Pour les projets agricoles et les distributeurs en Afrique et en Asie centrale, les systèmes d'irrigation goutte-à-goutte intelligents sont de plus en plus adoptés. D'où vient le ROI réel?</p>
+                    <h2>1) Filtration</h2>
+                    <p>La filtration adéquate évite les obstructions.</p>
+                    <h2>2) Fertirrigation</h2>
+                    <p>Combine irrigation et fertilisation.</p>
+                    <h2>3) Contrôle de pression</h2>
+                    <p>Maintient une distribution uniforme.</p>
+                    <h2>4) Plan de maintenance</h2>
+                    <p>Nettoyage régulier des filtres.</p>
+                `,
+                ar: `
+                    <p>بالنسبة للمشاريع الزراعية والموزعين في أفريقيا وآسيا الوسطى، يتم اعتماد أنظمة الري بالتنقيط الذكية بشكل متزايد. من أين يأتي العائد الحقيقي على الاستثمار؟</p>
+                    <h2>1) نظام الترشيح</h2>
+                    <p>يمنع الترشيح المناسب انسداد الفوهات ويطيل عمر النظام.</p>
+                    <h2>2) التسميد</h2>
+                    <p>يجمع بين الري والتسميد لتحسين المحصول.</p>
+                    <h2>3) التحكم في الضغط</h2>
+                    <p>يحافظ على توزيع موحد للماء.</p>
+                    <h2>4) خطة الصيانة</h2>
+                    <p>تنظيف منتظم للفلاتر والأنابيب.</p>
+                `,
+                ru: `
+                    <p>Для сельскохозяйственных проектов и дистрибьюторов в Африке и Центральной Азии все чаще применяются умные системы капельного полива. Откуда берется реальный ROI?</p>
+                    <h2>1) Система фильтрации</h2>
+                    <p>Правильная фильтрация предотвращает засорение эмиттеров.</p>
+                    <h2>2) Фертигация</h2>
+                    <p>Объединяет полив с внесением удобрений.</p>
+                    <h2>3) Контроль давления</h2>
+                    <p>Обеспечивает равномерное распределение воды.</p>
+                    <h2>4) План обслуживания</h2>
+                    <p>Регулярная очистка фильтров и труб.</p>
+                `,
+                pt: `
+                    <p>Para projetos agrícolas e distribuidores na África e Ásia Central, os sistemas de irrigação por gotejamento inteligentes estão sendo cada vez mais adotados. De onde vem o ROI real?</p>
+                    <h2>1) Sistema de filtração</h2>
+                    <p>A filtração adequada evita entupimentos e prolonga a vida útil.</p>
+                    <h2>2) Fertirrigação</h2>
+                    <p>Combina irrigação com fertilização para melhorar a produtividade.</p>
+                    <h2>3) Controle de pressão</h2>
+                    <p>Mantém distribuição uniforme da água.</p>
+                    <h2>4) Plano de manutenção</h2>
+                    <p>Limpeza regular de filtros e tubulações.</p>
+                `
+            }
+        },
+        // ===== 新闻5：FOB vs CIF（采购决策指南） =====
+        {
+            id: 5,
+            icon: "fa-ship",
+            color: "#43A047",
+            date: "2026-01-20",
+            tags: ["export", "procurement", "farm machinery", "construction machinery"],
+            title: {
+                en: "FOB vs CIF for Machinery Export: What Procurement Teams Should Know",
+                es: "FOB vs CIF en Exportación de Maquinaria: Lo que los Equipos de Compra Deben Saber",
+                fr: "FOB vs CIF dans l'Exportation de Machines: Ce que les Équipes d'Achat Doivent Savoir",
+                ar: "FOB مقابل CIF في تصدير المعدات: ما يجب أن تعرفه فرق الشراء",
+                ru: "FOB против CIF при экспорте техники: что нужно знать закупочным командам",
+                pt: "FOB vs CIF na Exportação de Máquinas: O que as Equipes de Compra Devem Saber"
+            },
+            summary: {
+                en: "FOB and CIF affect risk, cost and control of shipment. A simple decision framework for overseas B2B buyers importing machinery.",
+                es: "FOB y CIF afectan el riesgo, costo y control del envío. Un marco de decisión para compradores B2B.",
+                fr: "FOB et CIF affectent le risque, le coût et le contrôle de l'expédition.",
+                ar: "يؤثر FOB و CIF على المخاطر والتكلفة والتحكم في الشحن.",
+                ru: "FOB и CIF влияют на риск, стоимость и контроль отгрузки.",
+                pt: "FOB e CIF afetam o risco, custo e controle do envio."
+            },
+            content: {
+                en: `
+                    <p>For procurement teams across Africa, Southeast Asia, and South America, understanding shipping terms is essential for cost control and risk management.</p>
+
+                    <h2>FOB (Free on Board)</h2>
+                    <p>You take ownership once the goods are loaded onto the ship at the port of origin. You control shipping and insurance, but you also assume responsibility for logistics and risk during transit.</p>
+
+                    <h2>CIF (Cost, Insurance, Freight)</h2>
+                    <p>The seller arranges shipping and insurance to the destination port. This simplifies procurement but gives you less control over the shipping process.</p>
+
+                    <h2>Which one to choose?</h2>
+                    <ul>
+                        <li><strong>Choose FOB if:</strong> You have reliable freight forwarders and want more control over logistics costs.</li>
+                        <li><strong>Choose CIF if:</strong> You prefer a simpler procurement process and trust the seller's shipping arrangements.</li>
+                    </ul>
+
+                    <p><strong>Importing agricultural or construction machinery?</strong> We offer both FOB and CIF options with transparent pricing.</p>
+                `,
+                es: `
+                    <p>Para los equipos de compras en África, Sudeste Asiático y Sudamérica, entender los términos de envío es esencial para el control de costos y la gestión de riesgos.</p>
+                    <h2>FOB</h2>
+                    <p>Usted toma posesión una vez que la carga está en el buque. Controla el envío pero asume el riesgo durante el tránsito.</p>
+                    <h2>CIF</h2>
+                    <p>El vendedor organiza el envío y el seguro. Simplifica la compra pero da menos control.</p>
+                    <h2>¿Cuál elegir?</h2>
+                    <ul><li><strong>FOB:</strong> Si tiene agentes de carga confiables.</li><li><strong>CIF:</strong> Si prefiere un proceso más simple.</li></ul>
+                `,
+                fr: `
+                    <p>Pour les équipes d'approvisionnement en Afrique, Asie du Sud-Est et Amérique du Sud, la compréhension des termes d'expédition est essentielle.</p>
+                    <h2>FOB</h2>
+                    <p>Vous contrôlez l'expédition mais assumez le risque pendant le transit.</p>
+                    <h2>CIF</h2>
+                    <p>Le vendeur organise l'expédition et l'assurance.</p>
+                    <h2>Lequel choisir?</h2>
+                    <ul><li><strong>FOB:</strong> Si vous avez des transitaires fiables.</li><li><strong>CIF:</strong> Si vous préférez un processus simple.</li></ul>
+                `,
+                ar: `
+                    <p>بالنسبة لفرق الشراء في أفريقيا وجنوب شرق آسيا وأمريكا الجنوبية، يعد فهم شروط الشحن أمرًا ضروريًا للتحكم في التكاليف وإدارة المخاطر.</p>
+                    <h2>FOB</h2>
+                    <p>تتحكم في الشحن ولكن تتحمل المخاطر أثناء النقل.</p>
+                    <h2>CIF</h2>
+                    <p>البائع ينظم الشحن والتأمين.</p>
+                    <h2>أيهما تختار؟</h2>
+                    <ul><li><strong>FOB:</strong> إذا كان لديك وكلاء شحن موثوقين.</li><li><strong>CIF:</strong> إذا كنت تفضل عملية أبسط.</li></ul>
+                `,
+                ru: `
+                    <p>Для закупочных команд в Африке, Юго-Восточной Азии и Южной Америке понимание условий доставки имеет решающее значение.</p>
+                    <h2>FOB</h2>
+                    <p>Вы контролируете доставку, но несете риск во время транзита.</p>
+                    <h2>CIF</h2>
+                    <p>Продавец организует доставку и страховку.</p>
+                    <h2>Что выбрать?</h2>
+                    <ul><li><strong>FOB:</strong> Если у вас есть надежные экспедиторы.</li><li><strong>CIF:</strong> Если вы предпочитаете простой процесс.</li></ul>
+                `,
+                pt: `
+                    <p>Para equipes de compras na África, Sudeste Asiático e América do Sul, entender os termos de envio é essencial para o controle de custos e gestão de riscos.</p>
+                    <h2>FOB</h2>
+                    <p>Você controla o envio mas assume o risco durante o trânsito.</p>
+                    <h2>CIF</h2>
+                    <p>O vendedor organiza o envio e o seguro.</p>
+                    <h2>Qual escolher?</h2>
+                    <ul><li><strong>FOB:</strong> Se você tem despachantes confiáveis.</li><li><strong>CIF:</strong> Se você prefere um processo simples.</li></ul>
+                `
+            }
+        },
+        // ===== 新闻6：B2B买家意向关键词（内容营销指南） =====
+        {
+            id: 6,
+            icon: "fa-chart-line",
+            color: "#F9A825",
+            date: "2025-12-15",
+            tags: ["SEO", "agricultural tractor", "farm machinery", "construction machinery"],
+            title: {
+                en: "B2B Buyer Intent Keywords for Africa & Asia: A Practical Content Map",
+                es: "Palabras Clave de Intención de Compra B2B para África y Asia: Un Mapa de Contenido Práctico",
+                fr: "Mots-clés d'Intention d'Achat B2B pour l'Afrique et l'Asie: Une Carte de Contenu Pratique",
+                ar: "كلمات مفتاحية لنية المشتري B2B لأفريقيا وآسيا: خريطة محتوى عملية",
+                ru: "Ключевые слова B2B для Африки и Азии: практическая карта контента",
+                pt: "Palavras-chave de Intenção de Compra B2B para África e Ásia: Um Mapa de Conteúdo Prático"
+            },
+            summary: {
+                en: "A content map that aligns with distributor and project buyer intent—model keywords, application keywords, and spare parts queries.",
+                es: "Un mapa de contenido alineado con la intención del comprador—palabras clave de modelo, aplicación y repuestos.",
+                fr: "Une carte de contenu alignée sur l'intention de l'acheteur.",
+                ar: "خريطة محتوى متوافقة مع نية المشتري.",
+                ru: "Карта контента, согласованная с намерениями покупателя.",
+                pt: "Um mapa de conteúdo alinhado com a intenção do comprador."
+            },
+            content: {
+                en: `
+                    <p>For exporters targeting Africa, Southeast Asia, Central Asia, and South America, understanding buyer intent keywords is critical for SEO success.</p>
+
+                    <h2>Model Keywords</h2>
+                    <p>Buyers often search by specific model numbers or series (e.g., "TTS series tractor price" or "HT35G mini excavator specifications"). Include model names and numbers in your product descriptions.</p>
+
+                    <h2>Application Keywords</h2>
+                    <p>Understand how buyers use the equipment—keywords like "tractor for maize farming Africa" or "excavator for road construction Central Asia" attract targeted traffic with high conversion potential.</p>
+
+                    <h2>Spare Parts Queries</h2>
+                    <p>Many buyers search for specific part numbers or compatibility (e.g., "disc blade 24 inch 6mm" or "tractor filter replacement"). Make sure your machinery spare parts catalog is searchable.</p>
+
+                    <h2>Solution-Based Keywords</h2>
+                    <p>Buyers also search for solutions (e.g., "how to reduce farm labor cost" or "best irrigation for dry regions"). Create content that addresses these pain points.</p>
+
+                    <p><strong>Need help with SEO content strategy for your target market?</strong> Contact us to develop a content plan that matches your export markets.</p>
+                `,
+                es: `
+                    <p>Para exportadores que se dirigen a África, Sudeste Asiático, Asia Central y Sudamérica, comprender las palabras clave de intención del comprador es fundamental para el éxito SEO.</p>
+                    <h2>Palabras clave de modelo</h2>
+                    <p>Los compradores buscan por números de modelo específicos.</p>
+                    <h2>Palabras clave de aplicación</h2>
+                    <p>Palabras clave como "tractor para maíz" o "excavadora para construcción".</p>
+                    <h2>Consultas de repuestos</h2>
+                    <p>Buscan números de pieza específicos o compatibilidad.</p>
+                    <h2>Palabras clave basadas en soluciones</h2>
+                    <p>Buscan soluciones como "cómo reducir costos laborales".</p>
+                `,
+                fr: `
+                    <p>Pour les exportateurs ciblant l'Afrique, l'Asie du Sud-Est, l'Asie centrale et l'Amérique du Sud, la compréhension des mots-clés d'intention d'achat est essentielle.</p>
+                    <h2>Mots-clés de modèle</h2>
+                    <p>Les acheteurs recherchent par numéros de modèle spécifiques.</p>
+                    <h2>Mots-clés d'application</h2>
+                    <p>Mots-clés comme "tracteur pour maïs" ou "excavatrice pour construction".</p>
+                    <h2>Recherches de pièces</h2>
+                    <p>Recherche de numéros de pièces spécifiques.</p>
+                    <h2>Mots-clés basés sur des solutions</h2>
+                    <p>Recherchent des solutions comme "comment réduire les coûts".</p>
+                `,
+                ar: `
+                    <p>بالنسبة للمصدرين الذين يستهدفون أفريقيا وجنوب شرق آسيا وآسيا الوسطى وأمريكا الجنوبية، فإن فهم كلمات المفتاحية لنية المشتري أمر بالغ الأهمية لنجاح تحسين محركات البحث.</p>
+                    <h2>كلمات مفتاحية للنموذج</h2>
+                    <p>يبحث المشترون بأرقام نماذج محددة.</p>
+                    <h2>كلمات مفتاحية للتطبيق</h2>
+                    <p>كلمات مثل "جرار للذرة" أو "حفارة للبناء".</p>
+                    <h2>استعلامات قطع الغيار</h2>
+                    <p>يبحثون عن أرقام قطع محددة أو التوافق.</p>
+                    <h2>كلمات مفتاحية قائمة على الحلول</h2>
+                    <p>يبحثون عن حلول مثل "كيفية تقليل تكاليف العمالة".</p>
+                `,
+                ru: `
+                    <p>Для экспортеров, ориентированных на Африку, Юго-Восточную Азию, Центральную Азию и Южную Америку, понимание ключевых слов намерений покупателя имеет решающее значение.</p>
+                    <h2>Ключевые слова моделей</h2>
+                    <p>Покупатели ищут по конкретным номерам моделей.</p>
+                    <h2>Ключевые слова применения</h2>
+                    <p>Слова типа "трактор для кукурузы" или "экскаватор для строительства".</p>
+                    <h2>Запросы запчастей</h2>
+                    <p>Ищут конкретные номера деталей или совместимость.</p>
+                    <h2>Ключевые слова на основе решений</h2>
+                    <p>Ищут решения, такие как "как снизить затраты на рабочую силу".</p>
+                `,
+                pt: `
+                    <p>Para exportadores que visam África, Sudeste Asiático, Ásia Central e América do Sul, entender as palavras-chave de intenção do comprador é fundamental para o sucesso do SEO.</p>
+                    <h2>Palavras-chave de modelo</h2>
+                    <p>Os compradores pesquisam por números de modelo específicos.</p>
+                    <h2>Palavras-chave de aplicação</h2>
+                    <p>Palavras como "trator para milho" ou "escavadeira para construção".</p>
+                    <h2>Consultas de peças</h2>
+                    <p>Buscam números de peças específicos ou compatibilidade.</p>
+                    <h2>Palavras-chave baseadas em soluções</h2>
+                    <p>Buscam soluções como "como reduzir custos trabalhistas".</p>
+                `
+            }
+        }
     ];
 
+    // ============================================================
+    //  渲染逻辑
+    // ============================================================
     let currentLang = localStorage.getItem('hecoth_lang') || 'en';
 
     function switchLanguage(lang) {
@@ -319,63 +856,160 @@
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
         });
-        updatePageLanguage(lang);
         document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
-        renderNews();
+        renderPage();
     }
 
-    function updatePageLanguage(lang) {
+    function updatePageLanguage() {
         document.querySelectorAll('[data-lang-key]').forEach(el => {
             const key = el.getAttribute('data-lang-key');
-            if (translations[lang] && translations[lang][key]) {
-                if (key === 'news_title') {
-                    el.innerHTML = translations[lang][key];
-                } else {
-                    el.textContent = translations[lang][key];
-                }
+            if (translations[currentLang] && translations[currentLang][key]) {
+                el.textContent = translations[currentLang][key];
             }
         });
     }
 
-    function renderNews() {
-        const grid = document.getElementById('newsGrid');
-        if (!grid) return;
+    function getLocalizedText(obj, lang) {
+        if (obj && obj[lang]) return obj[lang];
+        if (obj && obj.en) return obj.en;
+        return '';
+    }
+
+    function renderNewsList() {
+        const container = document.getElementById('newsContainer');
+        const t = translations[currentLang];
         
-        grid.innerHTML = newsData.map(n => {
-            const title = translations[currentLang]?.[n.key + '_title'] || n.key + '_title';
-            const summary = translations[currentLang]?.[n.key + '_summary'] || n.key + '_summary';
-            const readMore = translations[currentLang]?.read_more || 'Read More →';
+        let html = `
+            <div class="text-center mb-12">
+                <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-newspaper mr-2"></i> ${t.news_list_title || 'News & SEO Guides'}</span>
+                <h1 class="text-4xl font-bold mt-2">${t.news_list_title || 'News & SEO Guides'}</h1>
+                <p class="text-gray-500 mt-2 max-w-2xl mx-auto">${t.news_list_subtitle || 'Export Insights for Overseas B2B Buyers'}</p>
+                <p class="text-sm text-gray-400 mt-3 max-w-3xl mx-auto">${t.news_list_desc || ''}</p>
+            </div>
+            <div class="space-y-8">
+        `;
+
+        newsData.forEach(news => {
+            const title = getLocalizedText(news.title, currentLang);
+            const summary = getLocalizedText(news.summary, currentLang);
+            const tags = news.tags || [];
             
-            return `
-                <div class="news-card">
-                    <div class="p-6">
-                        <div class="flex items-center gap-4">
-                            <div class="news-icon"><i class="fas ${n.icon}"></i></div>
-                            <div>
-                                <p class="text-xs text-gray-500">${n.date}</p>
-                                <h3 class="font-bold text-lg">${title}</h3>
+            html += `
+                <div class="news-card p-6 hover:shadow-lg transition cursor-pointer" onclick="location.href='?id=${news.id}'">
+                    <div class="flex items-start gap-4">
+                        <div class="news-icon flex-shrink-0"><i class="fas ${news.icon}"></i></div>
+                        <div class="flex-1">
+                            <p class="text-xs text-gray-500">${news.date}</p>
+                            <h3 class="text-xl font-bold mt-1 hover:text-[#2E7D32] transition">${title}</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                ${tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
                             </div>
+                            <p class="text-gray-600 text-sm mt-3 leading-relaxed">${summary}</p>
+                            <a href="?id=${news.id}" class="text-[#2E7D32] font-semibold text-sm mt-3 inline-block hover:underline">${t.read_more || 'Read more'} →</a>
                         </div>
-                        <p class="text-gray-600 text-sm mt-3 leading-relaxed">${summary}</p>
-                        <a href="/contact.html" class="text-[#2E7D32] font-semibold text-sm mt-3 inline-block hover:underline">${readMore}</a>
                     </div>
                 </div>
             `;
-        }).join('');
+        });
+
+        // Contact Sales CTA
+        html += `
+            <div class="mt-12 bg-primary-gradient rounded-2xl p-8 text-center border border-gray-200">
+                <h3 class="text-xl font-bold" style="color:var(--primary);">${t.contact_sales || 'Need sourcing support?'}</h3>
+                <p class="text-gray-600 mt-2">${t.contact_sales_desc || 'Tell us your target market, quantity, and technical requirements. We respond with recommended models and an export plan.'}</p>
+                <a href="/contact.html" class="btn-primary mt-4 inline-block">${t.contact_sales_btn || 'Contact Sales'} →</a>
+            </div>
+        `;
+
+        html += `</div>`;
+        container.innerHTML = html;
     }
 
+    function renderNewsDetail(newsId) {
+        const news = newsData.find(n => n.id === parseInt(newsId));
+        const container = document.getElementById('newsContainer');
+        const t = translations[currentLang];
+
+        if (!news) {
+            renderNewsList();
+            return;
+        }
+
+        const title = getLocalizedText(news.title, currentLang);
+        const content = getLocalizedText(news.content, currentLang);
+        const tags = news.tags || [];
+
+        // 滚动到顶部
+        window.scrollTo(0, 0);
+
+        container.innerHTML = `
+            <div>
+                <a href="?page=news" class="inline-flex items-center text-[#2E7D32] font-medium hover:underline mb-6">
+                    <i class="fas fa-arrow-left mr-2"></i> ${t.back_to_news || '← Back to News'}
+                </a>
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 md:p-8">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="news-icon"><i class="fas ${news.icon}"></i></div>
+                        <div>
+                            <p class="text-xs text-gray-500">${news.date}</p>
+                            <h1 class="text-2xl md:text-3xl font-bold">${title}</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-2 mb-6">
+                        ${tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                    <div class="news-detail-content prose prose-green max-w-none">
+                        ${content}
+                    </div>
+                    <div class="mt-8 pt-6 border-t border-gray-200">
+                        <a href="/contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> ${t.contact_sales_btn || 'Contact Sales'}</a>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderPage() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const newsId = urlParams.get('id');
+        const page = urlParams.get('page');
+
+        if (newsId && !page) {
+            renderNewsDetail(newsId);
+        } else {
+            renderNewsList();
+        }
+        updatePageLanguage();
+    }
+
+    // ===== 初始化 =====
     document.addEventListener('DOMContentLoaded', function() {
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
         });
-        updatePageLanguage(currentLang);
         document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
-        renderNews();
+        renderPage();
+
+        // 监听浏览器历史变化（后退/前进）
+        window.addEventListener('popstate', function() {
+            renderPage();
+        });
     });
 
     // ===== 移动端菜单 =====
     document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
         document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+
+    // ===== 处理点击"Read more"时的平滑过渡 =====
+    document.addEventListener('click', function(e) {
+        const link = e.target.closest('a[href*="?id="]');
+        if (link) {
+            e.preventDefault();
+            const href = link.getAttribute('href');
+            history.pushState(null, '', href);
+            renderPage();
+        }
     });
 </script>
 </body>
