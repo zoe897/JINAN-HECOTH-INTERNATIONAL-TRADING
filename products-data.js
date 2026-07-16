@@ -3367,7 +3367,7 @@ const Products = [
         id: "TR-003",
         category: "tractors",
         subCategory: null,
-        image: "/image/tractor-ttb.jpg",
+        image: "/image/ttb90.jpg",
         name: {
             en: "TTB Series Heavy-Duty Tractor (90-120HP) - Large Scale Farming Power",
             es: "Tractor Pesado Serie TTB (90-120HP) - Potencia para Agricultura a Gran Escala",
@@ -3549,7 +3549,7 @@ const Products = [
         id: "TR-004",
         category: "tractors",
         subCategory: null,
-        image: "/image/tractor-tte-70-80.jpg",
+        image: "/image/tte70.jpg",
         name: {
             en: "TTE Series Medium-Duty Tractor (70-80HP) - Versatile Farm Power",
             es: "Tractor de Potencia Media Serie TTE (70-80HP) - Potencia Agrícola Versátil",
@@ -3743,7 +3743,7 @@ const Products = [
         id: "TR-005",
         category: "tractors",
         subCategory: null,
-        image: "/image/tractor-tts-45-50.jpg",
+        image: "/image/tts45.png",
         name: {
             en: "TTS Series Orchard & Greenhouse Tractor (45-50HP) - Narrow Width Specialist",
             es: "Tractor para Huertos e Invernaderos Serie TTS (45-50HP) - Especialista en Anchura Estrecha",
@@ -3926,7 +3926,7 @@ const Products = [
         id: "TR-006",
         category: "tractors",
         subCategory: null,
-        image: "/image/tractor-tte-50-60.jpg",
+        image: "/image/tte50.jpg",
         name: {
             en: "TTE Series Medium Tractor (50-60HP) - Versatile Farm Power",
             es: "Tractor de Potencia Media Serie TTE (50-60HP) - Potencia Agrícola Versátil",
