@@ -4113,6 +4113,1031 @@ const Products = [
             application: "Medium-scale farming, diversified agriculture, transport, implement operations, mixed farming"
         }
     },
+        // ============================================================
+    //  🧪 农机具 → 施肥机械 → 牵引式搅拌加肥机
+    // ============================================================
+    {
+        id: "FT-002",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/mixer-trailed.jpg",
+        name: {
+            en: "Trailed Fertilizer Mixer & Spreader - 1.2-2T Capacity",
+            es: "Mezclador y Esparcidor de Fertilizante Remolcado - Capacidad 1.2-2T",
+            fr: "Mélangeur et Épandeur d'Engrais Remorqué - Capacité 1.2-2T",
+            ar: "خلاط وناشر أسمدة مقطور - سعة 1.2-2 طن",
+            ru: "Прицепной смеситель и разбрасыватель удобрений - 1.2-2 т",
+            pt: "Misturador e Espalhador de Fertilizante Reboque - Capacidade 1.2-2T"
+        },
+        desc: {
+            en: "The Trailed Fertilizer Mixer & Spreader is a versatile machine for mixing and spreading granular fertilizers, grain, wheat bran, corn flour, and feed. Powered by tractor PTO or diesel engine, it features a spiral auger for thorough mixing and 360° rotating discharge pipe. Available in 1.2m³ and 2m³ capacities with load capacities up to 2 tons. Ideal for large-scale farming operations requiring efficient fertilizer handling and application.",
+            es: "El mezclador y esparcidor de fertilizante remolcado es una máquina versátil para mezclar y esparcir fertilizantes granulares, granos y piensos. Disponible en capacidades de 1.2m³ y 2m³. Ideal para operaciones agrícolas a gran escala.",
+            fr: "Le mélangeur et épandeur d'engrais remorqué est une machine polyvalente pour mélanger et épandre des engrais granulaires. Disponible en capacités de 1.2m³ et 2m³. Idéal pour les opérations agricoles à grande échelle.",
+            ar: "خلاط وناشر الأسمدة المقطور هو آلة متعددة الاستخدامات لخلط ونشر الأسمدة الحبيبية. متوفر بسعات 1.2 م³ و 2 م³. مثالي للعمليات الزراعية واسعة النطاق.",
+            ru: "Прицепной смеситель-разбрасыватель - универсальная машина для смешивания и разбрасывания гранулированных удобрений. Доступен в 1.2м³ и 2м³.",
+            pt: "O misturador e espalhador de fertilizante reboque é uma máquina versátil para misturar e espalhar fertilizantes granulares. Disponível em 1.2m³ e 2m³."
+        },
+        features: {
+            en: [
+                "1.2m³ or 2m³ hopper capacity for flexible operation",
+                "Load capacity up to 2 tons for efficient handling",
+                "Spiral auger mixing design for thorough fertilizer blending",
+                "360° rotating discharge pipe for easy positioning",
+                "Prevents fertilizer adhesion to pipe walls with spiral design",
+                "Thickened carbon steel body for durability",
+                "Heavy-duty tires for stability and safety",
+                "Minimum 30kW tractor power requirement",
+                "Suitable for grain, fertilizer, bran, corn flour, and feed"
+            ],
+            es: [
+                "Capacidad de tolva de 1.2m³ o 2m³",
+                "Capacidad de carga hasta 2 toneladas",
+                "Diseño de mezcla con sinfín espiral",
+                "Tubo de descarga giratorio 360°",
+                "Evita la adhesión de fertilizante a las paredes",
+                "Cuerpo de acero al carbono reforzado",
+                "Neumáticos resistentes",
+                "Requiere tractor de ≥30kW",
+                "Adecuado para granos, fertilizantes y piensos"
+            ],
+            fr: [
+                "Capacité de trémie 1.2m³ ou 2m³",
+                "Capacité de charge jusqu'à 2 tonnes",
+                "Mélange par vis sans fin",
+                "Tube de décharge rotatif 360°",
+                "Évite l'adhésion du fertilisant aux parois",
+                "Corps en acier au carbone renforcé",
+                "Pneus résistants",
+                "Tracteur ≥30kW requis",
+                "Convient aux céréales, engrais et aliments"
+            ],
+            ar: [
+                "سعة قادوس 1.2 م³ أو 2 م³",
+                "سعة تحميل تصل إلى 2 طن",
+                "تصميم خلط لولبي حلزوني",
+                "أنبوب تفريغ دوار 360°",
+                "يمنع التصاق الأسمدة بالجدران",
+                "هيكل من الصلب الكربوني السميك",
+                "إطارات مقاومة",
+                "يتطلب جرار ≥30 كيلوواط",
+                "مناسب للحبوب والأسمدة والأعلاف"
+            ],
+            ru: [
+                "Емкость бункера 1.2м³ или 2м³",
+                "Грузоподъемность до 2 тонн",
+                "Спиральный шнек для смешивания",
+                "Поворотная труба 360°",
+                "Предотвращает прилипание удобрений",
+                "Корпус из толстой углеродистой стали",
+                "Прочные шины",
+                "Трактор ≥30 кВт",
+                "Подходит для зерна, удобрений и кормов"
+            ],
+            pt: [
+                "Capacidade de tremonha 1.2m³ ou 2m³",
+                "Capacidade de carga até 2 toneladas",
+                "Mistura com rosca helicoidal",
+                "Tubo de descarga rotativo 360°",
+                "Evita aderência de fertilizante",
+                "Corpo em aço carbono reforçado",
+                "Pneus resistentes",
+                "Trator ≥30kW necessário",
+                "Adequado para grãos, fertilizantes e ração"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1.2m³ / 2m³",
+                "Hopper Volume": "1.2m³ / 2m³",
+                "Load Capacity": "1t / 2t",
+                "Power Requirement": "≥30kW",
+                "Machine Size (L×W×H)": "3400×1790×2650mm / 3750×1850×2800mm",
+                "Discharge Height": "2.2m / 2.4m",
+                "Discharge Radius": "3.2m (both models)",
+                "Weight": "390kg / 560kg",
+                "Tire Type": "165/70R13 / 10.0/75-15.3"
+            },
+            es: {
+                "Modelos": "1.2m³ / 2m³",
+                "Volumen de tolva": "1.2m³ / 2m³",
+                "Capacidad de carga": "1t / 2t",
+                "Potencia requerida": "≥30kW",
+                "Tamaño (L×A×H)": "3400×1790×2650mm / 3750×1850×2800mm",
+                "Altura de descarga": "2.2m / 2.4m",
+                "Radio de descarga": "3.2m",
+                "Peso": "390kg / 560kg",
+                "Neumáticos": "165/70R13 / 10.0/75-15.3"
+            },
+            fr: {
+                "Modèles": "1.2m³ / 2m³",
+                "Volume trémie": "1.2m³ / 2m³",
+                "Capacité de charge": "1t / 2t",
+                "Puissance requise": "≥30kW",
+                "Taille (L×l×H)": "3400×1790×2650mm / 3750×1850×2800mm",
+                "Hauteur de décharge": "2.2m / 2.4m",
+                "Rayon de décharge": "3.2m",
+                "Poids": "390kg / 560kg",
+                "Pneus": "165/70R13 / 10.0/75-15.3"
+            },
+            ar: {
+                "الموديلات": "1.2 م³ / 2 م³",
+                "سعة القادوس": "1.2 م³ / 2 م³",
+                "سعة التحميل": "1 طن / 2 طن",
+                "القوة المطلوبة": "≥30 كيلوواط",
+                "الحجم (طول×عرض×ارتفاع)": "3400×1790×2650 ملم / 3750×1850×2800 ملم",
+                "ارتفاع التفريغ": "2.2 م / 2.4 م",
+                "نصف قطر التفريغ": "3.2 م",
+                "الوزن": "390 كجم / 560 كجم",
+                "الإطارات": "165/70R13 / 10.0/75-15.3"
+            },
+            ru: {
+                "Модели": "1.2м³ / 2м³",
+                "Объем бункера": "1.2м³ / 2м³",
+                "Грузоподъемность": "1т / 2т",
+                "Мощность": "≥30 кВт",
+                "Размеры": "3400×1790×2650мм / 3750×1850×2800мм",
+                "Высота выгрузки": "2.2м / 2.4м",
+                "Радиус выгрузки": "3.2м",
+                "Вес": "390кг / 560кг",
+                "Шины": "165/70R13 / 10.0/75-15.3"
+            },
+            pt: {
+                "Modelos": "1.2m³ / 2m³",
+                "Volume tremonha": "1.2m³ / 2m³",
+                "Capacidade de carga": "1t / 2t",
+                "Potência necessária": "≥30kW",
+                "Tamanho (C×L×A)": "3400×1790×2650mm / 3750×1850×2800mm",
+                "Altura de descarga": "2.2m / 2.4m",
+                "Raio de descarga": "3.2m",
+                "Peso": "390kg / 560kg",
+                "Pneus": "165/70R13 / 10.0/75-15.3"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale farming, fertilizer blending and application, grain handling, feed processing"
+        }
+    },
+
+    // ============================================================
+    //  🧪 农机具 → 施肥机械 → 悬挂式加肥机
+    // ============================================================
+    {
+        id: "FT-003",
+        category: "farm-machinery",
+        subCategory: "fertilizing",
+        image: "/image/spreader-mounted.jpg",
+        name: {
+            en: "Mounted Fertilizer Spreader - Electric & Hydraulic Drive Options",
+            es: "Esparcidor de Fertilizante Montado - Opciones de Accionamiento Eléctrico e Hidráulico",
+            fr: "Épandeur d'Engrais Porté - Options d'Entraînement Électrique et Hydraulique",
+            ar: "ناشر أسمدة مثبت - خيارات محرك كهربائي وهيدروليكي",
+            ru: "Навесной разбрасыватель удобрений - Электрический и гидравлический привод",
+            pt: "Espalhador de Fertilizante Montado - Opções de Acionamento Elétrico e Hidráulico"
+        },
+        desc: {
+            en: "The Mounted Fertilizer Spreader is a versatile and efficient machine for fertilizer application. Available in electric motor and hydraulic motor drive options. Features stainless steel construction for corrosion resistance, 500kg/200kg tank capacity options, and 180° rotating discharge pipe. The spiral auger design prevents fertilizer adhesion to pipe walls. Quick connection to 12V battery or tractor hydraulic system. Ideal for farms seeking labor-saving fertilizer application solutions.",
+            es: "El esparcidor de fertilizante montado es una máquina versátil y eficiente. Disponible con motor eléctrico o hidráulico. Construcción en acero inoxidable, capacidad de 500/200kg y tubo giratorio 180°. Ideal para ahorrar mano de obra.",
+            fr: "L'épandeur d'engrais porté est une machine polyvalente. Disponible avec moteur électrique ou hydraulique. Construction en acier inoxydable, capacité 500/200kg et tube rotatif 180°.",
+            ar: "ناشر الأسمدة المثبت هو آلة متعددة الاستخدامات. متوفر بمحرك كهربائي أو هيدروليكي. هيكل من الفولاذ المقاوم للصدأ، سعة 500/200 كجم وأنبوب دوار 180°.",
+            ru: "Навесной разбрасыватель удобрений - универсальная машина. Доступен с электродвигателем или гидромотором. Корпус из нержавеющей стали, емкость 500/200 кг.",
+            pt: "O espalhador de fertilizante montado é uma máquina versátil. Disponível com motor elétrico ou hidráulico. Construção em aço inoxidável, capacidade 500/200kg."
+        },
+        features: {
+            en: [
+                "Electric motor or hydraulic motor drive options",
+                "Stainless steel construction for corrosion resistance",
+                "500kg or 200kg tank capacity options",
+                "180° rotating discharge pipe for flexible positioning",
+                "Spiral auger design prevents fertilizer adhesion",
+                "Quick connection to 12V battery or tractor hydraulics",
+                "Fast application speed up to 300kg/min",
+                "Adjustable discharge height (1.8-2.2m)",
+                "Durable and reliable operation"
+            ],
+            es: [
+                "Opciones de motor eléctrico o hidráulico",
+                "Construcción en acero inoxidable",
+                "Capacidad de tanque de 500kg o 200kg",
+                "Tubo de descarga giratorio 180°",
+                "Diseño de sinfín espiral",
+                "Conexión rápida a batería 12V",
+                "Velocidad de hasta 300kg/min",
+                "Altura ajustable 1.8-2.2m",
+                "Operación duradera y confiable"
+            ],
+            fr: [
+                "Options moteur électrique ou hydraulique",
+                "Construction en acier inoxydable",
+                "Capacité de réservoir 500kg ou 200kg",
+                "Tube de décharge rotatif 180°",
+                "Conception à vis sans fin",
+                "Connexion rapide à la batterie 12V",
+                "Vitesse jusqu'à 300kg/min",
+                "Hauteur réglable 1.8-2.2m",
+                "Fonctionnement durable"
+            ],
+            ar: [
+                "خيارات محرك كهربائي أو هيدروليكي",
+                "هيكل من الفولاذ المقاوم للصدأ",
+                "سعة خزان 500 كجم أو 200 كجم",
+                "أنبوب تفريغ دوار 180°",
+                "تصميم لولبي حلزوني",
+                "اتصال سريع ببطارية 12 فولت",
+                "سرعة تصل إلى 300 كجم/دقيقة",
+                "ارتفاع قابل للتعديل 1.8-2.2 م",
+                "تشغيل متين وموثوق"
+            ],
+            ru: [
+                "Опции электродвигателя или гидромотора",
+                "Корпус из нержавеющей стали",
+                "Емкость бака 500кг или 200кг",
+                "Поворотная труба 180°",
+                "Шнек для предотвращения налипания",
+                "Подключение к 12В аккумулятору",
+                "Скорость до 300 кг/мин",
+                "Регулируемая высота 1.8-2.2м",
+                "Надежная работа"
+            ],
+            pt: [
+                "Opções de motor elétrico ou hidráulico",
+                "Construção em aço inoxidável",
+                "Capacidade do tanque 500kg ou 200kg",
+                "Tubo de descarga rotativo 180°",
+                "Design de rosca helicoidal",
+                "Conexão rápida à bateria 12V",
+                "Velocidade até 300kg/min",
+                "Altura ajustável 1.8-2.2m",
+                "Operação durável"
+            ]
+        },
+        specs: {
+            en: {
+                "Drive Options": "Electric Motor / Hydraulic Motor",
+                "Tank Capacity": "500kg / 200kg",
+                "Application Speed": "300kg/min",
+                "Discharge Height": "1.8-2.2m (adjustable)",
+                "Machine Size (L×W×H)": "1350×600×750mm / 1050×500×600mm",
+                "Tube Diameter": "168mm / 140mm",
+                "Weight": "190kg / 150kg",
+                "Power Source": "12V Battery / Tractor Hydraulics"
+            },
+            es: {
+                "Opciones de accionamiento": "Motor eléctrico / Motor hidráulico",
+                "Capacidad del tanque": "500kg / 200kg",
+                "Velocidad": "300kg/min",
+                "Altura de descarga": "1.8-2.2m (ajustable)",
+                "Tamaño (L×A×H)": "1350×600×750mm / 1050×500×600mm",
+                "Diámetro del tubo": "168mm / 140mm",
+                "Peso": "190kg / 150kg",
+                "Fuente de alimentación": "Batería 12V / Hidráulica del tractor"
+            },
+            fr: {
+                "Options d'entraînement": "Moteur électrique / Moteur hydraulique",
+                "Capacité du réservoir": "500kg / 200kg",
+                "Vitesse": "300kg/min",
+                "Hauteur de décharge": "1.8-2.2m (réglable)",
+                "Taille": "1350×600×750mm / 1050×500×600mm",
+                "Diamètre du tube": "168mm / 140mm",
+                "Poids": "190kg / 150kg",
+                "Alimentation": "Batterie 12V / Hydraulique tracteur"
+            },
+            ar: {
+                "خيارات التشغيل": "محرك كهربائي / محرك هيدروليكي",
+                "سعة الخزان": "500 كجم / 200 كجم",
+                "السرعة": "300 كجم/دقيقة",
+                "ارتفاع التفريغ": "1.8-2.2 م (قابل للتعديل)",
+                "الحجم (طول×عرض×ارتفاع)": "1350×600×750 ملم / 1050×500×600 ملم",
+                "قطر الأنبوب": "168 ملم / 140 ملم",
+                "الوزن": "190 كجم / 150 كجم",
+                "مصدر الطاقة": "بطارية 12 فولت / هيدروليك الجرار"
+            },
+            ru: {
+                "Привод": "Электродвигатель / Гидромотор",
+                "Емкость": "500кг / 200кг",
+                "Скорость": "300 кг/мин",
+                "Высота": "1.8-2.2м",
+                "Размеры": "1350×600×750мм / 1050×500×600мм",
+                "Диаметр": "168мм / 140мм",
+                "Вес": "190кг / 150кг",
+                "Питание": "12В / Гидравлика"
+            },
+            pt: {
+                "Opções de acionamento": "Motor elétrico / Motor hidráulico",
+                "Capacidade do tanque": "500kg / 200kg",
+                "Velocidade": "300kg/min",
+                "Altura de descarga": "1.8-2.2m (ajustável)",
+                "Tamanho": "1350×600×750mm / 1050×500×600mm",
+                "Diâmetro do tubo": "168mm / 140mm",
+                "Peso": "190kg / 150kg",
+                "Fonte de energia": "Bateria 12V / Hidráulica do trator"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Fertilizer application, grain handling, small to medium farms, greenhouse operations"
+        }
+    },
+
+    // ============================================================
+    //  🔩 农机具 → 其他农机具 → 自走式三轮高炮运粮加肥车
+    // ============================================================
+    {
+        id: "OT-003",
+        category: "farm-machinery",
+        subCategory: "other-farm",
+        image: "/image/self-propelled.jpg",
+        name: {
+            en: "Self-Propelled 3-Wheel Grain & Fertilizer Transporter - 3m³ Capacity",
+            es: "Transportador Autopropulsado de Grano y Fertilizante de 3 Ruedas - Capacidad 3m³",
+            fr: "Transporteur Automoteur de Grain et Engrais à 3 Roues - Capacité 3m³",
+            ar: "ناقل حبوب وأسمدة ذاتي الحركة 3 عجلات - سعة 3 م³",
+            ru: "Самоходный 3-колесный транспортер зерна и удобрений - 3м³",
+            pt: "Transportador Autopropulsado de Grão e Fertilizante de 3 Rodas - Capacidade 3m³"
+        },
+        desc: {
+            en: "The Self-Propelled 3-Wheel Grain & Fertilizer Transporter is a versatile machine for grain and fertilizer handling in large-scale farming. Features a Wuzheng chassis with Changchai engine, thickened steel body, and hydraulic control system. The 3m³ hopper with auger delivery system enables fast loading and unloading with 360° rotating discharge pipe. LED lights for night operation. Ideal for rice, wheat, rapeseed, and other granular crop transport and fertilizer application.",
+            es: "El transportador autopropulsado de 3 ruedas es una máquina versátil para el manejo de granos y fertilizantes. Chasis Wuzheng con motor Changchai, cuerpo de acero reforzado y sistema hidráulico. Ideal para arroz, trigo y otros cultivos.",
+            fr: "Le transporteur automoteur à 3 roues est une machine polyvalente pour la manutention des grains et engrais. Châssis Wuzheng avec moteur Changchai. Idéal pour le riz, le blé et autres cultures.",
+            ar: "ناقل الحبوب والأسمدة ذاتي الحركة هو آلة متعددة الاستخدامات. هيكل Wuzheng مع محرك Changchai. مثالي للأرز والقمح والمحاصيل الأخرى.",
+            ru: "Самоходный 3-колесный транспортер - универсальная машина для зерна и удобрений. Шасси Wuzheng с двигателем Changchai.",
+            pt: "O transportador autopropulsado de 3 rodas é uma máquina versátil. Chassi Wuzheng com motor Changchai."
+        },
+        features: {
+            en: [
+                "Wuzheng chassis with Changchai engine for reliability",
+                "Thickened steel body for durability",
+                "3m³ hopper capacity for efficient transport",
+                "Hydraulic control system for easy operation",
+                "360° rotating discharge pipe with height adjustment",
+                "Internal auger for fast loading and unloading",
+                "LED lights for night operation",
+                "Heavy-duty tires for stability",
+                "Spreader disc option available (customizable)",
+                "4-ton load capacity for large-scale operations"
+            ],
+            es: [
+                "Chasis Wuzheng con motor Changchai",
+                "Cuerpo de acero reforzado",
+                "Capacidad de tolva de 3m³",
+                "Sistema de control hidráulico",
+                "Tubo de descarga giratorio 360°",
+                "Sinfín interno para carga rápida",
+                "Luces LED para operación nocturna",
+                "Neumáticos resistentes",
+                "Disco esparcidor opcional (personalizable)",
+                "Capacidad de carga de 4 toneladas"
+            ],
+            fr: [
+                "Châssis Wuzheng avec moteur Changchai",
+                "Corps en acier renforcé",
+                "Capacité de trémie 3m³",
+                "Système de contrôle hydraulique",
+                "Tube de décharge rotatif 360°",
+                "Vis sans fin pour chargement rapide",
+                "Lumières LED pour fonctionnement nocturne",
+                "Pneus résistants",
+                "Disque d'épandage optionnel",
+                "Capacité de charge 4 tonnes"
+            ],
+            ar: [
+                "هيكل Wuzheng مع محرك Changchai",
+                "هيكل صلب سميك",
+                "سعة قادوس 3 م³",
+                "نظام تحكم هيدروليكي",
+                "أنبوب تفريغ دوار 360°",
+                "مثقب داخلي للتحميل السريع",
+                "أضواء LED للعمل الليلي",
+                "إطارات مقاومة",
+                "قرص نثر اختياري",
+                "سعة تحميل 4 طن"
+            ],
+            ru: [
+                "Шасси Wuzheng с двигателем Changchai",
+                "Утолщенный стальной корпус",
+                "Бункер 3м³",
+                "Гидравлическое управление",
+                "Поворотная труба 360°",
+                "Шнек для быстрой загрузки",
+                "Светодиодные фары",
+                "Прочные шины",
+                "Опция разбрасывающего диска",
+                "Грузоподъемность 4 т"
+            ],
+            pt: [
+                "Chassi Wuzheng com motor Changchai",
+                "Corpo em aço reforçado",
+                "Capacidade de tremonha 3m³",
+                "Sistema de controle hidráulico",
+                "Tubo de descarga rotativo 360°",
+                "Rosca para carregamento rápido",
+                "Luzes LED para operação noturna",
+                "Pneus resistentes",
+                "Disco espalhador opcional",
+                "Capacidade de carga 4 toneladas"
+            ]
+        },
+        specs: {
+            en: {
+                "Hopper Volume": "3m³",
+                "Load Capacity": "4 tons",
+                "Engine Power": "≥32kW (Changchai)",
+                "Machine Size (L×W×H)": "5300×1600×2300mm",
+                "Discharge Height": "3.8m",
+                "Weight": "1880kg",
+                "Wheelbase": "1300mm",
+                "Tire Type": "Front 6.00-14 / Rear 7.5-16 (customizable)",
+                "Chassis": "Wuzheng"
+            },
+            es: {
+                "Volumen de tolva": "3m³",
+                "Capacidad de carga": "4 toneladas",
+                "Potencia del motor": "≥32kW (Changchai)",
+                "Tamaño": "5300×1600×2300mm",
+                "Altura de descarga": "3.8m",
+                "Peso": "1880kg",
+                "Distancia entre ejes": "1300mm",
+                "Neumáticos": "Del. 6.00-14 / Tras. 7.5-16",
+                "Chasis": "Wuzheng"
+            },
+            fr: {
+                "Volume trémie": "3m³",
+                "Capacité de charge": "4 tonnes",
+                "Puissance moteur": "≥32kW (Changchai)",
+                "Taille": "5300×1600×2300mm",
+                "Hauteur de décharge": "3.8m",
+                "Poids": "1880kg",
+                "Empattement": "1300mm",
+                "Pneus": "Av. 6.00-14 / Arr. 7.5-16",
+                "Châssis": "Wuzheng"
+            },
+            ar: {
+                "سعة القادوس": "3 م³",
+                "سعة التحميل": "4 طن",
+                "قوة المحرك": "≥32 كيلوواط (Changchai)",
+                "الحجم (طول×عرض×ارتفاع)": "5300×1600×2300 ملم",
+                "ارتفاع التفريغ": "3.8 م",
+                "الوزن": "1880 كجم",
+                "قاعدة العجلات": "1300 ملم",
+                "الإطارات": "أمامي 6.00-14 / خلفي 7.5-16",
+                "الهيكل": "Wuzheng"
+            },
+            ru: {
+                "Объем бункера": "3м³",
+                "Грузоподъемность": "4 т",
+                "Двигатель": "≥32 кВт (Changchai)",
+                "Размеры": "5300×1600×2300мм",
+                "Высота": "3.8м",
+                "Вес": "1880кг",
+                "Колесная база": "1300мм",
+                "Шины": "Перед 6.00-14 / Зад 7.5-16",
+                "Шасси": "Wuzheng"
+            },
+            pt: {
+                "Volume tremonha": "3m³",
+                "Capacidade de carga": "4 toneladas",
+                "Potência do motor": "≥32kW (Changchai)",
+                "Tamanho": "5300×1600×2300mm",
+                "Altura de descarga": "3.8m",
+                "Peso": "1880kg",
+                "Distância entre eixos": "1300mm",
+                "Pneus": "Dianteiro 6.00-14 / Traseiro 7.5-16",
+                "Chassi": "Wuzheng"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale farming, grain transport, fertilizer application, rice/wheat/corn harvesting support"
+        }
+    },
+
+    // ============================================================
+    //  🔩 农机具 → 其他农机具 → 牵引式高炮运粮加肥撒肥机
+    // ============================================================
+    {
+        id: "OT-004",
+        category: "farm-machinery",
+        subCategory: "other-farm",
+        image: "/image/grain-trailed.jpg",
+        name: {
+            en: "Trailed Grain & Fertilizer Transporter - 3-9m³ Capacity",
+            es: "Transportador de Grano y Fertilizante Remolcado - Capacidad 3-9m³",
+            fr: "Transporteur de Grain et Engrais Remorqué - Capacité 3-9m³",
+            ar: "ناقل حبوب وأسمدة مقطور - سعة 3-9 م³",
+            ru: "Прицепной транспортер зерна и удобрений - 3-9м³",
+            pt: "Transportador de Grão e Fertilizante Reboque - Capacidade 3-9m³"
+        },
+        desc: {
+            en: "The Trailed Grain & Fertilizer Transporter is a versatile machine for grain and fertilizer handling in large-scale farming. Powered by tractor PTO, it features a large-capacity hopper (3-9m³) with auger delivery system and 360° rotating discharge pipe. Available in 3m³, 6m³, and 9m³ models with load capacities from 4 to 11 tons. Ideal for rice, wheat, corn, rapeseed, and other granular crop transport and fertilizer application in large fields.",
+            es: "El transportador remolcado de grano y fertilizante es una máquina versátil para el manejo en agricultura a gran escala. Disponible en modelos de 3, 6 y 9m³ con capacidades de carga de 4 a 11 toneladas.",
+            fr: "Le transporteur remorqué de grain et engrais est une machine polyvalente. Disponible en 3, 6 et 9m³ avec capacités de charge de 4 à 11 tonnes.",
+            ar: "ناقل الحبوب والأسمدة المقطور هو آلة متعددة الاستخدامات. متوفر بسعات 3 و 6 و 9 م³ بسعات تحميل 4 إلى 11 طن.",
+            ru: "Прицепной транспортер зерна и удобрений - универсальная машина. Доступен в 3, 6 и 9м³ с грузоподъемностью от 4 до 11 тонн.",
+            pt: "O transportador de grão e fertilizante reboque é uma máquina versátil. Disponível em 3, 6 e 9m³ com capacidades de carga de 4 a 11 toneladas."
+        },
+        features: {
+            en: [
+                "3m³, 6m³, or 9m³ hopper capacity for flexible operation",
+                "Load capacity from 4 to 11 tons for efficient transport",
+                "PTO-driven auger delivery system",
+                "360° rotating discharge pipe with height adjustment",
+                "Hydraulic control for easy operation",
+                "Thickened steel body for durability",
+                "Heavy-duty tires for stability",
+                "Spreader disc option available (customizable)",
+                "Applicable to rice, wheat, corn, rapeseed, and granular fertilizers"
+            ],
+            es: [
+                "Capacidad de tolva de 3, 6 o 9m³",
+                "Capacidad de carga de 4 a 11 toneladas",
+                "Sistema de descarga por sinfín accionado por TDF",
+                "Tubo de descarga giratorio 360°",
+                "Control hidráulico",
+                "Cuerpo de acero reforzado",
+                "Neumáticos resistentes",
+                "Disco esparcidor opcional",
+                "Adecuado para arroz, trigo, maíz y fertilizantes"
+            ],
+            fr: [
+                "Capacité de trémie 3, 6 ou 9m³",
+                "Capacité de charge de 4 à 11 tonnes",
+                "Système de décharge par vis sans fin entraînée par PTO",
+                "Tube de décharge rotatif 360°",
+                "Contrôle hydraulique",
+                "Corps en acier renforcé",
+                "Pneus résistants",
+                "Disque d'épandage optionnel",
+                "Convient au riz, blé, maïs et engrais"
+            ],
+            ar: [
+                "سعة قادوس 3 و 6 و 9 م³",
+                "سعة تحميل 4 إلى 11 طن",
+                "نظام تفريغ لولبي يعمل بـ PTO",
+                "أنبوب تفريغ دوار 360°",
+                "تحكم هيدروليكي",
+                "هيكل صلب سميك",
+                "إطارات مقاومة",
+                "قرص نثر اختياري",
+                "مناسب للأرز والقمح والذرة والأسمدة"
+            ],
+            ru: [
+                "Бункер 3, 6 или 9м³",
+                "Грузоподъемность от 4 до 11 тонн",
+                "Шнек с приводом от ВОМ",
+                "Поворотная труба 360°",
+                "Гидравлическое управление",
+                "Утолщенный стальной корпус",
+                "Прочные шины",
+                "Опция разбрасывающего диска",
+                "Подходит для зерна и удобрений"
+            ],
+            pt: [
+                "Capacidade de tremonha 3, 6 ou 9m³",
+                "Capacidade de carga de 4 a 11 toneladas",
+                "Sistema de descarga por rosca acionado por TDP",
+                "Tubo de descarga rotativo 360°",
+                "Controle hidráulico",
+                "Corpo em aço reforçado",
+                "Pneus resistentes",
+                "Disco espalhador opcional",
+                "Adequado para arroz, trigo, milho e fertilizantes"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "3m³ / 6m³ / 9m³",
+                "Hopper Volume": "3m³ / 6m³ / 9m³",
+                "Load Capacity": "4t / 7t / 11t",
+                "Power Requirement": "≥40kW / ≥60kW / ≥90kW",
+                "Machine Size (L×W×H)": "4050×1600×2000mm / 4580×2060×2500mm / 5170×2400×2900mm",
+                "Discharge Height": "3.5m / 4.3m / 4.9m",
+                "Weight": "1100kg / 1300kg / 1900kg",
+                "Wheelbase": "1300mm / 1700mm / 2030mm",
+                "Tire Type": "11.5/80-15.3 / 14-17.5 / 40/60-22.5"
+            },
+            es: {
+                "Modelos": "3m³ / 6m³ / 9m³",
+                "Volumen de tolva": "3m³ / 6m³ / 9m³",
+                "Capacidad de carga": "4t / 7t / 11t",
+                "Potencia requerida": "≥40kW / ≥60kW / ≥90kW",
+                "Tamaño": "4050×1600×2000mm / 4580×2060×2500mm / 5170×2400×2900mm",
+                "Altura de descarga": "3.5m / 4.3m / 4.9m",
+                "Peso": "1100kg / 1300kg / 1900kg",
+                "Distancia entre ejes": "1300mm / 1700mm / 2030mm",
+                "Neumáticos": "11.5/80-15.3 / 14-17.5 / 40/60-22.5"
+            },
+            fr: {
+                "Modèles": "3m³ / 6m³ / 9m³",
+                "Volume trémie": "3m³ / 6m³ / 9m³",
+                "Capacité de charge": "4t / 7t / 11t",
+                "Puissance requise": "≥40kW / ≥60kW / ≥90kW",
+                "Taille": "4050×1600×2000mm / 4580×2060×2500mm / 5170×2400×2900mm",
+                "Hauteur de décharge": "3.5m / 4.3m / 4.9m",
+                "Poids": "1100kg / 1300kg / 1900kg",
+                "Empattement": "1300mm / 1700mm / 2030mm",
+                "Pneus": "11.5/80-15.3 / 14-17.5 / 40/60-22.5"
+            },
+            ar: {
+                "الموديلات": "3 م³ / 6 م³ / 9 م³",
+                "سعة القادوس": "3 م³ / 6 م³ / 9 م³",
+                "سعة التحميل": "4 طن / 7 طن / 11 طن",
+                "القوة المطلوبة": "≥40 كيلوواط / ≥60 كيلوواط / ≥90 كيلوواط",
+                "الحجم (طول×عرض×ارتفاع)": "4050×1600×2000 ملم / 4580×2060×2500 ملم / 5170×2400×2900 ملم",
+                "ارتفاع التفريغ": "3.5 م / 4.3 م / 4.9 م",
+                "الوزن": "1100 كجم / 1300 كجم / 1900 كجم",
+                "قاعدة العجلات": "1300 ملم / 1700 ملم / 2030 ملم",
+                "الإطارات": "11.5/80-15.3 / 14-17.5 / 40/60-22.5"
+            },
+            ru: {
+                "Модели": "3м³ / 6м³ / 9м³",
+                "Объем бункера": "3м³ / 6м³ / 9м³",
+                "Грузоподъемность": "4т / 7т / 11т",
+                "Мощность": "≥40кВт / ≥60кВт / ≥90кВт",
+                "Размеры": "4050×1600×2000мм / 4580×2060×2500мм / 5170×2400×2900мм",
+                "Высота": "3.5м / 4.3м / 4.9м",
+                "Вес": "1100кг / 1300кг / 1900кг",
+                "Колесная база": "1300мм / 1700мм / 2030мм",
+                "Шины": "11.5/80-15.3 / 14-17.5 / 40/60-22.5"
+            },
+            pt: {
+                "Modelos": "3m³ / 6m³ / 9m³",
+                "Volume tremonha": "3m³ / 6m³ / 9m³",
+                "Capacidade de carga": "4t / 7t / 11t",
+                "Potência necessária": "≥40kW / ≥60kW / ≥90kW",
+                "Tamanho": "4050×1600×2000mm / 4580×2060×2500mm / 5170×2400×2900mm",
+                "Altura de descarga": "3.5m / 4.3m / 4.9m",
+                "Peso": "1100kg / 1300kg / 1900kg",
+                "Distância entre eixos": "1300mm / 1700mm / 2030mm",
+                "Pneus": "11.5/80-15.3 / 14-17.5 / 40/60-22.5"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale grain transport, fertilizer application, rice/wheat/corn farming, bulk material handling"
+        }
+    },
+
+    // ============================================================
+    //  🔩 农机具 → 其他农机具 → 12方牵引式高炮运粮加肥机
+    // ============================================================
+    {
+        id: "OT-005",
+        category: "farm-machinery",
+        subCategory: "other-farm",
+        image: "/image/12.jpg",
+        name: {
+            en: "12m³ Trailed Grain & Fertilizer Transporter - Large Capacity Bulk Handler",
+            es: "Transportador de Grano y Fertilizante Remolcado 12m³ - Manejo a Granel de Gran Capacidad",
+            fr: "Transporteur de Grain et Engrais Remorqué 12m³ - Manutention en Vrac Grande Capacité",
+            ar: "ناقل حبوب وأسمدة مقطور 12 م³ - مناولة سائبة كبيرة السعة",
+            ru: "12м³ Прицепной транспортер зерна и удобрений - Большой объем",
+            pt: "Transportador de Grão e Fertilizante Reboque 12m³ - Grande Capacidade"
+        },
+        desc: {
+            en: "The 12m³ Trailed Grain & Fertilizer Transporter is a large-capacity machine for bulk grain and fertilizer handling in large-scale agricultural operations. Powered by tractor PTO (≥100kW), it features a 12m³ hopper with 14-ton load capacity, auger delivery system, and 360° rotating discharge pipe with 5.5m height. Ideal for rice, wheat, corn, and other granular crops, as well as fertilizer application in extensive farming operations.",
+            es: "El transportador remolcado de 12m³ es una máquina de gran capacidad para el manejo a granel en operaciones agrícolas extensivas. Capacidad de tolva de 12m³ y carga de 14 toneladas. Ideal para arroz, trigo, maíz y fertilizantes.",
+            fr: "Le transporteur remorqué 12m³ est une machine de grande capacité pour la manutention en vrac. Capacité de trémie 12m³ et charge de 14 tonnes. Idéal pour le riz, le blé, le maïs et les engrais.",
+            ar: "ناقل الحبوب والأسمدة المقطور 12 م³ هو آلة كبيرة السعة. سعة قادوس 12 م³ وحمولة 14 طن. مثالي للأرز والقمح والذرة والأسمدة.",
+            ru: "12м³ прицепной транспортер - машина большой емкости. Бункер 12м³ и грузоподъемность 14 тонн. Подходит для зерна и удобрений.",
+            pt: "O transportador reboque 12m³ é uma máquina de grande capacidade. Tremonha de 12m³ e carga de 14 toneladas. Ideal para grãos e fertilizantes."
+        },
+        features: {
+            en: [
+                "12m³ hopper capacity for bulk material handling",
+                "14-ton load capacity for efficient transport",
+                "PTO-driven auger delivery system (≥100kW tractor)",
+                "360° rotating discharge pipe with height adjustment",
+                "Hydraulic control for easy operation",
+                "Thickened steel body for durability",
+                "Heavy-duty tires for stability",
+                "Rear large discharge port for fast unloading",
+                "Spreader disc option available (customizable)",
+                "Applicable to rice, wheat, corn, rapeseed, and granular fertilizers"
+            ],
+            es: [
+                "Capacidad de tolva de 12m³",
+                "Capacidad de carga de 14 toneladas",
+                "Sistema de descarga por sinfín accionado por TDF",
+                "Tubo de descarga giratorio 360°",
+                "Control hidráulico",
+                "Cuerpo de acero reforzado",
+                "Neumáticos resistentes",
+                "Puerto de descarga trasero grande",
+                "Disco esparcidor opcional",
+                "Adecuado para arroz, trigo, maíz y fertilizantes"
+            ],
+            fr: [
+                "Capacité de trémie 12m³",
+                "Capacité de charge 14 tonnes",
+                "Système de décharge par vis sans fin entraînée par PTO",
+                "Tube de décharge rotatif 360°",
+                "Contrôle hydraulique",
+                "Corps en acier renforcé",
+                "Pneus résistants",
+                "Grande porte de décharge arrière",
+                "Disque d'épandage optionnel",
+                "Convient au riz, blé, maïs et engrais"
+            ],
+            ar: [
+                "سعة قادوس 12 م³",
+                "سعة تحميل 14 طن",
+                "نظام تفريغ لولبي يعمل بـ PTO",
+                "أنبوب تفريغ دوار 360°",
+                "تحكم هيدروليكي",
+                "هيكل صلب سميك",
+                "إطارات مقاومة",
+                "منفذ تفريغ خلفي كبير",
+                "قرص نثر اختياري",
+                "مناسب للأرز والقمح والذرة والأسمدة"
+            ],
+            ru: [
+                "Бункер 12м³",
+                "Грузоподъемность 14 тонн",
+                "Шнек с приводом от ВОМ",
+                "Поворотная труба 360°",
+                "Гидравлическое управление",
+                "Утолщенный стальной корпус",
+                "Прочные шины",
+                "Большой задний патрубок",
+                "Опция разбрасывающего диска",
+                "Подходит для зерна и удобрений"
+            ],
+            pt: [
+                "Capacidade de tremonha 12m³",
+                "Capacidade de carga 14 toneladas",
+                "Sistema de descarga por rosca acionado por TDP",
+                "Tubo de descarga rotativo 360°",
+                "Controle hidráulico",
+                "Corpo em aço reforçado",
+                "Pneus resistentes",
+                "Grande porta de descarga traseira",
+                "Disco espalhador opcional",
+                "Adequado para arroz, trigo, milho e fertilizantes"
+            ]
+        },
+        specs: {
+            en: {
+                "Hopper Volume": "12m³",
+                "Load Capacity": "14 tons",
+                "Power Requirement": "≥100kW",
+                "Machine Size (L×W×H)": "6140×2560×2860mm",
+                "Discharge Height": "5.5m",
+                "Weight": "2500kg",
+                "Wheelbase": "2120mm",
+                "Tire Type": "600/50-22.5"
+            },
+            es: {
+                "Volumen de tolva": "12m³",
+                "Capacidad de carga": "14 toneladas",
+                "Potencia requerida": "≥100kW",
+                "Tamaño": "6140×2560×2860mm",
+                "Altura de descarga": "5.5m",
+                "Peso": "2500kg",
+                "Distancia entre ejes": "2120mm",
+                "Neumáticos": "600/50-22.5"
+            },
+            fr: {
+                "Volume trémie": "12m³",
+                "Capacité de charge": "14 tonnes",
+                "Puissance requise": "≥100kW",
+                "Taille": "6140×2560×2860mm",
+                "Hauteur de décharge": "5.5m",
+                "Poids": "2500kg",
+                "Empattement": "2120mm",
+                "Pneus": "600/50-22.5"
+            },
+            ar: {
+                "سعة القادوس": "12 م³",
+                "سعة التحميل": "14 طن",
+                "القوة المطلوبة": "≥100 كيلوواط",
+                "الحجم": "6140×2560×2860 ملم",
+                "ارتفاع التفريغ": "5.5 م",
+                "الوزن": "2500 كجم",
+                "قاعدة العجلات": "2120 ملم",
+                "الإطارات": "600/50-22.5"
+            },
+            ru: {
+                "Объем бункера": "12м³",
+                "Грузоподъемность": "14 т",
+                "Мощность": "≥100 кВт",
+                "Размеры": "6140×2560×2860мм",
+                "Высота": "5.5м",
+                "Вес": "2500кг",
+                "Колесная база": "2120мм",
+                "Шины": "600/50-22.5"
+            },
+            pt: {
+                "Volume tremonha": "12m³",
+                "Capacidade de carga": "14 toneladas",
+                "Potência necessária": "≥100kW",
+                "Tamanho": "6140×2560×2860mm",
+                "Altura de descarga": "5.5m",
+                "Peso": "2500kg",
+                "Distância entre eixos": "2120mm",
+                "Pneus": "600/50-22.5"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale grain transport, fertilizer application, bulk material handling, extensive farming operations"
+        }
+    },
+
+    // ============================================================
+    //  🔩 农机具 → 其他农机具 → 20方牵引式高炮运粮加肥机
+    // ============================================================
+    {
+        id: "OT-006",
+        category: "farm-machinery",
+        subCategory: "other-farm",
+        image: "/image/20.jpg",
+        name: {
+            en: "20m³ Trailed Grain & Fertilizer Transporter - Ultra-Large Capacity Bulk Handler",
+            es: "Transportador de Grano y Fertilizante Remolcado 20m³ - Manejo a Granel de Ultra Gran Capacidad",
+            fr: "Transporteur de Grain et Engrais Remorqué 20m³ - Manutention en Vrac Ultra Grande Capacité",
+            ar: "ناقل حبوب وأسمدة مقطور 20 م³ - مناولة سائبة فائقة السعة",
+            ru: "20м³ Прицепной транспортер зерна и удобрений - Сверхбольшой объем",
+            pt: "Transportador de Grão e Fertilizante Reboque 20m³ - Ultra Grande Capacidade"
+        },
+        desc: {
+            en: "The 20m³ Trailed Grain & Fertilizer Transporter is an ultra-large-capacity machine for bulk grain and fertilizer handling in large-scale agricultural operations. Powered by tractor PTO (≥220kW), it features a 20m³ hopper with 24-ton load capacity, auger delivery system, and 360° rotating discharge pipe with 6.3m height. Features Italian Adir axle and reinforced crossbeam for exceptional durability. Ideal for extensive farming, grain storage facilities, and large-scale fertilizer application.",
+            es: "El transportador remolcado de 20m³ es una máquina de ultra gran capacidad para el manejo a granel en operaciones agrícolas extensivas. Capacidad de tolva de 20m³ y carga de 24 toneladas. Ideal para agricultura extensiva y grandes almacenes de grano.",
+            fr: "Le transporteur remorqué 20m³ est une machine de ultra grande capacité pour la manutention en vrac. Capacité de trémie 20m³ et charge de 24 tonnes. Idéal pour l'agriculture extensive.",
+            ar: "ناقل الحبوب والأسمدة المقطور 20 م³ هو آلة فائقة السعة. سعة قادوس 20 م³ وحمولة 24 طن. مثالي للزراعة الواسعة.",
+            ru: "20м³ прицепной транспортер - машина сверхбольшой емкости. Бункер 20м³ и грузоподъемность 24 тонны.",
+            pt: "O transportador reboque 20m³ é uma máquina de ultra grande capacidade. Tremonha de 20m³ e carga de 24 toneladas."
+        },
+        features: {
+            en: [
+                "20m³ hopper capacity for ultra-large bulk material handling",
+                "24-ton load capacity for maximum efficiency",
+                "PTO-driven auger delivery system (≥220kW tractor)",
+                "360° rotating discharge pipe with height adjustment",
+                "Hydraulic control for easy operation",
+                "Italian Adir axle for exceptional durability",
+                "Reinforced crossbeam for added strength",
+                "Thickened steel body for long service life",
+                "Heavy-duty tires for stability",
+                "Spreader disc option available (customizable)"
+            ],
+            es: [
+                "Capacidad de tolva de 20m³",
+                "Capacidad de carga de 24 toneladas",
+                "Sistema de descarga por sinfín accionado por TDF",
+                "Tubo de descarga giratorio 360°",
+                "Control hidráulico",
+                "Eje italiano Adir",
+                "Viga transversal reforzada",
+                "Cuerpo de acero reforzado",
+                "Neumáticos resistentes",
+                "Disco esparcidor opcional"
+            ],
+            fr: [
+                "Capacité de trémie 20m³",
+                "Capacité de charge 24 tonnes",
+                "Système de décharge par vis sans fin entraînée par PTO",
+                "Tube de décharge rotatif 360°",
+                "Contrôle hydraulique",
+                "Essieu italien Adir",
+                "Poutre transversale renforcée",
+                "Corps en acier renforcé",
+                "Pneus résistants",
+                "Disque d'épandage optionnel"
+            ],
+            ar: [
+                "سعة قادوس 20 م³",
+                "سعة تحميل 24 طن",
+                "نظام تفريغ لولبي يعمل بـ PTO",
+                "أنبوب تفريغ دوار 360°",
+                "تحكم هيدروليكي",
+                "محور Adir إيطالي",
+                "عارضة عرضية معززة",
+                "هيكل صلب سميك",
+                "إطارات مقاومة",
+                "قرص نثر اختياري"
+            ],
+            ru: [
+                "Бункер 20м³",
+                "Грузоподъемность 24 тонны",
+                "Шнек с приводом от ВОМ",
+                "Поворотная труба 360°",
+                "Гидравлическое управление",
+                "Ось Adir (Италия)",
+                "Усиленная поперечная балка",
+                "Утолщенный стальной корпус",
+                "Прочные шины",
+                "Опция разбрасывающего диска"
+            ],
+            pt: [
+                "Capacidade de tremonha 20m³",
+                "Capacidade de carga 24 toneladas",
+                "Sistema de descarga por rosca acionado por TDP",
+                "Tubo de descarga rotativo 360°",
+                "Controle hidráulico",
+                "Eixo italiano Adir",
+                "Viga transversal reforçada",
+                "Corpo em aço reforçado",
+                "Pneus resistentes",
+                "Disco espalhador opcional"
+            ]
+        },
+        specs: {
+            en: {
+                "Hopper Volume": "20m³",
+                "Load Capacity": "24 tons",
+                "Power Requirement": "≥220kW",
+                "Machine Size (L×W×H)": "7400×2960×3400mm",
+                "Discharge Height": "6.3m",
+                "Weight": "5210kg",
+                "Wheelbase": "2300mm",
+                "Tire Type": "500/60-22.5 (dual axle)",
+                "Axle": "Italian Adir axle"
+            },
+            es: {
+                "Volumen de tolva": "20m³",
+                "Capacidad de carga": "24 toneladas",
+                "Potencia requerida": "≥220kW",
+                "Tamaño": "7400×2960×3400mm",
+                "Altura de descarga": "6.3m",
+                "Peso": "5210kg",
+                "Distancia entre ejes": "2300mm",
+                "Neumáticos": "500/60-22.5 (eje dual)",
+                "Eje": "Eje italiano Adir"
+            },
+            fr: {
+                "Volume trémie": "20m³",
+                "Capacité de charge": "24 tonnes",
+                "Puissance requise": "≥220kW",
+                "Taille": "7400×2960×3400mm",
+                "Hauteur de décharge": "6.3m",
+                "Poids": "5210kg",
+                "Empattement": "2300mm",
+                "Pneus": "500/60-22.5 (essieu double)",
+                "Essieu": "Essieu italien Adir"
+            },
+            ar: {
+                "سعة القادوس": "20 م³",
+                "سعة التحميل": "24 طن",
+                "القوة المطلوبة": "≥220 كيلوواط",
+                "الحجم": "7400×2960×3400 ملم",
+                "ارتفاع التفريغ": "6.3 م",
+                "الوزن": "5210 كجم",
+                "قاعدة العجلات": "2300 ملم",
+                "الإطارات": "500/60-22.5 (محور مزدوج)",
+                "المحور": "محور Adir إيطالي"
+            },
+            ru: {
+                "Объем бункера": "20м³",
+                "Грузоподъемность": "24 т",
+                "Мощность": "≥220 кВт",
+                "Размеры": "7400×2960×3400мм",
+                "Высота": "6.3м",
+                "Вес": "5210кг",
+                "Колесная база": "2300мм",
+                "Шины": "500/60-22.5 (двойная ось)",
+                "Ось": "Ось Adir (Италия)"
+            },
+            pt: {
+                "Volume tremonha": "20m³",
+                "Capacidade de carga": "24 toneladas",
+                "Potência necessária": "≥220kW",
+                "Tamanho": "7400×2960×3400mm",
+                "Altura de descarga": "6.3m",
+                "Peso": "5210kg",
+                "Distância entre eixos": "2300mm",
+                "Pneus": "500/60-22.5 (eixo duplo)",
+                "Eixo": "Eixo italiano Adir"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "25-40 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Extensive grain transport, large-scale fertilizer application, bulk material handling, mega-farm operations"
+        }
+    },
 ];
 
 // ============================================================
