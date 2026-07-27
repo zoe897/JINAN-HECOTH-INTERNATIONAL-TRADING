@@ -8428,6 +8428,388 @@ const Products = [
             customization: "Section count configurable (1-8 sections), control type customizable (manual/pneumatic/electro-hydraulic)"
         }
     },
+        // ============================================================
+    //  🔧 配件 → DCV45多路换向阀
+    // ============================================================
+    {
+        id: "PT-010",
+        category: "parts",
+        subCategory: null,
+        image: "/image/dcv45.jpg",
+        name: {
+            en: "DCV45 Multi-Way Directional Valve - 45L/min High-Flow Hydraulic Control Valve",
+            es: "Válvula Direccional Multi-Vía DCV45 - Válvula de Control Hidráulico de Alto Flujo 45L/min",
+            fr: "Vanne Directionnelle Multi-Voie DCV45 - Vanne de Commande Hydraulique Haut Débit 45L/min",
+            ar: "صمام اتجاهي متعدد المسارات DCV45 - صمام تحكم هيدروليكي عالي التدفق 45 لتر/دقيقة",
+            ru: "Многоходовой распределительный клапан DCV45 - Гидравлический клапан управления высокого расхода 45 л/мин",
+            pt: "Válvula Direcional Multi-Via DCV45 - Válvula de Controle Hidráulico de Alto Fluxo 45L/min"
+        },
+        desc: {
+            en: "The DCV45 Multi-Way Directional Valve is a high-capacity hydraulic control valve designed for precise flow control in demanding hydraulic systems. Features a monoblock 1-8 section construction (configurable), nominal flow rate of 45L/min (11.8 US GPM), and maximum pressure of 350 bar (5076 psi). Available with manual, pneumatic, or electro-hydraulic control options. Suitable for a wide viscosity range (15-75mm²/s) and ambient temperatures from -40°C to +80°C. Ideal for agricultural machinery, construction equipment, and industrial hydraulic systems requiring reliable and durable flow control.",
+            es: "La válvula direccional multi-vía DCV45 es una válvula de control hidráulico de alta capacidad para control preciso del flujo. Construcción monobloque de 1-8 secciones (configurable), caudal nominal de 45L/min (11.8 US GPM) y presión máxima de 350 bar. Disponible con control manual, neumático o electro-hidráulico.",
+            fr: "La vanne directionnelle multi-voie DCV45 est une vanne de commande hydraulique haute capacité. Construction monobloc 1-8 sections (configurable), débit nominal de 45L/min (11.8 US GPM) et pression maximale de 350 bar. Disponible avec commande manuelle, pneumatique ou électro-hydraulique.",
+            ar: "صمام DCV45 متعدد الاتجاهات هو صمام تحكم هيدروليكي عالي السعة. بناء متكامل من 1-8 أقسام (قابل للتكوين)، تدفق اسمي 45 لتر/دقيقة (11.8 غالون/دقيقة) وضغط أقصى 350 بار. متوفر مع تحكم يدوي أو هوائي أو كهربائي هيدروليكي.",
+            ru: "Многоходовой распределительный клапан DCV45 - высокопроизводительный гидравлический клапан управления. Моноблочная конструкция 1-8 секций (настраиваемая), номинальный расход 45 л/мин (11.8 US GPM) и максимальное давление 350 бар. Доступен с ручным, пневматическим или электро-гидравлическим управлением.",
+            pt: "A válvula direcional multi-via DCV45 é uma válvula de controle hidráulico de alta capacidade. Construção monobloco de 1-8 seções (configurável), vazão nominal de 45L/min (11.8 US GPM) e pressão máxima de 350 bar. Disponível com controle manual, pneumático ou eletro-hidráulico."
+        },
+        features: {
+            en: [
+                "Monoblock 1-8 section construction (configurable sections)",
+                "Nominal flow rate: 45L/min (11.8 US GPM) - higher capacity than DCV40",
+                "Maximum pressure: 350 bar (5076 psi)",
+                "Wide viscosity range: 15-75mm²/s (15-75 cst)",
+                "Operating temperature: -40°C to +80°C (-40°F to +176°F)",
+                "Multiple control options: Manual / Pneumatic / Electro-hydraulic",
+                "Compact design with formula A=35n+73.5 for section spacing",
+                "Suitable for agricultural machinery, construction equipment, and industrial hydraulics",
+                "Precision flow control for hydraulic systems",
+                "Durable construction for long service life",
+                "High reliability in demanding working conditions"
+            ],
+            es: [
+                "Construcción monobloque de 1-8 secciones (configurable)",
+                "Caudal nominal: 45L/min (11.8 US GPM)",
+                "Presión máxima: 350 bar (5076 psi)",
+                "Amplio rango de viscosidad: 15-75mm²/s",
+                "Temperatura de operación: -40°C a +80°C",
+                "Múltiples opciones de control",
+                "Diseño compacto",
+                "Adecuado para maquinaria agrícola y construcción",
+                "Control de flujo de precisión",
+                "Construcción duradera",
+                "Alta fiabilidad"
+            ],
+            fr: [
+                "Construction monobloc 1-8 sections (configurable)",
+                "Débit nominal: 45L/min (11.8 US GPM)",
+                "Pression maximale: 350 bar (5076 psi)",
+                "Large plage de viscosité: 15-75mm²/s",
+                "Température de fonctionnement: -40°C à +80°C",
+                "Multiples options de commande",
+                "Conception compacte",
+                "Convient aux machines agricoles et de construction",
+                "Contrôle de débit de précision",
+                "Construction durable",
+                "Haute fiabilité"
+            ],
+            ar: [
+                "بناء متكامل من 1-8 أقسام (قابل للتكوين)",
+                "التدفق الاسمي: 45 لتر/دقيقة (11.8 غالون/دقيقة)",
+                "الضغط الأقصى: 350 بار (5076 رطل/بوصة مربعة)",
+                "نطاق لزوجة واسع: 15-75 ملم²/ثانية",
+                "درجة حرارة التشغيل: -40 درجة مئوية إلى +80 درجة مئوية",
+                "خيارات تحكم متعددة",
+                "تصميم مضغوط",
+                "مناسب للمعدات الزراعية ومعدات البناء",
+                "تحكم دقيق في التدفق",
+                "بناء متين",
+                "موثوقية عالية"
+            ],
+            ru: [
+                "Моноблочная конструкция 1-8 секций (настраиваемая)",
+                "Номинальный расход: 45 л/мин (11.8 US GPM)",
+                "Максимальное давление: 350 бар (5076 psi)",
+                "Широкий диапазон вязкости: 15-75 мм²/с",
+                "Температура: -40°C до +80°C",
+                "Несколько вариантов управления",
+                "Компактный дизайн",
+                "Подходит для сельхозтехники и строительного оборудования",
+                "Точное управление потоком",
+                "Прочная конструкция",
+                "Высокая надежность"
+            ],
+            pt: [
+                "Construção monobloco de 1-8 seções (configurável)",
+                "Vazão nominal: 45L/min (11.8 US GPM)",
+                "Pressão máxima: 350 bar (5076 psi)",
+                "Ampla faixa de viscosidade: 15-75mm²/s",
+                "Temperatura de operação: -40°C a +80°C",
+                "Múltiplas opções de controle",
+                "Design compacto",
+                "Adequado para máquinas agrícolas e de construção",
+                "Controle de fluxo de precisão",
+                "Construção durável",
+                "Alta confiabilidade"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "DCV45",
+                "Nominal Flow Rate": "45L/min (11.8 US GPM)",
+                "Maximum Pressure": "350 bar (5076 psi)",
+                "Viscosity Range": "15-75mm²/s (15-75 cst)",
+                "Min Viscosity": "12mm²/s (12 cst)",
+                "Max Viscosity": "400mm²/s (400 cst)",
+                "Ambient Temperature": "-40°C to +80°C (-40°F to +176°F)",
+                "Structure": "Monoblock: 1-8 sections (configurable)",
+                "Section Spacing Formula": "A=35n+73.5",
+                "Control Options": "Manual / Pneumatic / Electro-hydraulic",
+                "Application": "Hydraulic system flow control"
+            },
+            es: {
+                "Modelo": "DCV45",
+                "Caudal nominal": "45L/min (11.8 US GPM)",
+                "Presión máxima": "350 bar (5076 psi)",
+                "Rango de viscosidad": "15-75mm²/s (15-75 cst)",
+                "Viscosidad mínima": "12mm²/s (12 cst)",
+                "Viscosidad máxima": "400mm²/s (400 cst)",
+                "Temperatura ambiente": "-40°C a +80°C",
+                "Estructura": "Monobloque: 1-8 secciones (configurable)",
+                "Fórmula de espaciado": "A=35n+73.5",
+                "Opciones de control": "Manual / Neumático / Electro-hidráulico",
+                "Aplicación": "Control de flujo hidráulico"
+            },
+            fr: {
+                "Modèle": "DCV45",
+                "Débit nominal": "45L/min (11.8 US GPM)",
+                "Pression maximale": "350 bar (5076 psi)",
+                "Plage de viscosité": "15-75mm²/s (15-75 cst)",
+                "Viscosité min": "12mm²/s (12 cst)",
+                "Viscosité max": "400mm²/s (400 cst)",
+                "Température ambiante": "-40°C à +80°C",
+                "Structure": "Monobloc: 1-8 sections (configurable)",
+                "Formule d'espacement": "A=35n+73.5",
+                "Options de commande": "Manuelle / Pneumatique / Électro-hydraulique",
+                "Application": "Contrôle de flux hydraulique"
+            },
+            ar: {
+                "الموديل": "DCV45",
+                "التدفق الاسمي": "45 لتر/دقيقة (11.8 غالون/دقيقة)",
+                "الضغط الأقصى": "350 بار (5076 رطل/بوصة مربعة)",
+                "نطاق اللزوجة": "15-75 ملم²/ثانية (15-75 سنتيستوكس)",
+                "اللزوجة الدنيا": "12 ملم²/ثانية (12 سنتيستوكس)",
+                "اللزوجة القصوى": "400 ملم²/ثانية (400 سنتيستوكس)",
+                "درجة الحرارة": "-40 درجة مئوية إلى +80 درجة مئوية",
+                "الهيكل": "متكامل: 1-8 أقسام (قابل للتكوين)",
+                "معادلة التباعد": "A=35n+73.5",
+                "خيارات التحكم": "يدوي / هوائي / كهربائي هيدروليكي",
+                "التطبيق": "التحكم في تدفق النظام الهيدروليكي"
+            },
+            ru: {
+                "Модель": "DCV45",
+                "Номинальный расход": "45 л/мин (11.8 US GPM)",
+                "Максимальное давление": "350 бар (5076 psi)",
+                "Диапазон вязкости": "15-75 мм²/с (15-75 сст)",
+                "Мин. вязкость": "12 мм²/с (12 сст)",
+                "Макс. вязкость": "400 мм²/с (400 сст)",
+                "Температура": "-40°C до +80°C",
+                "Конструкция": "Моноблочная: 1-8 секций (настраиваемая)",
+                "Формула шага": "A=35n+73.5",
+                "Варианты управления": "Ручное / Пневматическое / Электро-гидравлическое",
+                "Применение": "Управление гидравлическим потоком"
+            },
+            pt: {
+                "Modelo": "DCV45",
+                "Vazão nominal": "45L/min (11.8 US GPM)",
+                "Pressão máxima": "350 bar (5076 psi)",
+                "Faixa de viscosidade": "15-75mm²/s (15-75 cst)",
+                "Viscosidade min": "12mm²/s (12 cst)",
+                "Viscosidade max": "400mm²/s (400 cst)",
+                "Temperatura ambiente": "-40°C a +80°C",
+                "Estrutura": "Monobloco: 1-8 seções (configurável)",
+                "Fórmula de espaçamento": "A=35n+73.5",
+                "Opções de controle": "Manual / Pneumático / Eletro-hidráulico",
+                "Aplicação": "Controle de fluxo hidráulico"
+            }
+        },
+        inquiry: {
+            minOrder: "10 units",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "5 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Agricultural machinery, construction equipment, industrial hydraulic systems, tractor hydraulic control, heavy equipment",
+            customization: "Section count configurable (1-8 sections), control type customizable (manual/pneumatic/electro-hydraulic)"
+        }
+    },
+        // ============================================================
+    //  🔧 配件 → DCV60多路换向阀
+    // ============================================================
+    {
+        id: "PT-011",
+        category: "parts",
+        subCategory: null,
+        image: "/image/dcv60-directional-valve.jpg",
+        name: {
+            en: "DCV60 Multi-Way Directional Valve - 60L/min High-Capacity Hydraulic Control Valve",
+            es: "Válvula Direccional Multi-Vía DCV60 - Válvula de Control Hidráulico de Alta Capacidad 60L/min",
+            fr: "Vanne Directionnelle Multi-Voie DCV60 - Vanne de Commande Hydraulique Haute Capacité 60L/min",
+            ar: "صمام اتجاهي متعدد المسارات DCV60 - صمام تحكم هيدروليكي عالي السعة 60 لتر/دقيقة",
+            ru: "Многоходовой распределительный клапан DCV60 - Гидравлический клапан управления высокой производительности 60 л/мин",
+            pt: "Válvula Direcional Multi-Via DCV60 - Válvula de Controle Hidráulico de Alta Capacidade 60L/min"
+        },
+        desc: {
+            en: "The DCV60 Multi-Way Directional Valve is a high-capacity hydraulic control valve designed for demanding hydraulic systems requiring large flow capacity. Features a sectional 1-12 section construction (configurable), nominal flow rate of 60L/min (15.8 US GPM), and maximum pressure of 350 bar (5076 psi). Available with manual, pneumatic, or electro-hydraulic control options. The sectional design allows for flexible configuration and easy maintenance. Suitable for a wide viscosity range (15-75mm²/s) and ambient temperatures from -40°C to +80°C. Ideal for large agricultural machinery, heavy construction equipment, and industrial hydraulic systems.",
+            es: "La válvula direccional multi-vía DCV60 es una válvula de control hidráulico de alta capacidad para sistemas hidráulicos exigentes. Construcción seccional de 1-12 secciones (configurable), caudal nominal de 60L/min (15.8 US GPM) y presión máxima de 350 bar. Disponible con control manual, neumático o electro-hidráulico.",
+            fr: "La vanne directionnelle multi-voie DCV60 est une vanne de commande hydraulique haute capacité pour les systèmes hydrauliques exigeants. Construction sectionnelle 1-12 sections (configurable), débit nominal de 60L/min (15.8 US GPM) et pression maximale de 350 bar. Disponible avec commande manuelle, pneumatique ou électro-hydraulique.",
+            ar: "صمام DCV60 متعدد الاتجاهات هو صمام تحكم هيدروليكي عالي السعة للأنظمة الهيدروليكية المتطلبة. بناء مقطعي من 1-12 قسم (قابل للتكوين)، تدفق اسمي 60 لتر/دقيقة (15.8 غالون/دقيقة) وضغط أقصى 350 بار. متوفر مع تحكم يدوي أو هوائي أو كهربائي هيدروليكي.",
+            ru: "Многоходовой распределительный клапан DCV60 - высокопроизводительный гидравлический клапан управления для требовательных гидравлических систем. Секционная конструкция 1-12 секций (настраиваемая), номинальный расход 60 л/мин (15.8 US GPM) и максимальное давление 350 бар. Доступен с ручным, пневматическим или электро-гидравлическим управлением.",
+            pt: "A válvula direcional multi-via DCV60 é uma válvula de controle hidráulico de alta capacidade para sistemas hidráulicos exigentes. Construção seccional de 1-12 seções (configurável), vazão nominal de 60L/min (15.8 US GPM) e pressão máxima de 350 bar. Disponível com controle manual, pneumático ou eletro-hidráulico."
+        },
+        features: {
+            en: [
+                "Sectional 1-12 section construction for maximum flexibility (configurable sections)",
+                "Nominal flow rate: 60L/min (15.8 US GPM) - highest capacity in DCV series",
+                "Maximum pressure: 350 bar (5076 psi)",
+                "Wide viscosity range: 15-75mm²/s (15-75 cst)",
+                "Operating temperature: -40°C to +80°C (-40°F to +176°F)",
+                "Multiple control options: Manual / Pneumatic / Electro-hydraulic",
+                "Sectional design allows for easy maintenance and section replacement",
+                "Suitable for large agricultural machinery, heavy construction equipment, and industrial hydraulics",
+                "Precision flow control for demanding hydraulic systems",
+                "Durable construction for long service life",
+                "High reliability in extreme working conditions"
+            ],
+            es: [
+                "Construcción seccional de 1-12 secciones (configurable)",
+                "Caudal nominal: 60L/min (15.8 US GPM)",
+                "Presión máxima: 350 bar (5076 psi)",
+                "Amplio rango de viscosidad: 15-75mm²/s",
+                "Temperatura de operación: -40°C a +80°C",
+                "Múltiples opciones de control",
+                "Diseño seccional para fácil mantenimiento",
+                "Adecuado para maquinaria agrícola grande y construcción pesada",
+                "Control de flujo de precisión",
+                "Construcción duradera",
+                "Alta fiabilidad en condiciones extremas"
+            ],
+            fr: [
+                "Construction sectionnelle 1-12 sections (configurable)",
+                "Débit nominal: 60L/min (15.8 US GPM)",
+                "Pression maximale: 350 bar (5076 psi)",
+                "Large plage de viscosité: 15-75mm²/s",
+                "Température de fonctionnement: -40°C à +80°C",
+                "Multiples options de commande",
+                "Conception sectionnelle pour entretien facile",
+                "Convient aux grandes machines agricoles et à la construction lourde",
+                "Contrôle de débit de précision",
+                "Construction durable",
+                "Haute fiabilité en conditions extrêmes"
+            ],
+            ar: [
+                "بناء مقطعي من 1-12 قسم (قابل للتكوين)",
+                "التدفق الاسمي: 60 لتر/دقيقة (15.8 غالون/دقيقة)",
+                "الضغط الأقصى: 350 بار (5076 رطل/بوصة مربعة)",
+                "نطاق لزوجة واسع: 15-75 ملم²/ثانية",
+                "درجة حرارة التشغيل: -40 درجة مئوية إلى +80 درجة مئوية",
+                "خيارات تحكم متعددة",
+                "تصميم مقطعي لسهولة الصيانة",
+                "مناسب للمعدات الزراعية الكبيرة والبناء الثقيل",
+                "تحكم دقيق في التدفق",
+                "بناء متين",
+                "موثوقية عالية في الظروف القاسية"
+            ],
+            ru: [
+                "Секционная конструкция 1-12 секций (настраиваемая)",
+                "Номинальный расход: 60 л/мин (15.8 US GPM)",
+                "Максимальное давление: 350 бар (5076 psi)",
+                "Широкий диапазон вязкости: 15-75 мм²/с",
+                "Температура: -40°C до +80°C",
+                "Несколько вариантов управления",
+                "Секционная конструкция для легкого обслуживания",
+                "Подходит для крупной сельхозтехники и тяжелого строительства",
+                "Точное управление потоком",
+                "Прочная конструкция",
+                "Высокая надежность в экстремальных условиях"
+            ],
+            pt: [
+                "Construção seccional de 1-12 seções (configurável)",
+                "Vazão nominal: 60L/min (15.8 US GPM)",
+                "Pressão máxima: 350 bar (5076 psi)",
+                "Ampla faixa de viscosidade: 15-75mm²/s",
+                "Temperatura de operação: -40°C a +80°C",
+                "Múltiplas opções de controle",
+                "Design seccional para fácil manutenção",
+                "Adequado para grandes máquinas agrícolas e construção pesada",
+                "Controle de fluxo de precisão",
+                "Construção durável",
+                "Alta confiabilidade em condições extremas"
+            ]
+        },
+        specs: {
+            en: {
+                "Model": "DCV60",
+                "Nominal Flow Rate": "60L/min (15.8 US GPM)",
+                "Maximum Pressure": "350 bar (5076 psi)",
+                "Viscosity Range": "15-75mm²/s (15-75 cst)",
+                "Min Viscosity": "12mm²/s (12 cst)",
+                "Max Viscosity": "400mm²/s (400 cst)",
+                "Ambient Temperature": "-40°C to +80°C (-40°F to +176°F)",
+                "Structure": "Sectional: 1-12 sections (configurable)",
+                "Control Options": "Manual / Pneumatic / Electro-hydraulic",
+                "Application": "Hydraulic system flow control"
+            },
+            es: {
+                "Modelo": "DCV60",
+                "Caudal nominal": "60L/min (15.8 US GPM)",
+                "Presión máxima": "350 bar (5076 psi)",
+                "Rango de viscosidad": "15-75mm²/s (15-75 cst)",
+                "Viscosidad mínima": "12mm²/s (12 cst)",
+                "Viscosidad máxima": "400mm²/s (400 cst)",
+                "Temperatura ambiente": "-40°C a +80°C",
+                "Estructura": "Seccional: 1-12 secciones (configurable)",
+                "Opciones de control": "Manual / Neumático / Electro-hidráulico",
+                "Aplicación": "Control de flujo hidráulico"
+            },
+            fr: {
+                "Modèle": "DCV60",
+                "Débit nominal": "60L/min (15.8 US GPM)",
+                "Pression maximale": "350 bar (5076 psi)",
+                "Plage de viscosité": "15-75mm²/s (15-75 cst)",
+                "Viscosité min": "12mm²/s (12 cst)",
+                "Viscosité max": "400mm²/s (400 cst)",
+                "Température ambiante": "-40°C à +80°C",
+                "Structure": "Sectionnelle: 1-12 sections (configurable)",
+                "Options de commande": "Manuelle / Pneumatique / Électro-hydraulique",
+                "Application": "Contrôle de flux hydraulique"
+            },
+            ar: {
+                "الموديل": "DCV60",
+                "التدفق الاسمي": "60 لتر/دقيقة (15.8 غالون/دقيقة)",
+                "الضغط الأقصى": "350 بار (5076 رطل/بوصة مربعة)",
+                "نطاق اللزوجة": "15-75 ملم²/ثانية (15-75 سنتيستوكس)",
+                "اللزوجة الدنيا": "12 ملم²/ثانية (12 سنتيستوكس)",
+                "اللزوجة القصوى": "400 ملم²/ثانية (400 سنتيستوكس)",
+                "درجة الحرارة": "-40 درجة مئوية إلى +80 درجة مئوية",
+                "الهيكل": "مقطعي: 1-12 قسم (قابل للتكوين)",
+                "خيارات التحكم": "يدوي / هوائي / كهربائي هيدروليكي",
+                "التطبيق": "التحكم في تدفق النظام الهيدروليكي"
+            },
+            ru: {
+                "Модель": "DCV60",
+                "Номинальный расход": "60 л/мин (15.8 US GPM)",
+                "Максимальное давление": "350 бар (5076 psi)",
+                "Диапазон вязкости": "15-75 мм²/с (15-75 сст)",
+                "Мин. вязкость": "12 мм²/с (12 сст)",
+                "Макс. вязкость": "400 мм²/с (400 сст)",
+                "Температура": "-40°C до +80°C",
+                "Конструкция": "Секционная: 1-12 секций (настраиваемая)",
+                "Варианты управления": "Ручное / Пневматическое / Электро-гидравлическое",
+                "Применение": "Управление гидравлическим потоком"
+            },
+            pt: {
+                "Modelo": "DCV60",
+                "Vazão nominal": "60L/min (15.8 US GPM)",
+                "Pressão máxima": "350 bar (5076 psi)",
+                "Faixa de viscosidade": "15-75mm²/s (15-75 cst)",
+                "Viscosidade min": "12mm²/s (12 cst)",
+                "Viscosidade max": "400mm²/s (400 cst)",
+                "Temperatura ambiente": "-40°C a +80°C",
+                "Estrutura": "Seccional: 1-12 seções (configurável)",
+                "Opções de controle": "Manual / Pneumático / Eletro-hidráulico",
+                "Aplicação": "Controle de fluxo hidráulico"
+            }
+        },
+        inquiry: {
+            minOrder: "10 units",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "5 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large agricultural machinery, heavy construction equipment, industrial hydraulic systems, mining equipment, forestry machinery",
+            customization: "Section count configurable (1-12 sections), control type customizable (manual/pneumatic/electro-hydraulic)"
+        }
+    },
 ];
 
 // ============================================================
