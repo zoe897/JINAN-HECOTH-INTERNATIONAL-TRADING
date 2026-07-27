@@ -7913,6 +7913,158 @@ const Products = [
             application: "Small farms, home gardens, greenhouses, orchards, vegetable planting, horticulture"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 1LY系列圆盘犁
+    // ============================================================
+    {
+        id: "TL-010",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/1ly.jpg",
+        name: {
+            en: "1LY Series Disc Plough - 2-5 Disc Heavy-Duty Tillage Equipment",
+            es: "Arado de Discos Serie 1LY - Equipo de Labranza Pesada de 2-5 Discos",
+            fr: "Charrue à Disques Série 1LY - Équipement de Travail du Sol Lourd 2-5 Disques",
+            ar: "محراث قرصي سلسلة 1LY - معدات حراثة ثقيلة 2-5 أقراص",
+            ru: "Дисковый плуг серии 1LY - Тяжелое почвообрабатывающее оборудование 2-5 дисков",
+            pt: "Arado de Discos Série 1LY - Equipamento de Preparo do Solo Pesado 2-5 Discos"
+        },
+        desc: {
+            en: "The 1LY Series Disc Plough is a heavy-duty tillage implement designed for efficient ploughing of cultivated land and virgin land. Features a rugged construction with 2 to 5 disc configurations, working widths from 600-1500mm, and working depth of 250-300mm. Equipped with Category II three-point linkage for easy mounting on tractors. Ideal for medium to large-scale farming operations requiring reliable and efficient primary tillage.",
+            es: "El arado de discos 1LY es un implemento de labranza pesada para el arado eficiente de tierras cultivadas y vírgenes. Construcción robusta con configuraciones de 2 a 5 discos, anchos de trabajo de 600-1500mm y profundidad de 250-300mm. Ideal para operaciones agrícolas de mediana a gran escala.",
+            fr: "La charrue à disques 1LY est un outil de travail du sol lourd pour le labour efficace des terres cultivées et vierges. Construction robuste avec 2 à 5 disques, largeurs de travail de 600-1500mm et profondeur de 250-300mm.",
+            ar: "محراث الأقراص 1LY هو أداة حراثة ثقيلة للحراثة الفعالة للأراضي المزروعة والبكر. بناء قوي مع تكوينات 2-5 أقراص، وعرض عمل 600-1500 ملم وعمق 250-300 ملم.",
+            ru: "Дисковый плуг 1LY - тяжелое почвообрабатывающее орудие для эффективной вспашки пахотных и целинных земель. Прочная конструкция с 2-5 дисками, рабочей шириной 600-1500 мм и глубиной 250-300 мм.",
+            pt: "O arado de discos 1LY é um implemento de preparo do solo pesado para aração eficiente de terras cultivadas e virgens. Construção robusta com 2 a 5 discos, larguras de trabalho de 600-1500mm e profundidade de 250-300mm."
+        },
+        features: {
+            en: [
+                "2 to 5 disc configurations for flexible operation",
+                "Working width from 600-1500mm to suit different field sizes",
+                "Working depth 250-300mm for effective tillage",
+                "Category II three-point linkage for easy mounting",
+                "Durable construction for long service life",
+                "Low working resistance for fuel efficiency",
+                "Suitable for cultivated land and virgin land",
+                "Matched power: 40-120HP tractors"
+            ],
+            es: [
+                "Configuraciones de 2 a 5 discos",
+                "Ancho de trabajo de 600-1500mm",
+                "Profundidad de trabajo 250-300mm",
+                "Enganche de tres puntos Categoría II",
+                "Construcción duradera",
+                "Baja resistencia al trabajo",
+                "Adecuado para tierras cultivadas y vírgenes",
+                "Potencia recomendada: 40-120HP"
+            ],
+            fr: [
+                "Configurations de 2 à 5 disques",
+                "Largeur de travail de 600-1500mm",
+                "Profondeur de travail 250-300mm",
+                "Attelage trois points Catégorie II",
+                "Construction durable",
+                "Faible résistance au travail",
+                "Convient aux terres cultivées et vierges",
+                "Puissance recommandée: 40-120HP"
+            ],
+            ar: [
+                "تكوينات من 2 إلى 5 أقراص",
+                "عرض العمل 600-1500 ملم",
+                "عمق العمل 250-300 ملم",
+                "توصيل ثلاث نقاط الفئة II",
+                "بناء متين",
+                "مقاومة عمل منخفضة",
+                "مناسب للأراضي المزروعة والبكر",
+                "القوة الملائمة: 40-120 حصان"
+            ],
+            ru: [
+                "Конфигурации от 2 до 5 дисков",
+                "Рабочая ширина 600-1500 мм",
+                "Рабочая глубина 250-300 мм",
+                "Трехточечная навеска категории II",
+                "Прочная конструкция",
+                "Низкое сопротивление работе",
+                "Подходит для пахотных и целинных земель",
+                "Рекомендуемая мощность: 40-120 л.с."
+            ],
+            pt: [
+                "Configurações de 2 a 5 discos",
+                "Largura de trabalho de 600-1500mm",
+                "Profundidade de trabalho 250-300mm",
+                "Engate de três pontos Categoria II",
+                "Construção durável",
+                "Baixa resistência ao trabalho",
+                "Adequado para terras cultivadas e virgens",
+                "Potência recomendada: 40-120HP"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1LY-2 / 1LY-3 / 1LY-4 / 1LY-5",
+                "Discs": "2 / 3 / 4 / 5",
+                "Working Width": "600mm / 900mm / 1200mm / 1500mm",
+                "Working Depth": "250-300mm (all models)",
+                "Weight": "350kg / 400kg / 470kg / 560kg",
+                "Matched Power": "40HP / 60HP / 80HP / 120HP",
+                "Linkage": "Category II Three-Point Mounted",
+                "Application": "Primary tillage, cultivated land, virgin land"
+            },
+            es: {
+                "Modelos": "1LY-2 / 1LY-3 / 1LY-4 / 1LY-5",
+                "Discos": "2 / 3 / 4 / 5",
+                "Ancho de trabajo": "600mm / 900mm / 1200mm / 1500mm",
+                "Profundidad de trabajo": "250-300mm",
+                "Peso": "350kg / 400kg / 470kg / 560kg",
+                "Potencia recomendada": "40HP / 60HP / 80HP / 120HP",
+                "Enganche": "Tres Puntos Categoría II"
+            },
+            fr: {
+                "Modèles": "1LY-2 / 1LY-3 / 1LY-4 / 1LY-5",
+                "Disques": "2 / 3 / 4 / 5",
+                "Largeur de travail": "600mm / 900mm / 1200mm / 1500mm",
+                "Profondeur de travail": "250-300mm",
+                "Poids": "350kg / 400kg / 470kg / 560kg",
+                "Puissance recommandée": "40HP / 60HP / 80HP / 120HP",
+                "Attelage": "Trois Points Catégorie II"
+            },
+            ar: {
+                "الموديلات": "1LY-2 / 1LY-3 / 1LY-4 / 1LY-5",
+                "الأقراص": "2 / 3 / 4 / 5",
+                "عرض العمل": "600 ملم / 900 ملم / 1200 ملم / 1500 ملم",
+                "عمق العمل": "250-300 ملم",
+                "الوزن": "350 كجم / 400 كجم / 470 كجم / 560 كجم",
+                "القوة الملائمة": "40 حصان / 60 حصان / 80 حصان / 120 حصان",
+                "التوصيل": "ثلاث نقاط الفئة II"
+            },
+            ru: {
+                "Модели": "1LY-2 / 1LY-3 / 1LY-4 / 1LY-5",
+                "Диски": "2 / 3 / 4 / 5",
+                "Рабочая ширина": "600мм / 900мм / 1200мм / 1500мм",
+                "Рабочая глубина": "250-300мм",
+                "Вес": "350кг / 400кг / 470кг / 560кг",
+                "Рекомендуемая мощность": "40 л.с. / 60 л.с. / 80 л.с. / 120 л.с.",
+                "Навеска": "Трехточечная категории II"
+            },
+            pt: {
+                "Modelos": "1LY-2 / 1LY-3 / 1LY-4 / 1LY-5",
+                "Discos": "2 / 3 / 4 / 5",
+                "Largura de trabalho": "600mm / 900mm / 1200mm / 1500mm",
+                "Profundidade de trabalho": "250-300mm",
+                "Peso": "350kg / 400kg / 470kg / 560kg",
+                "Potência recomendada": "40HP / 60HP / 80HP / 120HP",
+                "Engate": "Três Pontos Categoria II"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Primary tillage, cultivated land, virgin land, large-scale farming"
+        }
+    },
 ];
 
 // ============================================================
