@@ -17,8 +17,57 @@
         .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); }
         .btn-outline { border: 2px solid var(--primary); color: var(--primary); padding: 0.6rem 1.5rem; border-radius: 0.5rem; font-weight: 500; transition: all 0.2s; background: transparent; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
         .btn-outline:hover { background-color: var(--primary); color: white; }
-        .product-card { border: 1px solid #e5e7eb; border-radius: 1rem; overflow: hidden; transition: all 0.3s ease; background: white; cursor: pointer; }
-        .product-card:hover { transform: translateY(-5px); box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15); border-color: var(--primary); }
+        
+        /* ===== 修复产品卡片显示不全 ===== */
+        .product-card { 
+            border: 1px solid #e5e7eb; 
+            border-radius: 1rem; 
+            overflow: hidden; 
+            transition: all 0.3s ease; 
+            background: white; 
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            min-height: 420px;
+        }
+        .product-card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15); 
+            border-color: var(--primary); 
+        }
+        .product-card .p-5 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-card .p-5 .flex-1 {
+            flex: 1;
+        }
+        
+        /* 限制文字行数 */
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        /* 网格容器让卡片等高 */
+        #productsGrid {
+            align-items: stretch;
+        }
+        
+        /* 产品卡片内边距优化 */
+        .product-card .p-5 h3 {
+            min-height: 56px;
+            line-height: 1.3;
+        }
+        .product-card .p-5 .text-gray-500 {
+            min-height: 40px;
+        }
+        /* ===== 修复结束 ===== */
+        
         .filter-btn { transition: all 0.2s; cursor: pointer; padding: 0.5rem 1.25rem; border-radius: 2rem; border: none; font-weight: 500; }
         .filter-btn.active { background-color: var(--primary); color: white; }
         .filter-btn:not(.active) { background-color: #f3f4f6; color: #4B5563; }
@@ -32,6 +81,39 @@
         .lang-btn.active { background-color: var(--primary); color: white; }
         .param-row { display: flex; justify-content: space-between; border-bottom: 1px dashed #e5e7eb; padding: 0.4rem 0; font-size: 0.82rem; }
         .bg-primary-gradient { background: linear-gradient(135deg, rgba(46,125,50,0.05) 0%, rgba(67,160,71,0.08) 100%); }
+        
+        /* 页脚修复 - 添加正确的footer样式 */
+        footer {
+            background-color: #111827;
+            color: #9ca3af;
+            padding: 3rem 0 1.5rem 0;
+            margin-top: 3rem;
+        }
+        footer .footer-link {
+            color: #9ca3af;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        footer .footer-link:hover {
+            color: #43A047;
+        }
+        footer .footer-social a {
+            color: #9ca3af;
+            transition: color 0.2s;
+        }
+        footer .footer-social a:hover {
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .product-card {
+                min-height: 380px;
+            }
+            .product-card .p-5 h3 {
+                min-height: 44px;
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -44,12 +126,12 @@
             <span class="font-bold text-xl tracking-tight">Hecoth <span style="color:var(--primary)">Agri</span></span>
         </a>
         <nav class="hidden md:flex space-x-6">
-            <a href="/" class="nav-link">Home</a>
-            <a href="/products.html" class="nav-link active">Products</a>
-            <a href="/solutions.html" class="nav-link">Solutions</a>
-            <a href="/about.html" class="nav-link">About</a>
-            <a href="/news.html" class="nav-link">News</a>
-            <a href="/contact.html" class="nav-link">Contact</a>
+            <a href="/" class="nav-link" data-lang-key="nav_home">Home</a>
+            <a href="/products.html" class="nav-link active" data-lang-key="nav_products">Products</a>
+            <a href="/solutions.html" class="nav-link" data-lang-key="nav_solutions">Solutions</a>
+            <a href="/about.html" class="nav-link" data-lang-key="nav_about">About</a>
+            <a href="/news.html" class="nav-link" data-lang-key="nav_news">News</a>
+            <a href="/contact.html" class="nav-link" data-lang-key="nav_contact">Contact</a>
         </nav>
         <div class="flex items-center gap-3">
             <div class="lang-selector hidden md:flex gap-1 bg-gray-100 p-1 rounded-full">
@@ -65,12 +147,12 @@
         </div>
     </div>
     <div id="mobileMenu" class="hidden md:hidden bg-white border-t py-4 px-6 flex flex-col space-y-3 shadow-lg">
-        <a href="/" class="py-1">Home</a>
-        <a href="/products.html" class="py-1" style="color:var(--primary);font-weight:600;">Products</a>
-        <a href="/solutions.html" class="py-1">Solutions</a>
-        <a href="/about.html" class="py-1">About</a>
-        <a href="/news.html" class="py-1">News</a>
-        <a href="/contact.html" class="py-1">Contact</a>
+        <a href="/" class="py-1" data-lang-key="nav_home">Home</a>
+        <a href="/products.html" class="py-1" style="color:var(--primary);font-weight:600;" data-lang-key="nav_products">Products</a>
+        <a href="/solutions.html" class="py-1" data-lang-key="nav_solutions">Solutions</a>
+        <a href="/about.html" class="py-1" data-lang-key="nav_about">About</a>
+        <a href="/news.html" class="py-1" data-lang-key="nav_news">News</a>
+        <a href="/contact.html" class="py-1" data-lang-key="nav_contact">Contact</a>
         <a href="https://wa.me/8619743003775" class="py-1 text-green-600"><i class="fab fa-whatsapp"></i> WhatsApp</a>
         <div class="flex flex-wrap gap-2 pt-2 border-t">
             <button onclick="switchLanguage('en')" class="px-2 py-1 bg-gray-100 rounded-full text-sm">EN</button>
@@ -98,57 +180,132 @@
         
         <!-- Products Grid -->
         <div id="productsGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
-        
-                <!-- ===== 产品添加指引 (已隐藏) ===== -->
-        <!-- 
-        <div class="mt-16 bg-primary-gradient rounded-2xl p-8 border border-gray-200">
-            <h3 class="text-xl font-bold text-center" style="color:var(--primary)">📝 How to Add New Products</h3>
-            <div class="grid md:grid-cols-3 gap-6 mt-6 text-sm">
-                <div class="bg-white p-4 rounded-xl">
-                    <span class="font-bold text-[#2E7D32]">Step 1</span>
-                    <p class="mt-1">Open <code class="bg-gray-100 px-2 py-0.5 rounded">products-data.js</code> in the root folder</p>
-                </div>
-                <div class="bg-white p-4 rounded-xl">
-                    <span class="font-bold text-[#2E7D32]">Step 2</span>
-                    <p class="mt-1">Copy a product template and fill in: <br><code>id, name, category, image, specs, desc, features</code></p>
-                </div>
-                <div class="bg-white p-4 rounded-xl">
-                    <span class="font-bold text-[#2E7D32]">Step 3</span>
-                    <p class="mt-1">Upload product image to <code class="bg-gray-100 px-2 py-0.5 rounded">/image/</code> folder</p>
-                </div>
-            </div>
-            <p class="text-center text-gray-500 text-sm mt-4">💡 Each product supports 6 languages: EN, ES, FR, AR, RU, PT</p>
-        </div>
-        -->
+    </div>
 </main>
 
 <!-- ===== FOOTER ===== -->
-<div class="flex gap-4 mt-4">
-    <a href="https://www.facebook.com/profile.php?id=100011350858214" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#1877F2] transition">
-        <i class="fab fa-facebook text-xl"></i>
-    </a>
-    <a href="https://www.instagram.com/choi5989/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#E4405F] transition">
-        <i class="fab fa-instagram text-xl"></i>
-    </a>
-    <a href="https://www.youtube.com/@agriculturalchanel" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF0000] transition">
-        <i class="fab fa-youtube text-xl"></i>
-    </a>
-    <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#000000] transition">
-        <i class="fab fa-tiktok text-xl"></i>
-    </a>
-</div>
+<footer>
+    <div class="container mx-auto px-4 md:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+            <div>
+                <div class="flex items-center gap-2"><i class="fas fa-leaf text-[#4CAF50] text-2xl"></i><span class="font-bold text-white text-xl">Hecoth Agri</span></div>
+                <p class="mt-3 text-sm">Jinan Hecoth International Trading Co., Ltd.</p>
+                <p class="text-sm">Your reliable agricultural & supply chain partner.</p>
+                <div class="flex gap-4 mt-4 footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=100011350858214" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook text-xl"></i></a>
+                    <a href="https://www.instagram.com/choi5989/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram text-xl"></i></a>
+                    <a href="https://www.youtube.com/@agriculturalchanel" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube text-xl"></i></a>
+                    <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok text-xl"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-3">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="/" class="footer-link">Home</a></li>
+                    <li><a href="/products.html" class="footer-link">Products</a></li>
+                    <li><a href="/solutions.html" class="footer-link">Solutions</a></li>
+                    <li><a href="/about.html" class="footer-link">About</a></li>
+                    <li><a href="/news.html" class="footer-link">News</a></li>
+                    <li><a href="/contact.html" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-3">Contact</h4>
+                <p><i class="fas fa-envelope mr-2"></i> zoe@annetop.com</p>
+                <p><i class="fab fa-whatsapp mr-2"></i> +86 19743003775</p>
+                <p><i class="fas fa-phone mr-2"></i> +86 13066010625</p>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-3">Office</h4>
+                <p>Room 2213, Rongsheng Time Square,<br>Jinan, Shandong, China</p>
+            </div>
+        </div>
+        <div class="text-center pt-8 border-t border-gray-800 text-sm mt-8">
+            © 2026 Jinan Hecoth International Trading Co., Ltd. All rights reserved. | <i class="fas fa-leaf text-[#4CAF50]"></i> Sustainable Agriculture
+        </div>
+    </div>
+</footer>
 
 <script src="/products-data.js"></script>
 <script>
     let currentLang = 'en';
     let currentCategory = 'all';
     
+    // ===== 多语言配置（页面内翻译） =====
+    const pageTranslations = {
+        en: {
+            nav_home: "Home", nav_products: "Products", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact",
+            products_title: "Our Products",
+            products_subtitle: "Premium agricultural and construction equipment for global B2B partners",
+            all_products: "🌾 All Products"
+        },
+        es: {
+            nav_home: "Inicio", nav_products: "Productos", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto",
+            products_title: "Nuestros Productos",
+            products_subtitle: "Equipos agrícolas y de construcción premium para socios B2B globales",
+            all_products: "🌾 Todos los Productos"
+        },
+        fr: {
+            nav_home: "Accueil", nav_products: "Produits", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact",
+            products_title: "Nos Produits",
+            products_subtitle: "Équipements agricoles et de construction premium pour les partenaires B2B mondiaux",
+            all_products: "🌾 Tous les Produits"
+        },
+        ar: {
+            nav_home: "الرئيسية", nav_products: "المنتجات", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا",
+            products_title: "منتجاتنا",
+            products_subtitle: "معدات زراعية وإنشائية متميزة للشركاء العالميين",
+            all_products: "🌾 جميع المنتجات"
+        },
+        ru: {
+            nav_home: "Главная", nav_products: "Продукты", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты",
+            products_title: "Наши Продукты",
+            products_subtitle: "Премиальное сельскохозяйственное и строительное оборудование для глобальных B2B-партнеров",
+            all_products: "🌾 Все Продукты"
+        },
+        pt: {
+            nav_home: "Início", nav_products: "Produtos", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato",
+            products_title: "Nossos Produtos",
+            products_subtitle: "Equipamentos agrícolas e de construção premium para parceiros B2B globais",
+            all_products: "🌾 Todos os Produtos"
+        }
+    };
+    
     function switchLanguage(lang) {
         currentLang = lang;
         document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
         document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.add('active');
         localStorage.setItem('hecoth_lang', lang);
+        // 更新页面固定文字
+        updatePageLanguage(lang);
+        // 重新渲染产品和分类（包含产品名称的多语言）
+        renderFilters();
         renderProducts(currentCategory);
+    }
+    
+    function updatePageLanguage(lang) {
+        const t = pageTranslations[lang] || pageTranslations.en;
+        document.querySelectorAll('[data-lang-key]').forEach(el => {
+            const key = el.getAttribute('data-lang-key');
+            if (t[key]) el.textContent = t[key];
+        });
+        // 更新标题
+        const titleEl = document.querySelector('h1');
+        if (titleEl) {
+            const span = titleEl.querySelector('span');
+            titleEl.textContent = t.products_title || 'Our Products';
+            if (span) {
+                titleEl.innerHTML = t.products_title || 'Our Products';
+                // 重新插入带颜色的span
+                const text = t.products_title || 'Our Products';
+                const parts = text.split('Products');
+                if (parts.length > 1) {
+                    titleEl.innerHTML = parts[0] + '<span style="color:var(--primary)">Products</span>' + parts.slice(1).join('Products');
+                }
+            }
+        }
+        const subtitle = document.querySelector('.text-gray-500.mt-2');
+        if (subtitle) subtitle.textContent = t.products_subtitle || '';
     }
     
     const savedLang = localStorage.getItem('hecoth_lang');
@@ -158,7 +315,8 @@
     function renderFilters() {
         const container = document.getElementById('filterContainer');
         const categories = window.ProductsData.getAllCategories();
-        container.innerHTML = `<button class="filter-btn active" data-cat="all">🌾 All Products</button>`;
+        const t = pageTranslations[currentLang] || pageTranslations.en;
+        container.innerHTML = `<button class="filter-btn active" data-cat="all">${t.all_products || '🌾 All Products'}</button>`;
         categories.forEach(cat => {
             const name = window.ProductsData.getCategoryName(cat, currentLang);
             container.innerHTML += `<button class="filter-btn" data-cat="${cat}">${name}</button>`;
@@ -174,7 +332,7 @@
         });
     }
     
-    // ===== 渲染产品 =====
+    // ===== 渲染产品（修复版：统一卡片高度） =====
     function renderProducts(category) {
         const grid = document.getElementById('productsGrid');
         if (!grid) return;
@@ -192,25 +350,26 @@
             const specs = p.specs[currentLang] || p.specs.en;
             const specEntries = Object.entries(specs).slice(0, 3);
             const catName = window.ProductsData.getCategoryName(p.category, currentLang);
+            const imageUrl = p.image || 'https://placehold.co/400x250/e5e7eb/666?text=' + encodeURIComponent(name);
             
             return `
                 <div class="product-card" onclick="location.href='/product.html?id=${p.id}'">
-                    <div class="h-48 bg-gray-100 flex items-center justify-center overflow-hidden">
-                        <img src="${p.image || 'https://placehold.co/400x250/e5e7eb/666?text='+encodeURIComponent(name)}" 
+                    <div class="h-48 bg-gray-100 flex items-center justify-center overflow-hidden flex-shrink-0">
+                        <img src="${imageUrl}" 
                              alt="${name}" 
                              class="w-full h-full object-cover"
                              onerror="this.src='https://placehold.co/400x250/e5e7eb/666?text=Image+Not+Found'">
                     </div>
-                    <div class="p-5">
-                        <span class="text-xs font-semibold text-[#2E7D32] bg-[#2E7D32]/10 px-2 py-1 rounded-full">${catName}</span>
-                        <h3 class="font-bold text-lg mt-2">${name}</h3>
-                        <div class="mt-2">
+                    <div class="p-5 flex flex-col flex-1">
+                        <span class="text-xs font-semibold text-[#2E7D32] bg-[#2E7D32]/10 px-2 py-1 rounded-full inline-block w-fit">${catName}</span>
+                        <h3 class="font-bold text-lg mt-2 line-clamp-2">${name}</h3>
+                        <div class="mt-2 flex-1">
                             ${specEntries.map(([key, val]) => `
-                                <div class="param-row"><span>${key}</span><span class="font-medium">${val}</span></div>
+                                <div class="param-row text-sm"><span>${key}</span><span class="font-medium">${val}</span></div>
                             `).join('')}
                         </div>
                         <p class="text-gray-500 text-sm mt-2 line-clamp-2">${desc}</p>
-                        <span class="text-[#2E7D32] font-semibold text-sm mt-2 inline-block">View Details →</span>
+                        <span class="text-[#2E7D32] font-semibold text-sm mt-2 inline-block hover:underline">View Details →</span>
                     </div>
                 </div>
             `;
@@ -223,8 +382,17 @@
     });
     
     // ===== 初始化 =====
-    renderFilters();
-    renderProducts('all');
+    document.addEventListener('DOMContentLoaded', function() {
+        // 设置语言按钮状态
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
+        });
+        // 更新页面语言
+        updatePageLanguage(currentLang);
+        // 渲染分类和产品
+        renderFilters();
+        renderProducts('all');
+    });
 </script>
 </body>
 </html>
