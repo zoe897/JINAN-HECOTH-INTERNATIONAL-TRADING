@@ -8629,7 +8629,7 @@ const Products = [
         id: "PT-011",
         category: "parts",
         subCategory: null,
-        image: "/image/dcv60-directional-valve.jpg",
+        image: "/image/dcv60.jpg",
         name: {
             en: "DCV60 Multi-Way Directional Valve - 60L/min High-Capacity Hydraulic Control Valve",
             es: "Válvula Direccional Multi-Vía DCV60 - Válvula de Control Hidráulico de Alta Capacidad 60L/min",
