@@ -733,7 +733,7 @@ const Products = [
     //  💧 灌溉设备 → 卷盘式喷灌机
     // ============================================================
     {
-        id: "IR-003",
+        id: "IR-001",
         category: "irrigation",
         subCategory: null,
         image: "/image/irrigation-reel.jpg",
