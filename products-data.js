@@ -8810,6 +8810,159 @@ const Products = [
             customization: "Section count configurable (1-12 sections), control type customizable (manual/pneumatic/electro-hydraulic)"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 链耙/拖链耙
+    // ============================================================
+    {
+        id: "TL-011",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/chain-harrow.jpg",
+        name: {
+            en: "Chain Harrow / Drag Harrow - Land Leveling & Weed Control Tool",
+            es: "Grada de Cadenas / Rastra de Arrastre - Herramienta de Nivelación y Control de Malezas",
+            fr: "Herse à Chaînes / Herse Traînée - Outil de Nivellement et de Désherbage",
+            ar: "مشط سلسلة / مشط جر - أداة تسوية الأراضي ومكافحة الأعشاب",
+            ru: "Цепная борона / Волокуша - Инструмент для выравнивания почвы и борьбы с сорняками",
+            pt: "Grade de Correntes / Grade de Arraste - Ferramenta de Nivelamento e Controle de Ervas Daninhas"
+        },
+        desc: {
+            en: "The Chain Harrow / Drag Harrow is a versatile land preparation tool designed for clearing weeds, roots, leveling gravel, and preparing seedbeds. Perfect for ATV, UTV, or garden tractor attachment. Features heavy-duty chain construction with spring hook connection for easy attachment. Available in 4ft to 10ft working widths with 12mm or 16mm chain diameters. Ideal for food plots, lawn preparation, pasture maintenance, and light to medium soil cultivation.",
+            es: "La grada de cadenas es una herramienta versátil para la preparación del terreno, diseñada para limpiar malezas, raíces, nivelar grava y preparar lechos de siembra. Perfecta para ATV, UTV o tractor de jardín. Disponible en anchos de 4ft a 10ft.",
+            fr: "La herse à chaînes est un outil polyvalent de préparation du sol conçu pour nettoyer les mauvaises herbes, les racines, niveler le gravier et préparer les lits de semences. Disponible en largeurs de 4ft à 10ft.",
+            ar: "مشط السلسلة هو أداة متعددة الاستخدامات لإعداد الأراضي، مصمم لتنظيف الأعشاب والجذور وتسوية الحصى وتجهيز أحواض البذور. متوفر بعروض عمل من 4 إلى 10 أقدام.",
+            ru: "Цепная борона - универсальный инструмент для подготовки почвы. Идеальна для ATV, UTV или садового трактора. Доступна в ширине от 4 до 10 футов.",
+            pt: "A grade de correntes é uma ferramenta versátil de preparação do solo, projetada para limpar ervas daninhas, raízes, nivelar cascalho e preparar canteiros. Disponível em larguras de 4ft a 10ft."
+        },
+        features: {
+            en: [
+                "4ft, 6ft, 8ft, and 10ft working width options for versatile applications",
+                "Heavy-duty 12mm or 16mm chain construction for durability",
+                "Spring hook attachment for quick and easy connection to ATV/UTV/garden tractor",
+                "Fully assembled and ready to use out of the box",
+                "Rolls up for compact storage when not in use",
+                "Ideal for weed removal, root clearing, gravel leveling, and seedbed preparation",
+                "Perfect for food plots, lawn prep, pasture maintenance, and light tillage",
+                "Matched power: 25-70 HP tractors or ATV/UTV",
+                "Working width from 1220-3050mm (4-10ft)"
+            ],
+            es: [
+                "Opciones de ancho de 4ft, 6ft, 8ft y 10ft",
+                "Construcción de cadena pesada de 12mm o 16mm",
+                "Conexión con gancho de resorte para enganche rápido",
+                "Completamente ensamblado",
+                "Se enrolla para almacenamiento compacto",
+                "Ideal para eliminación de malezas y nivelación",
+                "Perfecto para parcelas de alimentos y mantenimiento de pastos",
+                "Potencia recomendada: 25-70 HP"
+            ],
+            fr: [
+                "Options de largeur de 4ft, 6ft, 8ft et 10ft",
+                "Construction en chaîne lourde de 12mm ou 16mm",
+                "Crochet à ressort pour attache rapide",
+                "Entièrement assemblé",
+                "S'enroule pour un rangement compact",
+                "Idéal pour l'élimination des mauvaises herbes et le nivellement",
+                "Parfait pour les parcelles alimentaires et l'entretien des pâturages",
+                "Puissance recommandée: 25-70 HP"
+            ],
+            ar: [
+                "خيارات عرض العمل 4 و 6 و 8 و 10 أقدام",
+                "بناء سلسلة ثقيلة 12 ملم أو 16 ملم",
+                "ربط خطاف زنبركي للتوصيل السريع",
+                "مجمع بالكامل",
+                "يلف للتخزين المضغوط",
+                "مثالي لإزالة الأعشاب والتسوية",
+                "مناسب لبقع الطعام وصيانة المراعي",
+                "القوة الملائمة: 25-70 حصان"
+            ],
+            ru: [
+                "Ширина 4, 6, 8 и 10 футов",
+                "Цепи 12 мм или 16 мм",
+                "Пружинный крюк для быстрого крепления",
+                "Полностью собрана",
+                "Сворачивается для компактного хранения",
+                "Идеальна для удаления сорняков и выравнивания",
+                "Подходит для кормовых участков и пастбищ",
+                "Рекомендуемая мощность: 25-70 л.с."
+            ],
+            pt: [
+                "Opções de largura de 4ft, 6ft, 8ft e 10ft",
+                "Construção de corrente pesada de 12mm ou 16mm",
+                "Gancho de mola para fixação rápida",
+                "Totalmente montado",
+                "Enrola para armazenamento compacto",
+                "Ideal para remoção de ervas daninhas e nivelamento",
+                "Perfeito para parcelas de alimentos e manutenção de pastagens",
+                "Potência recomendada: 25-70 HP"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "DC-4FT / DC-6FT / DC-8FT / DC-10FT",
+                "Working Width": "1220mm (4ft) / 1830mm (6ft) / 2440mm (8ft) / 3050mm (10ft)",
+                "Chain Length": "1220mm (4ft) — all models",
+                "Chain Diameter": "12mm or 16mm (varies by model)",
+                "Weight": "80-110kg / 100-135kg / 120-150kg / 150-190kg",
+                "Matched Power": "25-35 HP / 35-40 HP / 45-60 HP / 70 HP",
+                "Attachment": "Spring hook for ATV/UTV/garden tractor",
+                "Application": "Weed removal, root clearing, gravel leveling, seedbed prep"
+            },
+            es: {
+                "Modelos": "DC-4FT / DC-6FT / DC-8FT / DC-10FT",
+                "Ancho de trabajo": "1220mm (4ft) / 1830mm (6ft) / 2440mm (8ft) / 3050mm (10ft)",
+                "Longitud de cadena": "1220mm (4ft)",
+                "Diámetro de cadena": "12mm o 16mm",
+                "Peso": "80-110kg / 100-135kg / 120-150kg / 150-190kg",
+                "Potencia recomendada": "25-35 HP / 35-40 HP / 45-60 HP / 70 HP",
+                "Conexión": "Gancho de resorte para ATV/UTV"
+            },
+            fr: {
+                "Modèles": "DC-4FT / DC-6FT / DC-8FT / DC-10FT",
+                "Largeur de travail": "1220mm (4ft) / 1830mm (6ft) / 2440mm (8ft) / 3050mm (10ft)",
+                "Longueur de chaîne": "1220mm (4ft)",
+                "Diamètre de chaîne": "12mm ou 16mm",
+                "Poids": "80-110kg / 100-135kg / 120-150kg / 150-190kg",
+                "Puissance recommandée": "25-35 HP / 35-40 HP / 45-60 HP / 70 HP",
+                "Attache": "Crochet à ressort pour ATV/UTV"
+            },
+            ar: {
+                "الموديلات": "DC-4FT / DC-6FT / DC-8FT / DC-10FT",
+                "عرض العمل": "1220 ملم (4 قدم) / 1830 ملم (6 قدم) / 2440 ملم (8 قدم) / 3050 ملم (10 قدم)",
+                "طول السلسلة": "1220 ملم (4 قدم)",
+                "قطر السلسلة": "12 ملم أو 16 ملم",
+                "الوزن": "80-110 كجم / 100-135 كجم / 120-150 كجم / 150-190 كجم",
+                "القوة الملائمة": "25-35 حصان / 35-40 حصان / 45-60 حصان / 70 حصان",
+                "التوصيل": "خطاف زنبركي لـ ATV/UTV"
+            },
+            ru: {
+                "Модели": "DC-4FT / DC-6FT / DC-8FT / DC-10FT",
+                "Рабочая ширина": "1220мм (4ft) / 1830мм (6ft) / 2440мм (8ft) / 3050мм (10ft)",
+                "Длина цепи": "1220мм (4ft)",
+                "Диаметр цепи": "12мм или 16мм",
+                "Вес": "80-110кг / 100-135кг / 120-150кг / 150-190кг",
+                "Рекомендуемая мощность": "25-35 л.с. / 35-40 л.с. / 45-60 л.с. / 70 л.с.",
+                "Крепление": "Пружинный крюк для ATV/UTV"
+            },
+            pt: {
+                "Modelos": "DC-4FT / DC-6FT / DC-8FT / DC-10FT",
+                "Largura de trabalho": "1220mm (4ft) / 1830mm (6ft) / 2440mm (8ft) / 3050mm (10ft)",
+                "Comprimento da corrente": "1220mm (4ft)",
+                "Diâmetro da corrente": "12mm ou 16mm",
+                "Peso": "80-110kg / 100-135kg / 120-150kg / 150-190kg",
+                "Potência recomendada": "25-35 HP / 35-40 HP / 45-60 HP / 70 HP",
+                "Conexão": "Gancho de mola para ATV/UTV"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Land leveling, weed control, seedbed preparation, pasture maintenance, food plots, lawn preparation"
+        }
+    },
 ];
 
 // ============================================================
