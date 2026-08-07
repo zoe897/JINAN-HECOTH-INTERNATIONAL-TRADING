@@ -8963,6 +8963,172 @@ const Products = [
             application: "Land leveling, weed control, seedbed preparation, pasture maintenance, food plots, lawn preparation"
         }
     },
+        // ============================================================
+    //  🔧 配件 → OPUA*B0系列齿轮泵
+    // ============================================================
+    {
+        id: "PT-012",
+        category: "parts",
+        subCategory: null,
+        image: "/image/opuaB0.jpg",
+        name: {
+            en: "OPUA*B0 Series Hydraulic Gear Pump - High-Performance Industrial Pump",
+            es: "Bomba Hidráulica de Engranajes Serie OPUA*B0 - Bomba Industrial de Alto Rendimiento",
+            fr: "Pompe Hydraulique à Engrenages Série OPUA*B0 - Pompe Industrielle Haute Performance",
+            ar: "مضخة هيدروليكية تروس سلسلة OPUA*B0 - مضخة صناعية عالية الأداء",
+            ru: "Гидравлический шестеренный насос серии OPUA*B0 - Высокопроизводительный промышленный насос",
+            pt: "Bomba Hidráulica de Engrenagens Série OPUA*B0 - Bomba Industrial de Alto Desempenho"
+        },
+        desc: {
+            en: "The OPUA*B0 Series hydraulic gear pump is a high-performance, reliable industrial pump designed for a wide range of hydraulic applications. Features displacements from 0.19 to 2.00 cm³/rev, maximum pressure up to 250 bar, and maximum speeds up to 7000 r/min. Equipped with G1/4 inlet and outlet ports for easy installation. Ideal for agricultural machinery, construction equipment, industrial machinery, and mobile hydraulic systems requiring precise and durable hydraulic power.",
+            es: "La bomba hidráulica de engranajes OPUA*B0 es una bomba industrial confiable de alto rendimiento para aplicaciones hidráulicas. Desplazamientos de 0.19 a 2.00 cm³/rev, presión máxima de 250 bar y velocidades de hasta 7000 r/min. Ideal para maquinaria agrícola y equipos de construcción.",
+            fr: "La pompe hydraulique à engrenages OPUA*B0 est une pompe industrielle fiable haute performance. Cylindrées de 0.19 à 2.00 cm³/rev, pression maximale de 250 bar et vitesses jusqu'à 7000 tr/min. Idéale pour les machines agricoles et les engins de construction.",
+            ar: "مضخة التروس الهيدروليكية OPUA*B0 هي مضخة صناعية موثوقة وعالية الأداء. إزاحات من 0.19 إلى 2.00 سم³/دورة، ضغط أقصى 250 بار وسرعات تصل إلى 7000 دورة/دقيقة. مثالية للمعدات الزراعية ومعدات البناء.",
+            ru: "Гидравлический шестеренный насос OPUA*B0 - надежный высокопроизводительный промышленный насос. Рабочий объем от 0.19 до 2.00 см³/об, максимальное давление до 250 бар и скорость до 7000 об/мин. Идеален для сельхозтехники и строительного оборудования.",
+            pt: "A bomba hidráulica de engrenagens OPUA*B0 é uma bomba industrial confiável de alto desempenho. Cilindradas de 0.19 a 2.00 cm³/rev, pressão máxima de 250 bar e velocidades de até 7000 r/min. Ideal para máquinas agrícolas e equipamentos de construção."
+        },
+        features: {
+            en: [
+                "Wide displacement range: 0.19 to 2.00 cm³/rev for flexible system matching",
+                "Maximum pressure up to 250 bar (P3) for demanding applications",
+                "Maximum speed up to 7000 r/min for high-performance operation",
+                "G1/4 inlet and outlet ports with 12mm thread depth for easy installation",
+                "Compact dimensions for space-saving installation",
+                "Durable construction for long service life",
+                "Mounting with M5 screws (torque: 5.4±0.5 Nm)",
+                "Suitable for agricultural machinery, construction equipment, and industrial hydraulics",
+                "Reliable performance in demanding working conditions",
+                "12 models available for precise system matching"
+            ],
+            es: [
+                "Amplio rango de desplazamiento: 0.19 a 2.00 cm³/rev",
+                "Presión máxima hasta 250 bar",
+                "Velocidad máxima hasta 7000 r/min",
+                "Puertos de entrada y salida G1/4",
+                "Dimensiones compactas",
+                "Construcción duradera",
+                "Montaje con tornillos M5",
+                "Adecuado para maquinaria agrícola y construcción"
+            ],
+            fr: [
+                "Large gamme de cylindrées: 0.19 à 2.00 cm³/rev",
+                "Pression maximale jusqu'à 250 bar",
+                "Vitesse maximale jusqu'à 7000 tr/min",
+                "Orifices d'entrée et de sortie G1/4",
+                "Dimensions compactes",
+                "Construction durable",
+                "Montage avec vis M5",
+                "Convient aux machines agricoles et de construction"
+            ],
+            ar: [
+                "نطاق إزاحة واسع: 0.19 إلى 2.00 سم³/دورة",
+                "ضغط أقصى يصل إلى 250 بار",
+                "سرعة قصوى تصل إلى 7000 دورة/دقيقة",
+                "منافذ دخول وخروج G1/4",
+                "أبعاد مدمجة",
+                "بناء متين",
+                "تركيب بمسامير M5",
+                "مناسب للمعدات الزراعية ومعدات البناء"
+            ],
+            ru: [
+                "Широкий диапазон рабочего объема: 0.19-2.00 см³/об",
+                "Максимальное давление до 250 бар",
+                "Максимальная скорость до 7000 об/мин",
+                "Входные и выходные порты G1/4",
+                "Компактные размеры",
+                "Прочная конструкция",
+                "Крепление винтами M5",
+                "Подходит для сельхозтехники и строительного оборудования"
+            ],
+            pt: [
+                "Ampla gama de cilindradas: 0.19 a 2.00 cm³/rev",
+                "Pressão máxima até 250 bar",
+                "Velocidade máxima até 7000 r/min",
+                "Portas de entrada e saída G1/4",
+                "Dimensões compactas",
+                "Construção durável",
+                "Montagem com parafusos M5",
+                "Adequado para máquinas agrícolas e de construção"
+            ]
+        },
+        specs: {
+            en: {
+                "Series": "OPUA*B0 Series",
+                "Displacement Range": "0.19 - 2.00 cm³/rev (12 models)",
+                "Max Pressure (P1/P2/P3)": "200/230/250 bar (up to 2.00 cm³/rev)",
+                "Max Speed": "3000 - 7000 r/min (varies by model)",
+                "Min Speed": "500 - 1000 r/min (varies by model)",
+                "Ports": "G1/4 inlet & outlet (thread depth 12mm)",
+                "Mounting": "M5 screws, torque 5.4±0.5 Nm",
+                "Dimensions": "60-74.5mm (M) / 51-65.5mm (N)",
+                "Application": "Hydraulic systems, agricultural machinery, construction equipment"
+            },
+            es: {
+                "Serie": "Serie OPUA*B0",
+                "Rango de desplazamiento": "0.19 - 2.00 cm³/rev (12 modelos)",
+                "Presión máxima": "200/230/250 bar",
+                "Velocidad máxima": "3000 - 7000 r/min",
+                "Velocidad mínima": "500 - 1000 r/min",
+                "Puertos": "G1/4 entrada y salida",
+                "Montaje": "Tornillos M5",
+                "Dimensiones": "60-74.5mm (M) / 51-65.5mm (N)",
+                "Aplicación": "Sistemas hidráulicos, maquinaria agrícola"
+            },
+            fr: {
+                "Série": "Série OPUA*B0",
+                "Cylindrée": "0.19 - 2.00 cm³/rev (12 modèles)",
+                "Pression max": "200/230/250 bar",
+                "Vitesse max": "3000 - 7000 tr/min",
+                "Vitesse min": "500 - 1000 tr/min",
+                "Orifices": "G1/4 entrée et sortie",
+                "Montage": "Vis M5",
+                "Dimensions": "60-74.5mm (M) / 51-65.5mm (N)",
+                "Application": "Systèmes hydrauliques, machines agricoles"
+            },
+            ar: {
+                "السلسلة": "سلسلة OPUA*B0",
+                "نطاق الإزاحة": "0.19 - 2.00 سم³/دورة (12 موديلاً)",
+                "الضغط الأقصى": "200/230/250 بار",
+                "السرعة القصوى": "3000 - 7000 دورة/دقيقة",
+                "السرعة الدنيا": "500 - 1000 دورة/دقيقة",
+                "المنافذ": "G1/4 دخول وخروج",
+                "التركيب": "مسامير M5",
+                "الأبعاد": "60-74.5 ملم (M) / 51-65.5 ملم (N)",
+                "التطبيق": "الأنظمة الهيدروليكية، المعدات الزراعية"
+            },
+            ru: {
+                "Серия": "Серия OPUA*B0",
+                "Рабочий объем": "0.19 - 2.00 см³/об (12 моделей)",
+                "Макс. давление": "200/230/250 бар",
+                "Макс. скорость": "3000 - 7000 об/мин",
+                "Мин. скорость": "500 - 1000 об/мин",
+                "Порты": "G1/4 вход и выход",
+                "Крепление": "Винты M5",
+                "Размеры": "60-74.5мм (M) / 51-65.5мм (N)",
+                "Применение": "Гидравлические системы, сельхозтехника"
+            },
+            pt: {
+                "Série": "Série OPUA*B0",
+                "Cilindrada": "0.19 - 2.00 cm³/rev (12 modelos)",
+                "Pressão máx": "200/230/250 bar",
+                "Velocidade máx": "3000 - 7000 r/min",
+                "Velocidade mín": "500 - 1000 r/min",
+                "Portas": "G1/4 entrada e saída",
+                "Montagem": "Parafusos M5",
+                "Dimensões": "60-74.5mm (M) / 51-65.5mm (N)",
+                "Aplicação": "Sistemas hidráulicos, máquinas agrícolas"
+            }
+        },
+        inquiry: {
+            minOrder: "10 units",
+            leadTime: "15-25 days",
+            warranty: "12 months",
+            moq: "5 units",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Agricultural machinery, construction equipment, industrial machinery, mobile hydraulic systems",
+            customization: "Multiple displacement options available (0.19-2.00 cm³/rev), please specify model when ordering"
+        }
+    },
 ];
 
 // ============================================================
