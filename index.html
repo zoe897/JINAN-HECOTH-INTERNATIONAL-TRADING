@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Hecoth Agri Machinery | Agricultural & Construction Equipment Supplier</title>
+    <title>Hecoth Machinery | Agricultural & Construction Equipment Supplier</title>
     <meta name="description" content="Jinan Hecoth International Trading Co., Ltd. - Professional supplier of agricultural tractors, farm machinery, construction equipment, smart drip irrigation systems and spare parts. 17+ years export experience.">
-    <meta name="keywords" content="agricultural tractor, farm machinery, construction machinery, smart drip irrigation system, machinery spare parts, disc plough, disc harrow">
+    <meta name="keywords" content="agricultural tractor, farm machinery, construction machinery, smart drip irrigation system, machinery spare parts, motorcycles">
     <meta name="author" content="Jinan Hecoth International Trading Co., Ltd.">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Hecoth Agri Machinery - Agricultural & Construction Equipment">
-    <meta property="og:description" content="Premium agricultural and construction machinery supplier. 17+ years export experience.">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -24,7 +20,7 @@
         .btn-outline:hover { background-color: var(--primary); color: white; }
         .btn-accent { background-color: var(--accent); color: #1B1B1B; padding: 0.75rem 1.75rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
         .btn-accent:hover { background-color: var(--accent-light); transform: translateY(-2px); }
-        .product-card { border: 1px solid #e5e7eb; border-radius: 1rem; overflow: hidden; transition: all 0.3s ease; background: white; cursor: pointer; }
+        .product-card { border: 1px solid #e5e7eb; border-radius: 1rem; overflow: hidden; transition: all 0.3s ease; background: white; cursor: pointer; display: flex; flex-direction: column; height: 100%; }
         .product-card:hover { transform: translateY(-5px); box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15); border-color: var(--primary); }
         .footer-link { color: #9ca3af; transition: color 0.2s; text-decoration: none; }
         .footer-link:hover { color: var(--secondary); }
@@ -33,13 +29,31 @@
         .nav-link.active { color: var(--primary); font-weight: 600; }
         .lang-btn { font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 2rem; transition: all 0.2s; cursor: pointer; background: transparent; border: none; font-weight: 500; }
         .lang-btn.active { background-color: var(--primary); color: white; }
-        .lang-btn:not(.active):hover { background-color: #f3f4f6; }
         .bg-primary-gradient { background: linear-gradient(135deg, rgba(46,125,50,0.05) 0%, rgba(67,160,71,0.08) 100%); }
         .hero-badge { background: rgba(46,125,50,0.1); color: var(--primary); padding: 0.25rem 1rem; border-radius: 2rem; font-size: 0.85rem; font-weight: 600; display: inline-block; }
         .stat-card { background: white; padding: 1.5rem; border-radius: 1rem; text-align: center; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); transition: all 0.3s; }
         .stat-card:hover { transform: translateY(-3px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); }
-        @media (max-width: 768px) { .desktop-nav { display: none; } }
         .service-icon { width: 4rem; height: 4rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; background: rgba(46,125,50,0.1); color: var(--primary); }
+        @media (max-width: 768px) { .desktop-nav { display: none; } }
+
+        /* ===== Banner 轮播样式 ===== */
+        .banner-slider { position: relative; width: 100%; height: 420px; overflow: hidden; border-radius: 1.5rem; background: #f3f4f6; }
+        .banner-slider .slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 0.8s ease-in-out; }
+        .banner-slider .slide.active { opacity: 1; }
+        .banner-slider .slide img { width: 100%; height: 100%; object-fit: cover; }
+        .banner-slider .slide-caption { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.6), transparent); color: white; padding: 2rem 1.5rem 1rem; font-size: 0.95rem; font-weight: 500; }
+        .banner-dots { position: absolute; bottom: 1rem; left: 50%; transform: translateX(-50%); display: flex; gap: 0.5rem; z-index: 10; }
+        .banner-dots .dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s; border: none; }
+        .banner-dots .dot.active { background: white; width: 28px; border-radius: 10px; }
+        .banner-arrow { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; z-index: 10; display: flex; align-items: center; justify-content: center; transition: all 0.3s; color: #111827; }
+        .banner-arrow:hover { background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .banner-arrow.prev { left: 1rem; }
+        .banner-arrow.next { right: 1rem; }
+        @media (max-width: 768px) {
+            .banner-slider { height: 260px; border-radius: 1rem; }
+            .banner-arrow { width: 32px; height: 32px; font-size: 0.8rem; }
+            .banner-slider .slide-caption { font-size: 0.8rem; padding: 1.5rem 1rem 0.75rem; }
+        }
     </style>
 </head>
 <body>
@@ -54,9 +68,10 @@
                 <p class="text-[9px] text-gray-500 tracking-wider">JINAN HECOTH INT'L TRADING CO., LTD.</p>
             </div>
         </a>
-        <nav class="hidden md:flex space-x-6 desktop-nav">
+        <nav class="hidden md:flex space-x-5 desktop-nav">
             <a href="/" class="nav-link active" data-lang-key="nav_home">Home</a>
             <a href="/products.html" class="nav-link" data-lang-key="nav_products">Products</a>
+            <a href="https://hecothmotorcycle.vercel.app/?utm_source=hecoth&utm_medium=website&utm_campaign=motorcycle_business&utm_content=nav" target="_blank" rel="noopener noreferrer" class="nav-link" title="Hecoth Motorcycle - Quality Motorcycles & Spare Parts for Global B2B Buyers" data-lang-key="nav_motorcycles">Motorcycles</a>
             <a href="/solutions.html" class="nav-link" data-lang-key="nav_solutions">Solutions</a>
             <a href="/about.html" class="nav-link" data-lang-key="nav_about">About</a>
             <a href="/news.html" class="nav-link" data-lang-key="nav_news">News</a>
@@ -78,6 +93,7 @@
     <div id="mobileMenu" class="hidden md:hidden bg-white border-t py-4 px-6 flex flex-col space-y-3 shadow-lg">
         <a href="/" class="py-1 font-semibold" style="color:var(--primary)" data-lang-key="nav_home">Home</a>
         <a href="/products.html" class="py-1" data-lang-key="nav_products">Products</a>
+        <a href="https://hecothmotorcycle.vercel.app/?utm_source=hecoth&utm_medium=website&utm_campaign=motorcycle_business&utm_content=mobile_nav" target="_blank" rel="noopener noreferrer" class="py-1" title="Hecoth Motorcycle - Quality Motorcycles & Spare Parts for Global B2B Buyers" data-lang-key="nav_motorcycles">Motorcycles</a>
         <a href="/solutions.html" class="py-1" data-lang-key="nav_solutions">Solutions</a>
         <a href="/about.html" class="py-1" data-lang-key="nav_about">About</a>
         <a href="/news.html" class="py-1" data-lang-key="nav_news">News</a>
@@ -94,7 +110,7 @@
     </div>
 </header>
 
-<!-- ===== HERO ===== -->
+<!-- ===== HERO + BANNER ===== -->
 <section class="bg-primary-gradient py-20">
     <div class="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
         <div>
@@ -113,30 +129,56 @@
                 <div><i class="fas fa-leaf text-[#2E7D32]"></i> <span class="text-sm font-medium" data-lang-key="badge_sustainable">Sustainable Solutions</span></div>
             </div>
         </div>
-        <!-- ===== 图片展示卡片 ===== -->
-        <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
-            <img src="/image/factory-shipping.jpg" 
-                 alt="Hecoth Machinery factory and shipping" 
-                 class="w-full h-64 object-cover"
-                 onerror="this.src='https://placehold.co/600x400/e5e7eb/666?text=Hecoth+Factory'">
-            <div class="p-4 text-center">
-                <p class="text-gray-700 font-medium" data-lang-key="hero_card_title">📦 Hecoth Global Shipping & Quality Control</p>
-                <p class="text-sm text-gray-400" data-lang-key="hero_card_desc">Reliable delivery to 60+ countries worldwide</p>
+        <div class="banner-slider" id="bannerSlider">
+            <div class="slide active">
+                <img src="/image/banner-1.jpg" alt="Hecoth Agricultural Machinery" loading="lazy" onerror="this.src='https://placehold.co/800x420/2E7D32/FFFFFF?text=Hecoth+Machinery'">
+                <div class="slide-caption">Hecoth Agri Machinery Showcase</div>
+            </div>
+            <div class="slide">
+                <img src="/image/banner-2.jpg" alt="Hecoth Tractors in Field" loading="lazy" onerror="this.src='https://placehold.co/800x420/43A047/FFFFFF?text=Tractors+in+Action'">
+                <div class="slide-caption">Trusted by Farmers in 60+ Countries</div>
+            </div>
+            <div class="slide">
+                <img src="/image/banner-3.jpg" alt="Hecoth Factory" loading="lazy" onerror="this.src='https://placehold.co/800x420/1B5E20/FFFFFF?text=Factory+Showcase'">
+                <div class="slide-caption">17+ Years of Export Experience</div>
+            </div>
+            <div class="slide">
+                <img src="/image/banner-4.jpg" alt="Hecoth Motorcycle" loading="lazy" onerror="this.src='https://placehold.co/800x420/F9A825/FFFFFF?text=Motorcycle+Business'">
+                <div class="slide-caption">New: Hecoth Motorcycle Business</div>
+            </div>
+            <button class="banner-arrow prev" onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+            <button class="banner-arrow next" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+            <div class="banner-dots" id="bannerDots">
+                <button class="dot active" onclick="goToSlide(0)"></button>
+                <button class="dot" onclick="goToSlide(1)"></button>
+                <button class="dot" onclick="goToSlide(2)"></button>
+                <button class="dot" onclick="goToSlide(3)"></button>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ===== FEATURED PRODUCTS ===== -->
+<!-- ===== OUR RANGE (5个分类卡片) ===== -->
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4 md:px-8">
         <div class="text-center max-w-2xl mx-auto mb-12">
-            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm"><i class="fas fa-seedling mr-2"></i> <span data-lang-key="featured_badge">Our Range</span></span>
-            <h2 class="text-3xl md:text-4xl font-bold mt-2" data-lang-key="featured_title">Premium Agricultural & <span style="color:var(--primary)">Construction</span> Equipment</h2>
+            <span class="text-[#2E7D32] font-semibold uppercase tracking-wider text-sm">
+                <i class="fas fa-seedling mr-2"></i> 
+                <span data-lang-key="featured_badge">Our Range</span>
+            </span>
+            <h2 class="text-3xl md:text-4xl font-bold mt-2" data-lang-key="featured_title">
+                Premium Agricultural & <span style="color:var(--primary)">Construction</span> Equipment
+            </h2>
         </div>
-        <div class="grid md:grid-cols-3 gap-8" id="featuredGrid"></div>
+
+        <!-- 5个分类卡片：拖拉机、农业机械、工程机械、配件、摩托车 -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6" id="featuredGrid"></div>
+
         <div class="text-center mt-12">
-            <a href="/products.html" class="btn-outline"><span data-lang-key="view_all">View All Products</span> <i class="fas fa-arrow-right ml-2"></i></a>
+            <a href="/products.html" class="btn-outline">
+                <span data-lang-key="view_all">View All Products</span> 
+                <i class="fas fa-arrow-right ml-2"></i>
+            </a>
         </div>
     </div>
 </section>
@@ -168,22 +210,22 @@
             <h2 class="text-3xl font-bold mt-2" data-lang-key="solutions_title">Complete <span style="color:var(--primary)">Supply Chain</span> Solutions</h2>
         </div>
         <div class="grid md:grid-cols-4 gap-6">
-            <div class="text-center p-6 rounded-xl hover:shadow-lg transition">
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-gray-50">
                 <div class="service-icon"><i class="fas fa-search text-2xl"></i></div>
                 <h3 class="font-bold" data-lang-key="sol_select">Product Selection</h3>
                 <p class="text-sm text-gray-500 mt-1" data-lang-key="sol_select_desc">Best match with high cost performance</p>
             </div>
-            <div class="text-center p-6 rounded-xl hover:shadow-lg transition">
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-gray-50">
                 <div class="service-icon"><i class="fas fa-industry text-2xl"></i></div>
                 <h3 class="font-bold" data-lang-key="sol_eval">Supplier Evaluation</h3>
                 <p class="text-sm text-gray-500 mt-1" data-lang-key="sol_eval_desc">Strict audit & capacity verification</p>
             </div>
-            <div class="text-center p-6 rounded-xl hover:shadow-lg transition">
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-gray-50">
                 <div class="service-icon" style="background:rgba(249,168,37,0.1);color:var(--accent)"><i class="fas fa-clipboard-list text-2xl"></i></div>
                 <h3 class="font-bold" data-lang-key="sol_quality">Quality Inspection</h3>
                 <p class="text-sm text-gray-500 mt-1" data-lang-key="sol_quality_desc">Pre-shipment & production monitoring</p>
             </div>
-            <div class="text-center p-6 rounded-xl hover:shadow-lg transition">
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-gray-50">
                 <div class="service-icon"><i class="fas fa-shipping-fast text-2xl"></i></div>
                 <h3 class="font-bold" data-lang-key="sol_logistics">Logistics</h3>
                 <p class="text-sm text-gray-500 mt-1" data-lang-key="sol_logistics_desc">Customized & tracking support</p>
@@ -206,7 +248,7 @@
                 <a href="https://www.tiktok.com/@elainechoi20220817" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#000000] transition"><i class="fab fa-tiktok text-xl"></i></a>
             </div>
         </div>
-        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_quick">Quick Links</h4><ul class="space-y-2"><li><a href="/" class="footer-link" data-lang-key="nav_home">Home</a></li><li><a href="/products.html" class="footer-link" data-lang-key="nav_products">Products</a></li><li><a href="/solutions.html" class="footer-link" data-lang-key="nav_solutions">Solutions</a></li><li><a href="/about.html" class="footer-link" data-lang-key="nav_about">About</a></li><li><a href="/news.html" class="footer-link" data-lang-key="nav_news">News</a></li><li><a href="/contact.html" class="footer-link" data-lang-key="nav_contact">Contact</a></li></ul></div>
+        <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_quick">Quick Links</h4><ul class="space-y-2"><li><a href="/" class="footer-link" data-lang-key="nav_home">Home</a></li><li><a href="/products.html" class="footer-link" data-lang-key="nav_products">Products</a></li><li><a href="https://hecothmotorcycle.vercel.app/?utm_source=hecoth&utm_medium=website&utm_campaign=motorcycle_business&utm_content=footer" target="_blank" rel="noopener noreferrer" class="footer-link" data-lang-key="nav_motorcycles">Motorcycles</a></li><li><a href="/solutions.html" class="footer-link" data-lang-key="nav_solutions">Solutions</a></li><li><a href="/about.html" class="footer-link" data-lang-key="nav_about">About</a></li><li><a href="/news.html" class="footer-link" data-lang-key="nav_news">News</a></li><li><a href="/contact.html" class="footer-link" data-lang-key="nav_contact">Contact</a></li></ul></div>
         <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_contact_title">Contact</h4><p><i class="fas fa-envelope mr-2"></i> zoe@annetop.com</p><p><i class="fab fa-whatsapp mr-2"></i> +86 19743003775</p><p><i class="fas fa-phone mr-2"></i> +86 13066010625</p></div>
         <div><h4 class="text-white font-semibold mb-3" data-lang-key="footer_office">Office</h4><p>Room 2213, Rongsheng Time Square,<br>Jinan, Shandong, China</p></div>
     </div>
@@ -218,14 +260,12 @@
     // ===== 多语言配置 =====
     const translations = {
         en: {
-            nav_home: "Home", nav_products: "Products", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact",
+            nav_home: "Home", nav_products: "Products", nav_motorcycles: "Motorcycles", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact",
             hero_badge: "17+ Years Agricultural Excellence",
             hero_title: "Your Reliable Agricultural Machinery Partner",
             hero_desc: "Agricultural Tractors | Farm Machinery | Construction Equipment | Smart Drip Irrigation | Spare Parts",
             hero_btn_products: "Explore Products", hero_btn_quote: "Request Quote",
             badge_iso: "ISO & CE Certified", badge_export: "Global Export", badge_sustainable: "Sustainable Solutions",
-            hero_card_title: "📦 Hecoth Global Shipping & Quality Control",
-            hero_card_desc: "Reliable delivery to 60+ countries worldwide",
             featured_badge: "Our Range", featured_title: "Premium Agricultural & Construction Equipment",
             view_all: "View All Products",
             about_badge: "Who We Are", about_title: "Jinan Hecoth International Trading Co., Ltd.",
@@ -244,21 +284,16 @@
             footer_rights: "All rights reserved.", footer_sustainable: "Sustainable Agriculture"
         },
         es: {
-            nav_home: "Inicio", nav_products: "Productos", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto",
-            hero_badge: "17+ Años de Excelencia Agrícola",
-            hero_title: "Su socio confiable en maquinaria agrícola",
+            nav_home: "Inicio", nav_products: "Productos", nav_motorcycles: "Motocicletas", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto",
+            hero_badge: "17+ Años de Excelencia Agrícola", hero_title: "Su socio confiable en maquinaria agrícola",
             hero_desc: "Tractores agrícolas | Maquinaria agrícola | Equipos de construcción | Riego inteligente | Repuestos",
             hero_btn_products: "Explorar Productos", hero_btn_quote: "Solicitar Presupuesto",
             badge_iso: "Certificado ISO y CE", badge_export: "Exportación Global", badge_sustainable: "Soluciones Sostenibles",
-            hero_card_title: "📦 Envío Global y Control de Calidad Hecoth",
-            hero_card_desc: "Entrega confiable a más de 60 países",
-            featured_badge: "Nuestra Gama", featured_title: "Equipos Agrícolas y de Construcción Premium",
-            view_all: "Ver Todos los Productos",
+            featured_badge: "Nuestra Gama", featured_title: "Equipos Agrícolas y de Construcción Premium", view_all: "Ver Todos los Productos",
             about_badge: "Quiénes Somos", about_title: "Jinan Hecoth International Trading Co., Ltd.",
             about_desc1: "Fundada con compromiso con la calidad, sirviendo al sector agrícola por más de 17 años.",
             about_desc2: "Ayudamos a los clientes a encontrar proveedores confiables, reducir riesgos y construir cadenas de suministro.",
-            about_learn: "Más Información",
-            stat_years: "Años de Experiencia", stat_countries: "Países", stat_units: "Unidades/Año", stat_support: "Soporte",
+            about_learn: "Más Información", stat_years: "Años de Experiencia", stat_countries: "Países", stat_units: "Unidades/Año", stat_support: "Soporte",
             solutions_badge: "Soluciones", solutions_title: "Soluciones Completas de Cadena de Suministro",
             sol_select: "Selección de Productos", sol_select_desc: "La mejor opción con alta rentabilidad",
             sol_eval: "Evaluación de Proveedores", sol_eval_desc: "Auditoría estricta y verificación de capacidad",
@@ -270,21 +305,16 @@
             footer_rights: "Todos los derechos reservados.", footer_sustainable: "Agricultura Sostenible"
         },
         fr: {
-            nav_home: "Accueil", nav_products: "Produits", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact",
-            hero_badge: "17+ Ans d'Excellence Agricole",
-            hero_title: "Votre partenaire fiable en machinerie agricole",
+            nav_home: "Accueil", nav_products: "Produits", nav_motorcycles: "Motos", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact",
+            hero_badge: "17+ Ans d'Excellence Agricole", hero_title: "Votre partenaire fiable en machinerie agricole",
             hero_desc: "Tracteurs agricoles | Machines agricoles | Engins de construction | Irrigation intelligente | Pièces détachées",
             hero_btn_products: "Explorer les Produits", hero_btn_quote: "Demander un Devis",
             badge_iso: "Certifié ISO et CE", badge_export: "Exportation Mondiale", badge_sustainable: "Solutions Durables",
-            hero_card_title: "📦 Expédition Mondiale et Contrôle Qualité Hecoth",
-            hero_card_desc: "Livraison fiable dans plus de 60 pays",
-            featured_badge: "Notre Gamme", featured_title: "Équipements Agricoles et de Construction Premium",
-            view_all: "Voir Tous les Produits",
+            featured_badge: "Notre Gamme", featured_title: "Équipements Agricoles et de Construction Premium", view_all: "Voir Tous les Produits",
             about_badge: "Qui Nous Sommes", about_title: "Jinan Hecoth International Trading Co., Ltd.",
             about_desc1: "Fondée avec un engagement envers la qualité, servant le secteur agricole depuis plus de 17 ans.",
             about_desc2: "Nous aidons les clients à trouver des fournisseurs fiables, réduire les risques et construire des chaînes d'approvisionnement.",
-            about_learn: "En Savoir Plus",
-            stat_years: "Années d'Expérience", stat_countries: "Pays", stat_units: "Unités/An", stat_support: "Support",
+            about_learn: "En Savoir Plus", stat_years: "Années d'Expérience", stat_countries: "Pays", stat_units: "Unités/An", stat_support: "Support",
             solutions_badge: "Solutions", solutions_title: "Solutions Complètes de Chaîne d'Approvisionnement",
             sol_select: "Sélection de Produits", sol_select_desc: "Meilleur rapport qualité-prix",
             sol_eval: "Évaluation des Fournisseurs", sol_eval_desc: "Audit strict et vérification de capacité",
@@ -296,21 +326,16 @@
             footer_rights: "Tous droits réservés.", footer_sustainable: "Agriculture Durable"
         },
         ar: {
-            nav_home: "الرئيسية", nav_products: "المنتجات", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا",
-            hero_badge: "17+ عاماً من التميز الزراعي",
-            hero_title: "شريكك الموثوق في المعدات الزراعية",
+            nav_home: "الرئيسية", nav_products: "المنتجات", nav_motorcycles: "الدراجات النارية", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا",
+            hero_badge: "17+ عاماً من التميز الزراعي", hero_title: "شريكك الموثوق في المعدات الزراعية",
             hero_desc: "جرارات زراعية | آلات زراعية | معدات بناء | ري ذكي | قطع غيار",
             hero_btn_products: "استكشف المنتجات", hero_btn_quote: "طلب عرض سعر",
             badge_iso: "معتمد ISO و CE", badge_export: "تصدير عالمي", badge_sustainable: "حلول مستدامة",
-            hero_card_title: "📦 الشحن العالمي ومراقبة الجودة من هيكوت",
-            hero_card_desc: "توصيل موثوق إلى أكثر من 60 دولة",
-            featured_badge: "مجموعتنا", featured_title: "معدات زراعية وإنشائية متميزة",
-            view_all: "عرض جميع المنتجات",
+            featured_badge: "مجموعتنا", featured_title: "معدات زراعية وإنشائية متميزة", view_all: "عرض جميع المنتجات",
             about_badge: "من نحن", about_title: "جينان هيكوت للتجارة الدولية المحدودة",
             about_desc1: "تأسست مع الالتزام بالجودة، وتخدم القطاع الزراعي لأكثر من 17 عاماً.",
             about_desc2: "نساعد العملاء في العثور على موردين موثوقين وتقليل مخاطر الشراء.",
-            about_learn: "اعرف المزيد",
-            stat_years: "سنوات الخبرة", stat_countries: "دولة", stat_units: "وحدة/سنة", stat_support: "الدعم",
+            about_learn: "اعرف المزيد", stat_years: "سنوات الخبرة", stat_countries: "دولة", stat_units: "وحدة/سنة", stat_support: "الدعم",
             solutions_badge: "الحلول", solutions_title: "حلول سلسلة التوريد الكاملة",
             sol_select: "اختيار المنتج", sol_select_desc: "أفضل مطابقة مع أداء عالي التكلفة",
             sol_eval: "تقييم الموردين", sol_eval_desc: "تدقيق صارم والتحقق من القدرات",
@@ -322,21 +347,16 @@
             footer_rights: "جميع الحقوق محفوظة.", footer_sustainable: "الزراعة المستدامة"
         },
         ru: {
-            nav_home: "Главная", nav_products: "Продукты", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты",
-            hero_badge: "17+ Лет Сельскохозяйственного Совершенства",
-            hero_title: "Ваш надежный партнер в сельхозтехнике",
+            nav_home: "Главная", nav_products: "Продукты", nav_motorcycles: "Мотоциклы", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты",
+            hero_badge: "17+ Лет Сельскохозяйственного Совершенства", hero_title: "Ваш надежный партнер в сельхозтехнике",
             hero_desc: "Сельхозтракторы | Сельхозтехника | Строительное оборудование | Умный полив | Запчасти",
             hero_btn_products: "Изучить продукты", hero_btn_quote: "Запросить цену",
             badge_iso: "Сертифицировано ISO и CE", badge_export: "Глобальный экспорт", badge_sustainable: "Устойчивые решения",
-            hero_card_title: "📦 Глобальная доставка и контроль качества Hecoth",
-            hero_card_desc: "Надежная доставка в более чем 60 стран",
-            featured_badge: "Наш ассортимент", featured_title: "Премиальное сельскохозяйственное и строительное оборудование",
-            view_all: "Посмотреть все продукты",
+            featured_badge: "Наш ассортимент", featured_title: "Премиальное сельскохозяйственное и строительное оборудование", view_all: "Посмотреть все продукты",
             about_badge: "О нас", about_title: "Jinan Hecoth International Trading Co., Ltd.",
             about_desc1: "Основана с приверженностью качеству, обслуживает сельскохозяйственный сектор более 17 лет.",
             about_desc2: "Мы помогаем клиентам находить надежных поставщиков, снижать риски и строить цепочки поставок.",
-            about_learn: "Узнать больше",
-            stat_years: "Лет опыта", stat_countries: "Стран", stat_units: "Единиц/год", stat_support: "Поддержка",
+            about_learn: "Узнать больше", stat_years: "Лет опыта", stat_countries: "Стран", stat_units: "Единиц/год", stat_support: "Поддержка",
             solutions_badge: "Решения", solutions_title: "Полные решения для цепочки поставок",
             sol_select: "Выбор продукта", sol_select_desc: "Лучшее соотношение цены и качества",
             sol_eval: "Оценка поставщиков", sol_eval_desc: "Строгий аудит и проверка мощностей",
@@ -348,21 +368,16 @@
             footer_rights: "Все права защищены.", footer_sustainable: "Устойчивое сельское хозяйство"
         },
         pt: {
-            nav_home: "Início", nav_products: "Produtos", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato",
-            hero_badge: "17+ Anos de Excelência Agrícola",
-            hero_title: "Seu parceiro confiável em máquinas agrícolas",
+            nav_home: "Início", nav_products: "Produtos", nav_motorcycles: "Motocicletas", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato",
+            hero_badge: "17+ Anos de Excelência Agrícola", hero_title: "Seu parceiro confiável em máquinas agrícolas",
             hero_desc: "Tratores agrícolas | Máquinas agrícolas | Equipamentos de construção | Irrigação inteligente | Peças",
             hero_btn_products: "Explorar Produtos", hero_btn_quote: "Solicitar Orçamento",
             badge_iso: "Certificado ISO e CE", badge_export: "Exportação Global", badge_sustainable: "Soluções Sustentáveis",
-            hero_card_title: "📦 Envio Global e Controle de Qualidade Hecoth",
-            hero_card_desc: "Entrega confiável para mais de 60 países",
-            featured_badge: "Nossa Gama", featured_title: "Equipamentos Agrícolas e de Construção Premium",
-            view_all: "Ver Todos os Produtos",
+            featured_badge: "Nossa Gama", featured_title: "Equipamentos Agrícolas e de Construção Premium", view_all: "Ver Todos os Produtos",
             about_badge: "Quem Somos", about_title: "Jinan Hecoth International Trading Co., Ltd.",
             about_desc1: "Fundada com compromisso com a qualidade, servindo o setor agrícola por mais de 17 anos.",
             about_desc2: "Ajudamos os clientes a encontrar fornecedores confiáveis, reduzir riscos e construir cadeias de suprimentos.",
-            about_learn: "Saiba Mais",
-            stat_years: "Anos de Experiência", stat_countries: "Países", stat_units: "Unidades/Ano", stat_support: "Suporte",
+            about_learn: "Saiba Mais", stat_years: "Anos de Experiência", stat_countries: "Países", stat_units: "Unidades/Ano", stat_support: "Suporte",
             solutions_badge: "Soluções", solutions_title: "Soluções Completas de Cadeia de Suprimentos",
             sol_select: "Seleção de Produtos", sol_select_desc: "Melhor relação custo-benefício",
             sol_eval: "Avaliação de Fornecedores", sol_eval_desc: "Auditoria rigorosa e verificação de capacidade",
@@ -377,81 +392,140 @@
 
     let currentLang = localStorage.getItem('hecoth_lang') || 'en';
 
+    // ===== Banner 轮播逻辑 =====
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+        const slides = document.querySelectorAll('.banner-slider .slide');
+        const dots = document.querySelectorAll('.banner-dots .dot');
+        if (slides.length === 0) return;
+        currentSlide = (index + slides.length) % slides.length;
+        slides.forEach((s, i) => s.classList.toggle('active', i === currentSlide));
+        dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+    }
+
+    function nextSlide() { showSlide(currentSlide + 1); }
+    function prevSlide() { showSlide(currentSlide - 1); }
+    function goToSlide(index) { showSlide(index); resetSlideInterval(); }
+    function startSlideInterval() { clearInterval(slideInterval); slideInterval = setInterval(() => { nextSlide(); }, 4000); }
+    function resetSlideInterval() { clearInterval(slideInterval); startSlideInterval(); }
+
+    // ===== 语言切换 =====
     function switchLanguage(lang) {
         currentLang = lang;
         localStorage.setItem('hecoth_lang', lang);
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
-        });
+        document.querySelectorAll('.lang-btn').forEach(btn => { btn.classList.toggle('active', btn.getAttribute('data-lang') === lang); });
         updatePageLanguage(lang);
         document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
-        // 重新渲染产品（产品名称也需要多语言）
         renderFeatured();
     }
 
     function updatePageLanguage(lang) {
         document.querySelectorAll('[data-lang-key]').forEach(el => {
             const key = el.getAttribute('data-lang-key');
-            if (translations[lang] && translations[lang][key]) {
-                // 对于包含HTML标签的翻译（如标题中的 <span>），使用 innerHTML
-                if (key === 'hero_title' || key === 'featured_title' || key === 'about_title' || key === 'solutions_title') {
-                    el.innerHTML = translations[lang][key];
-                } else {
-                    el.textContent = translations[lang][key];
-                }
-            }
+            if (translations[lang] && translations[lang][key]) el.textContent = translations[lang][key];
         });
+        const heroTitle = document.querySelector('h1');
+        if (heroTitle && translations[lang] && translations[lang].hero_title) {
+            const t = translations[lang].hero_title;
+            const parts = t.split('Machinery');
+            if (parts.length > 1) {
+                heroTitle.innerHTML = parts[0] + '<span style="color:var(--primary)">Machinery</span>' + parts.slice(1).join('Machinery');
+            } else { heroTitle.textContent = t; }
+        }
+        const featuredTitle = document.querySelector('#featuredGrid')?.parentElement?.querySelector('h2');
+        if (featuredTitle && translations[lang] && translations[lang].featured_title) {
+            const t = translations[lang].featured_title;
+            const parts = t.split('Construction');
+            if (parts.length > 1) {
+                featuredTitle.innerHTML = parts[0] + '<span style="color:var(--primary)">Construction</span>' + parts.slice(1).join('Construction');
+            } else { featuredTitle.textContent = t; }
+        }
     }
 
-    document.addEventListener('DOMContentLoaded', function() {
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
-        });
-        updatePageLanguage(currentLang);
-        document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
-        renderFeatured();
-    });
-
-    // ===== 首页产品展示（支持多语言） =====
+    // ===== 首页产品展示（5个分类卡片） =====
     function renderFeatured() {
         const grid = document.getElementById('featuredGrid');
         if (!grid) return;
-        
-        const featured = window.ProductsData.products.slice(0, 3);
-        grid.innerHTML = featured.map(p => {
-            const name = window.ProductsData.getLocalized(p, 'name', currentLang);
-            const desc = window.ProductsData.getLocalized(p, 'desc', currentLang);
-            const specs = p.specs[currentLang] || p.specs.en;
-            const specEntries = Object.entries(specs).slice(0, 2);
+
+        // 定义5个分类卡片的数据
+        const categories = [
+            {
+                title: "Tractors",
+                desc: "TTS / TTE / TTB Series Tractors (35-120HP)",
+                img: "/image/tractor-tts.jpg",
+                link: "/products.html",
+                tag: "Tractors"
+            },
+            {
+                title: "Farm Machinery",
+                desc: "Disc Ploughs, Harrows, Seeders & Harvesters",
+                img: "/image/disc-plough.jpg",
+                link: "/products.html",
+                tag: "Farm Machinery"
+            },
+            {
+                title: "Construction Machinery",
+                desc: "Excavators, Backhoe Loaders & Wheel Loaders",
+                img: "/image/wheel-loader.jpg",
+                link: "/products.html",
+                tag: "Construction Machinery"
+            },
+            {
+                title: "Spare Parts",
+                desc: "Hydraulic Pumps, Gear Pumps & Disc Blades",
+                img: "/image/tractor-parts.jpg",
+                link: "/products.html",
+                tag: "Spare Parts"
+            },
+            {
+                title: "Hecoth Motorcycle",
+                desc: "Quality motorcycles and spare parts for global B2B buyers.",
+                img: "/image/motorcycle-banner.jpg", // 您需要准备一张摩托车图片
+                link: "https://hecothmotorcycle.vercel.app/?utm_source=hecoth&utm_medium=website&utm_campaign=motorcycle_business&utm_content=home_featured",
+                tag: "NEW BUSINESS",
+                isMoto: true // 标记为摩托车
+            }
+        ];
+
+        grid.innerHTML = categories.map(c => {
+            // 摩托车卡片逻辑：新标签页打开
+            const onclickAction = c.isMoto 
+                ? `window.open('${c.link}', '_blank')` 
+                : `location.href='${c.link}'`;
             
+            // 摩托车卡片样式：金色 NEW 标签
+            const badgeBg = c.isMoto ? "bg-[#F9A825] text-white" : "bg-[#2E7D32]/10 text-[#2E7D32]";
+
             return `
-                <div class="product-card" onclick="location.href='/product.html?id=${p.id}'">
+                <div class="product-card" onclick="${onclickAction}">
                     <div class="h-48 bg-gray-100 flex items-center justify-center overflow-hidden">
-                        <img src="${p.image || 'https://placehold.co/400x250/e5e7eb/666?text='+encodeURIComponent(name)}" 
-                             alt="${name}" 
-                             class="w-full h-full object-cover"
-                             onerror="this.src='https://placehold.co/400x250/e5e7eb/666?text=Image+Not+Found'">
+                        <img src="${c.img}" alt="${c.title}" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x250/e5e7eb/666?text=Image+Not+Found'">
                     </div>
-                    <div class="p-5">
-                        <span class="text-xs font-semibold text-[#2E7D32] bg-[#2E7D32]/10 px-2 py-1 rounded-full">
-                            ${window.ProductsData.getCategoryName(p.category, currentLang)}
+                    <div class="p-5 flex flex-col flex-1">
+                        <span class="text-xs font-semibold ${badgeBg} px-2 py-1 rounded-full inline-block w-fit">${c.tag}</span>
+                        <h3 class="font-bold text-lg mt-2 line-clamp-2" style="min-height:56px;">${c.title}</h3>
+                        <p class="text-gray-500 text-sm mt-2 line-clamp-2" style="min-height:40px;">${c.desc}</p>
+                        <span class="text-[#2E7D32] font-semibold text-sm mt-2 inline-block hover:underline">
+                            ${c.isMoto ? 'Explore Motorcycle Business →' : 'View Details →'}
                         </span>
-                        <h3 class="font-bold text-lg mt-2">${name}</h3>
-                        <div class="mt-2 text-sm text-gray-600">
-                            ${specEntries.map(([key, val]) => `<div>${key}: ${val}</div>`).join('')}
-                        </div>
-                        <p class="text-gray-500 text-sm mt-2 line-clamp-2">${desc}</p>
-                        <span class="text-[#2E7D32] font-semibold text-sm mt-2 inline-block">View Details →</span>
                     </div>
                 </div>
             `;
         }).join('');
     }
 
-    // ===== 移动端菜单 =====
-    document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
-        document.getElementById('mobileMenu').classList.toggle('hidden');
+    // ===== 初始化 =====
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.lang-btn').forEach(btn => { btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang); });
+        updatePageLanguage(currentLang);
+        document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+        renderFeatured();
+        startSlideInterval();
     });
+
+    document.getElementById('mobileMenuBtn')?.addEventListener('click', () => { document.getElementById('mobileMenu').classList.toggle('hidden'); });
 </script>
 </body>
 </html>
