@@ -9129,6 +9129,169 @@ const Products = [
             customization: "Multiple displacement options available (0.19-2.00 cm³/rev), please specify model when ordering"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 割草机械 → 甩刀式割草机 (Finger-Type Rake Mower)
+    // ============================================================
+    {
+        id: "MW-002",
+        category: "farm-machinery",
+        subCategory: "mowing",
+        image: "/image/flail mower.jpg", // 请替换为您的真实产品图片路径
+        name: {
+            en: "AGL Series Finger-Type Rake Mower - Heavy-Duty Pasture & Orchard Mower",
+            es: "Segadora de Dedos Serie AGL - Segadora de Pastos y Huertos de Alta Resistencia",
+            fr: "Faucheuse à Doigts Série AGL - Faucheuse de Pâturages et Vergers Robuste",
+            ar: "جزازة أصابع سلسلة AGL - جزازة مراعي وبساتين ثقيلة",
+            ru: "Пальцевая роторная косилка серии AGL - Тяжелая косилка для пастбищ и садов",
+            pt: "Segadora de Dedos Série AGL - Segadora Pesada para Pastagens e Pomares"
+        },
+        desc: {
+            en: "The AGL Series Finger-Type Rake Mower is a versatile and heavy-duty implement designed for efficient cutting of grass, weeds, and light brush in pastures, orchards, and vineyards. Featuring a robust finger-type rotor and 3-point linkage, it ensures uniform cutting height and excellent mulching performance. Available in working widths from 1150mm to 1750mm, compatible with 35-90 HP tractors. Ideal for B2B distributors looking for reliable and durable agricultural mowing equipment.",
+            es: "La segadora de dedos AGL está diseñada para cortar hierba y maleza en pastos y huertos. Cuenta con enganche de tres puntos y rotor de dedos resistente. Anchos de trabajo de 1150mm a 1750mm, compatible con tractores de 35-90 HP.",
+            fr: "La faucheuse à doigts AGL est conçue pour couper l'herbe et les mauvaises herbes. Dispose d'un attelage trois points et d'un rotor à doigts robuste. Largeurs de 1150mm à 1750mm, compatible avec tracteurs de 35-90 HP.",
+            ar: "جزازة الأصابع AGL مصممة لقص الأعشاب في المراعي والبساتين. تتميز بتوصيل ثلاث نقاط ودوار أصابع قوي. عروض عمل من 1150 ملم إلى 1750 ملم، متوافقة مع جرارات 35-90 حصان.",
+            ru: "Пальцевая косилка AGL предназначена для скашивания травы на пастбищах и в садах. Оснащена трехточечной навеской и прочным пальцевым ротором. Ширина от 1150 до 1750 мм, совместима с тракторами 35-90 л.с.",
+            pt: "A segadora de dedos AGL é projetada para cortar grama em pastagens e pomares. Possui engate de três pontos e rotor de dedos resistente. Larguras de 1150mm a 1750mm, compatível com tratores de 35-90 HP."
+        },
+        features: {
+            en: [
+                "Heavy-duty finger-type rotor for efficient cutting and mulching",
+                "Available in 4 models: AGL-120, AGL-140, AGL-160, AGL-180",
+                "Working width options from 1150mm to 1750mm",
+                "Adjustable cutting height from 25mm to 100mm",
+                "High blade count (18-28 knives) for finer mulching",
+                "Category II three-point linkage for quick attachment",
+                "Suitable for 35-90 HP tractors, highly versatile",
+                "Ideal for pasture maintenance, orchards, vineyards, and set-aside land"
+            ],
+            es: [
+                "Rotor de dedos resistente para corte y acolchado eficiente",
+                "Disponible en 4 modelos: AGL-120, 140, 160, 180",
+                "Ancho de trabajo de 1150mm a 1750mm",
+                "Altura de corte ajustable de 25mm a 100mm",
+                "Alto número de cuchillas (18-28) para un acolchado más fino",
+                "Enganche de tres puntos Categoría II",
+                "Adecuado para tractores de 35-90 HP",
+                "Ideal para mantenimiento de pastos, huertos y viñedos"
+            ],
+            fr: [
+                "Rotor à doigts robuste pour une coupe et un paillage efficaces",
+                "Disponible en 4 modèles : AGL-120, 140, 160, 180",
+                "Largeur de travail de 1150mm à 1750mm",
+                "Hauteur de coupe réglable de 25mm à 100mm",
+                "Nombre élevé de lames (18-28) pour un paillage plus fin",
+                "Attelage trois points Catégorie II",
+                "Convient aux tracteurs de 35 à 90 HP",
+                "Idéal pour l'entretien des pâturages, vergers et vignobles"
+            ],
+            ar: [
+                "دوار أصابع قوي لقص وتغطية فعالة",
+                "متوفر بـ 4 موديلات: AGL-120، 140، 160، 180",
+                "خيارات عرض العمل من 1150 ملم إلى 1750 ملم",
+                "ارتفاع قطع قابل للتعديل من 25 ملم إلى 100 ملم",
+                "عدد شفرات عالي (18-28) لتغطية أدق",
+                "توصيل ثلاث نقاط الفئة II",
+                "مناسب لجرارات 35-90 حصان",
+                "مثالي لصيانة المراعي والبساتين والكروم"
+            ],
+            ru: [
+                "Прочный пальцевый ротор для эффективного скашивания",
+                "Доступно 4 модели: AGL-120, 140, 160, 180",
+                "Ширина захвата от 1150 до 1750 мм",
+                "Регулируемая высота среза от 25 до 100 мм",
+                "Большое количество ножей (18-28) для мелкого мульчирования",
+                "Трехточечная навеска категории II",
+                "Подходит для тракторов 35-90 л.с.",
+                "Идеально для ухода за пастбищами, садами и виноградниками"
+            ],
+            pt: [
+                "Rotor de dedos resistente para corte e cobertura eficientes",
+                "Disponível em 4 modelos: AGL-120, 140, 160, 180",
+                "Larguras de trabalho de 1150mm a 1750mm",
+                "Altura de corte ajustável de 25mm a 100mm",
+                "Alto número de lâminas (18-28) para cobertura mais fina",
+                "Engate de três pontos Categoria II",
+                "Adequado para tratores de 35-90 HP",
+                "Ideal para manutenção de pastagens, pomares e vinhedos"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "AGL-120 / AGL-140 / AGL-160 / AGL-180",
+                "Working Width": "1150mm / 1350mm / 1550mm / 1750mm",
+                "Cutting Height": "25-100mm (all models)",
+                "No. of Knives": "18 / 22 / 24 / 28",
+                "Linkage": "Type II Three-Point Mounted",
+                "Weight": "332kg / 345kg / 366kg / 289kg",
+                "Working Speed": "5-7 km/h",
+                "Dimension Size (L×W×H)": "1320×1520×880mm / 1520×1520×880mm / 1720×1520×880mm / 1920×1520×880mm",
+                "Matched Power": "35-60 HP / 45-70 HP / 50-80 HP / 60-90 HP"
+            },
+            es: {
+                "Modelos": "AGL-120 / AGL-140 / AGL-160 / AGL-180",
+                "Ancho de trabajo": "1150mm / 1350mm / 1550mm / 1750mm",
+                "Altura de corte": "25-100mm",
+                "Cuchillas": "18 / 22 / 24 / 28",
+                "Enganche": "Tres Puntos Categoría II",
+                "Peso": "332kg / 345kg / 366kg / 289kg",
+                "Velocidad": "5-7 km/h",
+                "Dimensiones": "1320×1520×880mm / 1520×1520×880mm / 1720×1520×880mm / 1920×1520×880mm",
+                "Potencia": "35-60 HP / 45-70 HP / 50-80 HP / 60-90 HP"
+            },
+            fr: {
+                "Modèles": "AGL-120 / AGL-140 / AGL-160 / AGL-180",
+                "Largeur de travail": "1150mm / 1350mm / 1550mm / 1750mm",
+                "Hauteur de coupe": "25-100mm",
+                "Lames": "18 / 22 / 24 / 28",
+                "Attelage": "Trois Points Catégorie II",
+                "Poids": "332kg / 345kg / 366kg / 289kg",
+                "Vitesse": "5-7 km/h",
+                "Dimensions": "1320×1520×880mm / 1520×1520×880mm / 1720×1520×880mm / 1920×1520×880mm",
+                "Puissance": "35-60 HP / 45-70 HP / 50-80 HP / 60-90 HP"
+            },
+            ar: {
+                "الموديلات": "AGL-120 / AGL-140 / AGL-160 / AGL-180",
+                "عرض العمل": "1150 ملم / 1350 ملم / 1550 ملم / 1750 ملم",
+                "ارتفاع القطع": "25-100 ملم",
+                "الشفرات": "18 / 22 / 24 / 28",
+                "التوصيل": "ثلاث نقاط الفئة II",
+                "الوزن": "332 كجم / 345 كجم / 366 كجم / 289 كجم",
+                "سرعة العمل": "5-7 كم/ساعة",
+                "الأبعاد": "1320×1520×880 ملم / 1520×1520×880 ملم / 1720×1520×880 ملم / 1920×1520×880 ملم",
+                "القوة": "35-60 حصان / 45-70 حصان / 50-80 حصان / 60-90 حصان"
+            },
+            ru: {
+                "Модели": "AGL-120 / AGL-140 / AGL-160 / AGL-180",
+                "Рабочая ширина": "1150мм / 1350мм / 1550мм / 1750мм",
+                "Высота среза": "25-100мм",
+                "Ножи": "18 / 22 / 24 / 28",
+                "Навеска": "Трехточечная категории II",
+                "Вес": "332кг / 345кг / 366кг / 289кг",
+                "Скорость": "5-7 км/ч",
+                "Размеры": "1320×1520×880мм / 1520×1520×880мм / 1720×1520×880мм / 1920×1520×880мм",
+                "Мощность": "35-60 л.с. / 45-70 л.с. / 50-80 л.с. / 60-90 л.с."
+            },
+            pt: {
+                "Modelos": "AGL-120 / AGL-140 / AGL-160 / AGL-180",
+                "Largura de trabalho": "1150mm / 1350mm / 1550mm / 1750mm",
+                "Altura de corte": "25-100mm",
+                "Facas": "18 / 22 / 24 / 28",
+                "Engate": "Três Pontos Categoria II",
+                "Peso": "332kg / 345kg / 366kg / 289kg",
+                "Velocidade": "5-7 km/h",
+                "Dimensões": "1320×1520×880mm / 1520×1520×880mm / 1720×1520×880mm / 1920×1520×880mm",
+                "Potência": "35-60 HP / 45-70 HP / 50-80 HP / 60-90 HP"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Pasture maintenance, orchard mowing, vineyard management, weed control"
+        }
+    },
 ];
 
 // ============================================================
