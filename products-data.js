@@ -9764,6 +9764,175 @@ const Products = [
             application: "Weed control, seedbed preparation, soil loosening, row crop cultivation, orchard management"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 激光平地机 (Laser Land Leveler)
+    // ============================================================
+    {
+        id: "TL-014",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/laser-land-leveler.jpg", // 请替换为您的真实产品图片路径
+        name: {
+            en: "12PW Series Laser Land Leveler - Precision Agricultural Grading Machine",
+            es: "Niveladora Láser de Suelos Serie 12PW - Máquina Agrícola de Precisión",
+            fr: "Niveleuse Laser Série 12PW - Machine Agricole de Précision",
+            ar: "مستوى أرضي ليزر سلسلة 12PW - آلة تسوية زراعية دقيقة",
+            ru: "Лазерный планировщик серии 12PW - Прецизионная сельскохозяйственная машина",
+            pt: "Niveladora a Laser Série 12PW - Máquina Agrícola de Precisão"
+        },
+        desc: {
+            en: "The 12PW Series Laser Land Leveler is a high-precision agricultural implement designed for large-scale field leveling, water conservation, and improving crop yields. Featuring advanced laser control technology with a horizontal error of ±20mm, it ensures perfectly flat fields for uniform irrigation. Available in working widths from 1500mm to 4000mm with trailed linkage for large tractors (80-180 HP). Ideal for farms, agricultural contractors, and land development projects.",
+            es: "La niveladora láser 12PW está diseñada para la nivelación precisa de campos a gran escala y la conservación del agua. Con un error horizontal de ±20mm, garantiza campos perfectamente planos. Anchos de trabajo de 1500mm a 4000mm, remolcada, compatible con tractores de 80-180 HP.",
+            fr: "La niveleuse laser 12PW est conçue pour le nivellement de précision des champs à grande échelle et la conservation de l'eau. Avec une erreur horizontale de ±20mm, elle garantit des champs parfaitement plats. Largeurs de 1500mm à 4000mm, remorquée, compatible avec tracteurs de 80-180 HP.",
+            ar: "مستوى الأرض بالليزر 12PW مصمم لتسوية الحقول الدقيقة على نطاق واسع والحفاظ على المياه. مع خطأ أفقي ±20 ملم، يضمن حقولاً مستوية تماماً. عروض عمل من 1500 ملم إلى 4000 ملم، مقطور، متوافق مع جرارات 80-180 حصان.",
+            ru: "Лазерный планировщик 12PW предназначен для высокоточной планировки полей и экономии воды. Горизонтальная погрешность ±20 мм гарантирует идеально ровные поля. Ширина от 1500 до 4000 мм, прицепной, совместим с тракторами 80-180 л.с.",
+            pt: "A niveladora a laser 12PW é projetada para nivelamento de precisão de campos em grande escala e conservação de água. Com erro horizontal de ±20mm, garante campos perfeitamente planos. Larguras de 1500mm a 4000mm, rebocada, compatível com tratores de 80-180 HP."
+        },
+        features: {
+            en: [
+                "High-precision laser control system with ±20mm horizontal error",
+                "Available in 5 models: 12PW-250, 300, 400S, 230S, 300",
+                "Working width options from 1500mm to 4000mm",
+                "Trailed linkage system for efficient large-field operation",
+                "Heavy-duty tires for various field conditions",
+                "300mm ground clearance for smooth movement over rough terrain",
+                "Matched power from 80 HP to 180 HP tractors",
+                "Improves irrigation efficiency and saves up to 30% water"
+            ],
+            es: [
+                "Sistema de control láser de alta precisión con error horizontal de ±20mm",
+                "Disponible en 5 modelos: 12PW-250, 300, 400S, 230S, 300",
+                "Ancho de trabajo de 1500mm a 4000mm",
+                "Sistema de enganche de remolque para operación eficiente",
+                "Neumáticos de alta resistencia",
+                "Distancia al suelo de 300mm",
+                "Potencia compatible de 80 HP a 180 HP",
+                "Mejora la eficiencia del riego y ahorra hasta un 30% de agua"
+            ],
+            fr: [
+                "Système de contrôle laser haute précision avec erreur horizontale de ±20mm",
+                "Disponible en 5 modèles : 12PW-250, 300, 400S, 230S, 300",
+                "Largeur de travail de 1500mm à 4000mm",
+                "Système d'attelage remorqué pour une opération efficace",
+                "Pneus haute résistance",
+                "Garde au sol de 300mm",
+                "Puissance compatible de 80 HP à 180 HP",
+                "Améliore l'efficacité de l'irrigation et économise jusqu'à 30% d'eau"
+            ],
+            ar: [
+                "نظام تحكم ليزر عالي الدقة مع خطأ أفقي ±20 ملم",
+                "متوفر بـ 5 موديلات: 12PW-250، 300، 400S، 230S، 300",
+                "خيارات عرض العمل من 1500 ملم إلى 4000 ملم",
+                "نظام توصيل مقطور للتشغيل الفعال في الحقول الكبيرة",
+                "إطارات ثقيلة لظروف الحقول المختلفة",
+                "خلوص أرضي 300 ملم للحركة السلسة",
+                "قوة مطابقة من 80 حصان إلى 180 حصان",
+                "يحسن كفاءة الري ويوفر حتى 30% من المياه"
+            ],
+            ru: [
+                "Высокоточная лазерная система управления с погрешностью ±20мм",
+                "Доступно 5 моделей: 12PW-250, 300, 400S, 230S, 300",
+                "Рабочая ширина от 1500 до 4000 мм",
+                "Прицепная навесная система для эффективной работы",
+                "Прочные шины для различных условий",
+                "Дорожный просвет 300 мм для плавного движения",
+                "Совместимая мощность от 80 до 180 л.с.",
+                "Повышает эффективность орошения и экономит до 30% воды"
+            ],
+            pt: [
+                "Sistema de controle a laser de alta precisão com erro horizontal de ±20mm",
+                "Disponível em 5 modelos: 12PW-250, 300, 400S, 230S, 300",
+                "Largura de trabalho de 1500mm a 4000mm",
+                "Sistema de engate rebocado para operação eficiente",
+                "Pneus de alta resistência",
+                "Distância do solo de 300mm",
+                "Potência compatível de 80 HP a 180 HP",
+                "Melhora a eficiência da irrigação e economiza até 30% de água"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "12PW-250 / 12PW-300 / 12PW-400S / 12PW-230S / 12PW-300",
+                "Working Width": "2500mm / 3000mm / 2500-4000mm / 1500-2300mm / 2000-3000mm",
+                "Horizontal Error": "±20mm (all models)",
+                "Working Speed": "4-7 km/h (all models)",
+                "Ground Clearance": "300mm (all models)",
+                "Tires Type": "10.0/75-15.3 / 10.0/75-15.3 / 31*15.50-15 / 26*12.00-12ss / 26*12.00-12ss",
+                "Weight": "1090kg / 1180kg / 2300kg / 1000kg / 1180kg",
+                "Linkage": "Trailed (all models)",
+                "Matched Power": "≥120 HP / ≥130 HP / 150 HP / ≥80 HP / 100-180 HP",
+                "Dimension Size (L×W×H)": "3400×2530×2850mm / 3400×3000×2850mm / 4000×(2600-4100)×1200mm / 3200×(1520-2320)×1750mm / 3200×(2040-3040)×1750mm"
+            },
+            es: {
+                "Modelos": "12PW-250 / 12PW-300 / 12PW-400S / 12PW-230S / 12PW-300",
+                "Ancho de trabajo": "2500mm / 3000mm / 2500-4000mm / 1500-2300mm / 2000-3000mm",
+                "Error horizontal": "±20mm",
+                "Velocidad": "4-7 km/h",
+                "Distancia al suelo": "300mm",
+                "Neumáticos": "10.0/75-15.3 / 10.0/75-15.3 / 31*15.50-15 / 26*12.00-12ss / 26*12.00-12ss",
+                "Peso": "1090kg / 1180kg / 2300kg / 1000kg / 1180kg",
+                "Enganche": "Remolcado",
+                "Potencia": "≥120 HP / ≥130 HP / 150 HP / ≥80 HP / 100-180 HP",
+                "Dimensiones": "3400×2530×2850mm / 3400×3000×2850mm / 4000×(2600-4100)×1200mm / 3200×(1520-2320)×1750mm / 3200×(2040-3040)×1750mm"
+            },
+            fr: {
+                "Modèles": "12PW-250 / 12PW-300 / 12PW-400S / 12PW-230S / 12PW-300",
+                "Largeur de travail": "2500mm / 3000mm / 2500-4000mm / 1500-2300mm / 2000-3000mm",
+                "Erreur horizontale": "±20mm",
+                "Vitesse": "4-7 km/h",
+                "Garde au sol": "300mm",
+                "Pneus": "10.0/75-15.3 / 10.0/75-15.3 / 31*15.50-15 / 26*12.00-12ss / 26*12.00-12ss",
+                "Poids": "1090kg / 1180kg / 2300kg / 1000kg / 1180kg",
+                "Attelage": "Remorqué",
+                "Puissance": "≥120 HP / ≥130 HP / 150 HP / ≥80 HP / 100-180 HP",
+                "Dimensions": "3400×2530×2850mm / 3400×3000×2850mm / 4000×(2600-4100)×1200mm / 3200×(1520-2320)×1750mm / 3200×(2040-3040)×1750mm"
+            },
+            ar: {
+                "الموديلات": "12PW-250 / 12PW-300 / 12PW-400S / 12PW-230S / 12PW-300",
+                "عرض العمل": "2500 ملم / 3000 ملم / 2500-4000 ملم / 1500-2300 ملم / 2000-3000 ملم",
+                "الخطأ الأفقي": "±20 ملم",
+                "سرعة العمل": "4-7 كم/ساعة",
+                "الخلوص الأرضي": "300 ملم",
+                "الإطارات": "10.0/75-15.3 / 10.0/75-15.3 / 31*15.50-15 / 26*12.00-12ss / 26*12.00-12ss",
+                "الوزن": "1090 كجم / 1180 كجم / 2300 كجم / 1000 كجم / 1180 كجم",
+                "التوصيل": "مقطور",
+                "القوة": "≥120 حصان / ≥130 حصان / 150 حصان / ≥80 حصان / 100-180 حصان",
+                "الأبعاد": "3400×2530×2850 ملم / 3400×3000×2850 ملم / 4000×(2600-4100)×1200 ملم / 3200×(1520-2320)×1750 ملم / 3200×(2040-3040)×1750 ملم"
+            },
+            ru: {
+                "Модели": "12PW-250 / 12PW-300 / 12PW-400S / 12PW-230S / 12PW-300",
+                "Рабочая ширина": "2500мм / 3000мм / 2500-4000мм / 1500-2300мм / 2000-3000мм",
+                "Горизонтальная погрешность": "±20мм",
+                "Рабочая скорость": "4-7 км/ч",
+                "Дорожный просвет": "300мм",
+                "Шины": "10.0/75-15.3 / 10.0/75-15.3 / 31*15.50-15 / 26*12.00-12ss / 26*12.00-12ss",
+                "Вес": "1090кг / 1180кг / 2300кг / 1000кг / 1180кг",
+                "Навеска": "Прицепная",
+                "Мощность": "≥120 л.с. / ≥130 л.с. / 150 л.с. / ≥80 л.с. / 100-180 л.с.",
+                "Размеры": "3400×2530×2850мм / 3400×3000×2850мм / 4000×(2600-4100)×1200мм / 3200×(1520-2320)×1750мм / 3200×(2040-3040)×1750мм"
+            },
+            pt: {
+                "Modelos": "12PW-250 / 12PW-300 / 12PW-400S / 12PW-230S / 12PW-300",
+                "Largura de trabalho": "2500mm / 3000mm / 2500-4000mm / 1500-2300mm / 2000-3000mm",
+                "Erro horizontal": "±20mm",
+                "Velocidade de trabalho": "4-7 km/h",
+                "Distância do solo": "300mm",
+                "Pneus": "10.0/75-15.3 / 10.0/75-15.3 / 31*15.50-15 / 26*12.00-12ss / 26*12.00-12ss",
+                "Peso": "1090kg / 1180kg / 2300kg / 1000kg / 1180kg",
+                "Engate": "Rebocado",
+                "Potência": "≥120 HP / ≥130 HP / 150 HP / ≥80 HP / 100-180 HP",
+                "Dimensões": "3400×2530×2850mm / 3400×3000×2850mm / 4000×(2600-4100)×1200mm / 3200×(1520-2320)×1750mm / 3200×(2040-3040)×1750mm"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Large-scale field leveling, water conservation, land development, precision agriculture"
+        }
+    },
 ];
 
 // ============================================================
