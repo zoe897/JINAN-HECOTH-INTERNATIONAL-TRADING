@@ -9595,6 +9595,175 @@ const Products = [
             application: "Cassava ridging, potato ridging, sugarcane cultivation, vegetable farming"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 中耕管理机械 → 弹簧中耕机 (Spring Cultivator)
+    // ============================================================
+    {
+        id: "CU-002",
+        category: "farm-machinery",
+        subCategory: "cultivation",
+        image: "/image/spring-cultivator.jpg", // 请替换为您的真实产品图片路径
+        name: {
+            en: "3ZS Series Spring Tine Cultivator - Heavy-Duty Field Cultivator",
+            es: "Cultivador de Púas de Resorte Serie 3ZS - Cultivador de Campo de Alta Resistencia",
+            fr: "Cultivateur à Dents Ressort Série 3ZS - Cultivateur de Champ Robuste",
+            ar: "آلة تعشيب بأسنان زنبركية سلسلة 3ZS - آلة تعشيب حقول ثقيلة",
+            ru: "Пружинный культиватор серии 3ZS - Тяжелый полевой культиватор",
+            pt: "Cultivador de Hastes de Mola Série 3ZS - Cultivador de Campo Pesado"
+        },
+        desc: {
+            en: "The 3ZS Series Spring Tine Cultivator is a versatile and heavy-duty implement designed for primary and secondary tillage. Featuring high-strength spring tines, it excels at breaking up soil clods, removing weeds, and preparing seedbeds without clogging. Available in working widths from 1500mm to 4000mm, and compatible with 20-120 HP tractors. It is the ideal choice for B2B buyers looking for reliable weed control and soil loosening equipment for row crops, orchards, and pastures.",
+            es: "El cultivador de púas 3ZS está diseñado para labranza primaria y secundaria. Con púas de resorte de alta resistencia, es excelente para romper terrones y eliminar malezas. Anchos de trabajo de 1500mm a 4000mm, compatible con tractores de 20-120 HP.",
+            fr: "Le cultivateur à dents 3ZS est conçu pour le travail du sol primaire et secondaire. Avec des dents à ressort haute résistance, il excelle à briser les mottes et à éliminer les mauvaises herbes. Largeurs de 1500mm à 4000mm, compatible avec tracteurs de 20-120 HP.",
+            ar: "آلة التعشيب 3ZS مصممة للحراثة الأولية والثانوية. مع أسنان زنبركية عالية القوة، تتميز بتكسير الكتل وإزالة الأعشاب. عروض عمل من 1500 ملم إلى 4000 ملم، متوافقة مع جرارات 20-120 حصان.",
+            ru: "Пружинный культиватор 3ZS предназначен для основной и предпосевной обработки. Высокопрочные пружинные стойки отлично рыхлят почву и удаляют сорняки. Ширина от 1500 до 4000 мм, совместим с тракторами 20-120 л.с.",
+            pt: "O cultivador de hastes 3ZS é projetado para preparo primário e secundário do solo. Com hastes de mola de alta resistência, é excelente para quebrar torrões e remover ervas daninhas. Larguras de 1500mm a 4000mm, compatível com tratores de 20-120 HP."
+        },
+        features: {
+            en: [
+                "Available in 4 models: 3ZS-1.5, 3ZS-1.8, 3ZS-2.1, 3ZS-4.0",
+                "Working width options from 1500mm up to 4000mm for large-scale farming",
+                "Consistent working depth of 100-120mm for effective weed control",
+                "High-strength spring tines (32x10mm / 45x12mm) for durability",
+                "9 to 30 tines configuration to suit different soil conditions",
+                "Three-point mounted linkage for quick and easy tractor attachment",
+                "Excellent clod breaking and seedbed preparation performance",
+                "Matched power from 20 HP to 120 HP tractors"
+            ],
+            es: [
+                "Disponible en 4 modelos: 3ZS-1.5, 3ZS-1.8, 3ZS-2.1, 3ZS-4.0",
+                "Ancho de trabajo desde 1500mm hasta 4000mm",
+                "Profundidad de trabajo constante de 100-120mm",
+                "Púas de resorte de alta resistencia (32x10mm / 45x12mm)",
+                "Configuración de 9 a 30 púas",
+                "Enganche de tres puntos",
+                "Excelente rendimiento para romper terrones",
+                "Potencia compatible de 20 HP a 120 HP"
+            ],
+            fr: [
+                "Disponible en 4 modèles : 3ZS-1.5, 3ZS-1.8, 3ZS-2.1, 3ZS-4.0",
+                "Largeur de travail de 1500mm à 4000mm",
+                "Profondeur de travail constante de 100-120mm",
+                "Dents à ressort haute résistance (32x10mm / 45x12mm)",
+                "Configuration de 9 à 30 dents",
+                "Attelage trois points",
+                "Excellentes performances de fragmentation des mottes",
+                "Puissance compatible de 20 HP à 120 HP"
+            ],
+            ar: [
+                "متوفر بـ 4 موديلات: 3ZS-1.5، 3ZS-1.8، 3ZS-2.1، 3ZS-4.0",
+                "خيارات عرض العمل من 1500 ملم إلى 4000 ملم",
+                "عمق عمل ثابت 100-120 ملم لمكافحة فعالة للأعشاب",
+                "أسنان زنبركية عالية القوة (32x10 ملم / 45x12 ملم)",
+                "تكوين من 9 إلى 30 سناً",
+                "توصيل ثلاثي النقاط",
+                "أداء ممتاز في تكسير الكتل وتحضير أحواض البذور",
+                "قوة مطابقة من 20 حصان إلى 120 حصان"
+            ],
+            ru: [
+                "Доступно 4 модели: 3ZS-1.5, 3ZS-1.8, 3ZS-2.1, 3ZS-4.0",
+                "Рабочая ширина от 1500 до 4000 мм",
+                "Постоянная глубина обработки 100-120 мм",
+                "Высокопрочные пружинные стойки (32x10мм / 45x12мм)",
+                "Конфигурация от 9 до 30 стоек",
+                "Трехточечная навеска",
+                "Отличное качество рыхления и подготовки семенного ложа",
+                "Совместимая мощность от 20 до 120 л.с."
+            ],
+            pt: [
+                "Disponível em 4 modelos: 3ZS-1.5, 3ZS-1.8, 3ZS-2.1, 3ZS-4.0",
+                "Largura de trabalho de 1500mm a 4000mm",
+                "Profundidade de trabalho constante de 100-120mm",
+                "Hastes de mola de alta resistência (32x10mm / 45x12mm)",
+                "Configuração de 9 a 30 hastes",
+                "Engate de três pontos",
+                "Excelente desempenho na quebra de torrões",
+                "Potência compatível de 20 HP a 120 HP"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "3ZS-1.5 / 3ZS-1.8 / 3ZS-2.1 / 3ZS-4.0",
+                "Working Width": "1500mm / 1800mm / 2100mm / 4000mm",
+                "Working Depth": "100-120mm (all models)",
+                "No. of Plough Body (Tines)": "9 / 11 / 13 / 30",
+                "Spring Size": "32x10mm / 32x10mm / 32x10mm / 45x12mm",
+                "Spring Space": "130-170mm (all models)",
+                "Weight": "80kg / 90kg / 105kg / 650kg",
+                "Linkage": "Three-Point Mounted",
+                "Matched Power": "20-35 HP / 30-45 HP / 50-70 HP / 90-120 HP",
+                "Dimension Size (L×W×H)": "1550×900×1100mm / 1950×900×1100mm / 2200×900×1100mm / 2500×4000×1300mm"
+            },
+            es: {
+                "Modelos": "3ZS-1.5 / 3ZS-1.8 / 3ZS-2.1 / 3ZS-4.0",
+                "Ancho de trabajo": "1500mm / 1800mm / 2100mm / 4000mm",
+                "Profundidad de trabajo": "100-120mm",
+                "Número de púas": "9 / 11 / 13 / 30",
+                "Tamaño del resorte": "32x10mm / 32x10mm / 32x10mm / 45x12mm",
+                "Espacio del resorte": "130-170mm",
+                "Peso": "80kg / 90kg / 105kg / 650kg",
+                "Enganche": "Tres Puntos",
+                "Potencia": "20-35 HP / 30-45 HP / 50-70 HP / 90-120 HP",
+                "Dimensiones": "1550×900×1100mm / 1950×900×1100mm / 2200×900×1100mm / 2500×4000×1300mm"
+            },
+            fr: {
+                "Modèles": "3ZS-1.5 / 3ZS-1.8 / 3ZS-2.1 / 3ZS-4.0",
+                "Largeur de travail": "1500mm / 1800mm / 2100mm / 4000mm",
+                "Profondeur de travail": "100-120mm",
+                "Nombre de dents": "9 / 11 / 13 / 30",
+                "Taille du ressort": "32x10mm / 32x10mm / 32x10mm / 45x12mm",
+                "Espace du ressort": "130-170mm",
+                "Poids": "80kg / 90kg / 105kg / 650kg",
+                "Attelage": "Trois Points",
+                "Puissance": "20-35 HP / 30-45 HP / 50-70 HP / 90-120 HP",
+                "Dimensions": "1550×900×1100mm / 1950×900×1100mm / 2200×900×1100mm / 2500×4000×1300mm"
+            },
+            ar: {
+                "الموديلات": "3ZS-1.5 / 3ZS-1.8 / 3ZS-2.1 / 3ZS-4.0",
+                "عرض العمل": "1500 ملم / 1800 ملم / 2100 ملم / 4000 ملم",
+                "عمق العمل": "100-120 ملم",
+                "عدد الأسنان": "9 / 11 / 13 / 30",
+                "حجم الزنبرك": "32x10 ملم / 32x10 ملم / 32x10 ملم / 45x12 ملم",
+                "تباعد الزنبرك": "130-170 ملم",
+                "الوزن": "80 كجم / 90 كجم / 105 كجم / 650 كجم",
+                "التوصيل": "ثلاث نقاط",
+                "القوة": "20-35 حصان / 30-45 حصان / 50-70 حصان / 90-120 حصان",
+                "الأبعاد": "1550×900×1100 ملم / 1950×900×1100 ملم / 2200×900×1100 ملم / 2500×4000×1300 ملم"
+            },
+            ru: {
+                "Модели": "3ZS-1.5 / 3ZS-1.8 / 3ZS-2.1 / 3ZS-4.0",
+                "Рабочая ширина": "1500мм / 1800мм / 2100мм / 4000мм",
+                "Глубина обработки": "100-120мм",
+                "Количество стоек": "9 / 11 / 13 / 30",
+                "Размер пружины": "32x10мм / 32x10мм / 32x10мм / 45x12мм",
+                "Шаг пружины": "130-170мм",
+                "Вес": "80кг / 90кг / 105кг / 650кг",
+                "Навеска": "Трехточечная",
+                "Мощность": "20-35 л.с. / 30-45 л.с. / 50-70 л.с. / 90-120 л.с.",
+                "Размеры": "1550×900×1100мм / 1950×900×1100мм / 2200×900×1100мм / 2500×4000×1300мм"
+            },
+            pt: {
+                "Modelos": "3ZS-1.5 / 3ZS-1.8 / 3ZS-2.1 / 3ZS-4.0",
+                "Largura de trabalho": "1500mm / 1800mm / 2100mm / 4000mm",
+                "Profundidade de trabalho": "100-120mm",
+                "Número de hastes": "9 / 11 / 13 / 30",
+                "Tamanho da mola": "32x10mm / 32x10mm / 32x10mm / 45x12mm",
+                "Espaço da mola": "130-170mm",
+                "Peso": "80kg / 90kg / 105kg / 650kg",
+                "Engate": "Três Pontos",
+                "Potência": "20-35 HP / 30-45 HP / 50-70 HP / 90-120 HP",
+                "Dimensões": "1550×900×1100mm / 1950×900×1100mm / 2200×900×1100mm / 2500×4000×1300mm"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Weed control, seedbed preparation, soil loosening, row crop cultivation, orchard management"
+        }
+    },
 ];
 
 // ============================================================
