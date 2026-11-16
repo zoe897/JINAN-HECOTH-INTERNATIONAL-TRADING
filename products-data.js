@@ -9444,6 +9444,157 @@ const Products = [
             application: "Potato ridging, sugarcane planting, vegetable farming, row crop cultivation"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 铧式起垄犁 (Moldboard Ridger)
+    // ============================================================
+    {
+        id: "TL-013",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/moldboard-ridger.jpg", // 请替换为您的真实产品图片路径
+        name: {
+            en: "3QL Series Ridging Plough - Heavy-Duty 1 to 5-Row Ridger",
+            es: "Arado de Vertedera para Caballones Serie 3QL - De 1 a 5 Hileras",
+            fr: "Charrue Butteuse Série 3QL - 1 à 5 Rangs",
+            ar: "محراث تشكيل الخطوط سلسلة 3QL - من 1 إلى 5 صفوف",
+            ru: "Плуг-окучник серии 3QL - От 1 до 5 рядов",
+            pt: "Arado de Aiveca para Camalhões Série 3QL - De 1 a 5 Fileiras"
+        },
+        desc: {
+            en: "The 3QL Series Ridging Plough is a robust and efficient agricultural implement designed for forming high and wide ridges. Featuring high-quality moldboard blades, it ensures excellent soil turning, deep loosening, and ridge shaping. Available in 1 to 5-row configurations (working widths from 800mm to 3900mm), it is perfectly matched with 25-80 HP tractors. Ideal for planting potatoes, cassava, sugarcane, and various row crops.",
+            es: "El arado de vertedera 3QL está diseñado para formar caballones altos y anchos. Con cuchillas de vertedera de alta calidad, asegura un excelente volteo del suelo. Disponible en configuraciones de 1 a 5 hileras (anchos de 800mm a 3900mm), compatible con tractores de 25-80 HP.",
+            fr: "La charrue butteuse 3QL est conçue pour former des billons hauts et larges. Avec des lames de versoir de haute qualité, elle assure un excellent retournement du sol. Disponible en 1 à 5 rangs (largeurs de 800mm à 3900mm), compatible avec tracteurs de 25-80 HP.",
+            ar: "محراث تشكيل الخطوط 3QL مصمم لتشكيل خطوط عالية وعريضة. مع شفرات قلب التربة عالية الجودة، يضمن تقليب ممتاز للتربة. متوفر بتكوينات من 1 إلى 5 صفوف (عروض من 800 ملم إلى 3900 ملم)، متوافق مع جرارات 25-80 حصان.",
+            ru: "Плуг-окучник 3QL предназначен для формирования высоких и широких гребней. Оснащен высококачественными отвалами для отличного оборота пласта. Доступен в 1-5 рядном исполнении (ширина от 800 до 3900 мм), совместим с тракторами 25-80 л.с.",
+            pt: "O arado de aiveca 3QL é projetado para formar camalhões altos e largos. Com lâminas de aiveca de alta qualidade, garante excelente revolvimento do solo. Disponível em configurações de 1 a 5 fileiras (larguras de 800mm a 3900mm), compatível com tratores de 25-80 HP."
+        },
+        features: {
+            en: [
+                "Available in 5 models: 3QL-1, 3QL-2, 3QL-3, 3QL-4, 3QL-5",
+                "Working width options from 800mm up to 3900mm",
+                "Consistent ridge width of 700-900mm for optimal crop planting",
+                "Ridge height of 200-250mm for better drainage and root growth",
+                "High-strength moldboard blades for excellent soil turning",
+                "Standard three-point mounted linkage for easy attachment",
+                "Matched power from 25 HP to 80 HP tractors",
+                "Ideal for cassava, potatoes, sugarcane, and vegetable farming"
+            ],
+            es: [
+                "Disponible en 5 modelos: 3QL-1, 3QL-2, 3QL-3, 3QL-4, 3QL-5",
+                "Ancho de trabajo desde 800mm hasta 3900mm",
+                "Ancho de caballón constante de 700-900mm",
+                "Altura de caballón de 200-250mm para un mejor drenaje",
+                "Cuchillas de vertedera de alta resistencia",
+                "Enganche estándar de tres puntos",
+                "Potencia compatible de 25 HP a 80 HP",
+                "Ideal para yuca, patatas, caña de azúcar y hortalizas"
+            ],
+            fr: [
+                "Disponible en 5 modèles : 3QL-1, 3QL-2, 3QL-3, 3QL-4, 3QL-5",
+                "Largeur de travail de 800mm à 3900mm",
+                "Largeur de billon constante de 700-900mm",
+                "Hauteur de billon de 200-250mm pour un meilleur drainage",
+                "Lames de versoir haute résistance",
+                "Attelage standard trois points",
+                "Puissance compatible de 25 HP à 80 HP",
+                "Idéal pour le manioc, les pommes de terre, la canne à sucre et les légumes"
+            ],
+            ar: [
+                "متوفر بـ 5 موديلات: 3QL-1، 3QL-2، 3QL-3، 3QL-4، 3QL-5",
+                "خيارات عرض العمل من 800 ملم إلى 3900 ملم",
+                "عرض خط ثابت 700-900 ملم للزراعة المثلى",
+                "ارتفاع الخط 200-250 ملم لتصريف أفضل ونمو الجذور",
+                "شفرات قلب تربة عالية القوة",
+                "توصيل قياسي ثلاثي النقاط",
+                "قوة مطابقة من 25 حصان إلى 80 حصان",
+                "مثالي للكسافا والبطاطس وقصب السكر والخضروات"
+            ],
+            ru: [
+                "Доступно 5 моделей: 3QL-1, 3QL-2, 3QL-3, 3QL-4, 3QL-5",
+                "Рабочая ширина от 800 до 3900 мм",
+                "Постоянная ширина гребня 700-900 мм",
+                "Высота гребня 200-250 мм для лучшего дренажа",
+                "Высокопрочные отвалы",
+                "Стандартная трехточечная навеска",
+                "Совместимая мощность от 25 до 80 л.с.",
+                "Идеально для маниоки, картофеля, сахарного тростника и овощей"
+            ],
+            pt: [
+                "Disponível em 5 modelos: 3QL-1, 3QL-2, 3QL-3, 3QL-4, 3QL-5",
+                "Largura de trabalho de 800mm a 3900mm",
+                "Largura de camalhão constante de 700-900mm",
+                "Altura de camalhão de 200-250mm para melhor drenagem",
+                "Lâminas de aiveca de alta resistência",
+                "Engate padrão de três pontos",
+                "Potência compatível de 25 HP a 80 HP",
+                "Ideal para mandioca, batata, cana-de-açúcar e vegetais"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "3QL-1 / 3QL-2 / 3QL-3 / 3QL-4 / 3QL-5",
+                "Working Width": "800mm / 1600mm / 2500mm / 3200mm / 3900mm",
+                "Width of Ridging": "700-900mm (all models)",
+                "Height of Ridging": "200-250mm (all models)",
+                "Weight": "150kg / 200kg / 240kg / 280kg / 330kg",
+                "Linkage": "Standard Three-Point Mounted",
+                "Matched Power": "25 HP / 35 HP / 40 HP / 60 HP / 80 HP"
+            },
+            es: {
+                "Modelos": "3QL-1 / 3QL-2 / 3QL-3 / 3QL-4 / 3QL-5",
+                "Ancho de trabajo": "800mm / 1600mm / 2500mm / 3200mm / 3900mm",
+                "Ancho de caballón": "700-900mm",
+                "Altura de caballón": "200-250mm",
+                "Peso": "150kg / 200kg / 240kg / 280kg / 330kg",
+                "Enganche": "Tres Puntos Estándar",
+                "Potencia": "25 HP / 35 HP / 40 HP / 60 HP / 80 HP"
+            },
+            fr: {
+                "Modèles": "3QL-1 / 3QL-2 / 3QL-3 / 3QL-4 / 3QL-5",
+                "Largeur de travail": "800mm / 1600mm / 2500mm / 3200mm / 3900mm",
+                "Largeur de billon": "700-900mm",
+                "Hauteur de billon": "200-250mm",
+                "Poids": "150kg / 200kg / 240kg / 280kg / 330kg",
+                "Attelage": "Trois Points Standard",
+                "Puissance": "25 HP / 35 HP / 40 HP / 60 HP / 80 HP"
+            },
+            ar: {
+                "الموديلات": "3QL-1 / 3QL-2 / 3QL-3 / 3QL-4 / 3QL-5",
+                "عرض العمل": "800 ملم / 1600 ملم / 2500 ملم / 3200 ملم / 3900 ملم",
+                "عرض الخط": "700-900 ملم",
+                "ارتفاع الخط": "200-250 ملم",
+                "الوزن": "150 كجم / 200 كجم / 240 كجم / 280 كجم / 330 كجم",
+                "التوصيل": "ثلاث نقاط قياسي",
+                "القوة": "25 حصان / 35 حصان / 40 حصان / 60 حصان / 80 حصان"
+            },
+            ru: {
+                "Модели": "3QL-1 / 3QL-2 / 3QL-3 / 3QL-4 / 3QL-5",
+                "Рабочая ширина": "800мм / 1600мм / 2500мм / 3200мм / 3900мм",
+                "Ширина гребня": "700-900мм",
+                "Высота гребня": "200-250мм",
+                "Вес": "150кг / 200кг / 240кг / 280кг / 330кг",
+                "Навеска": "Стандартная трехточечная",
+                "Мощность": "25 л.с. / 35 л.с. / 40 л.с. / 60 л.с. / 80 л.с."
+            },
+            pt: {
+                "Modelos": "3QL-1 / 3QL-2 / 3QL-3 / 3QL-4 / 3QL-5",
+                "Largura de trabalho": "800mm / 1600mm / 2500mm / 3200mm / 3900mm",
+                "Largura do camalhão": "700-900mm",
+                "Altura do camalhão": "200-250mm",
+                "Peso": "150kg / 200kg / 240kg / 280kg / 330kg",
+                "Engate": "Três Pontos Padrão",
+                "Potência": "25 HP / 35 HP / 40 HP / 60 HP / 80 HP"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Cassava ridging, potato ridging, sugarcane cultivation, vegetable farming"
+        }
+    },
 ];
 
 // ============================================================
