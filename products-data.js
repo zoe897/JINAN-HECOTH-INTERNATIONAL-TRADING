@@ -9292,6 +9292,158 @@ const Products = [
             application: "Pasture maintenance, orchard mowing, vineyard management, weed control"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 圆盘起垄机 (Disc Ridger)
+    // ============================================================
+    {
+        id: "TL-012",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/disc-ridger.jpg", // 请替换为您的真实产品图片路径
+        name: {
+            en: "1ZX Series Disc Ridger - Heavy-Duty 2/3-Row Ridging Machine",
+            es: "Arado de Disco para Caballones Serie 1ZX - Máquina de 2/3 Hileras",
+            fr: "Butteuse à Disques Série 1ZX - Machine de Buttage 2/3 Rangs",
+            ar: "محراث قرصي لتشكيل الخطوط سلسلة 1ZX - آلة تكديس 2/3 صفوف",
+            ru: "Дисковый окучник серии 1ZX - Тяжелая машина для гребней (2/3 ряда)",
+            pt: "Arado de Disco para Camalhões Série 1ZX - Máquina de 2/3 Fileiras"
+        },
+        desc: {
+            en: "The 1ZX Series Disc Ridger is a professional agricultural implement designed for forming ridges and furrows, ideal for planting potatoes, sugarcane, corn, and vegetables. It features high-strength disc blades (dia. 560-710mm) and a robust frame to ensure excellent soil turning and ridge shaping. Available in 2-row and 3-row configurations, compatible with 35-120 HP tractors. Ideal for B2B buyers looking for durable and efficient tillage equipment.",
+            es: "La caballonadora de discos 1ZX está diseñada para formar caballones y surcos, ideal para patatas, caña de azúcar y hortalizas. Cuchillas de disco de alta resistencia (560-710mm). Disponible en configuraciones de 2 y 3 hileras, compatible con tractores de 35-120 HP.",
+            fr: "La butteuse à disques 1ZX est conçue pour former des billons, idéale pour les pommes de terre et la canne à sucre. Lames de disque haute résistance (560-710mm). Disponible en 2 et 3 rangs, compatible avec tracteurs de 35-120 HP.",
+            ar: "محراث الأقراص 1ZX مصمم لتشكيل الخطوط والأخاديد، مثالي للبطاطس وقصب السكر. شفرات أقراص عالية القوة (560-710 ملم). متوفر بتكوينات صفين و3 صفوف، متوافق مع جرارات 35-120 حصان.",
+            ru: "Дисковый окучник 1ZX предназначен для формирования гребней, идеально подходит для картофеля и сахарного тростника. Высокопрочные диски (560-710мм). Доступен в 2-х и 3-рядном исполнении, совместим с тракторами 35-120 л.с.",
+            pt: "O arado de disco 1ZX é projetado para formar camalhões, ideal para batata e cana-de-açúcar. Lâminas de disco de alta resistência (560-710mm). Disponível em configurações de 2 e 3 fileiras, compatível com tratores de 35-120 HP."
+        },
+        features: {
+            en: [
+                "Heavy-duty design for efficient ridge forming and soil pulverization",
+                "Available in 3 models: 1ZX-3 (3-row), 1ZX-2 (2-row), 1ZXQ-2 (2-row light)",
+                "High ridge height: ≥350mm for deep-rooted crops",
+                "Large disc diameter (560mm / 660mm / 710mm) for deep tillage",
+                "Type I or Type II three-point linkage for quick tractor attachment",
+                "High working efficiency with 4 to 6 disc blades",
+                "Ideal for potatoes, sugarcane, vegetables, and row crops",
+                "Compatible with a wide range of tractor horsepower (35-120 HP)"
+            ],
+            es: [
+                "Diseño resistente para la formación eficiente de caballones",
+                "Disponible en 3 modelos: 1ZX-3 (3 hileras), 1ZX-2 (2 hileras), 1ZXQ-2 (2 hileras ligero)",
+                "Altura de caballón: ≥350mm para cultivos de raíces profundas",
+                "Gran diámetro de disco (560mm / 660mm / 710mm)",
+                "Enganche de tres puntos Tipo I o Tipo II",
+                "Ideal para patatas, caña de azúcar y hortalizas",
+                "Compatible con tractores de 35-120 HP"
+            ],
+            fr: [
+                "Conception robuste pour la formation efficace de billons",
+                "Disponible en 3 modèles : 1ZX-3 (3 rangs), 1ZX-2 (2 rangs), 1ZXQ-2 (2 rangs léger)",
+                "Hauteur de billon : ≥350mm pour les cultures à racines profondes",
+                "Grand diamètre de disque (560mm / 660mm / 710mm)",
+                "Attelage trois points Type I ou Type II",
+                "Idéal pour pommes de terre, canne à sucre et légumes",
+                "Compatible avec tracteurs de 35-120 HP"
+            ],
+            ar: [
+                "تصميم ثقيل لتشكيل الخطوط بكفاءة",
+                "متوفر بـ 3 موديلات: 1ZX-3 (3 صفوف)، 1ZX-2 (صفين)، 1ZXQ-2 (صفين خفيف)",
+                "ارتفاع الخط: ≥350 ملم للمحاصيل ذات الجذور العميقة",
+                "قطر قرص كبير (560 ملم / 660 ملم / 710 ملم)",
+                "توصيل ثلاث نقاط النوع I أو النوع II",
+                "مثالي للبطاطس وقصب السكر والخضروات",
+                "متوافق مع جرارات 35-120 حصان"
+            ],
+            ru: [
+                "Тяжелая конструкция для эффективного формирования гребней",
+                "Доступно 3 модели: 1ZX-3 (3-рядная), 1ZX-2 (2-рядная), 1ZXQ-2 (2-рядная легкая)",
+                "Высота гребня: ≥350мм для культур с глубокими корнями",
+                "Большой диаметр диска (560мм / 660мм / 710мм)",
+                "Трехточечная навеска Тип I или Тип II",
+                "Идеально для картофеля, сахарного тростника и овощей",
+                "Совместимость с тракторами 35-120 л.с."
+            ],
+            pt: [
+                "Design robusto para formação eficiente de camalhões",
+                "Disponível em 3 modelos: 1ZX-3 (3 fileiras), 1ZX-2 (2 fileiras), 1ZXQ-2 (2 fileiras leve)",
+                "Altura do camalhão: ≥350mm para culturas de raízes profundas",
+                "Grande diâmetro do disco (560mm / 660mm / 710mm)",
+                "Engate de três pontos Tipo I ou Tipo II",
+                "Ideal para batata, cana-de-açúcar e vegetais",
+                "Compatível com tratores de 35-120 HP"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1ZX-3 / 1ZX-2 / 1ZXQ-2",
+                "Ridger No.": "3 / 2 / 2",
+                "Ridger Height": "≥350mm / ≥350mm / ≥300mm",
+                "No. of Disc": "6 / 4 / 4",
+                "Weight": "600kg / 450kg / 300kg",
+                "Dia. of Disc": "660/710mm / 660mm / 560mm",
+                "Linkage": "Type II Three-Point Mounted / Type II / Type I",
+                "Matched Power": "100-120 HP / 60-80 HP / 35-40 HP"
+            },
+            es: {
+                "Modelos": "1ZX-3 / 1ZX-2 / 1ZXQ-2",
+                "Número de Caballones": "3 / 2 / 2",
+                "Altura de Caballón": "≥350mm / ≥350mm / ≥300mm",
+                "Número de Discos": "6 / 4 / 4",
+                "Peso": "600kg / 450kg / 300kg",
+                "Diámetro de Disco": "660/710mm / 660mm / 560mm",
+                "Enganche": "Tres Puntos Tipo II / Tipo II / Tipo I",
+                "Potencia": "100-120 HP / 60-80 HP / 35-40 HP"
+            },
+            fr: {
+                "Modèles": "1ZX-3 / 1ZX-2 / 1ZXQ-2",
+                "Nombre de Billons": "3 / 2 / 2",
+                "Hauteur de Billon": "≥350mm / ≥350mm / ≥300mm",
+                "Nombre de Disques": "6 / 4 / 4",
+                "Poids": "600kg / 450kg / 300kg",
+                "Diamètre de Disque": "660/710mm / 660mm / 560mm",
+                "Attelage": "Trois Points Type II / Type II / Type I",
+                "Puissance": "100-120 HP / 60-80 HP / 35-40 HP"
+            },
+            ar: {
+                "الموديلات": "1ZX-3 / 1ZX-2 / 1ZXQ-2",
+                "عدد الخطوط": "3 / 2 / 2",
+                "ارتفاع الخط": "≥350 ملم / ≥350 ملم / ≥300 ملم",
+                "عدد الأقراص": "6 / 4 / 4",
+                "الوزن": "600 كجم / 450 كجم / 300 كجم",
+                "قطر القرص": "660/710 ملم / 660 ملم / 560 ملم",
+                "التوصيل": "ثلاث نقاط النوع II / النوع II / النوع I",
+                "القوة": "100-120 حصان / 60-80 حصان / 35-40 حصان"
+            },
+            ru: {
+                "Модели": "1ZX-3 / 1ZX-2 / 1ZXQ-2",
+                "Количество гребней": "3 / 2 / 2",
+                "Высота гребня": "≥350мм / ≥350мм / ≥300мм",
+                "Количество дисков": "6 / 4 / 4",
+                "Вес": "600кг / 450кг / 300кг",
+                "Диаметр диска": "660/710мм / 660мм / 560мм",
+                "Навеска": "Трехточечная Тип II / Тип II / Тип I",
+                "Мощность": "100-120 л.с. / 60-80 л.с. / 35-40 л.с."
+            },
+            pt: {
+                "Modelos": "1ZX-3 / 1ZX-2 / 1ZXQ-2",
+                "Número de Camalhões": "3 / 2 / 2",
+                "Altura do Camalhão": "≥350mm / ≥350mm / ≥300mm",
+                "Número de Discos": "6 / 4 / 4",
+                "Peso": "600kg / 450kg / 300kg",
+                "Diâmetro do Disco": "660/710mm / 660mm / 560mm",
+                "Engate": "Três Pontos Tipo II / Tipo II / Tipo I",
+                "Potência": "100-120 HP / 60-80 HP / 35-40 HP"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Potato ridging, sugarcane planting, vegetable farming, row crop cultivation"
+        }
+    },
 ];
 
 // ============================================================
