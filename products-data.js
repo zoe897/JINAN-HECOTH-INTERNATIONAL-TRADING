@@ -10253,6 +10253,163 @@ const Products = [
             application: "Potato harvesting, root crop harvesting, commercial farming, agricultural contracting"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 其他农机具 → 拖拉机挖坑机 (Hole Digger)
+    // ============================================================
+    {
+        id: "OT-010",
+        category: "farm-machinery",
+        subCategory: "other-farm",
+        image: "/image/hole-digger.jpg", // 请替换为您的真实产品图片路径
+        name: {
+            en: "1WX Series Tractor Post Hole Digger - 11 Drill Sizes Available",
+            es: "Excavadora de Agujeros para Tractor Serie 1WX - 11 Tamaños Disponibles",
+            fr: "Tarière pour Tracteur Série 1WX - 11 Tailles de Forets Disponibles",
+            ar: "حفارة ثقوب للجرار سلسلة 1WX - 11 حجم مثقاب متاح",
+            ru: "Ямобур для трактора серии 1WX - 11 размеров буров",
+            pt: "Perfurador de Buracos para Trator Série 1WX - 11 Tamanhos Disponíveis"
+        },
+        desc: {
+            en: "The 1WX Series Tractor Post Hole Digger is a versatile and heavy-duty implement designed for digging holes for orchards, fencing, and landscaping. Available in 11 drill diameter sizes (from 200mm to 1200mm) to meet various project requirements. Featuring a standard three-point mounted linkage and a robust PTO shaft (540/248 rpm), it is perfectly matched with 25-50 HP tractors. Its efficient design can dig 3-5 holes per minute, making it an essential tool for agricultural and construction contractors.",
+            es: "La excavadora de agujeros 1WX está diseñada para cavar hoyos para huertos y cercas. Disponible en 11 tamaños de broca (200mm a 1200mm). Con enganche de tres puntos y eje PTO (540/248 rpm), es compatible con tractores de 25-50 HP. Puede cavar 3-5 hoyos por minuto.",
+            fr: "La tarière 1WX est conçue pour creuser des trous pour les vergers et les clôtures. Disponible en 11 tailles de forets (200mm à 1200mm). Avec attelage trois points et arbre PTO (540/248 tr/min), compatible avec tracteurs de 25-50 HP. Peut creuser 3 à 5 trous par minute.",
+            ar: "حفارة الثقوب 1WX مصممة لحفر ثقوب للبساتين والأسوار. متوفرة بـ 11 حجم مثقاب (من 200 ملم إلى 1200 ملم). مع توصيل ثلاثي النقاط وعمود PTO (540/248 دورة/دقيقة)، متوافقة مع جرارات 25-50 حصان. تحفر 3-5 ثقوب في الدقيقة.",
+            ru: "Ямобур 1WX предназначен для копания ям для садов и заборов. Доступен в 11 размерах буров (от 200 до 1200 мм). Оснащен трехточечной навеской и валом отбора мощности (540/248 об/мин), совместим с тракторами 25-50 л.с. Копает 3-5 ям в минуту.",
+            pt: "O perfurador 1WX é projetado para cavar buracos para pomares e cercas. Disponível em 11 tamanhos de broca (200mm a 1200mm). Com engate de três pontos e eixo PTO (540/248 rpm), é compatível com tratores de 25-50 HP. Pode cavar 3-5 buracos por minuto."
+        },
+        features: {
+            en: [
+                "11 Drill Diameters available: 200mm, 300mm, 400mm, 500mm, 600mm, 700mm, 800mm, 900mm, 1000mm, 1150mm, 1200mm",
+                "High productivity: digs 3 to 5 holes per minute",
+                "Working depth ranges from 600-800mm (for 200-600mm drills) to <1200mm (for 700-1200mm drills)",
+                "Standard three-point mounted linkage for quick tractor attachment",
+                "PTO shaft speed: 536/246 rpm or 540/248 rpm",
+                "Heavy-duty auger and gearbox for tough soil conditions",
+                "Matched power from 25 HP to 50 HP tractors",
+                "Ideal for orchard planting, fence post installation, and tree planting"
+            ],
+            es: [
+                "11 diámetros de broca disponibles: 200mm a 1200mm",
+                "Alta productividad: cava de 3 a 5 hoyos por minuto",
+                "Profundidad de trabajo de 600-800mm a <1200mm",
+                "Enganche estándar de tres puntos",
+                "Velocidad del eje PTO: 536/246 rpm o 540/248 rpm",
+                "Caja de engranajes y barrena de alta resistencia",
+                "Potencia compatible de 25 HP a 50 HP",
+                "Ideal para plantar huertos y postes de cercas"
+            ],
+            fr: [
+                "11 diamètres de foret disponibles : 200mm à 1200mm",
+                "Haute productivité : creuse 3 à 5 trous par minute",
+                "Profondeur de travail de 600-800mm à <1200mm",
+                "Attelage standard trois points",
+                "Vitesse de l'arbre PTO : 536/246 tr/min ou 540/248 tr/min",
+                "Boîte de vitesses et tarière robustes",
+                "Puissance compatible de 25 HP à 50 HP",
+                "Idéal pour la plantation de vergers et de poteaux de clôture"
+            ],
+            ar: [
+                "11 قطر مثقاب متاح: من 200 ملم إلى 1200 ملم",
+                "إنتاجية عالية: تحفر 3 إلى 5 ثقوب في الدقيقة",
+                "عمق العمل من 600-800 ملم إلى <1200 ملم",
+                "توصيل قياسي ثلاثي النقاط",
+                "سرعة عمود PTO: 536/246 دورة/دقيقة أو 540/248 دورة/دقيقة",
+                "علبة تروس ومثقاب ثقيل لظروف التربة الصعبة",
+                "قوة مطابقة من 25 حصان إلى 50 حصان",
+                "مثالي لزراعة البساتين وأعمدة الأسوار"
+            ],
+            ru: [
+                "Доступно 11 диаметров бура: от 200 до 1200 мм",
+                "Высокая производительность: 3-5 ям в минуту",
+                "Глубина копания от 600-800мм до <1200мм",
+                "Стандартная трехточечная навеска",
+                "Скорость ВОМ: 536/246 об/мин или 540/248 об/мин",
+                "Прочный редуктор и бур для сложных почв",
+                "Совместимая мощность от 25 до 50 л.с.",
+                "Идеально для посадки садов и установки столбов"
+            ],
+            pt: [
+                "11 diâmetros de broca disponíveis: 200mm a 1200mm",
+                "Alta produtividade: cava 3 a 5 buracos por minuto",
+                "Profundidade de trabalho de 600-800mm a <1200mm",
+                "Engate padrão de três pontos",
+                "Velocidade do eixo PTO: 536/246 rpm ou 540/248 rpm",
+                "Caixa de engrenagens e broca de alta resistência",
+                "Potência compatível de 25 HP a 50 HP",
+                "Ideal para plantar pomares e postes de cerca"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "1WX-200 to 1WX-1200 (11 models)",
+                "Matched Power": "25-35 HP (200-600mm) / 50 HP (700-1200mm)",
+                "Drill Dia.": "Ø200 / 300 / 400 / 500 / 600 / 700 / 800 / 900 / 1000 / 1150 / 1200mm",
+                "Working Depth": "600-800mm (up to 600mm drill) / <1200mm (700-1200mm drill)",
+                "Rotate Speed (PTO)": "536/246 rpm / 540/248 rpm",
+                "Productivity": "3-5 holes/min (all models)",
+                "Linkage": "Standard Three-Point Mounted",
+                "Weight": "235kg to 310kg (varies by drill size)"
+            },
+            es: {
+                "Modelos": "1WX-200 a 1WX-1200 (11 modelos)",
+                "Potencia": "25-35 HP (200-600mm) / 50 HP (700-1200mm)",
+                "Diámetro de broca": "Ø200 / 300 / 400 / 500 / 600 / 700 / 800 / 900 / 1000 / 1150 / 1200mm",
+                "Profundidad": "600-800mm / <1200mm",
+                "Velocidad PTO": "536/246 rpm / 540/248 rpm",
+                "Productividad": "3-5 hoyos/min",
+                "Enganche": "Tres Puntos Estándar",
+                "Peso": "235kg a 310kg"
+            },
+            fr: {
+                "Modèles": "1WX-200 à 1WX-1200 (11 modèles)",
+                "Puissance": "25-35 HP (200-600mm) / 50 HP (700-1200mm)",
+                "Diamètre du foret": "Ø200 / 300 / 400 / 500 / 600 / 700 / 800 / 900 / 1000 / 1150 / 1200mm",
+                "Profondeur": "600-800mm / <1200mm",
+                "Vitesse PTO": "536/246 tr/min / 540/248 tr/min",
+                "Productivité": "3-5 trous/min",
+                "Attelage": "Trois Points Standard",
+                "Poids": "235kg à 310kg"
+            },
+            ar: {
+                "الموديلات": "1WX-200 إلى 1WX-1200 (11 موديلاً)",
+                "القوة": "25-35 حصان (200-600 ملم) / 50 حصان (700-1200 ملم)",
+                "قطر المثقاب": "Ø200 / 300 / 400 / 500 / 600 / 700 / 800 / 900 / 1000 / 1150 / 1200 ملم",
+                "عمق العمل": "600-800 ملم / <1200 ملم",
+                "سرعة PTO": "536/246 دورة/دقيقة / 540/248 دورة/دقيقة",
+                "الإنتاجية": "3-5 ثقوب/دقيقة",
+                "التوصيل": "ثلاث نقاط قياسي",
+                "الوزن": "235 كجم إلى 310 كجم"
+            },
+            ru: {
+                "Модели": "1WX-200 до 1WX-1200 (11 моделей)",
+                "Мощность": "25-35 л.с. (200-600мм) / 50 л.с. (700-1200мм)",
+                "Диаметр бура": "Ø200 / 300 / 400 / 500 / 600 / 700 / 800 / 900 / 1000 / 1150 / 1200мм",
+                "Глубина": "600-800мм / <1200мм",
+                "Скорость ВОМ": "536/246 об/мин / 540/248 об/мин",
+                "Производительность": "3-5 ям/мин",
+                "Навеска": "Стандартная трехточечная",
+                "Вес": "235кг - 310кг"
+            },
+            pt: {
+                "Modelos": "1WX-200 a 1WX-1200 (11 modelos)",
+                "Potência": "25-35 HP (200-600mm) / 50 HP (700-1200mm)",
+                "Diâmetro da broca": "Ø200 / 300 / 400 / 500 / 600 / 700 / 800 / 900 / 1000 / 1150 / 1200mm",
+                "Profundidade": "600-800mm / <1200mm",
+                "Velocidade PTO": "536/246 rpm / 540/248 rpm",
+                "Produtividade": "3-5 buracos/min",
+                "Engate": "Três Pontos Padrão",
+                "Peso": "235kg a 310kg"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "15-30 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Orchard planting, fence post installation, tree planting, landscaping, agricultural contracting"
+        }
+    },
 ];
 
 // ============================================================
