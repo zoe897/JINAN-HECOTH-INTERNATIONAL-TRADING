@@ -10410,6 +10410,163 @@ const Products = [
             application: "Orchard planting, fence post installation, tree planting, landscaping, agricultural contracting"
         }
     },
+        // ============================================================
+    //  🌾 农机具 → 耕整地机械 → 牵引式捡石机 (Stone Picker)
+    // ============================================================
+    {
+        id: "TL-015",
+        category: "farm-machinery",
+        subCategory: "tillage",
+        image: "/image/stone-picker.jpg", // 请替换为您的真实产品图片路径
+        name: {
+            en: "4JS Series Trailed Stone Picker - Heavy-Duty Rock Removal Machine",
+            es: "Recogedora de Piedras Remolcada Serie 4JS - Máquina de Eliminación de Rocas",
+            fr: "Ramassage de Pierres Remorqué Série 4JS - Machine d'Élimination des Roches",
+            ar: "آلة جمع الحجارة المقطورة سلسلة 4JS - آلة إزالة الصخور الثقيلة",
+            ru: "Прицепной камнеуборочный комбайн серии 4JS - Тяжелая машина для удаления камней",
+            pt: "Recolhedor de Pedras Rebocado Série 4JS - Máquina Pesada de Remoção de Rochas"
+        },
+        desc: {
+            en: "The 4JS Series Trailed Stone Picker is a high-capacity agricultural machine designed to efficiently collect surface stones and rocks from fields. Featuring a robust picking mechanism and heavy-duty construction (up to 5600kg), it clears fields to prevent damage to harvesters and improve soil quality. Available in 5 models with working widths from 1200mm to 2000mm. It requires high-horsepower tractors (100 to >200 HP) and is the ultimate solution for rocky farmland and land reclamation projects.",
+            es: "La recogedora de piedras 4JS está diseñada para recoger eficientemente piedras de los campos. Con una construcción robusta (hasta 5600kg), protege las cosechadoras y mejora el suelo. Disponible en 5 modelos (1200mm a 2000mm). Requiere tractores de 100 a >200 HP.",
+            fr: "Le ramassage de pierres 4JS est conçu pour collecter efficacement les pierres des champs. Avec une construction robuste (jusqu'à 5600kg), il protège les moissonneuses et améliore le sol. Disponible en 5 modèles (1200mm à 2000mm). Nécessite des tracteurs de 100 à >200 HP.",
+            ar: "آلة جمع الحجارة 4JS مصممة لجمع الحجارة بكفاءة من الحقول. مع بناء قوي (حتى 5600 كجم)، يحمي الحصادات ويحسن جودة التربة. متوفرة بـ 5 موديلات (1200 ملم إلى 2000 ملم). تتطلب جرارات من 100 إلى أكثر من 200 حصان.",
+            ru: "Камнеуборочная машина 4JS предназначена для эффективного сбора камней с полей. Прочная конструкция (до 5600 кг) защищает комбайны и улучшает качество почвы. Доступно 5 моделей (от 1200 до 2000 мм). Требуются тракторы мощностью от 100 до >200 л.с.",
+            pt: "O recolhedor de pedras 4JS é projetado para coletar eficientemente pedras dos campos. Com construção robusta (até 5600kg), protege as colheitadeiras e melhora a qualidade do solo. Disponível em 5 modelos (1200mm a 2000mm). Requer tratores de 100 a >200 HP."
+        },
+        features: {
+            en: [
+                "Available in 5 models: 4JS-1.2, 4JS-1.5, 4JS-1.6, 4JS-1.9, 4JS-2.0",
+                "Working width options from 1200mm to 2000mm for high-efficiency field clearing",
+                "Consistent working depth of 20-35mm for surface rock collection",
+                "Heavy-duty construction (1450kg to 5600kg) for durability in harsh conditions",
+                "Trailed linkage system for stable operation and large field coverage",
+                "High transport clearance (≥200mm) for safe road travel",
+                "Matched power from 100 HP to over 200 HP tractors",
+                "Protects farm machinery (mowers, combines) from stone damage"
+            ],
+            es: [
+                "Disponible en 5 modelos: 4JS-1.2, 4JS-1.5, 4JS-1.6, 4JS-1.9, 4JS-2.0",
+                "Ancho de trabajo de 1200mm a 2000mm",
+                "Profundidad de trabajo constante de 20-35mm",
+                "Construcción resistente (1450kg a 5600kg)",
+                "Sistema de enganche remolcado",
+                "Gran distancia al suelo para el transporte (≥200mm)",
+                "Potencia compatible de 100 HP a más de 200 HP",
+                "Protege la maquinaria agrícola de daños por piedras"
+            ],
+            fr: [
+                "Disponible en 5 modèles : 4JS-1.2, 4JS-1.5, 4JS-1.6, 4JS-1.9, 4JS-2.0",
+                "Largeur de travail de 1200mm à 2000mm",
+                "Profondeur de travail constante de 20-35mm",
+                "Construction robuste (1450kg à 5600kg)",
+                "Système d'attelage remorqué",
+                "Grande garde au sol pour le transport (≥200mm)",
+                "Puissance compatible de 100 HP à plus de 200 HP",
+                "Protège les machines agricoles des dommages causés par les pierres"
+            ],
+            ar: [
+                "متوفر بـ 5 موديلات: 4JS-1.2، 4JS-1.5، 4JS-1.6، 4JS-1.9، 4JS-2.0",
+                "خيارات عرض العمل من 1200 ملم إلى 2000 ملم",
+                "عمق عمل ثابت 20-35 ملم لجمع الصخور السطحية",
+                "بناء ثقيل (1450 كجم إلى 5600 كجم)",
+                "نظام توصيل مقطور",
+                "خلوص نقل عالي (≥200 ملم) للسفر الآمن",
+                "قوة مطابقة من 100 حصان إلى أكثر من 200 حصان",
+                "يحمي الآلات الزراعية من أضرار الحجارة"
+            ],
+            ru: [
+                "Доступно 5 моделей: 4JS-1.2, 4JS-1.5, 4JS-1.6, 4JS-1.9, 4JS-2.0",
+                "Рабочая ширина от 1200 до 2000 мм",
+                "Постоянная глубина обработки 20-35 мм",
+                "Тяжелая конструкция (от 1450 до 5600 кг)",
+                "Прицепная навесная система",
+                "Высокий дорожный просвет (≥200 мм)",
+                "Совместимая мощность от 100 до >200 л.с.",
+                "Защищает сельхозтехнику от повреждений камнями"
+            ],
+            pt: [
+                "Disponível em 5 modelos: 4JS-1.2, 4JS-1.5, 4JS-1.6, 4JS-1.9, 4JS-2.0",
+                "Largura de trabalho de 1200mm a 2000mm",
+                "Profundidade de trabalho consistente de 20-35mm",
+                "Construção pesada (1450kg a 5600kg)",
+                "Sistema de engate rebocado",
+                "Alta distância do solo para transporte (≥200mm)",
+                "Potência compatível de 100 HP a mais de 200 HP",
+                "Protege máquinas agrícolas de danos por pedras"
+            ]
+        },
+        specs: {
+            en: {
+                "Models": "4JS-1.2 / 4JS-1.5 / 4JS-1.6 / 4JS-1.9 / 4JS-2.0",
+                "Working Width": "1200mm / 1500mm / 1600mm / 1900mm / 2000mm",
+                "Working Depth": "20-35mm (all models)",
+                "Weight": "1450kg / 1590kg / 4800kg / 5300kg / 5600kg",
+                "Transport Clearance": "≥200mm (all models)",
+                "Matched Power": "100 HP / 120-140 HP / >180 HP / >200 HP / >200 HP",
+                "Linkage": "Trailed (all models)",
+                "Dimension Size (L×W×H)": "4700×2060×1700mm / 4800×2300×1800mm / 7800×2200×2150mm / 7800×2500×2150mm / 7800×2600×2150mm"
+            },
+            es: {
+                "Modelos": "4JS-1.2 / 4JS-1.5 / 4JS-1.6 / 4JS-1.9 / 4JS-2.0",
+                "Ancho de trabajo": "1200mm / 1500mm / 1600mm / 1900mm / 2000mm",
+                "Profundidad de trabajo": "20-35mm",
+                "Peso": "1450kg / 1590kg / 4800kg / 5300kg / 5600kg",
+                "Distancia al suelo": "≥200mm",
+                "Potencia compatible": "100 HP / 120-140 HP / >180 HP / >200 HP / >200 HP",
+                "Enganche": "Remolcado",
+                "Dimensiones": "4700×2060×1700mm / 4800×2300×1800mm / 7800×2200×2150mm / 7800×2500×2150mm / 7800×2600×2150mm"
+            },
+            fr: {
+                "Modèles": "4JS-1.2 / 4JS-1.5 / 4JS-1.6 / 4JS-1.9 / 4JS-2.0",
+                "Largeur de travail": "1200mm / 1500mm / 1600mm / 1900mm / 2000mm",
+                "Profondeur de travail": "20-35mm",
+                "Poids": "1450kg / 1590kg / 4800kg / 5300kg / 5600kg",
+                "Garde au sol": "≥200mm",
+                "Puissance compatible": "100 HP / 120-140 HP / >180 HP / >200 HP / >200 HP",
+                "Attelage": "Remorqué",
+                "Dimensions": "4700×2060×1700mm / 4800×2300×1800mm / 7800×2200×2150mm / 7800×2500×2150mm / 7800×2600×2150mm"
+            },
+            ar: {
+                "الموديلات": "4JS-1.2 / 4JS-1.5 / 4JS-1.6 / 4JS-1.9 / 4JS-2.0",
+                "عرض العمل": "1200 ملم / 1500 ملم / 1600 ملم / 1900 ملم / 2000 ملم",
+                "عمق العمل": "20-35 ملم",
+                "الوزن": "1450 كجم / 1590 كجم / 4800 كجم / 5300 كجم / 5600 كجم",
+                "خلوص النقل": "≥200 ملم",
+                "القوة المطابقة": "100 حصان / 120-140 حصان / >180 حصان / >200 حصان / >200 حصان",
+                "التوصيل": "مقطور",
+                "الأبعاد": "4700×2060×1700 ملم / 4800×2300×1800 ملم / 7800×2200×2150 ملم / 7800×2500×2150 ملم / 7800×2600×2150 ملم"
+            },
+            ru: {
+                "Модели": "4JS-1.2 / 4JS-1.5 / 4JS-1.6 / 4JS-1.9 / 4JS-2.0",
+                "Рабочая ширина": "1200мм / 1500мм / 1600мм / 1900мм / 2000мм",
+                "Глубина обработки": "20-35мм",
+                "Вес": "1450кг / 1590кг / 4800кг / 5300кг / 5600кг",
+                "Дорожный просвет": "≥200мм",
+                "Совместимая мощность": "100 л.с. / 120-140 л.с. / >180 л.с. / >200 л.с. / >200 л.с.",
+                "Навеска": "Прицепная",
+                "Размеры": "4700×2060×1700мм / 4800×2300×1800мм / 7800×2200×2150мм / 7800×2500×2150мм / 7800×2600×2150мм"
+            },
+            pt: {
+                "Modelos": "4JS-1.2 / 4JS-1.5 / 4JS-1.6 / 4JS-1.9 / 4JS-2.0",
+                "Largura de trabalho": "1200mm / 1500mm / 1600mm / 1900mm / 2000mm",
+                "Profundidade de trabalho": "20-35mm",
+                "Peso": "1450kg / 1590kg / 4800kg / 5300kg / 5600kg",
+                "Distância do solo": "≥200mm",
+                "Potência compatível": "100 HP / 120-140 HP / >180 HP / >200 HP / >200 HP",
+                "Engate": "Rebocado",
+                "Dimensões": "4700×2060×1700mm / 4800×2300×1800mm / 7800×2200×2150mm / 7800×2500×2150mm / 7800×2600×2150mm"
+            }
+        },
+        inquiry: {
+            minOrder: "1 unit",
+            leadTime: "20-35 days",
+            warranty: "12 months",
+            moq: "1 unit",
+            shipping: "FOB Qingdao / CIF available",
+            application: "Rocky farmland clearing, land reclamation, pasture maintenance, agricultural machinery protection"
+        }
+    },
 ];
 
 // ============================================================
