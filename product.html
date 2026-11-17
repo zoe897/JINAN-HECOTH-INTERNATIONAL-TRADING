@@ -11,82 +11,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * { font-family: 'Inter', sans-serif; }
-        :root { --primary: #2E7D32; --primary-dark: #1B5E20; --secondary: #43A047; --accent: #F9A825; --accent-light: #FDD835; }
-        
+        :root { --primary: #2E7D32; --primary-dark: #1B5E20; --secondary: #43A047; --accent: #F9A825; }
         .btn-primary { background-color: var(--primary); color: white; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.3s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; border: none; cursor: pointer; }
         .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(46,125,50,0.35); }
-        
         .btn-accent { background-color: var(--accent); color: #1B1B1B; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; transition: all 0.3s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; border: none; cursor: pointer; }
-        .btn-accent:hover { background-color: var(--accent-light); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(249,168,37,0.35); }
-        
+        .btn-accent:hover { background-color: var(--accent-light); transform: translateY(-2px); }
         .btn-whatsapp { background-color: #25D366; color: white; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.3s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; border: none; cursor: pointer; }
         .btn-whatsapp:hover { background-color: #1da851; transform: translateY(-2px); }
-        
         .btn-outline { border: 2px solid var(--primary); color: var(--primary); padding: 0.6rem 1.5rem; border-radius: 0.5rem; font-weight: 500; transition: all 0.2s; background: transparent; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; cursor: pointer; }
         .btn-outline:hover { background-color: var(--primary); color: white; }
-        
         .nav-link { text-decoration: none; transition: color 0.2s; color: #4B5563; }
         .nav-link:hover { color: var(--primary); }
         .nav-link.active { color: var(--primary); font-weight: 600; }
         .footer-link { color: #9ca3af; transition: color 0.2s; text-decoration: none; }
         .footer-link:hover { color: var(--secondary); }
-        
         .trust-badge { background: rgba(46,125,50,0.06); border: 1px solid rgba(46,125,50,0.12); border-radius: 0.75rem; padding: 1rem; text-align: center; transition: all 0.3s; }
         .trust-badge:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
-        
         .feature-item { display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.5rem 0; }
         .feature-item .icon { color: var(--primary); font-size: 1.2rem; margin-top: 2px; flex-shrink: 0; }
-        
         .spec-row { display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid #f3f4f6; }
         .spec-row:last-child { border-bottom: none; }
         .spec-label { font-weight: 500; color: #4B5563; }
         .spec-value { font-weight: 600; color: #111827; }
-        
         .floating-cta { position: fixed; bottom: 0; left: 0; right: 0; background: white; padding: 0.75rem 1rem; box-shadow: 0 -4px 20px rgba(0,0,0,0.08); z-index: 100; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; border-top: 1px solid #e5e7eb; }
         .floating-cta .btn-primary, .floating-cta .btn-whatsapp { padding: 0.6rem 1.25rem; font-size: 0.9rem; flex: 1; min-width: 140px; justify-content: center; }
-        
         .lang-btn { font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 2rem; transition: all 0.2s; cursor: pointer; background: transparent; border: none; font-weight: 500; }
         .lang-btn.active { background-color: var(--primary); color: white; }
-        .lang-btn:not(.active):hover { background-color: #f3f4f6; }
-        
         .bg-primary-gradient { background: linear-gradient(135deg, rgba(46,125,50,0.05) 0%, rgba(67,160,71,0.08) 100%); }
         .solution-card { background: white; border-radius: 0.75rem; padding: 1rem; border-left: 4px solid var(--primary); margin-bottom: 0.75rem; }
-        
-        /* ===== 修复产品详情页图片显示 ===== */
-        .product-image-container {
-            width: 100%;
-            height: 460px;
-            background: linear-gradient(135deg, #f8faf8 0%, #e8f0e8 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-        .product-image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            padding: 24px;
-            transition: transform 0.3s ease;
-        }
-        .product-image-container img:hover {
-            transform: scale(1.02);
-        }
-        
-        @media (max-width: 768px) {
-            .product-image-container {
-                height: 300px;
-            }
-            .product-image-container img {
-                padding: 12px;
-            }
-            .floating-cta .btn-primary, .floating-cta .btn-whatsapp {
-                min-width: 100px;
-                padding: 0.5rem 0.75rem;
-                font-size: 0.8rem;
-            }
-        }
-        /* ===== 修复结束 ===== */
+        .product-image-container { width: 100%; height: 460px; background: linear-gradient(135deg, #f8faf8 0%, #e8f0e8 100%); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .product-image-container img { width: 100%; height: 100%; object-fit: contain; padding: 24px; transition: transform 0.3s ease; }
+        .product-image-container img:hover { transform: scale(1.02); }
+        @media (max-width: 768px) { .desktop-nav { display: none; } .product-image-container { height: 300px; } .product-image-container img { padding: 12px; } .floating-cta .btn-primary, .floating-cta .btn-whatsapp { min-width: 100px; padding: 0.5rem 0.75rem; font-size: 0.8rem; } }
     </style>
 </head>
 <body>
@@ -98,9 +54,10 @@
             <i class="fas fa-leaf text-3xl" style="color:var(--primary)"></i>
             <span class="font-bold text-xl tracking-tight">Hecoth <span style="color:var(--primary)">Agri</span></span>
         </a>
-        <nav class="hidden md:flex space-x-6 desktop-nav">
+        <nav class="hidden md:flex space-x-5 desktop-nav">
             <a href="/" class="nav-link" data-lang-key="nav_home">Home</a>
             <a href="/products.html" class="nav-link active" data-lang-key="nav_products">Products</a>
+            <a href="https://hecothmotorcycle.vercel.app/?utm_source=hecoth&utm_medium=website&utm_campaign=motorcycle_business&utm_content=nav" target="_blank" rel="noopener noreferrer" class="nav-link" title="Hecoth Motorcycle - Quality Motorcycles & Spare Parts for Global B2B Buyers" data-lang-key="nav_motorcycles">Motorcycles</a>
             <a href="/solutions.html" class="nav-link" data-lang-key="nav_solutions">Solutions</a>
             <a href="/about.html" class="nav-link" data-lang-key="nav_about">About</a>
             <a href="/news.html" class="nav-link" data-lang-key="nav_news">News</a>
@@ -122,6 +79,7 @@
     <div id="mobileMenu" class="hidden md:hidden bg-white border-t py-4 px-6 flex flex-col space-y-3 shadow-lg">
         <a href="/" class="py-1" data-lang-key="nav_home">Home</a>
         <a href="/products.html" class="py-1" style="color:var(--primary);font-weight:600;" data-lang-key="nav_products">Products</a>
+        <a href="https://hecothmotorcycle.vercel.app/?utm_source=hecoth&utm_medium=website&utm_campaign=motorcycle_business&utm_content=mobile_nav" target="_blank" rel="noopener noreferrer" class="py-1" title="Hecoth Motorcycle - Quality Motorcycles & Spare Parts for Global B2B Buyers" data-lang-key="nav_motorcycles">Motorcycles</a>
         <a href="/solutions.html" class="py-1" data-lang-key="nav_solutions">Solutions</a>
         <a href="/about.html" class="py-1" data-lang-key="nav_about">About</a>
         <a href="/news.html" class="py-1" data-lang-key="nav_news">News</a>
@@ -140,7 +98,13 @@
 
 <!-- ===== PRODUCT DETAIL ===== -->
 <main class="py-8 pb-28">
-    <div class="container mx-auto px-4 md:px-8 max-w-5xl" id="productDetail"></div>
+    <div class="container mx-auto px-4 md:px-8 max-w-5xl" id="productDetail">
+        <!-- 页面加载中提示 -->
+        <div class="text-center py-12">
+            <i class="fas fa-spinner fa-spin text-4xl text-[#2E7D32]"></i>
+            <p class="text-gray-500 mt-4">Loading product details...</p>
+        </div>
+    </div>
 </main>
 
 <!-- ===== FLOATING CTA ===== -->
@@ -173,68 +137,16 @@
 
 <script src="/products-data.js"></script>
 <script>
-    // ===== 多语言配置 =====
+    // ============================================================
+    //  多语言配置 (保持与页面一致)
+    // ============================================================
     const translations = {
-        en: {
-            nav_home: "Home", nav_products: "Products", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact",
-            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
-            footer_partner: "Your reliable agricultural & supply chain partner.",
-            footer_quick: "Quick Links",
-            footer_contact_title: "Contact",
-            footer_office: "Office",
-            footer_rights: "All rights reserved.",
-            footer_sustainable: "Sustainable Agriculture"
-        },
-        es: {
-            nav_home: "Inicio", nav_products: "Productos", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto",
-            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
-            footer_partner: "Su socio confiable en maquinaria agrícola y cadena de suministro.",
-            footer_quick: "Enlaces Rápidos",
-            footer_contact_title: "Contacto",
-            footer_office: "Oficina",
-            footer_rights: "Todos los derechos reservados.",
-            footer_sustainable: "Agricultura Sostenible"
-        },
-        fr: {
-            nav_home: "Accueil", nav_products: "Produits", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact",
-            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
-            footer_partner: "Votre partenaire fiable en machinerie agricole et chaîne d'approvisionnement.",
-            footer_quick: "Liens Rapides",
-            footer_contact_title: "Contact",
-            footer_office: "Bureau",
-            footer_rights: "Tous droits réservés.",
-            footer_sustainable: "Agriculture Durable"
-        },
-        ar: {
-            nav_home: "الرئيسية", nav_products: "المنتجات", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا",
-            footer_company: "جينان هيكوت للتجارة الدولية المحدودة",
-            footer_partner: "شريكك الموثوق في المعدات الزراعية وسلسلة التوريد.",
-            footer_quick: "روابط سريعة",
-            footer_contact_title: "اتصل بنا",
-            footer_office: "المكتب",
-            footer_rights: "جميع الحقوق محفوظة.",
-            footer_sustainable: "الزراعة المستدامة"
-        },
-        ru: {
-            nav_home: "Главная", nav_products: "Продукты", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты",
-            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
-            footer_partner: "Ваш надежный партнер в сельхозтехнике и цепочке поставок.",
-            footer_quick: "Быстрые ссылки",
-            footer_contact_title: "Контакты",
-            footer_office: "Офис",
-            footer_rights: "Все права защищены.",
-            footer_sustainable: "Устойчивое сельское хозяйство"
-        },
-        pt: {
-            nav_home: "Início", nav_products: "Produtos", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato",
-            footer_company: "Jinan Hecoth International Trading Co., Ltd.",
-            footer_partner: "Seu parceiro confiável em máquinas agrícolas e cadeia de suprimentos.",
-            footer_quick: "Links Rápidos",
-            footer_contact_title: "Contato",
-            footer_office: "Escritório",
-            footer_rights: "Todos os direitos reservados.",
-            footer_sustainable: "Agricultura Sustentável"
-        }
+        en: { nav_home: "Home", nav_products: "Products", nav_motorcycles: "Motorcycles", nav_solutions: "Solutions", nav_about: "About", nav_news: "News", nav_contact: "Contact", footer_company: "Jinan Hecoth International Trading Co., Ltd.", footer_partner: "Your reliable agricultural & supply chain partner.", footer_quick: "Quick Links", footer_contact_title: "Contact", footer_office: "Office", footer_rights: "All rights reserved.", footer_sustainable: "Sustainable Agriculture" },
+        es: { nav_home: "Inicio", nav_products: "Productos", nav_motorcycles: "Motocicletas", nav_solutions: "Soluciones", nav_about: "Nosotros", nav_news: "Noticias", nav_contact: "Contacto", footer_company: "Jinan Hecoth International Trading Co., Ltd.", footer_partner: "Su socio confiable en maquinaria agrícola y cadena de suministro.", footer_quick: "Enlaces Rápidos", footer_contact_title: "Contacto", footer_office: "Oficina", footer_rights: "Todos los derechos reservados.", footer_sustainable: "Agricultura Sostenible" },
+        fr: { nav_home: "Accueil", nav_products: "Produits", nav_motorcycles: "Motos", nav_solutions: "Solutions", nav_about: "À propos", nav_news: "Actualités", nav_contact: "Contact", footer_company: "Jinan Hecoth International Trading Co., Ltd.", footer_partner: "Votre partenaire fiable en machinerie agricole et chaîne d'approvisionnement.", footer_quick: "Liens Rapides", footer_contact_title: "Contact", footer_office: "Bureau", footer_rights: "Tous droits réservés.", footer_sustainable: "Agriculture Durable" },
+        ar: { nav_home: "الرئيسية", nav_products: "المنتجات", nav_motorcycles: "الدراجات النارية", nav_solutions: "الحلول", nav_about: "عن الشركة", nav_news: "الأخبار", nav_contact: "اتصل بنا", footer_company: "جينان هيكوت للتجارة الدولية المحدودة", footer_partner: "شريكك الموثوق في المعدات الزراعية وسلسلة التوريد.", footer_quick: "روابط سريعة", footer_contact_title: "اتصل بنا", footer_office: "المكتب", footer_rights: "جميع الحقوق محفوظة.", footer_sustainable: "الزراعة المستدامة" },
+        ru: { nav_home: "Главная", nav_products: "Продукты", nav_motorcycles: "Мотоциклы", nav_solutions: "Решения", nav_about: "О нас", nav_news: "Новости", nav_contact: "Контакты", footer_company: "Jinan Hecoth International Trading Co., Ltd.", footer_partner: "Ваш надежный партнер в сельхозтехнике и цепочке поставок.", footer_quick: "Быстрые ссылки", footer_contact_title: "Контакты", footer_office: "Офис", footer_rights: "Все права защищены.", footer_sustainable: "Устойчивое сельское хозяйство" },
+        pt: { nav_home: "Início", nav_products: "Produtos", nav_motorcycles: "Motocicletas", nav_solutions: "Soluções", nav_about: "Sobre", nav_news: "Notícias", nav_contact: "Contato", footer_company: "Jinan Hecoth International Trading Co., Ltd.", footer_partner: "Seu parceiro confiável em máquinas agrícolas e cadeia de suprimentos.", footer_quick: "Links Rápidos", footer_contact_title: "Contato", footer_office: "Escritório", footer_rights: "Todos os direitos reservados.", footer_sustainable: "Agricultura Sustentável" }
     };
 
     let currentLang = localStorage.getItem('hecoth_lang') || 'en';
@@ -243,9 +155,7 @@
     function switchLanguage(lang) {
         currentLang = lang;
         localStorage.setItem('hecoth_lang', lang);
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
-        });
+        document.querySelectorAll('.lang-btn').forEach(btn => { btn.classList.toggle('active', btn.getAttribute('data-lang') === lang); });
         updatePageLanguage(lang);
         document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
         if (currentProduct) renderProductDetail(currentProduct.id);
@@ -254,18 +164,21 @@
     function updatePageLanguage(lang) {
         document.querySelectorAll('[data-lang-key]').forEach(el => {
             const key = el.getAttribute('data-lang-key');
-            if (translations[lang] && translations[lang][key]) {
-                el.textContent = translations[lang][key];
-            }
+            if (translations[lang] && translations[lang][key]) el.textContent = translations[lang][key];
         });
     }
 
-    function scrollToContact() {
-        document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' });
-    }
+    function scrollToContact() { document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' }); }
 
+    // ===== 核心渲染逻辑 =====
     function renderProductDetail(productId) {
         const container = document.getElementById('productDetail');
+        // 检查数据是否加载
+        if (!window.ProductsData || !window.ProductsData.getProductById) {
+            container.innerHTML = `<div class="text-center py-12"><p class="text-red-500">Error loading product data.</p></div>`;
+            return;
+        }
+
         const product = window.ProductsData.getProductById(productId);
 
         if (!product) {
@@ -273,6 +186,7 @@
                 <div class="text-center py-12">
                     <i class="fas fa-seedling text-6xl text-gray-300"></i>
                     <h2 class="text-2xl font-bold mt-4">Product Not Found</h2>
+                    <p class="text-gray-500 mt-2">The product ID "${productId}" does not exist.</p>
                     <a href="/products.html" class="text-[#2E7D32] font-semibold mt-4 inline-block">← Back to Products</a>
                 </div>
             `;
@@ -303,39 +217,21 @@
         const imageUrl = product.image || 'https://placehold.co/800x500/e5e7eb/666?text=' + encodeURIComponent(name);
 
         container.innerHTML = `
-            <!-- Breadcrumb -->
             <div class="text-sm text-gray-500 mb-4">
-                <a href="/" class="hover:text-[#2E7D32]">Home</a> /
-                <a href="/products.html" class="hover:text-[#2E7D32]">Products</a> /
+                <a href="/" class="hover:text-[#2E7D32]">Home</a> / 
+                <a href="/products.html" class="hover:text-[#2E7D32]">Products</a> / 
                 <span class="text-gray-700 font-medium">${name}</span>
             </div>
-
-            <!-- Product Main -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-                <!-- Image - 修复版：完整显示图片 -->
                 <div class="product-image-container">
-                    <img src="${imageUrl}" 
-                         alt="${name}" 
-                         loading="lazy"
-                         onerror="this.src='https://placehold.co/800x500/e5e7eb/666?text=Product+Image'">
+                    <img src="${imageUrl}" alt="${name}" loading="lazy" onerror="this.src='https://placehold.co/800x500/e5e7eb/666?text=Product+Image'">
                 </div>
-
                 <div class="p-6 md:p-8">
-                    <!-- Category & Title -->
                     <span class="text-xs font-semibold text-[#2E7D32] bg-[#2E7D32]/10 px-3 py-1 rounded-full">${catName}</span>
                     <h1 class="text-3xl md:text-4xl font-bold mt-3">${name}</h1>
-
-                    <!-- 卖点展示 -->
                     <div class="mt-4 grid grid-cols-2 md:grid-cols-3 gap-2">
-                        ${sellingPoints.map(sp => `
-                            <div class="flex items-center gap-2 bg-primary-gradient rounded-lg px-3 py-2 text-sm">
-                                <span>${sp.icon}</span>
-                                <span class="text-gray-700">${sp.text}</span>
-                            </div>
-                        `).join('')}
+                        ${sellingPoints.map(sp => `<div class="flex items-center gap-2 bg-primary-gradient rounded-lg px-3 py-2 text-sm"><span>${sp.icon}</span><span class="text-gray-700">${sp.text}</span></div>`).join('')}
                     </div>
-
-                    <!-- 信任徽章 -->
                     <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mt-6">
                         <div class="trust-badge"><i class="fas fa-check-circle text-[#2E7D32] text-xl"></i><p class="text-xs font-medium mt-1">ISO & CE Certified</p></div>
                         <div class="trust-badge"><i class="fas fa-industry text-[#2E7D32] text-xl"></i><p class="text-xs font-medium mt-1">Factory Direct Price</p></div>
@@ -343,50 +239,16 @@
                         <div class="trust-badge"><i class="fas fa-headset text-[#2E7D32] text-xl"></i><p class="text-xs font-medium mt-1">24/7 Tech Support</p></div>
                         <div class="trust-badge"><i class="fas fa-boxes text-[#2E7D32] text-xl"></i><p class="text-xs font-medium mt-1">OEM/ODM Available</p></div>
                     </div>
-
-                    <!-- 技术参数 -->
                     <h2 class="text-xl font-bold mt-8 mb-4">📋 Technical Specifications</h2>
                     <div class="bg-gray-50 rounded-xl p-6">
-                        ${Object.entries(specs).map(([key, val]) => `
-                            <div class="spec-row">
-                                <span class="spec-label">${key}</span>
-                                <span class="spec-value">${val}</span>
-                            </div>
-                        `).join('')}
+                        ${Object.entries(specs).map(([key, val]) => `<div class="spec-row"><span class="spec-label">${key}</span><span class="spec-value">${val}</span></div>`).join('')}
                     </div>
-
-                    <!-- 产品描述 -->
                     <h2 class="text-xl font-bold mt-8 mb-4">📝 Description</h2>
                     <p class="text-gray-600 leading-relaxed">${desc}</p>
-
-                    <!-- 特点列表 -->
                     <h2 class="text-xl font-bold mt-8 mb-4">⭐ Key Features</h2>
-                    <div class="grid md:grid-cols-2 gap-2">
-                        ${features.map(f => `
-                            <div class="feature-item">
-                                <span class="icon"><i class="fas fa-check-circle"></i></span>
-                                <span>${f}</span>
-                            </div>
-                        `).join('')}
-                    </div>
-
-                    <!-- 痛点解决方案 -->
+                    <div class="grid md:grid-cols-2 gap-2">${features.map(f => `<div class="feature-item"><span class="icon"><i class="fas fa-check-circle"></i></span><span>${f}</span></div>`).join('')}</div>
                     <h2 class="text-xl font-bold mt-8 mb-4">💡 Why Choose This Product?</h2>
-                    <div class="grid md:grid-cols-2 gap-3">
-                        ${painPoints.map(pp => `
-                            <div class="solution-card">
-                                <div class="flex items-start gap-2">
-                                    <span class="text-[#F9A825]">🔹</span>
-                                    <div>
-                                        <p class="font-medium text-sm">${pp.pain}</p>
-                                        <p class="text-sm text-gray-600">→ ${pp.solution}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-
-                    <!-- 询价信息 -->
+                    <div class="grid md:grid-cols-2 gap-3">${painPoints.map(pp => `<div class="solution-card"><div class="flex items-start gap-2"><span class="text-[#F9A825]">🔹</span><div><p class="font-medium text-sm">${pp.pain}</p><p class="text-sm text-gray-600">→ ${pp.solution}</p></div></div></div>`).join('')}</div>
                     <div class="mt-8 bg-primary-gradient rounded-xl p-6 border border-gray-200" id="contact-section">
                         <h3 class="font-bold text-lg text-center" style="color:var(--primary)">📩 Request a Quote</h3>
                         <div class="grid md:grid-cols-4 gap-3 mt-4 text-center text-sm">
@@ -404,30 +266,35 @@
             </div>
         `;
 
+        // 只有渲染成功才显示底部悬浮按钮
         document.getElementById('floatingCta').style.display = 'flex';
     }
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const productId = urlParams.get('id');
-
+    // ===== 初始化 =====
     document.addEventListener('DOMContentLoaded', function() {
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
-        });
+        // 1. 初始化语言按钮状态
+        document.querySelectorAll('.lang-btn').forEach(btn => { btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang); });
         updatePageLanguage(currentLang);
         document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
 
+        // 2. 获取网址中的产品 ID
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+
+        // 3. 渲染页面
         if (productId) {
             renderProductDetail(productId);
         } else {
-            const firstProduct = window.ProductsData.products[0];
-            if (firstProduct) renderProductDetail(firstProduct.id);
+            // 如果 URL 没有 ID，显示第一个产品作为默认
+            if (window.ProductsData && window.ProductsData.products.length > 0) {
+                renderProductDetail(window.ProductsData.products[0].id);
+            } else {
+                document.getElementById('productDetail').innerHTML = `<p class="text-center text-red-500 py-10">No product data found in database.</p>`;
+            }
         }
     });
 
-    document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
-        document.getElementById('mobileMenu').classList.toggle('hidden');
-    });
+    document.getElementById('mobileMenuBtn')?.addEventListener('click', () => { document.getElementById('mobileMenu').classList.toggle('hidden'); });
 </script>
 </body>
 </html>
