@@ -10567,6 +10567,223 @@ const Products = [
             application: "Rocky farmland clearing, land reclamation, pasture maintenance, agricultural machinery protection"
         }
     },
+    // ============================================================
+//  🌾 农机具 → 畜牧机械 → 固定式青贮打捆机 (Fixed Silage Baler)
+// ============================================================
+{
+    id: "YK-5552",
+    category: "farm-machinery",
+    subCategory: "livestock", // 根据你的子分类调整，或新增
+    image: "/image/yk5552-baler.jpg", // 请替换为你的真实图片路径
+    name: {
+        en: "YK5552 Fixed Chamber Silage Round Baler - PLC Automatic Control",
+        es: "Empacadora de Silo de Cámara Fija YK5552 - Control Automático PLC",
+        fr: "Presse à Balles Rondes d'Ensilagé à Chambre Fixe YK5552 - Contrôle Automatique PLC",
+        ar: "مكبس السيلاج الدائري ذو الغرفة الثابتة YK5552 - تحكم آلي PLC",
+        ru: "Круглый пресс-подборщик для силоса с фиксированной камерой YK5552 - Автоматическое управление ПЛК",
+        pt: "Enfardadora de Silagem de Câmara Fixa YK5552 - Controle Automático PLC"
+    },
+    desc: {
+        en: "The YK5552 Fixed Chamber Silage Round Baler is a high-density baling solution engineered for small to medium livestock farms. Equipped with a 5.5kW motor and a PLC automatic control system, it delivers consistent bales (Φ550×520mm) at a rate of ≥100 bales per hour. The integration of automatic netting, film binding, and unloading ensures a ≥95% package rate and ≥700kg/m³ bale density, perfect for corn stalk, alfalfa, and hay silage fermentation. Requires 380V power supply.",
+        es: "La empacadora YK5552 es una solución de alta densidad para pequeñas y medianas granjas. Equipada con un motor de 5.5kW y control PLC, produce pacas de Φ550×520mm a una velocidad de ≥100 pacas/hora. La red automática, el film y la descarga garantizan una tasa de empaque ≥95% y una densidad ≥700kg/m³, ideal para ensilaje de maíz y alfalfa. Requiere alimentación de 380V.",
+        fr: "La presse YK5552 est une solution de haute densité pour les petites et moyennes fermes. Équipée d'un moteur de 5,5 kW et d'un contrôle PLC, elle produit des balles de Φ550×520 mm à raison de ≥100 balles/heure. Le filet automatique, le film et le déchargement garantissent un taux d'emballage ≥95 % et une densité ≥700 kg/m³, idéal pour l'ensilage de maïs et de luzerne. Nécessite une alimentation 380V.",
+        ar: "مكبس السيلاج YK5552 هو حل عالي الكثافة للمزارع الصغيرة والمتوسطة. مجهز بمحرك 5.5 كيلو واط ونظام تحكم PLC، ينتج بالات بحجم Φ550×520 ملم بمعدل ≥100 بالة/ساعة. تضمن الشبكة الآلية والفيلم والتفريغ معدل تغليف ≥95% وكثافة ≥700 كجم/م³، مثالي لتخمير سيلاج الذرة والبرسيم. يتطلب طاقة 380 فولت.",
+        ru: "Пресс-подборщик YK5552 — это решение высокой плотности для малых и средних животноводческих ферм. Оснащенный двигателем 5,5 кВт и системой автоматического управления ПЛК, он производит тюки (Φ550×520 мм) со скоростью ≥100 тюков в час. Автоматическая сетка, пленка и разгрузка обеспечивают степень упаковки ≥95% и плотность ≥700 кг/м³, идеально подходит для силосования кукурузы и люцерны. Требует питания 380В.",
+        pt: "A enfardadora YK5552 é uma solução de alta densidade para pequenas e médias fazendas. Equipada com motor de 5,5kW e controle PLC, produz fardos de Φ550×520mm a uma taxa de ≥100 fardos/hora. A rede automática, filme e descarga garantem uma taxa de embalagem ≥95% e densidade ≥700kg/m³, ideal para silagem de milho e alfafa. Requer alimentação de 380V."
+    },
+    features: {
+        en: [
+            "Fixed chamber design for high-density bales (≥700 kg/m³)",
+            "PLC control system with closed hydraulic operation",
+            "Automatic netting, film binding, breaking, and unloading",
+            "Productivity of ≥100 packages per hour",
+            "Bale size: Φ550×520mm, weight: 108kg per package",
+            "Power: 5.5kW main motor, 0.75kW hydraulic unit, 1.5kW air power",
+            "30 rolling rollers with 350 r/min roller speed",
+            "Alarm system for blockage and malfunction detection"
+        ],
+        es: [
+            "Diseño de cámara fija para pacas de alta densidad (≥700 kg/m³)",
+            "Sistema de control PLC con operación hidráulica cerrada",
+            "Red automática, envoltura de film, corte y descarga",
+            "Productividad de ≥100 paquetes por hora",
+            "Tamaño de paca: Φ550×520mm, peso: 108kg por paquete",
+            "Potencia: motor principal 5.5kW, unidad hidráulica 0.75kW",
+            "30 rodillos con velocidad de 350 r/min",
+            "Sistema de alarma para detección de bloqueos y fallas"
+        ],
+        fr: [
+            "Conception à chambre fixe pour des balles de haute densité (≥700 kg/m³)",
+            "Système de contrôle PLC avec fonctionnement hydraulique fermé",
+            "Filet automatique, enveloppement de film, coupe et déchargement",
+            "Productivité de ≥100 balles par heure",
+            "Taille de balle : Φ550×520mm, poids : 108kg par balle",
+            "Puissance : moteur principal 5,5kW, unité hydraulique 0,75kW",
+            "30 rouleaux avec vitesse de 350 tr/min",
+            "Système d'alarme pour la détection des blocages et des pannes"
+        ],
+        ar: [
+            "تصميم غرفة ثابتة لبالات عالية الكثافة (≥700 كجم/م³)",
+            "نظام تحكم PLC مع تشغيل هيدروليكي مغلق",
+            "شبكة آلية، تغليف بالفيلم، قطع، وتفريغ",
+            "إنتاجية ≥100 بالة في الساعة",
+            "حجم البالة: Φ550×520 ملم، الوزن: 108 كجم لكل بالة",
+            "الطاقة: محرك رئيسي 5.5 كيلو واط، وحدة هيدروليكية 0.75 كيلو واط",
+            "30 أسطوانة بسرعة 350 دورة/دقيقة",
+            "نظام إنذار للكشف عن الانسداد والأعطال"
+        ],
+        ru: [
+            "Конструкция с фиксированной камерой для тюков высокой плотности (≥700 кг/м³)",
+            "Система управления ПЛК с закрытой гидравликой",
+            "Автоматическая сетка, обмотка пленкой, резка и разгрузка",
+            "Производительность ≥100 тюков в час",
+            "Размер тюка: Φ550×520 мм, вес: 108 кг за тюк",
+            "Мощность: основной двигатель 5,5 кВт, гидравлический блок 0,75 кВт",
+            "30 прессующих роликов со скоростью 350 об/мин",
+            "Система сигнализации для обнаружения засоров и неисправностей"
+        ],
+        pt: [
+            "Design de câmara fixa para fardos de alta densidade (≥700 kg/m³)",
+            "Sistema de controle PLC com operação hidráulica fechada",
+            "Rede automática, envoltório de filme, corte e descarga",
+            "Produtividade de ≥100 fardos por hora",
+            "Tamanho do fardo: Φ550×520mm, peso: 108kg por fardo",
+            "Potência: motor principal 5.5kW, unidade hidráulica 0.75kW",
+            "30 rolos com velocidade de 350 r/min",
+            "Sistema de alarme para detecção de bloqueios e falhas"
+        ]
+    },
+    specs: {
+        en: {
+            "Model": "YK5552",
+            "Structure": "Fixed Chamber",
+            "Overall Dimension (L×W×H)": "3700×1555×1600mm",
+            "Total Weight": "600kg",
+            "Feed Inlet Width": "520mm",
+            "Voltage": "380V (3-Phase)",
+            "Main Motor Power": "5.5kW",
+            "Coated Machine Power": "0.55kW",
+            "Hydraulic Power Unit": "0.75kW",
+            "Air Power": "1.5kW",
+            "Bundle Size (D×H)": "Φ550×520mm",
+            "Roller Speed": "350 r/min",
+            "Number of Rolling Rollers": "30 pcs",
+            "Weight per Bundle": "108kg",
+            "Productivity": "≥100 Packages/h",
+            "Rotary Radius of Membrane Frame": "≤590mm",
+            "Package Rate": "≥95%",
+            "Bale Density": "≥700 kg/m³"
+        },
+        es: {
+            "Modelo": "YK5552",
+            "Estructura": "Cámara Fija",
+            "Dimensiones (L×A×H)": "3700×1555×1600mm",
+            "Peso Total": "600kg",
+            "Ancho de Entrada": "520mm",
+            "Voltaje": "380V (Trifásico)",
+            "Potencia Motor Principal": "5.5kW",
+            "Potencia Máquina Revestida": "0.55kW",
+            "Unidad Hidráulica": "0.75kW",
+            "Potencia de Aire": "1.5kW",
+            "Tamaño del Paquete": "Φ550×520mm",
+            "Velocidad del Rodillo": "350 r/min",
+            "Número de Rodillos": "30 uds",
+            "Peso por Paquete": "108kg",
+            "Productividad": "≥100 Paquetes/h",
+            "Radio de Giro del Marco": "≤590mm",
+            "Tasa de Empaque": "≥95%",
+            "Densidad de la Paca": "≥700 kg/m³"
+        },
+        fr: {
+            "Modèle": "YK5552",
+            "Structure": "Chambre Fixe",
+            "Dimensions (L×l×H)": "3700×1555×1600mm",
+            "Poids Total": "600kg",
+            "Largeur d'Entrée": "520mm",
+            "Tension": "380V (Triphasé)",
+            "Puissance Moteur Principal": "5,5kW",
+            "Puissance Machine Enrobée": "0,55kW",
+            "Unité Hydraulique": "0,75kW",
+            "Puissance Pneumatique": "1,5kW",
+            "Taille de la Balle": "Φ550×520mm",
+            "Vitesse des Rouleaux": "350 tr/min",
+            "Nombre de Rouleaux": "30 pcs",
+            "Poids par Balle": "108kg",
+            "Productivité": "≥100 Balles/h",
+            "Rayon de Rotation du Cadre": "≤590mm",
+            "Taux d'Emballage": "≥95%",
+            "Densité de la Balle": "≥700 kg/m³"
+        },
+        ar: {
+            "الموديل": "YK5552",
+            "الهيكل": "غرفة ثابتة",
+            "الأبعاد (طول×عرض×ارتفاع)": "3700×1555×1600 ملم",
+            "الوزن الإجمالي": "600 كجم",
+            "عرض مدخل التغذية": "520 ملم",
+            "الجهد": "380 فولت (ثلاثي الطور)",
+            "قوة المحرك الرئيسي": "5.5 كيلو واط",
+            "قوة آلة التغليف": "0.55 كيلو واط",
+            "الوحدة الهيدروليكية": "0.75 كيلو واط",
+            "طاقة الهواء": "1.5 كيلو واط",
+            "حجم البالة": "Φ550×520 ملم",
+            "سرعة الأسطوانة": "350 دورة/دقيقة",
+            "عدد الأسطوانات": "30 قطعة",
+            "وزن البالة": "108 كجم",
+            "الإنتاجية": "≥100 بالة/ساعة",
+            "نصف قطر دوران الإطار": "≤590 ملم",
+            "معدل التغليف": "≥95%",
+            "كثافة البالة": "≥700 كجم/م³"
+        },
+        ru: {
+            "Модель": "YK5552",
+            "Конструкция": "Фиксированная камера",
+            "Габариты (Д×Ш×В)": "3700×1555×1600мм",
+            "Общий вес": "600кг",
+            "Ширина входа": "520мм",
+            "Напряжение": "380В (3 фазы)",
+            "Мощность основного двигателя": "5,5кВт",
+            "Мощность упаковочной машины": "0,55кВт",
+            "Гидравлический блок": "0,75кВт",
+            "Пневматическая мощность": "1,5кВт",
+            "Размер тюка": "Φ550×520мм",
+            "Скорость роликов": "350 об/мин",
+            "Количество роликов": "30 шт",
+            "Вес тюка": "108кг",
+            "Производительность": "≥100 тюков/ч",
+            "Радиус вращения рамы": "≤590мм",
+            "Степень упаковки": "≥95%",
+            "Плотность тюка": "≥700 кг/м³"
+        },
+        pt: {
+            "Modelo": "YK5552",
+            "Estrutura": "Câmara Fixa",
+            "Dimensões (C×L×A)": "3700×1555×1600mm",
+            "Peso Total": "600kg",
+            "Largura de Entrada": "520mm",
+            "Voltagem": "380V (Trifásico)",
+            "Potência Motor Principal": "5.5kW",
+            "Potência Máquina Revestida": "0.55kW",
+            "Unidade Hidráulica": "0.75kW",
+            "Potência de Ar": "1.5kW",
+            "Tamanho do Fardo": "Φ550×520mm",
+            "Velocidade do Rolo": "350 r/min",
+            "Número de Rolos": "30 pcs",
+            "Peso por Fardo": "108kg",
+            "Produtividade": "≥100 Fardos/h",
+            "Raio de Giro da Estrutura": "≤590mm",
+            "Taxa de Embalagem": "≥95%",
+            "Densidade do Fardo": "≥700 kg/m³"
+        }
+    },
+    inquiry: {
+        minOrder: "1 unit",
+        leadTime: "25-40 days",
+        warranty: "12 months",
+        moq: "1 unit",
+        shipping: "FOB Qingdao / CIF available",
+        application: "Corn stalk silage, alfalfa hay, fresh grass, dry straw baling and fermentation"
+    }
+},
 ];
 
 // ============================================================
